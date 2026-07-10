@@ -10,15 +10,15 @@
 
 - Medyan goruntulenme: 51.9K
 - Medyan gunluk izlenme hizi: 1.3K
-- En yuksek gunluk izlenme hizi: 60.4K
+- En yuksek gunluk izlenme hizi: 60.3K
 - Kanal cesitliligi: 0.84
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | KORKUNÇ YAPAY ZEKA VERİTY EVİMİZE GELDİ ?! (bittik) | Bora Kontaş | 578.2K | 60.4K | 21:49 | [Ac](https://www.youtube.com/watch?v=B9300n7gLis) |
-| 2 | TÜRKİYE'NİN YAPAY ZEKA PLANI | Sadece ENES | 212.5K | 45.4K | 8:22 | [Ac](https://www.youtube.com/watch?v=Hf-ZmONVwKs) |
+| 1 | KORKUNÇ YAPAY ZEKA VERİTY EVİMİZE GELDİ ?! (bittik) | Bora Kontaş | 578.2K | 60.3K | 21:49 | [Ac](https://www.youtube.com/watch?v=B9300n7gLis) |
+| 2 | TÜRKİYE'NİN YAPAY ZEKA PLANI | Sadece ENES | 212.5K | 45.2K | 8:22 | [Ac](https://www.youtube.com/watch?v=Hf-ZmONVwKs) |
 | 3 | Kalemine değil yapay zekaya güvendi - atv Ana Haber 26 Haziran 2026 | atv Haber | 191.8K | 14.2K | 1:59 | [Ac](https://www.youtube.com/watch?v=ttFuNAoYVaQ) |
 | 4 | Kahramanmaraş’taki Okul Saldırısını Yapan Saldırganın Bıraktığı Kan Donduran Mektup... - A Haber | A Haber | 741.9K | 9.0K | 4:51 | [Ac](https://www.youtube.com/watch?v=F5Sut5IsWnk) |
 | 5 | Yapay Zekâ İlk Kurşunu Attı: Bir AI Ajanı Gerçek Bir İnsana Saldırdı | Bebar Bilim | 382.7K | 6.3K | 10:46 | [Ac](https://www.youtube.com/watch?v=jsEY2_WkRZU) |
