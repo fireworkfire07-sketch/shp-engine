@@ -1,15 +1,15 @@
 {
   "topic": "Bitkilerin Gizli Tarihi",
-  "created_at": "2026-07-10T04:59:36.813368+00:00",
+  "created_at": "2026-07-10T05:11:41.608668+00:00",
   "period_days": 90,
-  "videos_analyzed": 16,
-  "niche_score": 4,
+  "videos_analyzed": 19,
+  "niche_score": 3,
   "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
   "metrics": {
-    "median_views": 39,
+    "median_views": 34,
     "median_views_per_day": 2,
     "top_views_per_day": 12,
-    "channel_diversity": 0.12
+    "channel_diversity": 0.11
   },
   "videos": [
     {
@@ -35,6 +35,18 @@
       "comments": 2,
       "duration_seconds": 994,
       "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
+    },
+    {
+      "id": "VDIlOTdlhTs",
+      "title": "Doğanın Mucizesi: Zencefilin Gizemli Dünyasına Yolculuk",
+      "channel": "Bitkilerin Gizli tarihi",
+      "published_at": "2026-06-19T08:36:37Z",
+      "views": 198,
+      "views_per_day": 9,
+      "likes": 0,
+      "comments": 0,
+      "duration_seconds": 1120,
+      "url": "https://www.youtube.com/watch?v=VDIlOTdlhTs"
     },
     {
       "id": "IqbygJdT2ew",
@@ -131,6 +143,30 @@
       "comments": 0,
       "duration_seconds": 868,
       "url": "https://www.youtube.com/watch?v=XCH9whPNc10"
+    },
+    {
+      "id": "QgiQjAhbNzY",
+      "title": "Vanilyanın Sıradışı Dünyası: Gizemli Baharattan Lezzet Yolculuğu",
+      "channel": "Bitkilerin Gizli tarihi",
+      "published_at": "2026-06-23T11:38:49Z",
+      "views": 24,
+      "views_per_day": 1,
+      "likes": 0,
+      "comments": 0,
+      "duration_seconds": 961,
+      "url": "https://www.youtube.com/watch?v=QgiQjAhbNzY"
+    },
+    {
+      "id": "WI3OpHKtxpc",
+      "title": "Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu",
+      "channel": "Bitkilerin Gizli tarihi",
+      "published_at": "2026-06-19T12:48:08Z",
+      "views": 23,
+      "views_per_day": 1,
+      "likes": 0,
+      "comments": 0,
+      "duration_seconds": 1154,
+      "url": "https://www.youtube.com/watch?v=WI3OpHKtxpc"
     },
     {
       "id": "UIUY85A4SwI",
