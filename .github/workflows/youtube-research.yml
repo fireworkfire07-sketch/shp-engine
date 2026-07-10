@@ -30,11 +30,17 @@ jobs:
           TOPICS: ${{ inputs.topics }}
         run: python batch_research.py "$TOPICS"
 
+      - name: Hikâye DNA puanlarını çıkar
+        run: python story_report.py
+
       - name: Sonuçları kontrol et
         run: |
           test -f projects/batch-ranking.md
           test -f projects/batch-ranking.json
+          test -f projects/story-dna.md
+          test -f projects/story-dna.json
           cat projects/batch-ranking.md
+          cat projects/story-dna.md
 
       - name: Raporları GitHub'a kaydet
         run: |
@@ -44,6 +50,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Yeni rapor değişikliği yok."
           else
-            git commit -m "Add SHP batch niche ranking"
+            git commit -m "Add SHP niche ranking and story DNA report"
             git push
           fi
