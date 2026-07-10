@@ -1,0 +1,48 @@
+name: SHP Video DNA Analyzer
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: "YouTube video URL veya video ID"
+        required: true
+        default: "https://www.youtube.com/watch?v=xYsstlFaOyU"
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Video DNA analizini calistir
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          VIDEO_URL: ${{ inputs.video_url }}
+        run: python video_dna.py "$VIDEO_URL"
+
+      - name: Raporu kontrol et
+        run: |
+          test -d projects/video-dna
+          find projects/video-dna -maxdepth 2 -type f -print
+
+      - name: Raporu GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/video-dna/
+          if git diff --cached --quiet; then
+            echo "Yeni video DNA raporu yok."
+          else
+            git commit -m "Add SHP Video DNA report"
+            git push
+          fi
