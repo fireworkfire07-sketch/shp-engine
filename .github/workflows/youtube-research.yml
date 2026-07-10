@@ -1,0 +1,43 @@
+name: SHP YouTube Niche Research
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Araştırılacak niş veya konu"
+        required: true
+        default: "Bitkilerin Gizli Tarihi"
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: YouTube araştırmasını çalıştır
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          TOPIC: ${{ inputs.topic }}
+        run: python commander.py "$TOPIC"
+
+      - name: Raporu GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/
+          if git diff --cached --quiet; then
+            echo "Yeni rapor değişikliği yok."
+          else
+            git commit -m "Add SHP report: ${{ inputs.topic }}"
+            git push
+          fi
