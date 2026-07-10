@@ -1,0 +1,39 @@
+{
+  "video_id": "xYsstlFaOyU",
+  "url": "https://www.youtube.com/watch?v=xYsstlFaOyU",
+  "analyzed_at": "2026-07-10T13:56:14.012613+00:00",
+  "title": "Bir Casusun Saraya Hediyesi: Çileğin Gizli Tarihi! 🍓📜 #Vigivimi #Tarih",
+  "channel": "Vigivimi",
+  "published_at": "2026-06-03T09:00:03Z",
+  "description_preview": "Yediğin şeyin içinde ne var? 🍓\n\nBugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den kaçırdığı gizli fidelerle doğduğunu biliyor muydunuz? Saray saplantılarını, casusluk hikayelerini ve çileğin içindeki o yoğun C vitamini sırrını bu videoda keşfedin! 🔎✨\n\nÇileğin ötesindeki tüm alternatif sağlıklı gıda listelerini keşfetmek için profilimizdeki bağlantıdan Vigivimi uygulamasını HEMEN İNDİRİN! 📲🌱\n\nBu tarz tar",
+  "thumbnail_url": "https://i.ytimg.com/vi/xYsstlFaOyU/maxresdefault.jpg",
+  "duration_seconds": 114,
+  "format": "Shorts / kisa video",
+  "views": 430,
+  "likes": 16,
+  "comments": 0,
+  "views_per_day": 11.56,
+  "engagement_rate": 3.72,
+  "title_dna": {
+    "score": 24,
+    "verdict": "ZAYIF: Ansiklopedi basligi gibi duruyor.",
+    "trigger_hits": {
+      "gizem": [
+        "gizli"
+      ],
+      "catismа": [],
+      "servet": [],
+      "soru": [],
+      "saskinlik": []
+    },
+    "weak_hits": [
+      "tarihi"
+    ]
+  },
+  "video_dna_score": 19,
+  "limitations": [
+    "YouTube Data API izleyici tutma grafigini vermez.",
+    "Bu V1 transkript ve ilk 30 saniye analizini yapmaz.",
+    "Thumbnail URL'si rapora eklenir; gorsel icerik analizi sonraki surumdur."
+  ]
+}
