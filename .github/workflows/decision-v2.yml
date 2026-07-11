@@ -1,0 +1,41 @@
+name: SHP Decision Engine v2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  decide:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: CEO kararını üret
+        run: python decision_engine_v2.py
+
+      - name: Raporu kontrol et
+        run: |
+          test -f projects/ceo-decision/report.md
+          test -f projects/ceo-decision/analysis.json
+          cat projects/ceo-decision/report.md
+
+      - name: Raporu GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/ceo-decision/
+          if git diff --cached --quiet; then
+            echo "Yeni CEO karar raporu değişikliği yok."
+          else
+            git commit -m "Add SHP CEO decision v2 report"
+            git push
+          fi
