@@ -72,7 +72,7 @@ jobs:
       - name: CEO kararını üret
         run: python decision_engine_v2.py
 
-      - name: Tüm çıktıları doğrula
+      - name: Tüm çıktıları ve CEO kararını doğrula
         run: |
           test -f projects/channel-health/report.md
           test -f projects/channel-health/analysis.json
@@ -87,6 +87,41 @@ jobs:
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("projects/ceo-decision/analysis.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          required = [
+              "decision",
+              "publish",
+              "topic",
+              "video_idea",
+              "confidence",
+              "channel_fit_score",
+              "reasons",
+          ]
+          missing = [key for key in required if key not in data]
+          if missing:
+              raise SystemExit(f"CEO raporunda eksik alanlar: {missing}")
+
+          blocked = ["yapay zeka", "finans", "kripto", "psikoloji", "minecraft", "roblox", "fortnite"]
+          topic = str(data.get("topic", "")).lower()
+          if any(word in topic for word in blocked):
+              raise SystemExit(f"Kanal dışı konu seçildi: {topic}")
+
+          if int(data.get("channel_fit_score", 0) or 0) < 60:
+              raise SystemExit("Kanal uyum puanı 60'ın altında.")
+
+          if not str(data.get("video_idea", "")).strip():
+              raise SystemExit("Somut video fikri üretilmedi.")
+
+          print("SHP_FINAL_VALIDATION=PASS")
+          print(f"DECISION={data['decision']}")
+          print(f"VIDEO_IDEA={data['video_idea']}")
+          PY
           cat projects/ceo-decision/report.md
 
       - name: SHP raporlarını GitHub'a kaydet
