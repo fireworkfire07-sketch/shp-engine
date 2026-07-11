@@ -12,9 +12,9 @@ on:
         required: true
         default: "@EvrimAgaci,@BarisOzcan"
       topics:
-        description: "Karşılaştırılacak nişler, virgülle ayır"
+        description: "Kanal temasıyla uyumlu karşılaştırılacak konular, virgülle ayır"
         required: true
-        default: "Bitkilerin Gizli Tarihi, Sıfırdan Zirveye, Yapay Zeka Haberleri, Psikoloji Hikayeleri, Gizemli Tarih"
+        default: "Bitkilerin Gizli Tarihi, Gizemli Bitkiler ve Zehirler, Baharatların Karanlık Tarihi, Antik Dünyanın Doğa Sırları, Şifalı Bitkilerin Gerçek Hikâyeleri"
       video_url:
         description: "İsteğe bağlı: analiz edilecek tek video URL'si"
         required: false
