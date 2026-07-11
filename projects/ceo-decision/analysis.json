@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-07-11T17:14:53.349918+00:00",
+  "generated_at": "2026-07-11T21:04:23.560595+00:00",
   "role": "SHP analizleri birleştirir ve kanal kimliğine uygun tek CEO kararı verir; video üretmez.",
-  "decision": "BEKLET",
-  "publish": "HAYIR",
-  "topic": "Antik Dünyanın Doğa Sırları",
-  "video_idea": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
-  "confidence": 51,
-  "niche_score": 20,
-  "channel_fit_score": 80,
+  "decision": "ÇEK",
+  "publish": "EVET",
+  "topic": "gizemli bitkiler",
+  "video_idea": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
+  "confidence": 76,
+  "niche_score": 73,
+  "channel_fit_score": 90,
   "channel_health_score": 1,
   "reasons": [
-    "Niş puanı: 20/100.",
-    "Kanal uyum puanı: 80/100.",
-    "Kanal temasıyla eşleşen kelimeler: antik, doğa.",
-    "Kanal başlıklarıyla ortak kelimeler: doga, n, s.",
-    "Medyan günlük izlenme hızı: 83.",
+    "Niş puanı: 73/100.",
+    "Kanal uyum puanı: 90/100.",
+    "Kanal temasıyla eşleşen kelimeler: bitki, bitkiler, gizem.",
+    "Kanal başlıklarıyla ortak kelimeler: bitkiler, gizemli.",
+    "Medyan günlük izlenme hızı: 44.",
+    "Bu konuda patlama yapmış video örneği var.",
     "Başarı birden fazla kanala yayılmış.",
     "Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.",
-    "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.3 günlük izlenme).",
-    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12095.4."
+    "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.2 günlük izlenme).",
+    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12032.5."
   ],
-  "title_direction": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+  "title_direction": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
   "hook_direction": "İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme.",
   "thumbnail_direction": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
   "competitor_reference": {
@@ -28,5 +29,26 @@
     "strongest_video": "Tüylerimiz Neden Diken Diken Oluyor?",
     "instruction": "Başlığı kopyalama; aynı izleyici ihtiyacına kanal temasına uygun özgün açı üret."
   },
-  "missing_inputs": []
+  "missing_inputs": [],
+  "effort_filter": {
+    "verdict": "EMEĞİNE DEĞER",
+    "value_score": 61,
+    "action": "ÇEK",
+    "reasons": [
+      "Kanal temasına güçlü biçimde uyuyor.",
+      "Pazar verisi test için yeterli.",
+      "Benzer videolarda medyan günlük hız düşük.",
+      "Kanalın mevcut güçlü videolarıyla performans bağı var.",
+      "Rakiplerde çalışan örnek bulundu: Tüylerimiz Neden Diken Diken Oluyor?."
+    ],
+    "signals": {
+      "market_median_views_per_day": 44.0,
+      "market_top_views_per_day": 15499.37,
+      "own_best_views_per_day": 9.24,
+      "rival_best_views_per_day": 251639.0
+    }
+  },
+  "effort_verdict": "EMEĞİNE DEĞER",
+  "effort_value_score": 61,
+  "effort_action": "ÇEK"
 }

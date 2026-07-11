@@ -2,29 +2,30 @@
 
 ## BUGÜNÜN EMRİ
 
-# BEKLET
+# ÇEK
 
-**Video fikri:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?  
-**Ana tema:** Antik Dünyanın Doğa Sırları  
-**Yayın kararı:** HAYIR  
-**Karar güveni:** 51/100  
-**Kanal uyumu:** 80/100
+**Video fikri:** Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi  
+**Ana tema:** gizemli bitkiler  
+**Yayın kararı:** EVET  
+**Karar güveni:** 76/100  
+**Kanal uyumu:** 90/100
 
 ## Neden
 
-- Niş puanı: 20/100.
-- Kanal uyum puanı: 80/100.
-- Kanal temasıyla eşleşen kelimeler: antik, doğa.
-- Kanal başlıklarıyla ortak kelimeler: doga, n, s.
-- Medyan günlük izlenme hızı: 83.
+- Niş puanı: 73/100.
+- Kanal uyum puanı: 90/100.
+- Kanal temasıyla eşleşen kelimeler: bitki, bitkiler, gizem.
+- Kanal başlıklarıyla ortak kelimeler: bitkiler, gizemli.
+- Medyan günlük izlenme hızı: 44.
+- Bu konuda patlama yapmış video örneği var.
 - Başarı birden fazla kanala yayılmış.
 - Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.
-- Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.3 günlük izlenme).
-- En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12095.4.
+- Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.2 günlük izlenme).
+- En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12032.5.
 
 ## Uygulama yönü
 
-- **Başlık:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
+- **Başlık:** Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi
 - **İlk 30 saniye:** İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme.
 - **Thumbnail:** Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.
 
@@ -37,8 +38,8 @@
 ## Sistem durumu
 
 - Kanal sağlık skoru: 1/100
-- Niş puanı: 20/100
-- Kanal uyum puanı: 80/100
+- Niş puanı: 73/100
+- Kanal uyum puanı: 90/100
 - Eksik girdiler: Yok
 
 ## Gerçek sınırlar
@@ -46,3 +47,20 @@
 - Public YouTube API CTR, retention ve gelir vermez.
 - Veri eksikse karar BEKLET olur; SHP tahmin uydurmaz.
 - SHP karar verir; video üretmez veya yayınlamaz.
+
+
+## EMEK FİLTRESİ
+
+# EMEĞİNE DEĞER
+
+**Emek/Getiri puanı:** 61/100  
+**Net aksiyon:** ÇEK
+
+- Kanal temasına güçlü biçimde uyuyor.
+- Pazar verisi test için yeterli.
+- Benzer videolarda medyan günlük hız düşük.
+- Kanalın mevcut güçlü videolarıyla performans bağı var.
+- Rakiplerde çalışan örnek bulundu: Tüylerimiz Neden Diken Diken Oluyor?.
+
+**SHP emri:** Bu videoya odaklan; mevcut adaylar içinde emeğe en çok değen seçenek bu.
+

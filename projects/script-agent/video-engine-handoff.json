@@ -1,0 +1,51 @@
+{
+  "status": "READY_FOR_VIDEO_ENGINE",
+  "title": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
+  "language": "tr",
+  "target_duration_minutes": 7,
+  "voiceover_sections": [
+    {
+      "name": "Açılış",
+      "duration": "0:00-0:30",
+      "voiceover": "İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; fakat önce bu sırrın başladığı yere dönelim."
+    },
+    {
+      "name": "Köken",
+      "duration": "0:30-1:30",
+      "voiceover": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi yalnızca bir doğa hikâyesi değildir. Kökeni ticaret, güç ve insanların hayatta kalma mücadelesiyle iç içedir."
+    },
+    {
+      "name": "İlk kırılma",
+      "duration": "1:30-3:00",
+      "voiceover": "Değerinin anlaşılmasıyla birlikte dengeler değişti. Onu kontrol edenler yalnızca bir ürünü değil, dönemin en değerli bilgisini de kontrol ediyordu."
+    },
+    {
+      "name": "Gizem derinleşiyor",
+      "duration": "3:00-5:00",
+      "voiceover": "Fakat anlatılan resmi hikâye eksikti. Kayıtların arasındaki küçük ayrıntılar, olayın arkasında daha büyük bir çıkar çatışması olduğunu gösteriyor."
+    },
+    {
+      "name": "Büyük cevap",
+      "duration": "5:00-6:30",
+      "voiceover": "Asıl sır şuydu: Bu doğal kaynak, insanların günlük yaşamını değiştirmekten çok daha fazlasını yaptı; ticaret yollarını, siyasi kararları ve toplumların kaderini etkiledi."
+    },
+    {
+      "name": "Final",
+      "duration": "6:30-7:00",
+      "voiceover": "Bugün sıradan görünen şeylerin geçmişte nasıl güç araçlarına dönüştüğünü bilmek, tarihe bambaşka bakmamızı sağlıyor. Sizce doğanın sakladığı en büyük sır hangisi?"
+    }
+  ],
+  "thumbnail_direction": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
+  "hashtags": [
+    "#baharat",
+    "#dunya",
+    "#tarihini",
+    "#degistirdi",
+    "#formatinin",
+    "#devami",
+    "#daha",
+    "#guclu",
+    "#gizem",
+    "#yesi"
+  ]
+}
