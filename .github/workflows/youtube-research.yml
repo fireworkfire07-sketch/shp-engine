@@ -33,14 +33,20 @@ jobs:
       - name: Hikâye DNA puanlarını çıkar
         run: python story_report.py
 
+      - name: SHP CEO kararını üret
+        run: python decision_engine.py
+
       - name: Sonuçları kontrol et
         run: |
           test -f projects/batch-ranking.md
           test -f projects/batch-ranking.json
           test -f projects/story-dna.md
           test -f projects/story-dna.json
+          test -f projects/decision-report.md
+          test -f projects/decision-report.json
           cat projects/batch-ranking.md
           cat projects/story-dna.md
+          cat projects/decision-report.md
 
       - name: Raporları GitHub'a kaydet
         run: |
@@ -50,6 +56,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Yeni rapor değişikliği yok."
           else
-            git commit -m "Add SHP niche ranking and story DNA report"
+            git commit -m "Add SHP niche, story DNA and CEO decision reports"
             git push
           fi
