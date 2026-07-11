@@ -42,10 +42,9 @@ def normalize(text: str) -> str:
 
 def channel_identity(channel: dict) -> str:
     channel_info = channel.get("channel", {}) or {}
-    parts = [
-        str(channel_info.get("title", "")),
-        str(channel_info.get("description", "")),
-    ]
+    parts = [str(channel_info.get("title", "")), str(channel_info.get("description", ""))]
+    strongest = channel.get("strongest_video", {}) or {}
+    parts.append(str(strongest.get("title", "")))
     for video in channel.get("top_videos", []) or []:
         parts.append(str(video.get("title", "")))
     return normalize(" ".join(parts))
@@ -53,64 +52,81 @@ def channel_identity(channel: dict) -> str:
 
 def topic_fit_score(topic: str, identity_text: str) -> tuple[int, list[str]]:
     normalized_topic = normalize(topic)
-    score = 0
-    notes: list[str] = []
+    blocked_hits = [key for key in BLOCKED_OFF_THEME_KEYWORDS if normalize(key) in normalized_topic]
+    if blocked_hits:
+        return 0, [f"Kanal dışı konu engellendi: {', '.join(sorted(blocked_hits))}."]
 
     theme_hits = [key for key in CHANNEL_THEME_KEYWORDS if normalize(key) in normalized_topic]
     identity_words = set(re.findall(r"[a-z0-9]+", identity_text))
     topic_words = set(re.findall(r"[a-z0-9]+", normalized_topic))
     overlap = identity_words.intersection(topic_words)
-    blocked_hits = [key for key in BLOCKED_OFF_THEME_KEYWORDS if normalize(key) in normalized_topic]
 
-    score += min(60, len(theme_hits) * 20)
-    score += min(30, len(overlap) * 5)
-    score -= len(blocked_hits) * 80
+    score = 25 + min(55, len(theme_hits) * 20) + min(20, len(overlap) * 5)
+    score = min(100, score)
 
+    notes: list[str] = [f"Kanal uyum puanı: {score}/100."]
     if theme_hits:
         notes.append(f"Kanal temasıyla eşleşen kelimeler: {', '.join(sorted(theme_hits)[:5])}.")
     if overlap:
         notes.append(f"Kanal başlıklarıyla ortak kelimeler: {', '.join(sorted(overlap)[:5])}.")
-    if blocked_hits:
-        notes.append(f"Kanal dışı konu işareti: {', '.join(sorted(blocked_hits))}.")
-
     return score, notes
 
 
 def choose_topic(batch: list[dict] | None, channel: dict) -> tuple[str, int, list[str], int]:
+    fallback_topic = "Bitkilerin Gizli Tarihi"
     if not batch:
-        return "Yeni konu seçilemedi", 0, ["Niş karşılaştırma verisi bulunamadı."], 0
-
-    valid = [item for item in batch if not item.get("error")]
-    if not valid:
-        return "Yeni konu seçilemedi", 0, ["Geçerli niş sonucu bulunamadı."], 0
+        return fallback_topic, 0, ["Niş verisi yok; kanalın sabit teması kullanıldı."], 100
 
     identity_text = channel_identity(channel)
-    ranked: list[tuple[int, int, dict, list[str]]] = []
-    for item in valid:
-        topic = str(item.get("topic", "Bilinmeyen konu"))
+    ranked: list[tuple[float, int, dict, list[str]]] = []
+    for item in batch:
+        if item.get("error"):
+            continue
+        topic = str(item.get("topic", ""))
         niche_score = int(item.get("niche_score", 0) or 0)
         fit_score, fit_notes = topic_fit_score(topic, identity_text)
-        combined = niche_score + fit_score
+        if fit_score <= 0:
+            continue
+        combined = niche_score * 0.65 + fit_score * 0.35
         ranked.append((combined, fit_score, item, fit_notes))
 
-    ranked.sort(key=lambda row: (row[0], row[1], int(row[2].get("niche_score", 0) or 0)), reverse=True)
-    combined, fit_score, best, fit_notes = ranked[0]
-    topic = str(best.get("topic", "Bilinmeyen konu"))
+    if not ranked:
+        return fallback_topic, 0, [
+            "Kanal dışı adayların tamamı elendi.",
+            "Güvenli geri dönüş olarak kanalın sabit teması seçildi.",
+        ], 100
+
+    ranked.sort(key=lambda row: row[0], reverse=True)
+    _, fit_score, best, fit_notes = ranked[0]
+    topic = str(best.get("topic", fallback_topic))
     score = int(best.get("niche_score", 0) or 0)
     metrics = best.get("metrics", {}) or {}
 
-    reasons = [f"Niş puanı: {score}/100.", f"Kanal uyum puanı: {fit_score}."]
-    reasons.extend(fit_notes)
+    reasons = [f"Niş puanı: {score}/100.", *fit_notes]
     reasons.append(f"Medyan günlük izlenme hızı: {int(metrics.get('median_views_per_day', 0) or 0)}.")
     if int(metrics.get("top_views_per_day", 0) or 0) > 10000:
         reasons.append("Bu konuda patlama yapmış video örneği var.")
     if float(metrics.get("channel_diversity", 0) or 0) >= 0.5:
         reasons.append("Başarı birden fazla kanala yayılmış.")
-
-    if fit_score <= 0:
-        return "Kanal temasıyla uyumlu konu bulunamadı", 0, reasons + ["Mevcut adayların hiçbiri kanal kimliğiyle örtüşmüyor."], fit_score
-
     return topic, score, reasons, fit_score
+
+
+def build_video_idea(topic: str, strongest_title: str) -> str:
+    normalized = normalize(topic)
+    if "baharat" in normalized:
+        return "Bir Baharat Uğruna İmparatorluklar Neden Savaştı?"
+    if "zehir" in normalized:
+        return "Tarihin En Tehlikeli Bitkisi Nasıl Bir Silaha Dönüştü?"
+    if "sifali" in normalized:
+        return "İnsanlar Bu Bitkinin Gücünü Yüzyıllarca Neden Sakladı?"
+    if "antik" in normalized or "kadim" in normalized or "tarih" in normalized:
+        return "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?"
+    if "mantar" in normalized:
+        return "Bu Mantar Neden Yüzyıllarca Yasaklandı?"
+    if strongest_title:
+        clean = re.sub(r"\s+", " ", strongest_title).strip()
+        return f"{clean} Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi"
+    return "İnsanlık Tarihini Değiştiren En Gizemli Bitki"
 
 
 def main() -> None:
@@ -122,6 +138,7 @@ def main() -> None:
 
     channel_score = int(channel.get("health_score", 0) or 0)
     strongest = channel.get("strongest_video") or {}
+    strongest_title = str(strongest.get("title", ""))
     own_speed = float(strongest.get("views_per_day", 0) or 0)
 
     competitors = competitor.get("competitors", []) or []
@@ -130,37 +147,55 @@ def main() -> None:
     rival_speed = float(rival.get("median_views_per_day", 0) or 0)
     rival_best = (rival.get("strongest_video") or {}).get("title", "Veri yok")
 
-    confidence = min(
-        100,
-        round(niche_score * 0.45 + max(fit_score, 0) * 0.25 + max(channel_score, 1) * 0.10 + (20 if competitors else 5)),
-    )
+    missing_inputs = [
+        name
+        for name, value in {
+            "channel-health": channel,
+            "competitor-health": competitor,
+            "batch-ranking": batch,
+        }.items()
+        if not value
+    ]
 
-    if fit_score <= 0:
-        decision = "ÇEKME"
+    if missing_inputs:
+        decision = "BEKLET"
         publish = "HAYIR"
+        reasons.append(f"Eksik veri var: {', '.join(missing_inputs)}.")
+    elif fit_score < 60:
+        decision = "BEKLET"
+        publish = "HAYIR"
+        reasons.append("Kanal uyumu yeterince güçlü değil.")
     elif niche_score >= 55:
         decision = "ÇEK"
         publish = "EVET"
     elif niche_score >= 25:
-        decision = "BEKLET"
-        publish = "TEST VİDEOSU HAZIRLA"
+        decision = "TEST ET"
+        publish = "1 TEST VİDEOSU"
     else:
-        decision = "ÇEKME"
+        decision = "BEKLET"
         publish = "HAYIR"
 
     if channel_score <= 10:
-        reasons.append("Kanal sağlık skoru düşük; tek güçlü test videosuna odaklan.")
+        reasons.append("Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.")
     if strongest:
-        reasons.append(
-            f"Kanalın mevcut en hızlı videosu: {strongest.get('title', 'Veri yok')} "
-            f"({own_speed:.1f} günlük izlenme)."
-        )
+        reasons.append(f"Kanalın en hızlı videosu: {strongest_title} ({own_speed:.1f} günlük izlenme).")
     if competitors:
         reasons.append(f"En güçlü karşılaştırılan rakip: {rival_title}; medyan günlük hız {rival_speed:.1f}.")
 
-    title_direction = f"{topic}: güçlü merak + gizem + tarih çatışması"
-    hook_direction = "İlk 10 saniyede büyük soru, risk veya kayıp göster; cevabı hemen verme."
-    thumbnail_direction = "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve net bir gizem işareti kullan."
+    confidence = min(
+        100,
+        round(
+            niche_score * 0.40
+            + fit_score * 0.35
+            + max(channel_score, 1) * 0.10
+            + (15 if competitors else 5)
+            - len(missing_inputs) * 20
+        ),
+    )
+
+    video_idea = build_video_idea(topic, strongest_title)
+    hook_direction = "İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme."
+    thumbnail_direction = "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan."
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -168,12 +203,13 @@ def main() -> None:
         "decision": decision,
         "publish": publish,
         "topic": topic,
-        "confidence": confidence,
+        "video_idea": video_idea,
+        "confidence": max(0, confidence),
         "niche_score": niche_score,
         "channel_fit_score": fit_score,
         "channel_health_score": channel_score,
         "reasons": reasons,
-        "title_direction": title_direction,
+        "title_direction": video_idea,
         "hook_direction": hook_direction,
         "thumbnail_direction": thumbnail_direction,
         "competitor_reference": {
@@ -181,29 +217,22 @@ def main() -> None:
             "strongest_video": rival_best,
             "instruction": "Başlığı kopyalama; aynı izleyici ihtiyacına kanal temasına uygun özgün açı üret.",
         },
-        "missing_inputs": [
-            name
-            for name, value in {
-                "channel-health": channel,
-                "competitor-health": competitor,
-                "batch-ranking": batch,
-            }.items()
-            if not value
-        ],
+        "missing_inputs": missing_inputs,
     }
 
     (OUTPUT_DIR / "analysis.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     report = f"""# SHP CEO Kararı v2
 
-## Bugünün kararı
+## BUGÜNÜN EMRİ
 
-**{decision}**
+# {decision}
 
-**Konu:** {topic}  
+**Video fikri:** {video_idea}  
+**Ana tema:** {topic}  
 **Yayın kararı:** {publish}  
-**Karar güveni:** {confidence}/100  
-**Kanal uyumu:** {fit_score}
+**Karar güveni:** {max(0, confidence)}/100  
+**Kanal uyumu:** {fit_score}/100
 
 ## Neden
 
@@ -211,9 +240,9 @@ def main() -> None:
 
 ## Uygulama yönü
 
-- **Başlık yönü:** {title_direction}
+- **Başlık:** {video_idea}
 - **İlk 30 saniye:** {hook_direction}
-- **Thumbnail yönü:** {thumbnail_direction}
+- **Thumbnail:** {thumbnail_direction}
 
 ## Rakip referansı
 
@@ -225,21 +254,22 @@ def main() -> None:
 
 - Kanal sağlık skoru: {channel_score}/100
 - Niş puanı: {niche_score}/100
-- Kanal uyum puanı: {fit_score}
-- Eksik girdiler: {', '.join(payload['missing_inputs']) if payload['missing_inputs'] else 'Yok'}
+- Kanal uyum puanı: {fit_score}/100
+- Eksik girdiler: {', '.join(missing_inputs) if missing_inputs else 'Yok'}
 
 ## Gerçek sınırlar
 
 - Public YouTube API CTR, retention ve gelir vermez.
-- Bu rapor mevcut repo verilerini birleştirir; veri eksikse karar güveni düşer.
+- Veri eksikse karar BEKLET olur; SHP tahmin uydurmaz.
 - SHP karar verir; video üretmez veya yayınlamaz.
 """
     (OUTPUT_DIR / "report.md").write_text(report, encoding="utf-8")
 
     print(f"CEO_DECISION={decision}")
     print(f"CEO_TOPIC={topic}")
+    print(f"CEO_VIDEO_IDEA={video_idea}")
     print(f"CEO_CHANNEL_FIT={fit_score}")
-    print(f"CEO_CONFIDENCE={confidence}")
+    print(f"CEO_CONFIDENCE={max(0, confidence)}")
     print(f"REPORT={OUTPUT_DIR / 'report.md'}")
 
 
