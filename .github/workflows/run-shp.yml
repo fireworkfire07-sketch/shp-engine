@@ -72,6 +72,9 @@ jobs:
       - name: CEO kararını üret
         run: python decision_engine_v2.py
 
+      - name: Emek ve beklenen getiriyi hesapla
+        run: python effort_filter.py
+
       - name: Tüm çıktıları ve CEO kararını doğrula
         run: |
           test -f projects/channel-health/report.md
@@ -102,6 +105,10 @@ jobs:
               "confidence",
               "channel_fit_score",
               "reasons",
+              "effort_verdict",
+              "effort_value_score",
+              "effort_action",
+              "effort_filter",
           ]
           missing = [key for key in required if key not in data]
           if missing:
@@ -118,9 +125,19 @@ jobs:
           if not str(data.get("video_idea", "")).strip():
               raise SystemExit("Somut video fikri üretilmedi.")
 
+          verdict = str(data.get("effort_verdict", ""))
+          if verdict not in {"EMEĞİNE DEĞER", "SADECE KÜÇÜK TESTE DEĞER", "EMEĞİNE DEĞMEZ", "DUR — VERİ EKSİK"}:
+              raise SystemExit(f"Geçersiz emek kararı: {verdict}")
+
+          score = int(data.get("effort_value_score", -1))
+          if not 0 <= score <= 100:
+              raise SystemExit(f"Geçersiz emek/getiri puanı: {score}")
+
           print("SHP_FINAL_VALIDATION=PASS")
           print(f"DECISION={data['decision']}")
           print(f"VIDEO_IDEA={data['video_idea']}")
+          print(f"EFFORT_VERDICT={data['effort_verdict']}")
+          print(f"EFFORT_VALUE_SCORE={data['effort_value_score']}")
           PY
           cat projects/ceo-decision/report.md
 
