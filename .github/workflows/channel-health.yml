@@ -1,0 +1,49 @@
+name: SHP Channel Health Analyzer
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "YouTube kanal URL, @handle veya channel ID"
+        required: true
+        default: "https://www.youtube.com/@Aslozzy"
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kanal sagligini analiz et
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CHANNEL_INPUT: ${{ inputs.channel }}
+        run: python channel_analyzer.py "$CHANNEL_INPUT"
+
+      - name: Raporu kontrol et
+        run: |
+          test -f projects/channel-health/report.md
+          test -f projects/channel-health/analysis.json
+          cat projects/channel-health/report.md
+
+      - name: Raporu GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/channel-health/
+          if git diff --cached --quiet; then
+            echo "Yeni kanal sagligi raporu yok."
+          else
+            git commit -m "Add SHP channel health report"
+            git push
+          fi
