@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-11T11:37:50.746927+00:00",
+  "role": "SHP analizleri birleştirir ve tek CEO kararı verir; video üretmez.",
+  "decision": "BEKLET",
+  "publish": "TEST VİDEOSU HAZIRLA",
+  "topic": "Psikoloji Hikayeleri",
+  "confidence": 46,
+  "niche_score": 29,
+  "channel_health_score": 1,
+  "reasons": [
+    "Niş puanı: 29/100.",
+    "Medyan günlük izlenme hızı: 2705.",
+    "Bu konuda patlama yapmış video örneği var.",
+    "Başarı birden fazla kanala yayılmış.",
+    "Kanal sağlık skoru düşük; tek güçlü test videosuna odaklan.",
+    "Kanalın mevcut en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.5 günlük izlenme).",
+    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12195.7."
+  ],
+  "title_direction": "Psikoloji Hikayeleri: güçlü merak + gizem + tarih çatışması",
+  "hook_direction": "İlk 10 saniyede büyük soru, risk veya kayıp göster; cevabı hemen verme.",
+  "thumbnail_direction": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve net bir gizem işareti kullan.",
+  "competitor_reference": {
+    "channel": "Evrim Ağacı",
+    "strongest_video": "Pil Yutarsanız Ne Olur?",
+    "instruction": "Başlığı kopyalama; aynı izleyici ihtiyacına özgün açı üret."
+  },
+  "missing_inputs": []
+}
