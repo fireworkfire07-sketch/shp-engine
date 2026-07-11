@@ -1,0 +1,54 @@
+name: SHP Competitor Analyzer
+
+on:
+  workflow_dispatch:
+    inputs:
+      own_channel:
+        description: "Kendi kanalın: URL, @handle veya channel ID"
+        required: true
+        default: "https://www.youtube.com/@Aslozzy"
+      competitors:
+        description: "Rakip kanallar, virgülle ayır"
+        required: true
+        default: "@EvrimAgaci,@BarisOzcan"
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rakipleri analiz et
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OWN_CHANNEL: ${{ inputs.own_channel }}
+          COMPETITORS: ${{ inputs.competitors }}
+        run: python competitor_analyzer.py "$OWN_CHANNEL" "$COMPETITORS"
+
+      - name: Raporu kontrol et
+        run: |
+          test -f projects/competitor-health/report.md
+          test -f projects/competitor-health/analysis.json
+          cat projects/competitor-health/report.md
+
+      - name: Raporu GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/competitor-health/
+          if git diff --cached --quiet; then
+            echo "Yeni rakip raporu değişikliği yok."
+          else
+            git commit -m "Add SHP competitor analysis report"
+            git push
+          fi
