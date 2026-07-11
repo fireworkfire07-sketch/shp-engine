@@ -1,0 +1,293 @@
+{
+  "analyzed_at": "2026-07-11T08:13:29.473739+00:00",
+  "channel": {
+    "id": "UCSpjPqE4bXy_R6Ghr6NtKcA",
+    "title": "Bitkilerin Gizli tarihi",
+    "description": "Bitkilerin bilinmeyen tarihi atalarımızdan gelen kutsal emanetlere sahip çıkalım bitki deyip geçmeyin her biri doğru dil konuşulduğunda kendi işlerinde doğa ana dan size mesaj getiriyorlar bir sanat üretiyorlar şifalandırıyorlar insanları bitkiler alternatif tıptan önce avcı toplayıcıdan beri insanlara eşlik etmişler destekler kalp olarak geri dönsün sevgi ve ışık ile kalın ",
+    "published_at": "2023-12-26T19:42:43.386966Z",
+    "subscribers": 26,
+    "total_views": 1976,
+    "video_count": 39
+  },
+  "health_score": 1,
+  "health_reasons": [
+    "Medyan günlük izlenme hızı: 1.5",
+    "En güçlü günlük izlenme hızı: 9.5",
+    "Medyan etkileşim oranı: %0.00",
+    "Son 10 videonun medyan günlük hızı: 3.4"
+  ],
+  "videos_analyzed": 39,
+  "strongest_video": {
+    "id": "uNrlRl1Yfhw",
+    "title": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi?",
+    "published_at": "2026-06-22T09:17:38Z",
+    "views": 180,
+    "likes": 0,
+    "comments": 2,
+    "views_per_day": 9.5,
+    "engagement_rate": 1.11,
+    "privacy_status": "public",
+    "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
+  },
+  "weakest_video": {
+    "id": "Q-fgGZviiHE",
+    "title": "Gizemli Yaşam: Ginkgo Biloba'nın Eşsiz Dünyası",
+    "published_at": "2026-06-23T09:47:56Z",
+    "views": 1,
+    "likes": 0,
+    "comments": 0,
+    "views_per_day": 0.06,
+    "engagement_rate": 0.0,
+    "privacy_status": "public",
+    "url": "https://www.youtube.com/watch?v=Q-fgGZviiHE"
+  },
+  "top_videos": [
+    {
+      "id": "uNrlRl1Yfhw",
+      "title": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi?",
+      "published_at": "2026-06-22T09:17:38Z",
+      "views": 180,
+      "likes": 0,
+      "comments": 2,
+      "views_per_day": 9.5,
+      "engagement_rate": 1.11,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
+    },
+    {
+      "id": "VDIlOTdlhTs",
+      "title": "Çin Bu Böceğin Sırrını 2000 Yıl Neden Dünyadan Sakladı?",
+      "published_at": "2026-06-19T08:36:37Z",
+      "views": 198,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 9.01,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=VDIlOTdlhTs"
+    },
+    {
+      "id": "n9JdEvsZQOA",
+      "title": "Mürün Gizemi: Tarihin ve Doğanın Saklı Hazinesi",
+      "published_at": "2026-06-25T08:03:53Z",
+      "views": 110,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 6.87,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=n9JdEvsZQOA"
+    },
+    {
+      "id": "IqbygJdT2ew",
+      "title": "Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası",
+      "published_at": "2026-06-23T13:46:04Z",
+      "views": 115,
+      "likes": 2,
+      "comments": 0,
+      "views_per_day": 6.47,
+      "engagement_rate": 1.74,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=IqbygJdT2ew"
+    },
+    {
+      "id": "u5p_5fPujJc",
+      "title": "Doğanın Mucizesi: Defne Ağacının Büyüleyici Dünyası",
+      "published_at": "2026-06-23T14:41:09Z",
+      "views": 112,
+      "likes": 1,
+      "comments": 0,
+      "views_per_day": 6.32,
+      "engagement_rate": 0.89,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=u5p_5fPujJc"
+    },
+    {
+      "id": "YTxb6W7j4NQ",
+      "title": "Sandal Ağacının Gizemli Dünyası: Doğanın Sunduğu Mucize",
+      "published_at": "2026-06-23T20:11:14Z",
+      "views": 109,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 6.23,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=YTxb6W7j4NQ"
+    },
+    {
+      "id": "4lWauyFvX5A",
+      "title": "Dut Yaprağının Gizemli Dünyası: Doğanın Saklı Şöleni",
+      "published_at": "2026-06-18T17:39:15Z",
+      "views": 135,
+      "likes": 1,
+      "comments": 0,
+      "views_per_day": 5.97,
+      "engagement_rate": 0.74,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=4lWauyFvX5A"
+    },
+    {
+      "id": "deJ_2besk08",
+      "title": "Kınakına Ağacının Gizemli Dünyası: Doğanın Şifalı Mucizesi",
+      "published_at": "2026-06-23T09:40:06Z",
+      "views": 99,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 5.52,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=deJ_2besk08"
+    },
+    {
+      "id": "ERUFWLGdmTk",
+      "title": "Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi",
+      "published_at": "2026-06-19T16:01:10Z",
+      "views": 108,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 4.98,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=ERUFWLGdmTk"
+    },
+    {
+      "id": "eVj6ZcYTsRs",
+      "title": "Karabiberin Gizemli Dünyası: Baharatın İpeksi Yolculuğu",
+      "published_at": "2026-06-27T09:06:48Z",
+      "views": 59,
+      "likes": 1,
+      "comments": 0,
+      "views_per_day": 4.23,
+      "engagement_rate": 1.69,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=eVj6ZcYTsRs"
+    }
+  ],
+  "bottom_videos": [
+    {
+      "id": "Q-fgGZviiHE",
+      "title": "Gizemli Yaşam: Ginkgo Biloba'nın Eşsiz Dünyası",
+      "published_at": "2026-06-23T09:47:56Z",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.06,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=Q-fgGZviiHE"
+    },
+    {
+      "id": "olh7FRUScO8",
+      "title": "Isot: Güneydoğu'nun Ateş Baharatının Sırları ve Hikayesi",
+      "published_at": "2026-06-21T07:43:02Z",
+      "views": 9,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.45,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=olh7FRUScO8"
+    },
+    {
+      "id": "v9Q9niU8fI0",
+      "title": "Kekik: Toros Dağları'nın Gizli Hazinesi ve Şifa Kaynağı",
+      "published_at": "2026-06-19T12:24:07Z",
+      "views": 12,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.55,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=v9Q9niU8fI0"
+    },
+    {
+      "id": "KsIjWlaeHGU",
+      "title": "Sumak: Doğanın Kırmızı Mucizesinin Peşinde",
+      "published_at": "2026-06-19T13:23:12Z",
+      "views": 14,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.64,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=KsIjWlaeHGU"
+    },
+    {
+      "id": "2ep_oSWw8tE",
+      "title": "Haşhaşın Gizemli Dünyası: Anadolu'dan Dünyaya Uzanan Serüven",
+      "published_at": "2026-06-23T13:03:08Z",
+      "views": 14,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.79,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=2ep_oSWw8tE"
+    },
+    {
+      "id": "_uRN4MVFDLE",
+      "title": "Çayın Peşinde: Doğanın ve Kültürün Buluştuğu Sıcak Yolculuk",
+      "published_at": "2026-06-27T08:40:05Z",
+      "views": 12,
+      "likes": 1,
+      "comments": 0,
+      "views_per_day": 0.86,
+      "engagement_rate": 8.33,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=_uRN4MVFDLE"
+    },
+    {
+      "id": "btgXmLlOAq8",
+      "title": "Pelin Otunun Gizemli Dünyası: Doğanın Şifalı Hazinesi",
+      "published_at": "2026-06-23T09:39:14Z",
+      "views": 16,
+      "likes": 1,
+      "comments": 0,
+      "views_per_day": 0.89,
+      "engagement_rate": 6.25,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=btgXmLlOAq8"
+    },
+    {
+      "id": "wKL3ENScQLI",
+      "title": "Defne Yaprağının Gizemli Dünyası: Tarih, Lezzet ve Sağlık Üzerine Bir Yolculuk",
+      "published_at": "2026-06-21T06:26:58Z",
+      "views": 18,
+      "likes": 2,
+      "comments": 2,
+      "views_per_day": 0.9,
+      "engagement_rate": 22.22,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=wKL3ENScQLI"
+    },
+    {
+      "id": "tRA1CXXKUek",
+      "title": "Adamotu: Doğanın Gizemli Şifa Kaynağı ve Mitolojideki Yeri",
+      "published_at": "2026-06-22T09:17:20Z",
+      "views": 18,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.95,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=tRA1CXXKUek"
+    },
+    {
+      "id": "qoJsDm_z6lY",
+      "title": "Kadim Besin Amaranth: Geçmişten Gelen Süper Gıda Hikayesi",
+      "published_at": "2026-06-21T19:31:09Z",
+      "views": 19,
+      "likes": 0,
+      "comments": 0,
+      "views_per_day": 0.97,
+      "engagement_rate": 0.0,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=qoJsDm_z6lY"
+    }
+  ],
+  "limitations": [
+    "Public YouTube Data API; CTR ve izlenme süresi vermez.",
+    "CTR, retention ve gelir için ileride YouTube Analytics OAuth gerekir.",
+    "Bu modül karar vermez; kanal verisini Decision Engine'e hazırlar."
+  ]
+}
