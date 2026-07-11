@@ -111,6 +111,12 @@ jobs:
       - name: Keşfet ve büyüme planını üret
         run: python growth_advisor.py
 
+      - name: Script Agent senaryoyu üret
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: llama-3.3-70b-versatile
+        run: python script_agent.py
+
       - name: Tüm çıktıları ve CEO kararını doğrula
         run: |
           test -f projects/channel-health/report.md
@@ -127,6 +133,9 @@ jobs:
           test -f projects/ceo-decision/analysis.json
           test -f projects/growth-advisor/report.md
           test -f projects/growth-advisor/analysis.json
+          test -f projects/script-agent/script.md
+          test -f projects/script-agent/script.json
+          test -f projects/script-agent/video-engine-handoff.json
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
@@ -137,6 +146,8 @@ jobs:
           niche = json.loads(Path("projects/niche-intelligence/analysis.json").read_text(encoding="utf-8"))
           data = json.loads(Path("projects/ceo-decision/analysis.json").read_text(encoding="utf-8"))
           growth = json.loads(Path("projects/growth-advisor/analysis.json").read_text(encoding="utf-8"))
+          script = json.loads(Path("projects/script-agent/script.json").read_text(encoding="utf-8"))
+          handoff = json.loads(Path("projects/script-agent/video-engine-handoff.json").read_text(encoding="utf-8"))
 
           if not niche.get("winner"):
               raise SystemExit("PRO niş motoru kazanan niş üretmedi.")
@@ -179,6 +190,16 @@ jobs:
           if not growth.get("first_3_seconds") or len(growth.get("retention_plan", [])) < 3:
               raise SystemExit("İlk 3 saniye veya retention planı eksik.")
 
+          if script.get("status") != "READY":
+              raise SystemExit("Script Agent READY değil.")
+          script_body = script.get("script", {})
+          if not script_body.get("title") or not script_body.get("hook"):
+              raise SystemExit("Script başlığı veya hook eksik.")
+          if len(script_body.get("sections", [])) < 5:
+              raise SystemExit("Script bölüm sayısı yetersiz.")
+          if handoff.get("status") != "READY_FOR_VIDEO_ENGINE":
+              raise SystemExit("Video Engine handoff hazır değil.")
+
           print("SHP_FINAL_VALIDATION=PASS")
           print(f"NICHE_WINNER={niche['winner']['niche']}")
           print(f"NICHE_SCORE={niche['winner']['final_score']}")
@@ -186,10 +207,13 @@ jobs:
           print(f"VIDEO_IDEA={data['video_idea']}")
           print(f"EFFORT_VERDICT={data['effort_verdict']}")
           print(f"PUBLISH_TIME={growth['recommended_publish_time']}")
+          print(f"SCRIPT_STATUS={script['status']}")
+          print(f"SCRIPT_MODE={script_body.get('source_mode', 'unknown')}")
           PY
           cat projects/niche-intelligence/report.md
           cat projects/ceo-decision/report.md
           cat projects/growth-advisor/report.md
+          cat projects/script-agent/script.md
 
       - name: SHP raporlarını GitHub'a kaydet
         run: |
