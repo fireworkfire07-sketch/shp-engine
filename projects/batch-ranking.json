@@ -1,55 +1,16 @@
 [
   {
-    "topic": "Yapay Zeka Haberleri",
-    "niche_score": 28,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
-    "metrics": {
-      "median_views": 52238,
-      "median_views_per_day": 1935,
-      "top_views_per_day": 54978,
-      "channel_diversity": 0.84
-    },
-    "report": "projects/yapay-zeka-haberleri/report.md"
-  },
-  {
-    "topic": "Psikoloji Hikayeleri",
-    "niche_score": 28,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
-    "metrics": {
-      "median_views": 56782,
-      "median_views_per_day": 2064,
-      "top_views_per_day": 48552,
-      "channel_diversity": 0.76
-    },
-    "report": "projects/psikoloji-hikayeleri/report.md"
-  },
-  {
-    "topic": "Gizemli Tarih",
+    "topic": "Antik Dünyanın Doğa Sırları",
     "niche_score": 20,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
+    "videos_analyzed": 2,
     "metrics": {
-      "median_views": 33753,
-      "median_views_per_day": 1561,
-      "top_views_per_day": 41275,
-      "channel_diversity": 0.48
+      "median_views": 5387,
+      "median_views_per_day": 84,
+      "top_views_per_day": 166,
+      "channel_diversity": 1.0
     },
-    "report": "projects/gizemli-tarih/report.md"
-  },
-  {
-    "topic": "Sıfırdan Zirveye",
-    "niche_score": 19,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
-    "metrics": {
-      "median_views": 2874,
-      "median_views_per_day": 108,
-      "top_views_per_day": 20885,
-      "channel_diversity": 0.6
-    },
-    "report": "projects/sfrdan-zirveye/report.md"
+    "report": "projects/antik-dunyann-doga-srlar/report.md"
   },
   {
     "topic": "Bitkilerin Gizli Tarihi",
@@ -63,5 +24,17 @@
       "channel_diversity": 0.11
     },
     "report": "projects/bitkilerin-gizli-tarihi/report.md"
+  },
+  {
+    "topic": "Gizemli Bitkiler ve Zehirler",
+    "error": "commander exit code 1"
+  },
+  {
+    "topic": "Baharatların Karanlık Tarihi",
+    "error": "commander exit code 1"
+  },
+  {
+    "topic": "Şifalı Bitkilerin Gerçek Hikâyeleri",
+    "error": "commander exit code 1"
   }
 ]

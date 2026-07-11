@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-07-11T11:56:56.043697+00:00",
-  "role": "SHP analizleri birleştirir ve tek CEO kararı verir; video üretmez.",
-  "decision": "BEKLET",
-  "publish": "TEST VİDEOSU HAZIRLA",
-  "topic": "Yapay Zeka Haberleri",
-  "confidence": 46,
-  "niche_score": 28,
+  "generated_at": "2026-07-11T12:05:30.638973+00:00",
+  "role": "SHP analizleri birleştirir ve kanal kimliğine uygun tek CEO kararı verir; video üretmez.",
+  "decision": "ÇEKME",
+  "publish": "HAYIR",
+  "topic": "Bitkilerin Gizli Tarihi",
+  "confidence": 40,
+  "niche_score": 3,
+  "channel_fit_score": 75,
   "channel_health_score": 1,
   "reasons": [
-    "Niş puanı: 28/100.",
-    "Medyan günlük izlenme hızı: 1935.",
-    "Bu konuda patlama yapmış video örneği var.",
-    "Başarı birden fazla kanala yayılmış.",
+    "Niş puanı: 3/100.",
+    "Kanal uyum puanı: 75.",
+    "Kanal temasıyla eşleşen kelimeler: bitki, bitkiler, gizli, tarih.",
+    "Kanal başlıklarıyla ortak kelimeler: bitkilerin, gizli, tarihi.",
+    "Medyan günlük izlenme hızı: 2.",
     "Kanal sağlık skoru düşük; tek güçlü test videosuna odaklan.",
     "Kanalın mevcut en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.4 günlük izlenme).",
-    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12185.6."
+    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12183.2."
   ],
-  "title_direction": "Yapay Zeka Haberleri: güçlü merak + gizem + tarih çatışması",
+  "title_direction": "Bitkilerin Gizli Tarihi: güçlü merak + gizem + tarih çatışması",
   "hook_direction": "İlk 10 saniyede büyük soru, risk veya kayıp göster; cevabı hemen verme.",
   "thumbnail_direction": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve net bir gizem işareti kullan.",
   "competitor_reference": {
     "channel": "Evrim Ağacı",
     "strongest_video": "Pil Yutarsanız Ne Olur?",
-    "instruction": "Başlığı kopyalama; aynı izleyici ihtiyacına özgün açı üret."
+    "instruction": "Başlığı kopyalama; aynı izleyici ihtiyacına kanal temasına uygun özgün açı üret."
   },
   "missing_inputs": []
 }

@@ -1,0 +1,40 @@
+{
+  "topic": "Antik Dünyanın Doğa Sırları",
+  "created_at": "2026-07-11T12:05:30.167490+00:00",
+  "period_days": 90,
+  "videos_analyzed": 2,
+  "niche_score": 20,
+  "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+  "metrics": {
+    "median_views": 5387,
+    "median_views_per_day": 84,
+    "top_views_per_day": 166,
+    "channel_diversity": 1.0
+  },
+  "videos": [
+    {
+      "id": "1n8uQYE-9hs",
+      "title": "Megalitik Mühendisliğin Zirvesi: Saksaywaman’ın Sırları",
+      "channel": "ArkaikYankı",
+      "published_at": "2026-05-07T15:41:45Z",
+      "views": 10747,
+      "views_per_day": 166,
+      "likes": 122,
+      "comments": 8,
+      "duration_seconds": 21,
+      "url": "https://www.youtube.com/watch?v=1n8uQYE-9hs"
+    },
+    {
+      "id": "rsg4j6vlbb0",
+      "title": "tarihin antik sırları",
+      "channel": "TARİHİN ANTİK SIRLARI ",
+      "published_at": "2026-06-22T18:07:02Z",
+      "views": 27,
+      "views_per_day": 1,
+      "likes": 4,
+      "comments": 1,
+      "duration_seconds": 41,
+      "url": "https://www.youtube.com/watch?v=rsg4j6vlbb0"
+    }
+  ]
+}
