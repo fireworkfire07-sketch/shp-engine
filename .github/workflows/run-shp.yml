@@ -1,0 +1,102 @@
+name: RUN SHP — YouTube CEO
+
+on:
+  workflow_dispatch:
+    inputs:
+      own_channel:
+        description: "Kendi kanalın: URL, @handle veya channel ID"
+        required: true
+        default: "https://www.youtube.com/@Aslozzy"
+      competitors:
+        description: "Rakip kanallar, virgülle ayır"
+        required: true
+        default: "@EvrimAgaci,@BarisOzcan"
+      topics:
+        description: "Karşılaştırılacak nişler, virgülle ayır"
+        required: true
+        default: "Bitkilerin Gizli Tarihi, Sıfırdan Zirveye, Yapay Zeka Haberleri, Psikoloji Hikayeleri, Gizemli Tarih"
+      video_url:
+        description: "İsteğe bağlı: analiz edilecek tek video URL'si"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  run-shp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: İsteğe bağlı transkript desteğini kur
+        if: ${{ inputs.video_url != '' }}
+        run: pip install youtube-transcript-api
+
+      - name: Kanalı analiz et
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OWN_CHANNEL: ${{ inputs.own_channel }}
+        run: python channel_analyzer.py "$OWN_CHANNEL"
+
+      - name: Rakipleri analiz et
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OWN_CHANNEL: ${{ inputs.own_channel }}
+          COMPETITORS: ${{ inputs.competitors }}
+        run: python competitor_analyzer.py "$OWN_CHANNEL" "$COMPETITORS"
+
+      - name: Nişleri karşılaştır
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          TOPICS: ${{ inputs.topics }}
+        run: python batch_research.py "$TOPICS"
+
+      - name: Hikâye DNA puanlarını çıkar
+        run: python story_report.py
+
+      - name: İsteğe bağlı video DNA analizi
+        if: ${{ inputs.video_url != '' }}
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          VIDEO_URL: ${{ inputs.video_url }}
+        run: python video_dna.py "$VIDEO_URL"
+
+      - name: CEO kararını üret
+        run: python decision_engine_v2.py
+
+      - name: Tüm çıktıları doğrula
+        run: |
+          test -f projects/channel-health/report.md
+          test -f projects/channel-health/analysis.json
+          test -f projects/competitor-health/report.md
+          test -f projects/competitor-health/analysis.json
+          test -f projects/batch-ranking.md
+          test -f projects/batch-ranking.json
+          test -f projects/story-dna.md
+          test -f projects/story-dna.json
+          test -f projects/ceo-decision/report.md
+          test -f projects/ceo-decision/analysis.json
+          if [ -n "${{ inputs.video_url }}" ]; then
+            test -d projects/video-dna
+          fi
+          cat projects/ceo-decision/report.md
+
+      - name: SHP raporlarını GitHub'a kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/
+          if git diff --cached --quiet; then
+            echo "Yeni SHP raporu değişikliği yok."
+          else
+            git commit -m "Run SHP YouTube CEO master workflow"
+            git push
+          fi
