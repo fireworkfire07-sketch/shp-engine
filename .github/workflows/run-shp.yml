@@ -11,10 +11,6 @@ on:
         description: "Rakip kanallar, virgülle ayır"
         required: true
         default: "@EvrimAgaci,@BarisOzcan"
-      topics:
-        description: "Kanal temasıyla uyumlu karşılaştırılacak konular, virgülle ayır"
-        required: true
-        default: "Bitkilerin Gizli Tarihi, Gizemli Bitkiler ve Zehirler, Baharatların Karanlık Tarihi, Antik Dünyanın Doğa Sırları, Şifalı Bitkilerin Gerçek Hikâyeleri"
       video_url:
         description: "İsteğe bağlı: analiz edilecek tek video URL'si"
         required: false
@@ -53,11 +49,48 @@ jobs:
           COMPETITORS: ${{ inputs.competitors }}
         run: python competitor_analyzer.py "$OWN_CHANNEL" "$COMPETITORS"
 
-      - name: Nişleri karşılaştır
+      - name: PRO niş keşfi ve sıralama
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          TOPICS: ${{ inputs.topics }}
-        run: python batch_research.py "$TOPICS"
+        run: python niche_intelligence.py
+
+      - name: PRO niş verisini karar motoruna aktar
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          src = Path("projects/niche-intelligence/analysis.json")
+          data = json.loads(src.read_text(encoding="utf-8"))
+          ranked = []
+          for item in data.get("top_10", []):
+              ranked.append({
+                  "topic": item.get("niche", ""),
+                  "niche_score": item.get("final_score", 0),
+                  "decision": item.get("decision", ""),
+                  "videos_analyzed": item.get("metrics", {}).get("videos_analyzed", 0),
+                  "metrics": {
+                      "median_views_per_day": item.get("metrics", {}).get("median_views_per_day", 0),
+                      "top_views_per_day": item.get("metrics", {}).get("top_views_per_day", 0),
+                      "channel_diversity": item.get("metrics", {}).get("channel_diversity", 0),
+                  },
+                  "gap": item.get("gap", ""),
+                  "first_10_video_ideas": item.get("first_10_video_ideas", []),
+              })
+          Path("projects/batch-ranking.json").write_text(
+              json.dumps(ranked, ensure_ascii=False, indent=2), encoding="utf-8"
+          )
+          lines = [
+              "# SHP PRO Niş Sıralaması", "",
+              "| # | Niş | Puan | Karar | Günlük medyan |", "|---:|---|---:|---|---:|"
+          ]
+          for i, item in enumerate(ranked, 1):
+              lines.append(
+                  f"| {i} | {item['topic']} | {item['niche_score']} | {item['decision']} | "
+                  f"{item['metrics']['median_views_per_day']} |"
+              )
+          Path("projects/batch-ranking.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+          PY
 
       - name: Hikâye DNA puanlarını çıkar
         run: python story_report.py
@@ -84,6 +117,8 @@ jobs:
           test -f projects/channel-health/analysis.json
           test -f projects/competitor-health/report.md
           test -f projects/competitor-health/analysis.json
+          test -f projects/niche-intelligence/report.md
+          test -f projects/niche-intelligence/analysis.json
           test -f projects/batch-ranking.md
           test -f projects/batch-ranking.json
           test -f projects/story-dna.md
@@ -99,8 +134,14 @@ jobs:
           import json
           from pathlib import Path
 
+          niche = json.loads(Path("projects/niche-intelligence/analysis.json").read_text(encoding="utf-8"))
           data = json.loads(Path("projects/ceo-decision/analysis.json").read_text(encoding="utf-8"))
           growth = json.loads(Path("projects/growth-advisor/analysis.json").read_text(encoding="utf-8"))
+
+          if not niche.get("winner"):
+              raise SystemExit("PRO niş motoru kazanan niş üretmedi.")
+          if int(niche["winner"].get("final_score", 0)) < 0:
+              raise SystemExit("Geçersiz niş puanı.")
 
           required = [
               "decision", "publish", "topic", "video_idea", "confidence",
@@ -139,12 +180,14 @@ jobs:
               raise SystemExit("İlk 3 saniye veya retention planı eksik.")
 
           print("SHP_FINAL_VALIDATION=PASS")
+          print(f"NICHE_WINNER={niche['winner']['niche']}")
+          print(f"NICHE_SCORE={niche['winner']['final_score']}")
           print(f"DECISION={data['decision']}")
           print(f"VIDEO_IDEA={data['video_idea']}")
           print(f"EFFORT_VERDICT={data['effort_verdict']}")
-          print(f"EFFORT_VALUE_SCORE={data['effort_value_score']}")
           print(f"PUBLISH_TIME={growth['recommended_publish_time']}")
           PY
+          cat projects/niche-intelligence/report.md
           cat projects/ceo-decision/report.md
           cat projects/growth-advisor/report.md
 
