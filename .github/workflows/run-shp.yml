@@ -75,6 +75,9 @@ jobs:
       - name: Emek ve beklenen getiriyi hesapla
         run: python effort_filter.py
 
+      - name: Keşfet ve büyüme planını üret
+        run: python growth_advisor.py
+
       - name: Tüm çıktıları ve CEO kararını doğrula
         run: |
           test -f projects/channel-health/report.md
@@ -87,6 +90,8 @@ jobs:
           test -f projects/story-dna.json
           test -f projects/ceo-decision/report.md
           test -f projects/ceo-decision/analysis.json
+          test -f projects/growth-advisor/report.md
+          test -f projects/growth-advisor/analysis.json
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
@@ -94,52 +99,54 @@ jobs:
           import json
           from pathlib import Path
 
-          path = Path("projects/ceo-decision/analysis.json")
-          data = json.loads(path.read_text(encoding="utf-8"))
+          data = json.loads(Path("projects/ceo-decision/analysis.json").read_text(encoding="utf-8"))
+          growth = json.loads(Path("projects/growth-advisor/analysis.json").read_text(encoding="utf-8"))
 
           required = [
-              "decision",
-              "publish",
-              "topic",
-              "video_idea",
-              "confidence",
-              "channel_fit_score",
-              "reasons",
-              "effort_verdict",
-              "effort_value_score",
-              "effort_action",
-              "effort_filter",
+              "decision", "publish", "topic", "video_idea", "confidence",
+              "channel_fit_score", "reasons", "effort_verdict",
+              "effort_value_score", "effort_action", "effort_filter",
           ]
           missing = [key for key in required if key not in data]
           if missing:
               raise SystemExit(f"CEO raporunda eksik alanlar: {missing}")
 
+          growth_required = [
+              "verdict", "video_idea", "trending_keywords", "first_3_seconds",
+              "retention_plan", "engagement_plan", "recommended_publish_time", "hashtags",
+          ]
+          growth_missing = [key for key in growth_required if key not in growth]
+          if growth_missing:
+              raise SystemExit(f"Büyüme raporunda eksik alanlar: {growth_missing}")
+
           blocked = ["yapay zeka", "finans", "kripto", "psikoloji", "minecraft", "roblox", "fortnite"]
           topic = str(data.get("topic", "")).lower()
           if any(word in topic for word in blocked):
               raise SystemExit(f"Kanal dışı konu seçildi: {topic}")
-
           if int(data.get("channel_fit_score", 0) or 0) < 60:
               raise SystemExit("Kanal uyum puanı 60'ın altında.")
-
           if not str(data.get("video_idea", "")).strip():
               raise SystemExit("Somut video fikri üretilmedi.")
 
           verdict = str(data.get("effort_verdict", ""))
-          if verdict not in {"EMEĞİNE DEĞER", "SADECE KÜÇÜK TESTE DEĞER", "EMEĞİNE DEĞMEZ", "DUR — VERİ EKSİK"}:
+          allowed = {"EMEĞİNE DEĞER", "SADECE KÜÇÜK TESTE DEĞER", "EMEĞİNE DEĞMEZ", "DUR — VERİ EKSİK"}
+          if verdict not in allowed:
               raise SystemExit(f"Geçersiz emek kararı: {verdict}")
-
           score = int(data.get("effort_value_score", -1))
           if not 0 <= score <= 100:
               raise SystemExit(f"Geçersiz emek/getiri puanı: {score}")
+          if not growth.get("first_3_seconds") or len(growth.get("retention_plan", [])) < 3:
+              raise SystemExit("İlk 3 saniye veya retention planı eksik.")
 
           print("SHP_FINAL_VALIDATION=PASS")
           print(f"DECISION={data['decision']}")
           print(f"VIDEO_IDEA={data['video_idea']}")
           print(f"EFFORT_VERDICT={data['effort_verdict']}")
           print(f"EFFORT_VALUE_SCORE={data['effort_value_score']}")
+          print(f"PUBLISH_TIME={growth['recommended_publish_time']}")
           PY
           cat projects/ceo-decision/report.md
+          cat projects/growth-advisor/report.md
 
       - name: SHP raporlarını GitHub'a kaydet
         run: |
