@@ -10,13 +10,13 @@
 ## Sağlık gerekçeleri
 
 - Medyan günlük izlenme hızı: 1.5
-- En güçlü günlük izlenme hızı: 9.4
+- En güçlü günlük izlenme hızı: 9.3
 - Medyan etkileşim oranı: %0.00
 - Son 10 videonun medyan günlük hızı: 3.3
 
 ## En güçlü video
 
-**[Bir Baharat Dünya Tarihini Nasıl Değiştirdi?](https://www.youtube.com/watch?v=uNrlRl1Yfhw)** — günlük 9.4 izlenme
+**[Bir Baharat Dünya Tarihini Nasıl Değiştirdi?](https://www.youtube.com/watch?v=uNrlRl1Yfhw)** — günlük 9.3 izlenme
 
 ## En zayıf video
 
@@ -26,16 +26,16 @@
 
 | # | Başlık | İzlenme | Günlük hız | Etkileşim | Video |
 |---:|---|---:|---:|---:|---|
-| 1 | Bir Baharat Dünya Tarihini Nasıl Değiştirdi? | 180 | 9.4 | %1.11 | [Aç](https://www.youtube.com/watch?v=uNrlRl1Yfhw) |
-| 2 | Çin Bu Böceğin Sırrını 2000 Yıl Neden Dünyadan Sakladı? | 199 | 9.0 | %0.00 | [Aç](https://www.youtube.com/watch?v=VDIlOTdlhTs) |
-| 3 | Mürün Gizemi: Tarihin ve Doğanın Saklı Hazinesi | 110 | 6.8 | %0.00 | [Aç](https://www.youtube.com/watch?v=n9JdEvsZQOA) |
-| 4 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | 115 | 6.4 | %1.74 | [Aç](https://www.youtube.com/watch?v=IqbygJdT2ew) |
-| 5 | Doğanın Mucizesi: Defne Ağacının Büyüleyici Dünyası | 112 | 6.3 | %0.89 | [Aç](https://www.youtube.com/watch?v=u5p_5fPujJc) |
-| 6 | Sandal Ağacının Gizemli Dünyası: Doğanın Sunduğu Mucize | 109 | 6.2 | %0.00 | [Aç](https://www.youtube.com/watch?v=YTxb6W7j4NQ) |
+| 1 | Bir Baharat Dünya Tarihini Nasıl Değiştirdi? | 180 | 9.3 | %1.11 | [Aç](https://www.youtube.com/watch?v=uNrlRl1Yfhw) |
+| 2 | Çin Bu Böceğin Sırrını 2000 Yıl Neden Dünyadan Sakladı? | 199 | 8.9 | %0.00 | [Aç](https://www.youtube.com/watch?v=VDIlOTdlhTs) |
+| 3 | Mürün Gizemi: Tarihin ve Doğanın Saklı Hazinesi | 110 | 6.7 | %0.00 | [Aç](https://www.youtube.com/watch?v=n9JdEvsZQOA) |
+| 4 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | 115 | 6.3 | %1.74 | [Aç](https://www.youtube.com/watch?v=IqbygJdT2ew) |
+| 5 | Doğanın Mucizesi: Defne Ağacının Büyüleyici Dünyası | 113 | 6.2 | %0.88 | [Aç](https://www.youtube.com/watch?v=u5p_5fPujJc) |
+| 6 | Sandal Ağacının Gizemli Dünyası: Doğanın Sunduğu Mucize | 109 | 6.1 | %0.00 | [Aç](https://www.youtube.com/watch?v=YTxb6W7j4NQ) |
 | 7 | Dut Yaprağının Gizemli Dünyası: Doğanın Saklı Şöleni | 135 | 5.9 | %0.74 | [Aç](https://www.youtube.com/watch?v=4lWauyFvX5A) |
-| 8 | Kınakına Ağacının Gizemli Dünyası: Doğanın Şifalı Mucizesi | 99 | 5.5 | %0.00 | [Aç](https://www.youtube.com/watch?v=deJ_2besk08) |
-| 9 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | 108 | 5.0 | %0.00 | [Aç](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
-| 10 | Karabiberin Gizemli Dünyası: Baharatın İpeksi Yolculuğu | 59 | 4.2 | %1.69 | [Aç](https://www.youtube.com/watch?v=eVj6ZcYTsRs) |
+| 8 | Kınakına Ağacının Gizemli Dünyası: Doğanın Şifalı Mucizesi | 99 | 5.4 | %0.00 | [Aç](https://www.youtube.com/watch?v=deJ_2besk08) |
+| 9 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | 108 | 4.9 | %0.00 | [Aç](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
+| 10 | Karabiberin Gizemli Dünyası: Baharatın İpeksi Yolculuğu | 59 | 4.1 | %1.69 | [Aç](https://www.youtube.com/watch?v=eVj6ZcYTsRs) |
 
 ## Gerçek sınırlar
 

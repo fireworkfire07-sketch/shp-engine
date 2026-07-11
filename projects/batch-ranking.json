@@ -6,8 +6,8 @@
     "videos_analyzed": 2,
     "metrics": {
       "median_views": 5387,
-      "median_views_per_day": 84,
-      "top_views_per_day": 166,
+      "median_views_per_day": 83,
+      "top_views_per_day": 165,
       "channel_diversity": 1.0
     },
     "report": "projects/antik-dunyann-doga-srlar/report.md"
@@ -16,12 +16,12 @@
     "topic": "Bitkilerin Gizli Tarihi",
     "niche_score": 3,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 18,
+    "videos_analyzed": 17,
     "metrics": {
-      "median_views": 29,
-      "median_views_per_day": 2,
+      "median_views": 24,
+      "median_views_per_day": 1,
       "top_views_per_day": 11,
-      "channel_diversity": 0.11
+      "channel_diversity": 0.12
     },
     "report": "projects/bitkilerin-gizli-tarihi/report.md"
   },
