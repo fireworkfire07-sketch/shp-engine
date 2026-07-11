@@ -1,0 +1,495 @@
+{
+  "analyzed_at": "2026-07-11T11:21:13.430497+00:00",
+  "own_channel": {
+    "input": "https://www.youtube.com/@Aslozzy",
+    "channel": {
+      "id": "UCSpjPqE4bXy_R6Ghr6NtKcA",
+      "title": "Bitkilerin Gizli tarihi",
+      "subscribers": 26,
+      "total_views": 1976,
+      "video_count": 39
+    },
+    "health_score": 1,
+    "health_reasons": [
+      "Medyan günlük izlenme hızı: 1.5",
+      "En güçlü günlük izlenme hızı: 9.4",
+      "Medyan etkileşim oranı: %0.00",
+      "Son 10 videonun medyan günlük hızı: 3.3"
+    ],
+    "median_views_per_day": 1.51,
+    "median_engagement_rate": 0.0,
+    "videos_analyzed": 39,
+    "strongest_video": {
+      "id": "uNrlRl1Yfhw",
+      "title": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi?",
+      "published_at": "2026-06-22T09:17:38Z",
+      "views": 180,
+      "likes": 0,
+      "comments": 2,
+      "views_per_day": 9.43,
+      "engagement_rate": 1.11,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
+    },
+    "top_videos": [
+      {
+        "id": "uNrlRl1Yfhw",
+        "title": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi?",
+        "published_at": "2026-06-22T09:17:38Z",
+        "views": 180,
+        "likes": 0,
+        "comments": 2,
+        "views_per_day": 9.43,
+        "engagement_rate": 1.11,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
+      },
+      {
+        "id": "VDIlOTdlhTs",
+        "title": "Çin Bu Böceğin Sırrını 2000 Yıl Neden Dünyadan Sakladı?",
+        "published_at": "2026-06-19T08:36:37Z",
+        "views": 199,
+        "likes": 0,
+        "comments": 0,
+        "views_per_day": 9.0,
+        "engagement_rate": 0.0,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=VDIlOTdlhTs"
+      },
+      {
+        "id": "n9JdEvsZQOA",
+        "title": "Mürün Gizemi: Tarihin ve Doğanın Saklı Hazinesi",
+        "published_at": "2026-06-25T08:03:53Z",
+        "views": 110,
+        "likes": 0,
+        "comments": 0,
+        "views_per_day": 6.82,
+        "engagement_rate": 0.0,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=n9JdEvsZQOA"
+      },
+      {
+        "id": "IqbygJdT2ew",
+        "title": "Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası",
+        "published_at": "2026-06-23T13:46:04Z",
+        "views": 115,
+        "likes": 2,
+        "comments": 0,
+        "views_per_day": 6.42,
+        "engagement_rate": 1.74,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=IqbygJdT2ew"
+      },
+      {
+        "id": "u5p_5fPujJc",
+        "title": "Doğanın Mucizesi: Defne Ağacının Büyüleyici Dünyası",
+        "published_at": "2026-06-23T14:41:09Z",
+        "views": 112,
+        "likes": 1,
+        "comments": 0,
+        "views_per_day": 6.27,
+        "engagement_rate": 0.89,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=u5p_5fPujJc"
+      },
+      {
+        "id": "YTxb6W7j4NQ",
+        "title": "Sandal Ağacının Gizemli Dünyası: Doğanın Sunduğu Mucize",
+        "published_at": "2026-06-23T20:11:14Z",
+        "views": 109,
+        "likes": 0,
+        "comments": 0,
+        "views_per_day": 6.18,
+        "engagement_rate": 0.0,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=YTxb6W7j4NQ"
+      },
+      {
+        "id": "4lWauyFvX5A",
+        "title": "Dut Yaprağının Gizemli Dünyası: Doğanın Saklı Şöleni",
+        "published_at": "2026-06-18T17:39:15Z",
+        "views": 135,
+        "likes": 1,
+        "comments": 0,
+        "views_per_day": 5.94,
+        "engagement_rate": 0.74,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=4lWauyFvX5A"
+      },
+      {
+        "id": "deJ_2besk08",
+        "title": "Kınakına Ağacının Gizemli Dünyası: Doğanın Şifalı Mucizesi",
+        "published_at": "2026-06-23T09:40:06Z",
+        "views": 99,
+        "likes": 0,
+        "comments": 0,
+        "views_per_day": 5.48,
+        "engagement_rate": 0.0,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=deJ_2besk08"
+      },
+      {
+        "id": "ERUFWLGdmTk",
+        "title": "Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi",
+        "published_at": "2026-06-19T16:01:10Z",
+        "views": 108,
+        "likes": 0,
+        "comments": 0,
+        "views_per_day": 4.95,
+        "engagement_rate": 0.0,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=ERUFWLGdmTk"
+      },
+      {
+        "id": "eVj6ZcYTsRs",
+        "title": "Karabiberin Gizemli Dünyası: Baharatın İpeksi Yolculuğu",
+        "published_at": "2026-06-27T09:06:48Z",
+        "views": 59,
+        "likes": 1,
+        "comments": 0,
+        "views_per_day": 4.19,
+        "engagement_rate": 1.69,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=eVj6ZcYTsRs"
+      }
+    ]
+  },
+  "competitors": [
+    {
+      "input": "@EvrimAgaci",
+      "channel": {
+        "id": "UCatnasFAiXUvWwH8NlSdd3A",
+        "title": "Evrim Ağacı",
+        "subscribers": 4820000,
+        "total_views": 2355199852,
+        "video_count": 1765
+      },
+      "health_score": 96,
+      "health_reasons": [
+        "Medyan günlük izlenme hızı: 12.2K",
+        "En güçlü günlük izlenme hızı: 125.0K",
+        "Medyan etkileşim oranı: %4.03",
+        "Son 10 videonun medyan günlük hızı: 51.1K"
+      ],
+      "median_views_per_day": 12195.7,
+      "median_engagement_rate": 4.03,
+      "videos_analyzed": 50,
+      "strongest_video": {
+        "id": "hLpRXyXJJdI",
+        "title": "Pil Yutarsanız Ne Olur?",
+        "published_at": "2026-06-27T08:11:34Z",
+        "views": 1766485,
+        "likes": 74258,
+        "comments": 1061,
+        "views_per_day": 125001.62,
+        "engagement_rate": 4.26,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=hLpRXyXJJdI"
+      },
+      "top_videos": [
+        {
+          "id": "hLpRXyXJJdI",
+          "title": "Pil Yutarsanız Ne Olur?",
+          "published_at": "2026-06-27T08:11:34Z",
+          "views": 1766485,
+          "likes": 74258,
+          "comments": 1061,
+          "views_per_day": 125001.62,
+          "engagement_rate": 4.26,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=hLpRXyXJJdI"
+        },
+        {
+          "id": "04Jis6uiPAc",
+          "title": "Türkiye'nin Adı Neden Değişti?",
+          "published_at": "2026-06-23T15:30:03Z",
+          "views": 2015936,
+          "likes": 81296,
+          "comments": 1502,
+          "views_per_day": 113082.06,
+          "engagement_rate": 4.11,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=04Jis6uiPAc"
+        },
+        {
+          "id": "E2zaZpKh0Ls",
+          "title": "Tek Ayak Üstünde Uyuyan Kuşların Amacı Ne?",
+          "published_at": "2026-07-04T09:04:36Z",
+          "views": 592799,
+          "likes": 25690,
+          "comments": 301,
+          "views_per_day": 83553.2,
+          "engagement_rate": 4.38,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=E2zaZpKh0Ls"
+        },
+        {
+          "id": "3SxomqLp1kM",
+          "title": "Toz: Gerçekten Yıldız Tozu muyuz?",
+          "published_at": "2026-07-09T15:30:03Z",
+          "views": 136678,
+          "likes": 7168,
+          "comments": 439,
+          "views_per_day": 74802.09,
+          "engagement_rate": 5.57,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=3SxomqLp1kM"
+        },
+        {
+          "id": "QUeF8ibK-yQ",
+          "title": "Tüylerimiz Neden Diken Diken Oluyor?",
+          "published_at": "2026-07-11T08:00:35Z",
+          "views": 68168,
+          "likes": 6211,
+          "comments": 159,
+          "views_per_day": 68168.0,
+          "engagement_rate": 9.34,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=QUeF8ibK-yQ"
+        },
+        {
+          "id": "GDEGWJ7f6Fg",
+          "title": "Tırnaklarımız Neden Uzuyor?",
+          "published_at": "2026-05-30T06:46:24Z",
+          "views": 2316612,
+          "likes": 68248,
+          "comments": 812,
+          "views_per_day": 54907.94,
+          "engagement_rate": 2.98,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=GDEGWJ7f6Fg"
+        },
+        {
+          "id": "FBY5xoaw-V0",
+          "title": "Mythos Neden Yasaklandı?",
+          "published_at": "2026-06-28T06:00:36Z",
+          "views": 713151,
+          "likes": 25321,
+          "comments": 1189,
+          "views_per_day": 53934.06,
+          "engagement_rate": 3.72,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=FBY5xoaw-V0"
+        },
+        {
+          "id": "J5m1YKkWHlw",
+          "title": "Kurbağaya Dokunmak Siğil Yapar mı?",
+          "published_at": "2026-06-30T15:24:05Z",
+          "views": 522827,
+          "likes": 20321,
+          "comments": 373,
+          "views_per_day": 48269.84,
+          "engagement_rate": 3.96,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=J5m1YKkWHlw"
+        },
+        {
+          "id": "wU9QEkknYr0",
+          "title": "Yılanların Neden Bacakları Yok?",
+          "published_at": "2026-05-26T15:47:05Z",
+          "views": 1939956,
+          "likes": 71793,
+          "comments": 1157,
+          "views_per_day": 42342.91,
+          "engagement_rate": 3.76,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=wU9QEkknYr0"
+        },
+        {
+          "id": "WqerUVEckS8",
+          "title": "Toryum Suikasti: Fizikçilerimizi Kim Öldürdü?",
+          "published_at": "2026-06-14T06:00:19Z",
+          "views": 1129482,
+          "likes": 48932,
+          "comments": 3440,
+          "views_per_day": 41490.23,
+          "engagement_rate": 4.64,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=WqerUVEckS8"
+        }
+      ]
+    },
+    {
+      "input": "@BarisOzcan",
+      "channel": {
+        "id": "UCv6jcPwFujuTIwFQ11jt1Yw",
+        "title": "Barış Özcan",
+        "subscribers": 6670000,
+        "total_views": 998067544,
+        "video_count": 944
+      },
+      "health_score": 93,
+      "health_reasons": [
+        "Medyan günlük izlenme hızı: 3.3K",
+        "En güçlü günlük izlenme hızı: 14.4K",
+        "Medyan etkileşim oranı: %3.17",
+        "Son 10 videonun medyan günlük hızı: 6.3K"
+      ],
+      "median_views_per_day": 3312.01,
+      "median_engagement_rate": 3.17,
+      "videos_analyzed": 50,
+      "strongest_video": {
+        "id": "9ZSZRKPD3_A",
+        "title": "Yıldızlara Neden ASLA Gidemeyeceğiz?",
+        "published_at": "2026-02-27T13:11:54Z",
+        "views": 1927693,
+        "likes": 55558,
+        "comments": 5091,
+        "views_per_day": 14394.02,
+        "engagement_rate": 3.15,
+        "privacy_status": "public",
+        "url": "https://www.youtube.com/watch?v=9ZSZRKPD3_A"
+      },
+      "top_videos": [
+        {
+          "id": "9ZSZRKPD3_A",
+          "title": "Yıldızlara Neden ASLA Gidemeyeceğiz?",
+          "published_at": "2026-02-27T13:11:54Z",
+          "views": 1927693,
+          "likes": 55558,
+          "comments": 5091,
+          "views_per_day": 14394.02,
+          "engagement_rate": 3.15,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=9ZSZRKPD3_A"
+        },
+        {
+          "id": "9dMSKvFMLm4",
+          "title": "Senin Mavin Benimkiyle Aynı mı?",
+          "published_at": "2026-06-30T06:00:10Z",
+          "views": 150514,
+          "likes": 7019,
+          "comments": 471,
+          "views_per_day": 13411.26,
+          "engagement_rate": 4.98,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=9dMSKvFMLm4"
+        },
+        {
+          "id": "GDALzZWp1I4",
+          "title": "AY GEÇİŞİ ÖZEL CANLI YAYINI - İnsanlık 54 Yıl Sonra Ay Yörüngesine Ulaşıyor!",
+          "published_at": "2026-04-07T02:43:45Z",
+          "views": 1241662,
+          "likes": 30036,
+          "comments": 757,
+          "views_per_day": 13020.87,
+          "engagement_rate": 2.48,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=GDALzZWp1I4"
+        },
+        {
+          "id": "8bYUa4U8r6s",
+          "title": "Backrooms Efsanesi",
+          "published_at": "2026-06-06T15:43:42Z",
+          "views": 416942,
+          "likes": 20582,
+          "comments": 794,
+          "views_per_day": 11974.99,
+          "engagement_rate": 5.13,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=8bYUa4U8r6s"
+        },
+        {
+          "id": "wJWta2lO0Lw",
+          "title": "Sadece Wi-Fi modemle görüntüleme yapılabiliyor!",
+          "published_at": "2026-05-31T06:00:36Z",
+          "views": 456358,
+          "likes": 13291,
+          "comments": 960,
+          "views_per_day": 11070.56,
+          "engagement_rate": 3.12,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=wJWta2lO0Lw"
+        },
+        {
+          "id": "e9SEsdHlt2o",
+          "title": "Pentagon yeni UFO dosyalarını açtı!",
+          "published_at": "2026-05-10T05:46:06Z",
+          "views": 635799,
+          "likes": 15659,
+          "comments": 1187,
+          "views_per_day": 10216.47,
+          "engagement_rate": 2.65,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=e9SEsdHlt2o"
+        },
+        {
+          "id": "3govhbrSRuE",
+          "title": "Sinek Beynini Bilgisayara Yüklediler (Ve Çalıştı)",
+          "published_at": "2026-03-13T14:20:43Z",
+          "views": 955543,
+          "likes": 21943,
+          "comments": 2305,
+          "views_per_day": 7971.14,
+          "engagement_rate": 2.54,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=3govhbrSRuE"
+        },
+        {
+          "id": "rhto22G2rV0",
+          "title": "4 ASTRONOT AY'A GİDİYOR! CANLI YAYIN",
+          "published_at": "2026-04-01T23:30:52Z",
+          "views": 745422,
+          "likes": 25014,
+          "comments": 872,
+          "views_per_day": 7417.63,
+          "engagement_rate": 3.47,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=rhto22G2rV0"
+        },
+        {
+          "id": "hvGpiZlPoIE",
+          "title": "Sisin İçinde Bir Şey Yaşıyor!",
+          "published_at": "2026-06-21T06:00:21Z",
+          "views": 131289,
+          "likes": 5436,
+          "comments": 428,
+          "views_per_day": 6492.12,
+          "engagement_rate": 4.47,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=hvGpiZlPoIE"
+        },
+        {
+          "id": "-ZPHKf-8T6I",
+          "title": "Neden Her Şey Grileşiyor?",
+          "published_at": "2026-01-17T14:17:19Z",
+          "views": 1115765,
+          "likes": 45580,
+          "comments": 2638,
+          "views_per_day": 6380.26,
+          "engagement_rate": 4.32,
+          "privacy_status": "public",
+          "url": "https://www.youtube.com/watch?v=-ZPHKf-8T6I"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "competitor": "Evrim Ağacı",
+      "gaps": [
+        "Rakibin medyan günlük izlenme hızı daha yüksek: 12195.7 vs 1.51.",
+        "Rakibin medyan etkileşim oranı daha yüksek: %4.03 vs %0.00.",
+        "Rakip kanal sağlık skorunda önde: 96 vs 1."
+      ],
+      "advantages": [],
+      "ceo_action": "Rakibin en hızlı videosunun konu ve başlık yapısını incele: Pil Yutarsanız Ne Olur?. Başlığı kopyalama; aynı izleyici ihtiyacına özgün bir açı üret."
+    },
+    {
+      "competitor": "Barış Özcan",
+      "gaps": [
+        "Rakibin medyan günlük izlenme hızı daha yüksek: 3312.01 vs 1.51.",
+        "Rakibin medyan etkileşim oranı daha yüksek: %3.17 vs %0.00.",
+        "Rakip kanal sağlık skorunda önde: 93 vs 1."
+      ],
+      "advantages": [],
+      "ceo_action": "Rakibin en hızlı videosunun konu ve başlık yapısını incele: Yıldızlara Neden ASLA Gidemeyeceğiz?. Başlığı kopyalama; aynı izleyici ihtiyacına özgün bir açı üret."
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Public API CTR ve izlenme süresi vermez.",
+    "Thumbnail görsel kalitesi ve gerçek retention ayrıca analiz edilmelidir.",
+    "Bu modül rakip verisini hazırlar; nihai karar Decision Engine tarafından verilir."
+  ]
+}
