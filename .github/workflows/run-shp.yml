@@ -117,6 +117,14 @@ jobs:
           GROQ_MODEL: llama-3.3-70b-versatile
         run: python script_agent_v2.py
 
+      - name: Script Agent V2 çıktılarını artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: script-agent-v2-outputs
+          path: projects/script-agent/
+          if-no-files-found: warn
+
       - name: Tüm çıktıları ve CEO kararını doğrula
         run: |
           test -f projects/channel-health/report.md
