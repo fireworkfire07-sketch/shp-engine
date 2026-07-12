@@ -15,6 +15,16 @@ on:
         description: "İsteğe bağlı: analiz edilecek tek video URL'si"
         required: false
         default: ""
+      youtube_upload_mode:
+        description: "YouTube yükleme modu — PRIVATE_UPLOAD/PUBLIC_UPLOAD için kimlik bilgisi secret'ları gerekir"
+        required: false
+        type: choice
+        options:
+          - DRY_RUN
+          - PREPARE_UPLOAD
+          - PRIVATE_UPLOAD
+          - PUBLIC_UPLOAD
+        default: DRY_RUN
 
 permissions:
   contents: write
@@ -132,6 +142,24 @@ jobs:
       - name: Video Engine — LIGHTWEIGHT_MODE render
         run: python video_engine.py
 
+      - name: YouTube yükleme hazırlığı
+        env:
+          YOUTUBE_UPLOAD_MODE: ${{ inputs.youtube_upload_mode }}
+          YOUTUBE_ALLOW_PUBLIC: ${{ vars.YOUTUBE_ALLOW_PUBLIC }}
+          YOUTUBE_OAUTH_ACCESS_TOKEN: ${{ secrets.YOUTUBE_OAUTH_ACCESS_TOKEN }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: python youtube_uploader.py
+
+      - name: YouTube yükleme çıktılarını artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: youtube-upload-outputs
+          path: projects/youtube-upload/
+          if-no-files-found: warn
+
       - name: Script Agent V2 çıktılarını artifact olarak yükle
         if: always()
         uses: actions/upload-artifact@v4
@@ -199,6 +227,8 @@ jobs:
           test -f projects/voiceover/audio_manifest.json
           test -f projects/video-engine/report.md
           test -f projects/video-engine/render_manifest.json
+          test -f projects/youtube-upload/report.md
+          test -f projects/youtube-upload/upload_result.json
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
@@ -214,6 +244,7 @@ jobs:
           video_ceo = json.loads(Path("projects/video-ceo/analysis.json").read_text(encoding="utf-8"))
           voiceover = json.loads(Path("projects/voiceover/audio_manifest.json").read_text(encoding="utf-8"))
           video_engine = json.loads(Path("projects/video-engine/render_manifest.json").read_text(encoding="utf-8"))
+          youtube_upload = json.loads(Path("projects/youtube-upload/upload_result.json").read_text(encoding="utf-8"))
 
           if not niche.get("winner"):
               raise SystemExit("PRO niş motoru kazanan niş üretmedi.")
@@ -287,6 +318,21 @@ jobs:
               raise SystemExit(f"Video Engine teknik hata bildirdi: {video_engine.get('reasons')}")
           if video_engine.get("status") == "RENDERED" and not video_engine.get("final_video"):
               raise SystemExit("Video Engine RENDERED bildirdi ama final_video yolu eksik.")
+
+          allowed_upload_status = {
+              "DRY_RUN_OK", "DRY_RUN_VALIDATION_FAILED", "PUBLIC_UPLOAD_BLOCKED", "NOT_READY",
+              "VALIDATION_FAILED", "PREPARED", "UPLOAD_NOT_CONFIGURED", "UPLOAD_FAILED", "UPLOADED",
+          }
+          if youtube_upload.get("status") not in allowed_upload_status:
+              raise SystemExit(f"YouTube Upload geçersiz durum döndürdü: {youtube_upload.get('status')}")
+          upload_privacy = youtube_upload.get("privacy_status")
+          if youtube_upload.get("status") == "UPLOADED" and upload_privacy not in {"private", "public"}:
+              raise SystemExit(f"YouTube Upload geçersiz gizlilik durumuyla tamamlandı: {upload_privacy}.")
+          if youtube_upload.get("status") == "UPLOADED" and upload_privacy == "public" and youtube_upload.get("mode") != "PUBLIC_UPLOAD":
+              raise SystemExit(
+                  "GÜVENLİK İHLALİ: private olması gereken bir modda public yükleme tamamlandı — "
+                  f"mode={youtube_upload.get('mode')}."
+              )
           # Script Agent V2 / Video CEO Pro / Video Engine kalite kapısı: CEO
           # REJECT, DÜZELT/DUR/BEKLET veya render'ın güvenli biçimde
           # durdurulması build'i kırmaz — dürüst bir DUR, sahte bir
@@ -309,6 +355,8 @@ jobs:
           print(f"VOICEOVER_MODE={voiceover.get('mode')}")
           print(f"VIDEO_ENGINE_STATUS={video_engine.get('status')}")
           print(f"VIDEO_ENGINE_OUTPUT={video_engine.get('final_video')}")
+          print(f"YOUTUBE_UPLOAD_STATUS={youtube_upload.get('status')}")
+          print(f"YOUTUBE_UPLOAD_PRIVACY={youtube_upload.get('privacy_status')}")
           PY
           cat projects/niche-intelligence/report.md
           cat projects/ceo-decision/report.md
@@ -317,6 +365,7 @@ jobs:
           cat projects/video-ceo/report.md
           cat projects/voiceover/report.md
           cat projects/video-engine/report.md
+          cat projects/youtube-upload/report.md
 
       - name: SHP raporlarını GitHub'a kaydet
         run: |
