@@ -1,0 +1,56 @@
+[
+  {
+    "section": "Açılış",
+    "prompt": "Tek çarpıcı obje veya manzara, ekranı dolduran makro çekim. Yavaş yakınlaşan (slow push-in) tek plan, kesme yok. Karanlık zemin üzerinde ana obje ışıkla vurgulanır.",
+    "b_roll_suggestions": [
+      "Konu objesinin makro detay çekimi",
+      "Atmosferik ortam planı"
+    ],
+    "raw_b_roll_text": "Konu objesinin makro detay çekimi, Atmosferik ortam planı"
+  },
+  {
+    "section": "Köken",
+    "prompt": "Coğrafi köken haritası üzerinde animasyonlu işaretleme. Yukarıdan aşağı harita hareketi (top-down pan). Dönemin arşiv görselleri veya illüstrasyonlarla geçiş.",
+    "b_roll_suggestions": [
+      "Tarihi harita animasyonu",
+      "Dönem gravürü/illüstrasyonu"
+    ],
+    "raw_b_roll_text": "Tarihi harita animasyonu, Dönem gravürü/illüstrasyonu"
+  },
+  {
+    "section": "İlk Kırılma",
+    "prompt": "Karşıt iki güç veya taraf arasında görsel gerilim kurulur. Sert kesmeler, kısa planlar, ritmi hızlandırır. Kararan ışık, dramatik gölgeler, silüet yeniden canlandırma.",
+    "b_roll_suggestions": [
+      "Silüet reenactment",
+      "Dönem belgesi/kayıt close-up'ı"
+    ],
+    "raw_b_roll_text": "Silüet reenactment, Dönem belgesi/kayıt close-up'ı"
+  },
+  {
+    "section": "Derinleşen Gizem",
+    "prompt": "Eksik parça veya cevaplanmamış detay ekranda büyütülür. Yavaş rack focus; net olmayan arka plandan nesneye odak. Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti.",
+    "b_roll_suggestions": [
+      "Arşiv belge close-up'ı",
+      "Bilim insanı/araştırmacı çalışma planı"
+    ],
+    "raw_b_roll_text": "Arşiv belge close-up'ı, Bilim insanı/araştırmacı çalışma planı"
+  },
+  {
+    "section": "Büyük Cevap",
+    "prompt": "Ana cevabı temsil eden görsel net ve büyük şekilde ortaya çıkar. Ani zoom-out veya ışık patlaması hissi veren geçiş. Önceki karanlık/belirsiz sahneden aydınlık/net sahneye geçiş.",
+    "b_roll_suggestions": [
+      "Modern kanıt/örnek görüntüsü",
+      "Bilimsel görselleştirme/grafik"
+    ],
+    "raw_b_roll_text": "Modern kanıt/örnek görüntüsü, Bilimsel görselleştirme/grafik"
+  },
+  {
+    "section": "Final",
+    "prompt": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü. Yavaş uzaklaşan (pull-out) geniş açı plan. Gün ışığına dönüş; sıcak renk paleti.",
+    "b_roll_suggestions": [
+      "Günümüz/modern kullanım görüntüsü",
+      "Geniş açı doğa/mekan planı"
+    ],
+    "raw_b_roll_text": "Günümüz/modern kullanım görüntüsü, Geniş açı doğa/mekan planı"
+  }
+]

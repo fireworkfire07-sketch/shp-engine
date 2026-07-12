@@ -1,0 +1,56 @@
+{
+  "status": "NOT_READY",
+  "title": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+  "language": "tr",
+  "target_duration_minutes": 1.1,
+  "voiceover_sections": [
+    {
+      "name": "Açılış",
+      "duration": "0:00-0:30",
+      "voiceover": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim."
+    },
+    {
+      "name": "Köken",
+      "duration": "0:30-1:00",
+      "voiceover": "Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor."
+    },
+    {
+      "name": "İlk Kırılma",
+      "duration": "1:00-1:30",
+      "voiceover": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
+    },
+    {
+      "name": "Derinleşen Gizem",
+      "duration": "1:30-2:00",
+      "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
+    },
+    {
+      "name": "Büyük Cevap",
+      "duration": "2:00-2:30",
+      "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
+    },
+    {
+      "name": "Final",
+      "duration": "2:30-3:00",
+      "voiceover": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
+    }
+  ],
+  "storyboard_file": "storyboard.json",
+  "visual_prompts_file": "visual_prompts.json",
+  "subtitle_file": "subtitle.srt",
+  "thumbnail_file": "thumbnail.json",
+  "hashtags": [
+    "#bitki",
+    "#mparatorlugun",
+    "#kaderini",
+    "#degistirdi",
+    "#doganin",
+    "#gizemli",
+    "#dunyasi",
+    "#agacinin",
+    "#sakli",
+    "#mucizesi"
+  ],
+  "ceo_score": 60,
+  "ceo_verdict": "CEO olsam bu haliyle altı saat üretim süresi harcamazdım. Önce aşağıdaki sorunlar çözülmeli."
+}

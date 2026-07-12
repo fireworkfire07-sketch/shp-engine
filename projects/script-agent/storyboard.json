@@ -1,0 +1,50 @@
+[
+  {
+    "section": "Açılış",
+    "role": "hook",
+    "duration": "0:00-0:30",
+    "visual_idea": "Tek çarpıcı obje veya manzara, ekranı dolduran makro çekim.",
+    "camera_idea": "Yavaş yakınlaşan (slow push-in) tek plan, kesme yok.",
+    "scene_idea": "Karanlık zemin üzerinde ana obje ışıkla vurgulanır."
+  },
+  {
+    "section": "Köken",
+    "role": "origin",
+    "duration": "0:30-1:00",
+    "visual_idea": "Coğrafi köken haritası üzerinde animasyonlu işaretleme.",
+    "camera_idea": "Yukarıdan aşağı harita hareketi (top-down pan).",
+    "scene_idea": "Dönemin arşiv görselleri veya illüstrasyonlarla geçiş."
+  },
+  {
+    "section": "İlk Kırılma",
+    "role": "conflict",
+    "duration": "1:00-1:30",
+    "visual_idea": "Karşıt iki güç veya taraf arasında görsel gerilim kurulur.",
+    "camera_idea": "Sert kesmeler, kısa planlar, ritmi hızlandırır.",
+    "scene_idea": "Kararan ışık, dramatik gölgeler, silüet yeniden canlandırma."
+  },
+  {
+    "section": "Derinleşen Gizem",
+    "role": "mystery",
+    "duration": "1:30-2:00",
+    "visual_idea": "Eksik parça veya cevaplanmamış detay ekranda büyütülür.",
+    "camera_idea": "Yavaş rack focus; net olmayan arka plandan nesneye odak.",
+    "scene_idea": "Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti."
+  },
+  {
+    "section": "Büyük Cevap",
+    "role": "reveal",
+    "duration": "2:00-2:30",
+    "visual_idea": "Ana cevabı temsil eden görsel net ve büyük şekilde ortaya çıkar.",
+    "camera_idea": "Ani zoom-out veya ışık patlaması hissi veren geçiş.",
+    "scene_idea": "Önceki karanlık/belirsiz sahneden aydınlık/net sahneye geçiş."
+  },
+  {
+    "section": "Final",
+    "role": "final",
+    "duration": "2:30-3:00",
+    "visual_idea": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü.",
+    "camera_idea": "Yavaş uzaklaşan (pull-out) geniş açı plan.",
+    "scene_idea": "Gün ışığına dönüş; sıcak renk paleti."
+  }
+]
