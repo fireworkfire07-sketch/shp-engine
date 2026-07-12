@@ -1,0 +1,6 @@
+# Core pipeline modules (channel/competitor/niche/decision/effort/growth/
+# script_agent_v2/video_ceo/voiceover_engine/youtube_uploader/learning_engine)
+# use only the Python standard library. These are feature-specific:
+
+Pillow>=10.0.0                  # video_engine.py LIGHTWEIGHT_MODE placeholder frame generation
+youtube-transcript-api>=0.6.2   # video_dna.py optional transcript/hook analysis

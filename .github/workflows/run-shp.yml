@@ -42,9 +42,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: İsteğe bağlı transkript desteğini kur
-        if: ${{ inputs.video_url != '' }}
-        run: pip install youtube-transcript-api
+      - name: Bağımlılıkları kur (Pillow, espeak-ng)
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends espeak-ng
+
+      - name: Otomatik testleri çalıştır
+        run: python -m unittest discover -s tests -t . -v
 
       - name: Kanalı analiz et
         env:
@@ -132,9 +136,6 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: llama-3.3-70b-versatile
         run: python video_ceo.py
-
-      - name: Seslendirme için espeak-ng kur
-        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends espeak-ng
 
       - name: Seslendirme üret (LOCAL_TTS / TEXT_ONLY)
         run: python voiceover_engine.py
@@ -384,7 +385,26 @@ jobs:
           cat projects/youtube-upload/report.md
           cat projects/learning-engine/report.md
 
+      - name: Final Run Report — bu çalıştırmanın tek gerçek özeti
+        if: always()
+        run: |
+          python final_run.py
+          cat projects/final-run/report.md
+
+      - name: Final Run Report'u artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-run-report
+          path: projects/final-run/
+          if-no-files-found: warn
+
       - name: SHP raporlarını GitHub'a kaydet
+        # always(): önceki bir aşama teknik olarak başarısız olsa bile,
+        # o ana kadar üretilen kısmi çıktılar (ve Final Run Report'un
+        # TECHNICAL_FAILURE teşhisi) kaybolmadan commit edilir — hangi
+        # aşamanın başarısız olduğu git geçmişinde kalıcı olarak görünür.
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
