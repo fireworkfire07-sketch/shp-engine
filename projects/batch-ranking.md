@@ -2,13 +2,13 @@
 
 | # | Niş | Puan | Karar | Günlük medyan |
 |---:|---|---:|---|---:|
-| 1 | gizemli bitkiler | 73 | GİR | 43.94 |
-| 2 | Dünyası gizemi | 69 | TEST ET | 571.84 |
-| 3 | Saklı gizemi | 68 | TEST ET | 728.06 |
-| 4 | Mucizesi tarihi | 63 | TEST ET | 210.25 |
-| 5 | Ağacının gizemi | 62 | TEST ET | 5.57 |
-| 6 | Doğanın tarihi | 62 | TEST ET | 60.01 |
-| 7 | Dünyası tarihi | 62 | TEST ET | 915.52 |
-| 8 | Mucizesi karanlık tarihi | 60 | TEST ET | 45.74 |
-| 9 | Dünyası karanlık tarihi | 59 | TEST ET | 45.89 |
-| 10 | Mucizesi gizemi | 59 | TEST ET | 33.9 |
+| 1 | Ağacının gizemi | 0 | GİRME | 0 |
+| 2 | Ağacının karanlık tarihi | 0 | GİRME | 0 |
+| 3 | Ağacının tarihi | 0 | GİRME | 0 |
+| 4 | Doğanın gizemi | 0 | GİRME | 0 |
+| 5 | Doğanın karanlık tarihi | 0 | GİRME | 0 |
+| 6 | Doğanın tarihi | 0 | GİRME | 0 |
+| 7 | Dünyası gizemi | 0 | GİRME | 0 |
+| 8 | Dünyası karanlık tarihi | 0 | GİRME | 0 |
+| 9 | Dünyası tarihi | 0 | GİRME | 0 |
+| 10 | Mucizesi gizemi | 0 | GİRME | 0 |

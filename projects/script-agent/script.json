@@ -3,11 +3,11 @@
   "status": "REJECT",
   "attempts": 1,
   "context": {
-    "topic": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
-    "niche": "gizemli bitkiler",
-    "decision": "ÇEK",
-    "effort_verdict": "EMEĞİNE DEĞER",
-    "first_3_seconds": "İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
+    "topic": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+    "niche": "Ağacının gizemi",
+    "decision": "BEKLET",
+    "effort_verdict": "SADECE KÜÇÜK TESTE DEĞER",
+    "first_3_seconds": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
     "retention_plan": [
       "İlk 3 saniyede tek güçlü soru veya şok bilgi kullan.",
       "İlk 30 saniyede giriş yapma; doğrudan çatışmayı göster.",
@@ -35,16 +35,16 @@
       "değiştirdi"
     ],
     "hashtags": [
-      "#baharat",
-      "#dunya",
-      "#tarihini",
+      "#bitki",
+      "#mparatorlugun",
+      "#kaderini",
       "#degistirdi",
-      "#formatinin",
-      "#devami",
-      "#daha",
-      "#guclu",
-      "#gizem",
-      "#yesi"
+      "#doganin",
+      "#gizemli",
+      "#dunyasi",
+      "#agacinin",
+      "#sakli",
+      "#mucizesi"
     ],
     "competitor_reference": {
       "channel": "Evrim Ağacı",
@@ -110,7 +110,7 @@
     "key_people": [],
     "locations": [],
     "research_mode": "rule_based_fallback",
-    "research_note": "GROQ_API_KEY yok; 'Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi' için derin araştırma yapılamadı. Script Doctor bu konudaki tüm iddiaları 'düşük güven' olarak işaretleyecek."
+    "research_note": "GROQ_API_KEY yok; 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?' için derin araştırma yapılamadı. Script Doctor bu konudaki tüm iddiaları 'düşük güven' olarak işaretleyecek."
   },
   "story_dna_plan": {
     "reference_pool_size": 40,
@@ -159,44 +159,44 @@
     "rule": "Yapı öğrenilir, cümle veya başlık asla kopyalanmaz."
   },
   "script": {
-    "title": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
+    "title": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
     "alt_titles": [],
-    "hook": "İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
+    "hook": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
     "alt_hooks": [],
     "sections": [
       {
         "name": "Açılış",
         "duration": "0:00-0:30",
-        "voiceover": "İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim."
+        "voiceover": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim."
       },
       {
         "name": "Köken",
         "duration": "0:30-1:00",
-        "voiceover": "Kayıtlar bir şeyi gizliyordu. Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor."
+        "voiceover": "Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor."
       },
       {
         "name": "İlk Kırılma",
         "duration": "1:00-1:30",
-        "voiceover": "Kayıtlar bir şeyi gizliyordu. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
+        "voiceover": "Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
       },
       {
         "name": "Derinleşen Gizem",
         "duration": "1:30-2:00",
-        "voiceover": "Ama asıl gerçek çok daha karanlıktı. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
+        "voiceover": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
       },
       {
         "name": "Büyük Cevap",
         "duration": "2:00-2:30",
-        "voiceover": "Kimsenin anlatmadığı kısım burada başlıyor. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
+        "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
       },
       {
         "name": "Final",
         "duration": "2:30-3:00",
-        "voiceover": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
+        "voiceover": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
       }
     ],
     "thumbnail_concept": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
-    "description": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi: İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
+    "description": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?: İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
     "tags": [
       "doğanın",
       "gizemli",
@@ -209,20 +209,17 @@
     ],
     "source_mode": "rule_based_fallback",
     "doctor_log": [
-      "Tekrar eden cümle çıkarıldı (İlk Kırılma): 'Bir Baharat Dünya Tarihini Nasıl Değiştirdi?...'",
-      "Tekrar eden cümle çıkarıldı (Derinleşen Gizem): 'Bir Baharat Dünya Tarihini Nasıl Değiştirdi?...'",
-      "Tekrar eden cümle çıkarıldı (Büyük Cevap): 'Bir Baharat Dünya Tarihini Nasıl Değiştirdi?...'",
+      "Tekrar eden cümle çıkarıldı (Derinleşen Gizem): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'",
+      "Tekrar eden cümle çıkarıldı (Büyük Cevap): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'",
+      "Kural tabanlı güçlendirme uygulandı (Büyük Cevap): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (Final): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (İlk Kırılma): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (Derinleşen Gizem): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
-      "Kural tabanlı güçlendirme uygulandı (Büyük Cevap): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
-      "Kural tabanlı güçlendirme uygulandı (Köken): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç.",
       "Kanıtsız iddia temkinli hale getirildi (Köken).",
+      "Zaten güçlendirilmiş, tekrar uygulanmadı (Büyük Cevap).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (Final).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (İlk Kırılma).",
-      "Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem).",
-      "Zaten güçlendirilmiş, tekrar uygulanmadı (Büyük Cevap).",
-      "Zaten güçlendirilmiş, tekrar uygulanmadı (Köken)."
+      "Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem)."
     ],
     "doctor_passes": 2
   },
@@ -231,8 +228,8 @@
       "per_section": [
         {
           "name": "Açılış",
-          "estimated_seconds": 14.6,
-          "cumulative_seconds": 14.6,
+          "estimated_seconds": 11.7,
+          "cumulative_seconds": 11.7,
           "curiosity_score": 100,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
@@ -240,44 +237,44 @@
         },
         {
           "name": "Köken",
-          "estimated_seconds": 18.8,
-          "cumulative_seconds": 33.4,
-          "curiosity_score": 45,
+          "estimated_seconds": 17.1,
+          "cumulative_seconds": 28.8,
+          "curiosity_score": 25,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
           "pass": true
         },
         {
           "name": "İlk Kırılma",
-          "estimated_seconds": 10.0,
-          "cumulative_seconds": 43.4,
-          "curiosity_score": 40,
-          "has_curiosity_gap": false,
-          "seconds_since_last_gap": 10.0,
-          "pass": false
+          "estimated_seconds": 9.6,
+          "cumulative_seconds": 38.4,
+          "curiosity_score": 95,
+          "has_curiosity_gap": true,
+          "seconds_since_last_gap": 0.0,
+          "pass": true
         },
         {
           "name": "Derinleşen Gizem",
-          "estimated_seconds": 11.2,
-          "cumulative_seconds": 54.6,
-          "curiosity_score": 90,
+          "estimated_seconds": 7.5,
+          "cumulative_seconds": 45.9,
+          "curiosity_score": 100,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
           "pass": true
         },
         {
           "name": "Büyük Cevap",
-          "estimated_seconds": 12.9,
-          "cumulative_seconds": 67.5,
-          "curiosity_score": 70,
-          "has_curiosity_gap": true,
-          "seconds_since_last_gap": 0.0,
-          "pass": true
+          "estimated_seconds": 10.0,
+          "cumulative_seconds": 55.9,
+          "curiosity_score": 20,
+          "has_curiosity_gap": false,
+          "seconds_since_last_gap": 10.0,
+          "pass": false
         },
         {
           "name": "Final",
-          "estimated_seconds": 7.9,
-          "cumulative_seconds": 75.4,
+          "estimated_seconds": 8.8,
+          "cumulative_seconds": 64.7,
           "curiosity_score": 90,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
@@ -285,7 +282,7 @@
         }
       ],
       "weak_sections": [
-        "İlk Kırılma"
+        "Büyük Cevap"
       ],
       "gap_count": 5,
       "required_gap_count": 7,
@@ -297,47 +294,48 @@
         {
           "checkpoint_seconds": 3,
           "covering_section": "Açılış",
-          "psychology_score": 55,
-          "drop_risk": "düşük"
+          "psychology_score": 48,
+          "drop_risk": "orta"
         },
         {
           "checkpoint_seconds": 10,
           "covering_section": "Açılış",
-          "psychology_score": 55,
-          "drop_risk": "düşük"
+          "psychology_score": 48,
+          "drop_risk": "orta"
         },
         {
           "checkpoint_seconds": 30,
-          "covering_section": "Köken",
-          "psychology_score": 34,
+          "covering_section": "İlk Kırılma",
+          "psychology_score": 26,
           "drop_risk": "yüksek"
         },
         {
           "checkpoint_seconds": 60,
-          "covering_section": "Büyük Cevap",
-          "psychology_score": 32,
+          "covering_section": "Final",
+          "psychology_score": 28,
           "drop_risk": "yüksek"
         },
         {
           "checkpoint_seconds": 180,
           "covering_section": "Final",
-          "psychology_score": 31,
+          "psychology_score": 28,
           "drop_risk": "yüksek"
         },
         {
           "checkpoint_seconds": "ending",
           "covering_section": "Final",
-          "psychology_score": 31,
-          "drop_risk": "orta"
+          "psychology_score": 28,
+          "drop_risk": "yüksek"
         }
       ],
       "weak_checkpoints": [
-        "30s (Köken)",
-        "60s (Büyük Cevap)",
-        "180s (Final)"
+        "30s (İlk Kırılma)",
+        "60s (Final)",
+        "180s (Final)",
+        "final (Final)"
       ],
       "overall_pass": false,
-      "overall_score": 40
+      "overall_score": 34
     },
     "emotion": {
       "detected_curve": [
@@ -428,22 +426,22 @@
     }
   },
   "ceo_review": {
-    "reviewed_at": "2026-07-12T07:54:29.809047+00:00",
+    "reviewed_at": "2026-07-12T07:57:54.814164+00:00",
     "decision": "REJECT",
-    "ceo_score": 61,
+    "ceo_score": 60,
     "approval_threshold": 68,
     "component_scores": {
       "curiosity": 72,
-      "retention": 40,
+      "retention": 34,
       "emotion": 33,
       "originality": 100,
       "fact": 100,
-      "psychology": 30
+      "psychology": 32
     },
     "floor_violations": [],
     "reasons": [
-      "Zayıf merak bölümleri: İlk Kırılma.",
-      "Riskli izlenme noktaları: 30s (Köken), 60s (Büyük Cevap), 180s (Final).",
+      "Zayıf merak bölümleri: Büyük Cevap.",
+      "Riskli izlenme noktaları: 30s (İlk Kırılma), 60s (Final), 180s (Final), final (Final).",
       "Duygu eğrisi hedefi tutmuyor (4 bölümde)."
     ],
     "verdict_text": "CEO olsam bu haliyle altı saat üretim süresi harcamazdım. Önce aşağıdaki sorunlar çözülmeli.",
@@ -452,10 +450,10 @@
   "rejected_history": [
     {
       "attempt": 1,
-      "ceo_score": 61,
+      "ceo_score": 60,
       "reasons": [
-        "Zayıf merak bölümleri: İlk Kırılma.",
-        "Riskli izlenme noktaları: 30s (Köken), 60s (Büyük Cevap), 180s (Final).",
+        "Zayıf merak bölümleri: Büyük Cevap.",
+        "Riskli izlenme noktaları: 30s (İlk Kırılma), 60s (Final), 180s (Final), final (Final).",
         "Duygu eğrisi hedefi tutmuyor (4 bölümde).",
         "GROQ_API_KEY yok; kural tabanlı taslak yeniden denenerek iyileştirilemez."
       ]

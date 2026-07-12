@@ -2,13 +2,13 @@
 
 ## CEO kararı
 
-# EMEĞİNE DEĞER
+# SADECE KÜÇÜK TESTE DEĞER
 
-**Video:** Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi
+**Video:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
 
 ## İlk 3 saniye
 
-- İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.
+- İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.
 
 ## İzlenme süresi planı
 
@@ -35,7 +35,7 @@ doğanın, gizemli, dünyası, ağacının, saklı, mucizesi, diken, canli, baha
 
 ## Hashtagler
 
-#baharat #dunya #tarihini #degistirdi #formatinin #devami #daha #guclu #gizem #yesi
+#bitki #mparatorlugun #kaderini #degistirdi #doganin #gizemli #dunyasi #agacinin #sakli #mucizesi
 
 ## Gerçek sınırlar
 
