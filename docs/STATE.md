@@ -12,6 +12,7 @@ Last updated: 2026-07-11
 - single-video DNA analysis
 - transcript and first-30-second hook attempt
 - decision engine that produces YAP / BEKLET / YAPMA reports
+- Script Agent V2: 14-engine Head Writer AI pipeline with a CEO Reviewer rewrite loop (`script_agent_v2.py`); Script Agent V1 (`script_agent.py`) still works standalone
 
 ## Verified repo outputs
 
@@ -23,6 +24,7 @@ Last updated: 2026-07-11
 - projects/video-dna/<video_id>/analysis.json
 - projects/decision-report.md
 - projects/decision-report.json
+- projects/script-agent/script.md, script.json, storyboard.json, visual_prompts.json, voiceover.txt, subtitle.srt, thumbnail.json, youtube_upload.json, video_engine_handoff.json, memory.json
 
 ## Current project priority
 

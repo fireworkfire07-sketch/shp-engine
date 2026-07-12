@@ -111,11 +111,11 @@ jobs:
       - name: Keşfet ve büyüme planını üret
         run: python growth_advisor.py
 
-      - name: Script Agent senaryoyu üret
+      - name: Script Agent V2 — Head Writer AI pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: llama-3.3-70b-versatile
-        run: python script_agent.py
+        run: python script_agent_v2.py
 
       - name: Tüm çıktıları ve CEO kararını doğrula
         run: |
@@ -135,7 +135,13 @@ jobs:
           test -f projects/growth-advisor/analysis.json
           test -f projects/script-agent/script.md
           test -f projects/script-agent/script.json
-          test -f projects/script-agent/video-engine-handoff.json
+          test -f projects/script-agent/storyboard.json
+          test -f projects/script-agent/visual_prompts.json
+          test -f projects/script-agent/voiceover.txt
+          test -f projects/script-agent/subtitle.srt
+          test -f projects/script-agent/thumbnail.json
+          test -f projects/script-agent/youtube_upload.json
+          test -f projects/script-agent/video_engine_handoff.json
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
@@ -147,7 +153,7 @@ jobs:
           data = json.loads(Path("projects/ceo-decision/analysis.json").read_text(encoding="utf-8"))
           growth = json.loads(Path("projects/growth-advisor/analysis.json").read_text(encoding="utf-8"))
           script = json.loads(Path("projects/script-agent/script.json").read_text(encoding="utf-8"))
-          handoff = json.loads(Path("projects/script-agent/video-engine-handoff.json").read_text(encoding="utf-8"))
+          handoff = json.loads(Path("projects/script-agent/video_engine_handoff.json").read_text(encoding="utf-8"))
 
           if not niche.get("winner"):
               raise SystemExit("PRO niş motoru kazanan niş üretmedi.")
@@ -190,15 +196,21 @@ jobs:
           if not growth.get("first_3_seconds") or len(growth.get("retention_plan", [])) < 3:
               raise SystemExit("İlk 3 saniye veya retention planı eksik.")
 
-          if script.get("status") != "READY":
-              raise SystemExit("Script Agent READY değil.")
+          if script.get("status") not in {"APPROVE", "REJECT"}:
+              raise SystemExit(f"Script Agent V2 geçersiz durum döndürdü: {script.get('status')}")
           script_body = script.get("script", {})
           if not script_body.get("title") or not script_body.get("hook"):
               raise SystemExit("Script başlığı veya hook eksik.")
           if len(script_body.get("sections", [])) < 5:
               raise SystemExit("Script bölüm sayısı yetersiz.")
-          if handoff.get("status") != "READY_FOR_VIDEO_ENGINE":
-              raise SystemExit("Video Engine handoff hazır değil.")
+          ceo_review = script.get("ceo_review", {})
+          if "ceo_score" not in ceo_review:
+              raise SystemExit("CEO Reviewer puanı üretilmedi.")
+          if handoff.get("status") not in {"READY_FOR_VIDEO_ENGINE", "NOT_READY"}:
+              raise SystemExit("Video Engine handoff geçersiz durumda.")
+          # Script Agent V2 kalite kapısı: CEO REJECT ederse build kırılmaz —
+          # REJECT + gerekçe, sahte bir ONAY'dan daha değerlidir. Sadece
+          # şema/yapı bozuksa build kırılır.
 
           print("SHP_FINAL_VALIDATION=PASS")
           print(f"NICHE_WINNER={niche['winner']['niche']}")
@@ -208,6 +220,7 @@ jobs:
           print(f"EFFORT_VERDICT={data['effort_verdict']}")
           print(f"PUBLISH_TIME={growth['recommended_publish_time']}")
           print(f"SCRIPT_STATUS={script['status']}")
+          print(f"SCRIPT_CEO_SCORE={ceo_review.get('ceo_score', 0)}")
           print(f"SCRIPT_MODE={script_body.get('source_mode', 'unknown')}")
           PY
           cat projects/niche-intelligence/report.md
