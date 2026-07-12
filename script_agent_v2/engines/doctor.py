@@ -169,6 +169,7 @@ def review_and_fix(
     for _pass_index in range(MAX_PASSES):
         curiosity_eval = curiosity_engine.evaluate(sections, curiosity_plan)
         retention_eval = retention_engine.evaluate(sections, retention_plan)
+        emotion_eval = emotion_engine.evaluate(sections, emotion_plan)
         originality_eval = originality_engine.evaluate(sections, originality_plan, llm)
         fact_eval = fact_engine.evaluate(sections, fact_ledger)
 
@@ -176,16 +177,26 @@ def review_and_fix(
         for checkpoint in retention_eval.get("checkpoints", []):
             if checkpoint["drop_risk"] == "yüksek":
                 weak_names.add(checkpoint["covering_section"])
+        for mismatch in emotion_eval.get("mismatches", []):
+            weak_names.add(mismatch["section"])
 
         by_name = {s.get("name", ""): s for s in sections}
         for name in weak_names:
             if name in by_name:
-                _rewrite_section(by_name[name], "Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç.", llm, log)
+                problem = "Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç."
+                if name in {m["section"] for m in emotion_eval.get("mismatches", [])}:
+                    problem += " Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan."
+                _rewrite_section(by_name[name], problem, llm, log)
 
         _apply_originality_fixes(sections, originality_eval, log)
         _soften_unverified_claims(sections, fact_eval, log)
 
-        if curiosity_eval["overall_pass"] and retention_eval["overall_pass"] and originality_eval["overall_pass"]:
+        if (
+            curiosity_eval["overall_pass"]
+            and retention_eval["overall_pass"]
+            and originality_eval["overall_pass"]
+            and emotion_eval["overall_pass"]
+        ):
             break
 
     script["sections"] = sections

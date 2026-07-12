@@ -67,7 +67,7 @@ def run() -> dict:
     for attempt in range(1, MAX_CEO_ATTEMPTS + 1):
         attempts_used = attempt
         script = generator.generate(
-            context_dict, llm, knowledge, story_dna_plan, audience_profile,
+            context_dict, llm, knowledge, story_dna_plan, psychology_plan, audience_profile,
             curiosity_plan, retention_plan, emotion_plan, originality_plan,
             fact_ledger, memory_hints, feedback,
         )

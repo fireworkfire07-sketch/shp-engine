@@ -33,6 +33,7 @@ def _build_user_prompt(
     context_dict: dict,
     knowledge: dict,
     story_dna_plan: dict,
+    psychology_plan: dict,
     audience_profile: dict,
     curiosity_plan: dict,
     retention_plan: dict,
@@ -49,6 +50,7 @@ def _build_user_prompt(
         f"HEDEF TOPLAM SÜRE (saniye): {story_dna_plan.get('target_duration_seconds', 420)}",
         f"AÇILIŞ STİLİ: {story_dna_plan.get('recommended_hook_style', '')}",
         f"KAPANIŞ STİLİ: {story_dna_plan.get('ending_style', '')}",
+        f"PSİKOLOJİK ÖNCELİK: {', '.join(psychology_plan.get('priority_dimensions', []))} boyutlarını öncelikle hedefle. {psychology_plan.get('note', '')}",
         f"İZLEYİCİ PROFİLİ: {audience_profile.get('label', '')} — {audience_profile.get('vocabulary', '')}",
         f"MERAK HEDEFİ: her ~{curiosity_plan.get('gap_interval_seconds', 27)} saniyede yeni bir bilgi boşluğu aç.",
         f"İZLENME SÜRESİ KRİTİK NOKTALARI: {retention_plan.get('checkpoint_directives', {})}",
@@ -140,6 +142,7 @@ def generate(
     llm: LLM,
     knowledge: dict,
     story_dna_plan: dict,
+    psychology_plan: dict,
     audience_profile: dict,
     curiosity_plan: dict,
     retention_plan: dict,
@@ -150,7 +153,7 @@ def generate(
     feedback: list[str] | None = None,
 ) -> dict:
     user_prompt = _build_user_prompt(
-        context_dict, knowledge, story_dna_plan, audience_profile, curiosity_plan,
+        context_dict, knowledge, story_dna_plan, psychology_plan, audience_profile, curiosity_plan,
         retention_plan, emotion_plan, originality_plan, fact_ledger, memory_hints, feedback,
     )
     result = llm.complete_json(SYSTEM_PROMPT, user_prompt, temperature=0.7)
