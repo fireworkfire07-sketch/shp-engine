@@ -38,7 +38,12 @@ GENERIC_TRANSITIONS = ["bundan sonra", "şimdi de", "devam edelim", "sırada", "
 
 
 def normalize(text: str) -> str:
-    lowered = (text or "").casefold()
+    # Turkish dotless "ı" (U+0131) has no NFKD decomposition and isn't ASCII,
+    # so it silently vanished under encode("ascii", "ignore") below — which
+    # fragmented almost every Turkish word ("yılında" -> "y", "l", "nda")
+    # and corrupted every jaccard_similarity-based comparison (fact-checking,
+    # originality/copy detection). Fold it to "i" before decomposition.
+    lowered = (text or "").casefold().replace("ı", "i")
     normalized = unicodedata.normalize("NFKD", lowered)
     ascii_text = "".join(ch for ch in normalized if not unicodedata.combining(ch))
     return re.sub(r"\s+", " ", ascii_text).strip()

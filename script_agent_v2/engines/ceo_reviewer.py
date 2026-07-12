@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from script_agent_v2.engines import psychology_engine
 from story_score import score_title
 
-APPROVAL_THRESHOLD = 68
+APPROVAL_THRESHOLD = 85
 HARD_FLOORS = {
     "curiosity": 30,
     "retention": 25,
