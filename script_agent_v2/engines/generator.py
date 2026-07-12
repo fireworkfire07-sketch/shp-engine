@@ -60,6 +60,7 @@ def _build_user_prompt(
         f"KANIT DEFTERİ (bu iddiaları kullan, uydurma): {fact_ledger}",
         f"REKABET REFERANSI: {context_dict.get('competitor_reference', {})}",
         f"GEÇMİŞ SHP DERSLERİ: {memory_hints}",
+        f"KANAL PERFORMANS DERSLERİ (gerçek yayınlanmış video verisinden, Learning Engine): {context_dict.get('channel_lessons', {})}",
     ]
     if feedback:
         lines.append("ÖNCEKİ TASLAK CEO TARAFINDAN REDDEDİLDİ. Şu sorunları düzelt: " + " | ".join(feedback))

@@ -173,6 +173,24 @@ def scan_policy_risk(script: dict, youtube_upload: dict) -> list[str]:
     return textutil.contains_any(haystack, POLICY_RISK_KEYWORDS)
 
 
+LEARNING_ENGINE_MEMORY = ROOT / "learning-engine" / "memory.json"
+
+
+def historical_pattern_note(title: str) -> str | None:
+    """Informational only — never changes video_ceo_score. Real structural
+    lesson from learning_engine.py's persisted history of this channel's
+    own published-video performance, not available on a channel's first run."""
+    memory = load_json(LEARNING_ENGINE_MEMORY, {}) or {}
+    lessons = memory.get("lessons", {}) or {}
+    best_category = lessons.get("best_title_trigger_category")
+    if not best_category:
+        return None
+    hits = score_title(title)["trigger_hits"]
+    if hits.get(best_category):
+        return f"Başlık, kanalda tarihsel olarak en güçlü performans gösteren '{best_category}' tetikleyici kategorisini kullanıyor."
+    return f"Uyarı: kanalda tarihsel olarak en güçlü performans gösteren tetikleyici kategori '{best_category}', bu başlıkta yok."
+
+
 def evaluate_production_package(
     script_payload: dict, ceo_decision: dict, niche: dict, growth: dict,
     thumbnail: dict, storyboard: list, youtube_upload: dict, handoff: dict,
@@ -393,6 +411,11 @@ def main() -> None:
     else:
         decision = "DUR"
         reasons = ["Üretim paketi genel kalite eşiğinin (55/100) belirgin biçimde altında.", *build_corrections(evaluation)]
+
+    title_for_note = script_payload.get("script", {}).get("title", "")
+    note = historical_pattern_note(title_for_note)
+    if note:
+        reasons = [*reasons, note]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

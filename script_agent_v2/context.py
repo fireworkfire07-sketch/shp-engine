@@ -13,6 +13,7 @@ ROOT = Path("projects")
 OUTPUT_DIR = ROOT / "script-agent"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MEMORY_PATH = OUTPUT_DIR / "memory.json"
+LEARNING_ENGINE_MEMORY_PATH = ROOT / "learning-engine" / "memory.json"
 
 
 def load_json(path: Path, default=None):
@@ -51,6 +52,7 @@ class ProductionContext:
     memory: dict
     thumbnail_direction: str
     hook_direction: str
+    channel_lessons: dict
 
     def as_dict(self) -> dict:
         return {
@@ -67,6 +69,7 @@ class ProductionContext:
             "video_dna": self.video_dna,
             "thumbnail_direction": self.thumbnail_direction,
             "hook_direction": self.hook_direction,
+            "channel_lessons": self.channel_lessons,
         }
 
 
@@ -78,6 +81,8 @@ def build_context() -> ProductionContext:
     competitors = load_json(ROOT / "competitor-health" / "analysis.json", {})
     story_dna = load_json(ROOT / "story-dna.json", [])
     memory = load_json(MEMORY_PATH, {"runs": [], "best_hooks": [], "best_endings": [], "best_thumbnails": []})
+    learning = load_json(LEARNING_ENGINE_MEMORY_PATH, {}) or {}
+    channel_lessons = learning.get("lessons", {}) or {}
 
     winner = (niche or {}).get("winner", {}) or {}
 
@@ -99,4 +104,5 @@ def build_context() -> ProductionContext:
         memory=memory if isinstance(memory, dict) else {"runs": [], "best_hooks": [], "best_endings": [], "best_thumbnails": []},
         thumbnail_direction=ceo.get("thumbnail_direction", ""),
         hook_direction=ceo.get("hook_direction", ""),
+        channel_lessons=channel_lessons,
     )

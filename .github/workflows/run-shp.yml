@@ -160,6 +160,18 @@ jobs:
           path: projects/youtube-upload/
           if-no-files-found: warn
 
+      - name: Learning Engine — bu çalıştırmanın derslerini kaydet
+        if: always()
+        run: python learning_engine.py
+
+      - name: Learning Engine çıktılarını artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: learning-engine-outputs
+          path: projects/learning-engine/
+          if-no-files-found: warn
+
       - name: Script Agent V2 çıktılarını artifact olarak yükle
         if: always()
         uses: actions/upload-artifact@v4
@@ -229,6 +241,8 @@ jobs:
           test -f projects/video-engine/render_manifest.json
           test -f projects/youtube-upload/report.md
           test -f projects/youtube-upload/upload_result.json
+          test -f projects/learning-engine/report.md
+          test -f projects/learning-engine/memory.json
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
@@ -245,6 +259,7 @@ jobs:
           voiceover = json.loads(Path("projects/voiceover/audio_manifest.json").read_text(encoding="utf-8"))
           video_engine = json.loads(Path("projects/video-engine/render_manifest.json").read_text(encoding="utf-8"))
           youtube_upload = json.loads(Path("projects/youtube-upload/upload_result.json").read_text(encoding="utf-8"))
+          learning = json.loads(Path("projects/learning-engine/memory.json").read_text(encoding="utf-8"))
 
           if not niche.get("winner"):
               raise SystemExit("PRO niş motoru kazanan niş üretmedi.")
@@ -357,6 +372,7 @@ jobs:
           print(f"VIDEO_ENGINE_OUTPUT={video_engine.get('final_video')}")
           print(f"YOUTUBE_UPLOAD_STATUS={youtube_upload.get('status')}")
           print(f"YOUTUBE_UPLOAD_PRIVACY={youtube_upload.get('privacy_status')}")
+          print(f"LEARNING_BEST_CATEGORY={learning.get('lessons', {}).get('best_title_trigger_category')}")
           PY
           cat projects/niche-intelligence/report.md
           cat projects/ceo-decision/report.md
@@ -366,6 +382,7 @@ jobs:
           cat projects/voiceover/report.md
           cat projects/video-engine/report.md
           cat projects/youtube-upload/report.md
+          cat projects/learning-engine/report.md
 
       - name: SHP raporlarını GitHub'a kaydet
         run: |

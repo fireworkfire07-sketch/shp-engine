@@ -60,6 +60,31 @@ def load_channel_terms() -> list[str]:
     return [w for w, _ in sorted(counts.items(), key=lambda x: x[1], reverse=True)[:8]]
 
 
+LEARNING_ENGINE_MEMORY = ROOT / "learning-engine" / "memory.json"
+
+CATEGORY_TO_SEED_WORD = {
+    "gizem": "gizem",
+    "catismа": "savaş",
+    "servet": "imparatorluk",
+    "soru": "gizem",
+    "saskinlik": "karanlık gerçekler",
+}
+
+
+def load_learning_lessons() -> dict:
+    """Real structural lesson from learning_engine.py's persisted history
+    (which title trigger category has actually performed best on the
+    channel's own published videos) — not available on a channel's first
+    run, and never treated as required."""
+    if not LEARNING_ENGINE_MEMORY.exists():
+        return {}
+    try:
+        data = json.loads(LEARNING_ENGINE_MEMORY.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return data.get("lessons", {}) or {}
+
+
 def candidate_queries() -> list[str]:
     candidates = set(BASE_SEEDS)
     terms = load_channel_terms()
@@ -70,6 +95,14 @@ def candidate_queries() -> list[str]:
     for seed in BASE_SEEDS[:5]:
         for suffix in EXPANSIONS[:5]:
             candidates.add(f"{seed} {suffix}")
+
+    lessons = load_learning_lessons()
+    best_category = lessons.get("best_title_trigger_category")
+    seed_word = CATEGORY_TO_SEED_WORD.get(best_category)
+    if seed_word:
+        for seed in BASE_SEEDS:
+            candidates.add(f"{seed} {seed_word}")
+
     return sorted(candidates)[:40]
 
 
