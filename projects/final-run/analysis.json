@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-12T19:07:03.900585+00:00",
+  "status": "QUALITY_REJECT",
+  "reasons": [
+    "Script Agent V2 durumu: REJECT. Video CEO Pro kararı: DUR."
+  ],
+  "selected_niche": "Ağacının gizemi",
+  "selected_topic": "Ağacının karanlık tarihi",
+  "video_title": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+  "script_status": "REJECT",
+  "script_ceo_score": 59,
+  "video_ceo_decision": "DUR",
+  "video_ceo_score": 61,
+  "production_status": "STOPPED_BY_VIDEO_CEO",
+  "video_path_or_manifest": "projects/video-engine/render_manifest.json",
+  "upload_status": "DRY_RUN_VALIDATION_FAILED",
+  "next_action_for_osman": "Üretim onaylanmadı, bir şey yapmana gerek yok. Gerekçe: İlk 3 saniye izleyiciyi yeterince tutmuyor; daha güçlü, doğrudan bir açılış gerekli. İlk 10 saniyede izleyiciye kalmak için somut bir sebep verilmiyor. 30. saniyeye kadar konu netleşmiyor veya ilk merak açılmıyor.",
+  "missing_stages": []
+}

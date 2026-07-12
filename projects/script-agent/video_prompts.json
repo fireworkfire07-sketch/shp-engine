@@ -1,0 +1,50 @@
+[
+  {
+    "scene_number": 1,
+    "section": "Açılış",
+    "video_prompt": "Tek çarpıcı obje veya manzara, ekranı dolduran makro çekim. Karanlık zemin üzerinde ana obje ışıkla vurgulanır. Kamera hareketi: Yavaş yakınlaşan (slow push-in) tek plan, kesme yok. Geçiş: Sert kesme; siyah ekrandan doğrudan ana görüntüye geçiş, jenerik yok.",
+    "camera_movement": "Yavaş yakınlaşan (slow push-in) tek plan, kesme yok.",
+    "duration_label": "0:00-0:30",
+    "duration_seconds": 11.7
+  },
+  {
+    "scene_number": 2,
+    "section": "Köken",
+    "video_prompt": "Coğrafi köken haritası üzerinde animasyonlu işaretleme. Dönemin arşiv görselleri veya illüstrasyonlarla geçiş. Kamera hareketi: Yukarıdan aşağı harita hareketi (top-down pan). Geçiş: Yumuşak çapraz geçiş (cross-dissolve); zaman atlaması hissi ver.",
+    "camera_movement": "Yukarıdan aşağı harita hareketi (top-down pan).",
+    "duration_label": "0:30-1:00",
+    "duration_seconds": 17.1
+  },
+  {
+    "scene_number": 3,
+    "section": "İlk Kırılma",
+    "video_prompt": "Karşıt iki güç veya taraf arasında görsel gerilim kurulur. Kararan ışık, dramatik gölgeler, silüet yeniden canlandırma. Kamera hareketi: Sert kesmeler, kısa planlar, ritmi hızlandırır. Geçiş: Sert kesme (hard cut); ritmi hızlandır, geçiş süresi kısa tut.",
+    "camera_movement": "Sert kesmeler, kısa planlar, ritmi hızlandırır.",
+    "duration_label": "1:00-1:30",
+    "duration_seconds": 9.6
+  },
+  {
+    "scene_number": 4,
+    "section": "Derinleşen Gizem",
+    "video_prompt": "Eksik parça veya cevaplanmamış detay ekranda büyütülür. Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti. Kamera hareketi: Yavaş rack focus; net olmayan arka plandan nesneye odak. Geçiş: Yavaş karartma (fade) ile giriş; belirsizlik hissini koru.",
+    "camera_movement": "Yavaş rack focus; net olmayan arka plandan nesneye odak.",
+    "duration_label": "1:30-2:00",
+    "duration_seconds": 7.1
+  },
+  {
+    "scene_number": 5,
+    "section": "Büyük Cevap",
+    "video_prompt": "Ana cevabı temsil eden görsel net ve büyük şekilde ortaya çıkar. Önceki karanlık/belirsiz sahneden aydınlık/net sahneye geçiş. Kamera hareketi: Ani zoom-out veya ışık patlaması hissi veren geçiş. Geçiş: Ani beyaz patlama (flash cut) veya hızlı zoom geçişi; netliğe vurgu yap.",
+    "camera_movement": "Ani zoom-out veya ışık patlaması hissi veren geçiş.",
+    "duration_label": "2:00-2:30",
+    "duration_seconds": 10.0
+  },
+  {
+    "scene_number": 6,
+    "section": "Final",
+    "video_prompt": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü. Gün ışığına dönüş; sıcak renk paleti. Kamera hareketi: Yavaş uzaklaşan (pull-out) geniş açı plan. Geçiş: Yavaş çapraz geçiş; sıcak tonlara geçerken temposu düşür.",
+    "camera_movement": "Yavaş uzaklaşan (pull-out) geniş açı plan.",
+    "duration_label": "2:30-3:00",
+    "duration_seconds": 8.8
+  }
+]

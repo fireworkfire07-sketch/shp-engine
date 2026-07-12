@@ -17,12 +17,12 @@
     {
       "name": "İlk Kırılma",
       "duration": "1:00-1:30",
-      "voiceover": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
+      "voiceover": "Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
     },
     {
       "name": "Derinleşen Gizem",
       "duration": "1:30-2:00",
-      "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
+      "voiceover": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
     },
     {
       "name": "Büyük Cevap",
@@ -32,11 +32,12 @@
     {
       "name": "Final",
       "duration": "2:30-3:00",
-      "voiceover": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
+      "voiceover": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
     }
   ],
   "storyboard_file": "storyboard.json",
   "visual_prompts_file": "visual_prompts.json",
+  "video_prompts_file": "video_prompts.json",
   "subtitle_file": "subtitle.srt",
   "thumbnail_file": "thumbnail.json",
   "hashtags": [
@@ -51,6 +52,6 @@
     "#sakli",
     "#mucizesi"
   ],
-  "ceo_score": 60,
+  "ceo_score": 59,
   "ceo_verdict": "CEO olsam bu haliyle altı saat üretim süresi harcamazdım. Önce aşağıdaki sorunlar çözülmeli."
 }

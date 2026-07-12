@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-12T19:07:03.830080+00:00",
+  "status": "DRY_RUN_VALIDATION_FAILED",
+  "mode": "DRY_RUN",
+  "privacy_status": "private",
+  "would_upload": {
+    "snippet": {
+      "title": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+      "description": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?: İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
+      "tags": [
+        "doğanın",
+        "gizemli",
+        "dünyası",
+        "ağacının",
+        "saklı",
+        "mucizesi",
+        "diken",
+        "canli"
+      ],
+      "categoryId": "27",
+      "defaultLanguage": "tr"
+    },
+    "status": {
+      "privacyStatus": "private",
+      "selfDeclaredMadeForKids": false
+    }
+  },
+  "video_path": null,
+  "thumbnail_path": null,
+  "validation_errors": [
+    "Final video dosyası bulunamadı: None",
+    "Thumbnail görseli bulunamadı: None"
+  ],
+  "reasons": [
+    "Video CEO Pro kararı: DUR.",
+    "Gerçek API çağrısı yapılmadı (DRY_RUN)."
+  ]
+}

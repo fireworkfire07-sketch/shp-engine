@@ -1,2 +1,11 @@
 __pycache__/
 *.pyc
+
+# Generated binary media: kept as GitHub Actions artifacts (already wired
+# in run-shp.yml), not tracked in git — a repo that grows by several MB of
+# audio/video on every single workflow run is not sustainable. Text/JSON
+# reports and manifests describing these assets stay tracked as normal.
+projects/voiceover/*.wav
+projects/voiceover/scenes/
+projects/video-engine/assets/
+projects/video-engine/final_video.mp4

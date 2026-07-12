@@ -13,6 +13,20 @@
       "avg_chapter_seconds": 30,
       "thumbnail_concept": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
       "approved": false
+    },
+    {
+      "generated_at": "2026-07-12T19:06:58.178129+00:00",
+      "title": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+      "hook_pattern": "18 kelime, soru formunda",
+      "hook_word_count": 18,
+      "ending_pattern": "20 kelime, ifade ile kapanış",
+      "ceo_score": 59,
+      "curiosity_score": 67,
+      "retention_score": 34,
+      "chapter_count": 6,
+      "avg_chapter_seconds": 30,
+      "thumbnail_concept": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
+      "approved": false
     }
   ],
   "best_hooks": [],
