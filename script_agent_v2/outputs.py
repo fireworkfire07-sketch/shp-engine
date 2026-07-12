@@ -44,29 +44,72 @@ def build_voiceover_txt(script: dict) -> str:
 
 def build_storyboard(visuals: list[dict], sections: list[dict]) -> list[dict]:
     duration_by_name = {s.get("name", ""): s.get("duration", "") for s in sections}
-    return [
-        {
+    narration_by_name = {s.get("name", ""): str(s.get("voiceover", "")) for s in sections}
+
+    scenes = []
+    elapsed = 0.0
+    for index, v in enumerate(visuals, start=1):
+        narration = narration_by_name.get(v["section"], "")
+        seconds = textutil.estimate_seconds(narration)
+        start, end = elapsed, elapsed + seconds
+        elapsed = end
+        scenes.append({
+            "scene_number": index,
             "section": v["section"],
             "role": v.get("role", ""),
             "duration": duration_by_name.get(v["section"], ""),
+            "narration": narration,
             "visual_idea": v.get("visual_idea", ""),
             "camera_idea": v.get("camera_idea", ""),
             "scene_idea": v.get("scene_idea", ""),
-        }
-        for v in visuals
-    ]
+            "transition": v.get("transition", ""),
+            "music_direction": v.get("music_direction", ""),
+            "sound_effect_direction": v.get("sound_effect_direction", ""),
+            "emotional_purpose": v.get("emotional_purpose", ""),
+            "curiosity_purpose": v.get("curiosity_purpose", ""),
+            "subtitle_start_seconds": round(start, 1),
+            "subtitle_end_seconds": round(end, 1),
+        })
+    return scenes
 
 
 def build_visual_prompts(visuals: list[dict]) -> list[dict]:
     prompts = []
-    for v in visuals:
+    for index, v in enumerate(visuals, start=1):
         b_roll = ", ".join(v.get("b_roll", []) or [])
-        prompt = f"{v.get('visual_idea', '')} {v.get('camera_idea', '')} {v.get('scene_idea', '')}".strip()
+        prompt = f"{v.get('visual_idea', '')} {v.get('scene_idea', '')}".strip()
         prompts.append({
+            "scene_number": index,
             "section": v["section"],
             "prompt": prompt,
             "b_roll_suggestions": v.get("b_roll", []),
             "raw_b_roll_text": b_roll,
+        })
+    return prompts
+
+
+def build_video_prompts(visuals: list[dict], sections: list[dict]) -> list[dict]:
+    """Text-to-video prompts (still-image prompt + motion/camera direction +
+    clip length), separate from the still-frame visual_prompts.json — a
+    generative video engine needs motion and duration, an image generator
+    does not."""
+    duration_by_name = {s.get("name", ""): s.get("duration", "") for s in sections}
+    narration_by_name = {s.get("name", ""): str(s.get("voiceover", "")) for s in sections}
+    prompts = []
+    for index, v in enumerate(visuals, start=1):
+        clip_seconds = textutil.estimate_seconds(narration_by_name.get(v["section"], ""))
+        prompt = (
+            f"{v.get('visual_idea', '')} {v.get('scene_idea', '')} "
+            f"Kamera hareketi: {v.get('camera_idea', '')} "
+            f"Geçiş: {v.get('transition', '')}"
+        ).strip()
+        prompts.append({
+            "scene_number": index,
+            "section": v["section"],
+            "video_prompt": prompt,
+            "camera_movement": v.get("camera_idea", ""),
+            "duration_label": duration_by_name.get(v["section"], ""),
+            "duration_seconds": clip_seconds,
         })
     return prompts
 
@@ -111,6 +154,7 @@ def build_video_engine_handoff(script: dict, context_dict: dict, ceo_review: dic
         "voiceover_sections": script.get("sections", []),
         "storyboard_file": "storyboard.json",
         "visual_prompts_file": "visual_prompts.json",
+        "video_prompts_file": "video_prompts.json",
         "subtitle_file": "subtitle.srt",
         "thumbnail_file": "thumbnail.json",
         "hashtags": context_dict.get("hashtags", []),
@@ -228,6 +272,9 @@ def write_all(
     )
     (OUTPUT_DIR / "visual_prompts.json").write_text(
         json.dumps(build_visual_prompts(visuals), ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    (OUTPUT_DIR / "video_prompts.json").write_text(
+        json.dumps(build_video_prompts(visuals, sections), ensure_ascii=False, indent=2), encoding="utf-8"
     )
     (OUTPUT_DIR / "voiceover.txt").write_text(build_voiceover_txt(script), encoding="utf-8")
     (OUTPUT_DIR / "subtitle.srt").write_text(build_subtitle_srt(sections), encoding="utf-8")

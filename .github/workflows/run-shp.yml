@@ -162,6 +162,7 @@ jobs:
           test -f projects/script-agent/script.json
           test -f projects/script-agent/storyboard.json
           test -f projects/script-agent/visual_prompts.json
+          test -f projects/script-agent/video_prompts.json
           test -f projects/script-agent/voiceover.txt
           test -f projects/script-agent/subtitle.srt
           test -f projects/script-agent/thumbnail.json
