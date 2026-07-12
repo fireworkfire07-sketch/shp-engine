@@ -1,5 +1,5 @@
 {
-  "analyzed_at": "2026-07-12T06:20:25.881037+00:00",
+  "analyzed_at": "2026-07-12T07:53:48.834331+00:00",
   "channel": {
     "id": "UCSpjPqE4bXy_R6Ghr6NtKcA",
     "title": "Bitkilerin Gizli tarihi",
@@ -12,7 +12,7 @@
   "health_score": 1,
   "health_reasons": [
     "Medyan günlük izlenme hızı: 1.4",
-    "En güçlü günlük izlenme hızı: 9.1",
+    "En güçlü günlük izlenme hızı: 9.0",
     "Medyan etkileşim oranı: %0.00",
     "Son 10 videonun medyan günlük hızı: 3.2"
   ],
@@ -24,7 +24,7 @@
     "views": 180,
     "likes": 0,
     "comments": 2,
-    "views_per_day": 9.06,
+    "views_per_day": 9.03,
     "engagement_rate": 1.11,
     "privacy_status": "public",
     "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
@@ -49,7 +49,7 @@
       "views": 180,
       "likes": 0,
       "comments": 2,
-      "views_per_day": 9.06,
+      "views_per_day": 9.03,
       "engagement_rate": 1.11,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
@@ -61,7 +61,7 @@
       "views": 199,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 8.69,
+      "views_per_day": 8.66,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=VDIlOTdlhTs"
@@ -73,7 +73,7 @@
       "views": 110,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 6.5,
+      "views_per_day": 6.47,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=n9JdEvsZQOA"
@@ -85,7 +85,7 @@
       "views": 115,
       "likes": 2,
       "comments": 0,
-      "views_per_day": 6.15,
+      "views_per_day": 6.13,
       "engagement_rate": 1.74,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=IqbygJdT2ew"
@@ -97,7 +97,7 @@
       "views": 113,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 6.06,
+      "views_per_day": 6.04,
       "engagement_rate": 0.88,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=u5p_5fPujJc"
@@ -109,7 +109,7 @@
       "views": 109,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 5.92,
+      "views_per_day": 5.9,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=YTxb6W7j4NQ"
@@ -121,7 +121,7 @@
       "views": 135,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 5.74,
+      "views_per_day": 5.72,
       "engagement_rate": 0.74,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=4lWauyFvX5A"
@@ -133,7 +133,7 @@
       "views": 99,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 5.25,
+      "views_per_day": 5.23,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=deJ_2besk08"
@@ -145,7 +145,7 @@
       "views": 108,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 4.78,
+      "views_per_day": 4.77,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=ERUFWLGdmTk"
@@ -157,7 +157,7 @@
       "views": 59,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 3.96,
+      "views_per_day": 3.95,
       "engagement_rate": 1.69,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=eVj6ZcYTsRs"
@@ -207,7 +207,7 @@
       "views": 14,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.62,
+      "views_per_day": 0.61,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=KsIjWlaeHGU"
@@ -231,10 +231,22 @@
       "views": 12,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 0.81,
+      "views_per_day": 0.8,
       "engagement_rate": 8.33,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=_uRN4MVFDLE"
+    },
+    {
+      "id": "wKL3ENScQLI",
+      "title": "Defne Yaprağının Gizemli Dünyası: Tarih, Lezzet ve Sağlık Üzerine Bir Yolculuk",
+      "published_at": "2026-06-21T06:26:58Z",
+      "views": 18,
+      "likes": 2,
+      "comments": 2,
+      "views_per_day": 0.85,
+      "engagement_rate": 22.22,
+      "privacy_status": "public",
+      "url": "https://www.youtube.com/watch?v=wKL3ENScQLI"
     },
     {
       "id": "btgXmLlOAq8",
@@ -249,25 +261,13 @@
       "url": "https://www.youtube.com/watch?v=btgXmLlOAq8"
     },
     {
-      "id": "wKL3ENScQLI",
-      "title": "Defne Yaprağının Gizemli Dünyası: Tarih, Lezzet ve Sağlık Üzerine Bir Yolculuk",
-      "published_at": "2026-06-21T06:26:58Z",
-      "views": 18,
-      "likes": 2,
-      "comments": 2,
-      "views_per_day": 0.86,
-      "engagement_rate": 22.22,
-      "privacy_status": "public",
-      "url": "https://www.youtube.com/watch?v=wKL3ENScQLI"
-    },
-    {
       "id": "tRA1CXXKUek",
       "title": "Adamotu: Doğanın Gizemli Şifa Kaynağı ve Mitolojideki Yeri",
       "published_at": "2026-06-22T09:17:20Z",
       "views": 18,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.91,
+      "views_per_day": 0.9,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=tRA1CXXKUek"

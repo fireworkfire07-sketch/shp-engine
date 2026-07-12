@@ -8,13 +8,13 @@
 
 | # | Kanal | Abone | Sağlık | Medyan günlük hız | En güçlü video |
 |---:|---|---:|---:|---:|---|
-| 1 | Evrim Ağacı | 4.8M | 96/100 | 11.9K | Tüylerimiz Neden Diken Diken Oluyor? |
+| 1 | Evrim Ağacı | 4.8M | 96/100 | 12.4K | Tüylerimiz Neden Diken Diken Oluyor? |
 | 2 | Barış Özcan | 6.7M | 93/100 | 3.3K | Yıldızlara Neden ASLA Gidemeyeceğiz? |
 
 ## Evrim Ağacı
 
 ### Rakibin üstün olduğu alanlar
-- Rakibin medyan günlük izlenme hızı daha yüksek: 11881.19 vs 1.45.
+- Rakibin medyan günlük izlenme hızı daha yüksek: 12372.68 vs 1.45.
 - Rakibin medyan etkileşim oranı daha yüksek: %4.04 vs %0.00.
 - Rakip kanal sağlık skorunda önde: 96 vs 1.
 
@@ -26,7 +26,7 @@
 ## Barış Özcan
 
 ### Rakibin üstün olduğu alanlar
-- Rakibin medyan günlük izlenme hızı daha yüksek: 3294.67 vs 1.45.
+- Rakibin medyan günlük izlenme hızı daha yüksek: 3293.26 vs 1.45.
 - Rakibin medyan etkileşim oranı daha yüksek: %3.17 vs %0.00.
 - Rakip kanal sağlık skorunda önde: 93 vs 1.
 

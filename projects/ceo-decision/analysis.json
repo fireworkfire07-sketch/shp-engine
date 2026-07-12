@@ -1,25 +1,27 @@
 {
-  "generated_at": "2026-07-12T06:20:31.255846+00:00",
+  "generated_at": "2026-07-12T07:54:29.626591+00:00",
   "role": "SHP analizleri birleştirir ve kanal kimliğine uygun tek CEO kararı verir; video üretmez.",
-  "decision": "BEKLET",
-  "publish": "HAYIR",
-  "topic": "Ağacının karanlık tarihi",
-  "video_idea": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
-  "confidence": 50,
-  "niche_score": 0,
-  "channel_fit_score": 100,
+  "decision": "ÇEK",
+  "publish": "EVET",
+  "topic": "gizemli bitkiler",
+  "video_idea": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
+  "confidence": 76,
+  "niche_score": 73,
+  "channel_fit_score": 90,
   "channel_health_score": 1,
   "reasons": [
-    "Niş puanı: 0/100.",
-    "Kanal uyum puanı: 100/100.",
-    "Kanal temasıyla eşleşen kelimeler: agac, ağaç, tarih.",
-    "Kanal başlıklarıyla ortak kelimeler: agac, k, n, tarihi.",
-    "Medyan günlük izlenme hızı: 0.",
+    "Niş puanı: 73/100.",
+    "Kanal uyum puanı: 90/100.",
+    "Kanal temasıyla eşleşen kelimeler: bitki, bitkiler, gizem.",
+    "Kanal başlıklarıyla ortak kelimeler: bitkiler, gizemli.",
+    "Medyan günlük izlenme hızı: 43.",
+    "Bu konuda patlama yapmış video örneği var.",
+    "Başarı birden fazla kanala yayılmış.",
     "Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.",
-    "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.1 günlük izlenme).",
-    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 11881.2."
+    "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.0 günlük izlenme).",
+    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12372.7."
   ],
-  "title_direction": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
+  "title_direction": "Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi",
   "hook_direction": "İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme.",
   "thumbnail_direction": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
   "competitor_reference": {
@@ -29,24 +31,24 @@
   },
   "missing_inputs": [],
   "effort_filter": {
-    "verdict": "SADECE KÜÇÜK TESTE DEĞER",
-    "value_score": 41,
-    "action": "TEST ET",
+    "verdict": "EMEĞİNE DEĞER",
+    "value_score": 61,
+    "action": "ÇEK",
     "reasons": [
       "Kanal temasına güçlü biçimde uyuyor.",
-      "Pazar talebi emeği karşılayacak kadar güçlü görünmüyor.",
+      "Pazar verisi test için yeterli.",
       "Benzer videolarda medyan günlük hız düşük.",
       "Kanalın mevcut güçlü videolarıyla performans bağı var.",
       "Rakiplerde çalışan örnek bulundu: Tüylerimiz Neden Diken Diken Oluyor?."
     ],
     "signals": {
-      "market_median_views_per_day": 0.0,
-      "market_top_views_per_day": 0.0,
-      "own_best_views_per_day": 9.06,
-      "rival_best_views_per_day": 362724.0
+      "market_median_views_per_day": 43.94,
+      "market_top_views_per_day": 15454.93,
+      "own_best_views_per_day": 9.03,
+      "rival_best_views_per_day": 370914.0
     }
   },
-  "effort_verdict": "SADECE KÜÇÜK TESTE DEĞER",
-  "effort_value_score": 41,
-  "effort_action": "TEST ET"
+  "effort_verdict": "EMEĞİNE DEĞER",
+  "effort_value_score": 61,
+  "effort_action": "ÇEK"
 }
