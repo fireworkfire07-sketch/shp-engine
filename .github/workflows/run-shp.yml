@@ -123,6 +123,15 @@ jobs:
           GROQ_MODEL: llama-3.3-70b-versatile
         run: python video_ceo.py
 
+      - name: Seslendirme için espeak-ng kur
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends espeak-ng
+
+      - name: Seslendirme üret (LOCAL_TTS / TEXT_ONLY)
+        run: python voiceover_engine.py
+
+      - name: Video Engine — LIGHTWEIGHT_MODE render
+        run: python video_engine.py
+
       - name: Script Agent V2 çıktılarını artifact olarak yükle
         if: always()
         uses: actions/upload-artifact@v4
@@ -140,6 +149,22 @@ jobs:
         with:
           name: video-ceo-outputs
           path: projects/video-ceo/
+          if-no-files-found: warn
+
+      - name: Seslendirme çıktılarını artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: voiceover-outputs
+          path: projects/voiceover/
+          if-no-files-found: warn
+
+      - name: Video Engine çıktılarını artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-engine-outputs
+          path: projects/video-engine/
           if-no-files-found: warn
 
       - name: Tüm çıktıları ve CEO kararını doğrula
@@ -170,6 +195,10 @@ jobs:
           test -f projects/script-agent/video_engine_handoff.json
           test -f projects/video-ceo/report.md
           test -f projects/video-ceo/analysis.json
+          test -f projects/voiceover/report.md
+          test -f projects/voiceover/audio_manifest.json
+          test -f projects/video-engine/report.md
+          test -f projects/video-engine/render_manifest.json
           if [ -n "${{ inputs.video_url }}" ]; then
             test -d projects/video-dna
           fi
@@ -183,6 +212,8 @@ jobs:
           script = json.loads(Path("projects/script-agent/script.json").read_text(encoding="utf-8"))
           handoff = json.loads(Path("projects/script-agent/video_engine_handoff.json").read_text(encoding="utf-8"))
           video_ceo = json.loads(Path("projects/video-ceo/analysis.json").read_text(encoding="utf-8"))
+          voiceover = json.loads(Path("projects/voiceover/audio_manifest.json").read_text(encoding="utf-8"))
+          video_engine = json.loads(Path("projects/video-engine/render_manifest.json").read_text(encoding="utf-8"))
 
           if not niche.get("winner"):
               raise SystemExit("PRO niş motoru kazanan niş üretmedi.")
@@ -241,9 +272,26 @@ jobs:
           allowed_video_ceo = {"ÇEK", "DÜZELT", "DUR", "BEKLET — VERİ EKSİK"}
           if video_ceo.get("decision") not in allowed_video_ceo:
               raise SystemExit(f"Video CEO Pro geçersiz karar döndürdü: {video_ceo.get('decision')}")
-          # Script Agent V2 / Video CEO Pro kalite kapısı: CEO REJECT/DUR/BEKLET
-          # ederse build kırılmaz — dürüst bir DUR, sahte bir ÇEK'ten daha
-          # değerlidir. Sadece şema/yapı bozuksa build kırılır.
+
+          allowed_voiceover_modes = {"OPTIONAL_PROVIDER", "LOCAL_TTS", "TEXT_ONLY"}
+          if voiceover.get("mode") not in allowed_voiceover_modes:
+              raise SystemExit(f"Seslendirme motoru geçersiz mod döndürdü: {voiceover.get('mode')}")
+
+          allowed_video_engine_status = {
+              "RENDERED", "STOPPED_BY_VIDEO_CEO", "BLOCKED_MISSING_DATA",
+              "RENDER_SKIPPED_NO_FFMPEG", "TECHNICAL_FAILURE",
+          }
+          if video_engine.get("status") not in allowed_video_engine_status:
+              raise SystemExit(f"Video Engine geçersiz durum döndürdü: {video_engine.get('status')}")
+          if video_engine.get("status") == "TECHNICAL_FAILURE":
+              raise SystemExit(f"Video Engine teknik hata bildirdi: {video_engine.get('reasons')}")
+          if video_engine.get("status") == "RENDERED" and not video_engine.get("final_video"):
+              raise SystemExit("Video Engine RENDERED bildirdi ama final_video yolu eksik.")
+          # Script Agent V2 / Video CEO Pro / Video Engine kalite kapısı: CEO
+          # REJECT, DÜZELT/DUR/BEKLET veya render'ın güvenli biçimde
+          # durdurulması build'i kırmaz — dürüst bir DUR, sahte bir
+          # ÇEK/RENDERED'dan daha değerlidir. Sadece şema/yapı bozuksa veya
+          # gerçek bir teknik hata varsa build kırılır.
 
           print("SHP_FINAL_VALIDATION=PASS")
           print(f"NICHE_WINNER={niche['winner']['niche']}")
@@ -258,12 +306,17 @@ jobs:
           print(f"VIDEO_CEO_DECISION={video_ceo.get('decision')}")
           print(f"VIDEO_CEO_SCORE={video_ceo.get('video_ceo_score', 0)}")
           print(f"VIDEO_CEO_REWRITE_USED={video_ceo.get('rewrite_cycle_used', False)}")
+          print(f"VOICEOVER_MODE={voiceover.get('mode')}")
+          print(f"VIDEO_ENGINE_STATUS={video_engine.get('status')}")
+          print(f"VIDEO_ENGINE_OUTPUT={video_engine.get('final_video')}")
           PY
           cat projects/niche-intelligence/report.md
           cat projects/ceo-decision/report.md
           cat projects/growth-advisor/report.md
           cat projects/script-agent/script.md
           cat projects/video-ceo/report.md
+          cat projects/voiceover/report.md
+          cat projects/video-engine/report.md
 
       - name: SHP raporlarını GitHub'a kaydet
         run: |
