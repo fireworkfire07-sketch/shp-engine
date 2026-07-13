@@ -127,12 +127,18 @@ jobs:
 
       - name: Script Agent V2 — Head Writer AI pipeline
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+          # Optional secondary fallback if OpenAI fails; primary provider is OpenAI.
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: llama-3.3-70b-versatile
         run: python script_agent_v2.py
 
       - name: Video CEO Pro incelemesi
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+          # Optional secondary fallback if OpenAI fails; primary provider is OpenAI.
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: llama-3.3-70b-versatile
         run: python video_ceo.py

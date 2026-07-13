@@ -99,7 +99,7 @@ def run() -> dict:
             # Deterministic fallback has no way to respond to CEO feedback
             # without an LLM — retrying would just reproduce the same draft.
             rejected_history[-1]["reasons"].append(
-                "GROQ_API_KEY yok; kural tabanlı taslak yeniden denenerek iyileştirilemez."
+                "OPENAI_API_KEY (ve GROQ_API_KEY) yok; kural tabanlı taslak yeniden denenerek iyileştirilemez."
             )
             break
 

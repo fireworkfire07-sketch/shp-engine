@@ -55,7 +55,7 @@ def _fallback(context_dict: dict) -> dict:
         "locations": [],
         "research_mode": "rule_based_fallback",
         "research_note": (
-            f"GROQ_API_KEY yok; '{topic}' için derin araştırma yapılamadı. "
+            f"OPENAI_API_KEY (ve GROQ_API_KEY) yok; '{topic}' için derin araştırma yapılamadı. "
             "Script Doctor bu konudaki tüm iddiaları 'düşük güven' olarak işaretleyecek."
         ),
     }
@@ -78,5 +78,5 @@ def run(context_dict: dict, llm: LLM) -> dict:
     result.setdefault("timeline", [])
     result.setdefault("key_people", [])
     result.setdefault("locations", [])
-    result["research_mode"] = "groq"
+    result["research_mode"] = llm.last_provider or "unknown"
     return result

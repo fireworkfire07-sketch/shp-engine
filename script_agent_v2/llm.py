@@ -1,8 +1,10 @@
-"""Shared GROQ caller used by every engine that needs generative reasoning.
+"""Shared LLM caller used by every engine that needs generative reasoning.
 
-Every engine works without an API key: each call site defines its own
-deterministic fallback. This module only centralizes the HTTP plumbing so
-the 14 engines do not each reimplement it.
+Provider order: OpenAI (primary, OPENAI_API_KEY) -> Groq (optional secondary
+fallback, GROQ_API_KEY) -> None. Every engine works without any key: each
+call site defines its own deterministic rule_based_fallback for when this
+returns None. This module only centralizes the HTTP plumbing so the 14
+engines do not each reimplement it.
 """
 
 from __future__ import annotations
@@ -11,21 +13,26 @@ import json
 import os
 from urllib.request import Request, urlopen
 
+OPENAI_URL = "https://api.openai.com/v1/chat/completions"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
 class LLM:
-    """Thin GROQ chat-completions client with JSON-mode support."""
+    """Thin OpenAI-primary/Groq-secondary chat-completions client with
+    JSON-mode support."""
 
     def __init__(self) -> None:
-        self.api_key = os.getenv("GROQ_API_KEY", "").strip()
-        self.model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+        self.openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
+        self.openai_model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        self.groq_api_key = os.getenv("GROQ_API_KEY", "").strip()
+        self.groq_model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
         self.calls = 0
         self.failures = 0
+        self.last_provider: str | None = None  # "openai" | "groq" | None
 
     @property
     def available(self) -> bool:
-        return bool(self.api_key)
+        return bool(self.openai_api_key or self.groq_api_key)
 
     def complete_json(
         self,
@@ -34,13 +41,36 @@ class LLM:
         temperature: float = 0.6,
         timeout: int = 90,
     ) -> dict | list | None:
-        """Call GROQ in JSON mode. Returns None on any failure so the caller
-        can fall back to deterministic logic — never raises."""
-        if not self.api_key:
-            return None
+        """Try OpenAI first, then Groq as an optional secondary fallback.
+        Returns None on total failure so the caller can fall back to
+        deterministic logic — never raises."""
+        if self.openai_api_key:
+            result = self._call(OPENAI_URL, self.openai_api_key, self.openai_model, system, user, temperature, timeout)
+            if result is not None:
+                self.last_provider = "openai"
+                return result
 
+        if self.groq_api_key:
+            result = self._call(GROQ_URL, self.groq_api_key, self.groq_model, system, user, temperature, timeout)
+            if result is not None:
+                self.last_provider = "groq"
+                return result
+
+        self.last_provider = None
+        return None
+
+    def _call(
+        self,
+        url: str,
+        api_key: str,
+        model: str,
+        system: str,
+        user: str,
+        temperature: float,
+        timeout: int,
+    ) -> dict | list | None:
         body = {
-            "model": self.model,
+            "model": model,
             "temperature": temperature,
             "response_format": {"type": "json_object"},
             "messages": [
@@ -49,9 +79,9 @@ class LLM:
             ],
         }
         request = Request(
-            GROQ_URL,
+            url,
             data=json.dumps(body).encode("utf-8"),
-            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
             method="POST",
         )
         self.calls += 1

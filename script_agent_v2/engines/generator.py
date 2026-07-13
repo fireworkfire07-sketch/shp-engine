@@ -175,5 +175,5 @@ def generate(
 
     result.setdefault("tags", context_dict.get("keywords", [])[:8])
     result.setdefault("thumbnail_concept", context_dict.get("thumbnail_direction", ""))
-    result["source_mode"] = "groq"
+    result["source_mode"] = llm.last_provider or "unknown"
     return result
