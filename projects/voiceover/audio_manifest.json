@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T04:17:10.792480+00:00",
+  "generated_at": "2026-07-13T04:37:01.347534+00:00",
   "mode": "LOCAL_TTS",
   "language": "tr",
   "local_tts_available": true,
@@ -32,8 +32,8 @@
     {
       "scene_number": 4,
       "section": "Derinleşen Gizem",
-      "text": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
-      "estimated_seconds": 7.9,
+      "text": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+      "estimated_seconds": 7.5,
       "audio_file": "voiceover/scenes/scene_04.wav",
       "actual_seconds": 0.0
     },
@@ -48,14 +48,14 @@
     {
       "scene_number": 6,
       "section": "Final",
-      "text": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
-      "estimated_seconds": 8.8,
+      "text": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+      "estimated_seconds": 7.9,
       "audio_file": "voiceover/scenes/scene_06.wav",
       "actual_seconds": 0.0
     }
   ],
   "full_audio_file": null,
-  "total_estimated_seconds": 64.3,
+  "total_estimated_seconds": 63.0,
   "total_actual_seconds": 0.0,
   "limitations": [
     "OPTIONAL_PROVIDER modu yalnızca bir sağlayıcı anahtarı tanımlıysa denenir; bu depoda varsayılan olarak hiçbir ücretli sağlayıcı bağlı değildir.",

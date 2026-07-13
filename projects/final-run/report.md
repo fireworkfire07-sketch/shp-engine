@@ -5,8 +5,8 @@
 **Seçilen niş:** Ağacının gizemi
 **Seçilen konu:** Ağacının karanlık tarihi
 **Video başlığı:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
-**Script durumu:** REJECT (CEO puanı: 59)
-**Video CEO kararı:** DUR (61/100)
+**Script durumu:** REJECT (CEO puanı: 61)
+**Video CEO kararı:** DUR (62/100)
 **Üretim durumu:** STOPPED_BY_VIDEO_CEO
 **Video/manifest yolu:** projects/video-engine/render_manifest.json
 **Yükleme durumu:** DRY_RUN_VALIDATION_FAILED

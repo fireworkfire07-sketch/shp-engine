@@ -55,7 +55,7 @@
     "section": "Derinleşen Gizem",
     "role": "mystery",
     "duration": "1:30-2:00",
-    "narration": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+    "narration": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
     "visual_idea": "Eksik parça veya cevaplanmamış detay ekranda büyütülür.",
     "camera_idea": "Yavaş rack focus; net olmayan arka plandan nesneye odak.",
     "scene_idea": "Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti.",
@@ -65,7 +65,7 @@
     "emotional_purpose": "Belirsizlik ve merakı derinleştirmek.",
     "curiosity_purpose": "Eksik parçayı vurgulayarak izleyiciyi bir sonraki bölüme çekmek.",
     "subtitle_start_seconds": 38.4,
-    "subtitle_end_seconds": 46.3
+    "subtitle_end_seconds": 45.9
   },
   {
     "scene_number": 5,
@@ -81,15 +81,15 @@
     "sound_effect_direction": "Netlik anında parlama/whoosh efekti; ani sessizlik ardından vurgu.",
     "emotional_purpose": "Tatmin ve şaşkınlığı birleştirerek rahatlama hissi vermek.",
     "curiosity_purpose": "Ana soruyu cevaplarken yeni bir alt-soru bırakmak.",
-    "subtitle_start_seconds": 46.3,
-    "subtitle_end_seconds": 55.5
+    "subtitle_start_seconds": 45.9,
+    "subtitle_end_seconds": 55.1
   },
   {
     "scene_number": 6,
     "section": "Final",
     "role": "final",
     "duration": "2:30-3:00",
-    "narration": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+    "narration": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
     "visual_idea": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü.",
     "camera_idea": "Yavaş uzaklaşan (pull-out) geniş açı plan.",
     "scene_idea": "Gün ışığına dönüş; sıcak renk paleti.",
@@ -98,7 +98,7 @@
     "sound_effect_direction": "Yumuşak ortam sesi; müzik öne çıksın, efekt minimal.",
     "emotional_purpose": "Duygusal kapanış ve tatmin; izleyicide kalıcı izlenim bırakmak.",
     "curiosity_purpose": "Baştaki soruyu kapatırken serinin bir sonraki videosunun merakını açmak.",
-    "subtitle_start_seconds": 55.5,
-    "subtitle_end_seconds": 64.3
+    "subtitle_start_seconds": 55.1,
+    "subtitle_end_seconds": 63.0
   }
 ]

@@ -94,7 +94,11 @@
     "hook_direction": "İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme.",
     "channel_lessons": {
       "best_title_trigger_category": "soru",
-      "trigger_category_trend": {},
+      "trigger_category_trend": {
+        "gizem": "düşüyor",
+        "catismа": "düşüyor",
+        "soru": "düşüyor"
+      },
       "script_agent_approval_rate": 0.0,
       "note": "Yapı öğrenilir (tetikleyici kategori, uzunluk, soru biçimi); hiçbir başlık veya cümle birebir saklanmaz veya tekrar kullanılmaz."
     }
@@ -188,7 +192,7 @@
       {
         "name": "Derinleşen Gizem",
         "duration": "1:30-2:00",
-        "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
+        "voiceover": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
       },
       {
         "name": "Büyük Cevap",
@@ -198,7 +202,7 @@
       {
         "name": "Final",
         "duration": "2:30-3:00",
-        "voiceover": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
+        "voiceover": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
       }
     ],
     "thumbnail_concept": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
@@ -217,14 +221,14 @@
     "doctor_log": [
       "Tekrar eden cümle çıkarıldı (Derinleşen Gizem): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'",
       "Tekrar eden cümle çıkarıldı (Büyük Cevap): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'",
-      "Kural tabanlı güçlendirme uygulandı (Final): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (İlk Kırılma): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (Derinleşen Gizem): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
+      "Kural tabanlı güçlendirme uygulandı (Final): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (Büyük Cevap): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kanıtsız iddia temkinli hale getirildi (Köken).",
-      "Zaten güçlendirilmiş, tekrar uygulanmadı (Final).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (İlk Kırılma).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem).",
+      "Zaten güçlendirilmiş, tekrar uygulanmadı (Final).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (Büyük Cevap)."
     ],
     "doctor_passes": 2
@@ -261,9 +265,9 @@
         },
         {
           "name": "Derinleşen Gizem",
-          "estimated_seconds": 7.9,
-          "cumulative_seconds": 46.3,
-          "curiosity_score": 70,
+          "estimated_seconds": 7.5,
+          "cumulative_seconds": 45.9,
+          "curiosity_score": 100,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
           "pass": true
@@ -271,7 +275,7 @@
         {
           "name": "Büyük Cevap",
           "estimated_seconds": 9.2,
-          "cumulative_seconds": 55.5,
+          "cumulative_seconds": 55.1,
           "curiosity_score": 20,
           "has_curiosity_gap": false,
           "seconds_since_last_gap": 9.2,
@@ -279,8 +283,8 @@
         },
         {
           "name": "Final",
-          "estimated_seconds": 8.8,
-          "cumulative_seconds": 64.3,
+          "estimated_seconds": 7.9,
+          "cumulative_seconds": 63.0,
           "curiosity_score": 90,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
@@ -293,7 +297,7 @@
       "gap_count": 5,
       "required_gap_count": 7,
       "overall_pass": false,
-      "overall_score": 67
+      "overall_score": 72
     },
     "retention": {
       "checkpoints": [
@@ -318,30 +322,29 @@
         {
           "checkpoint_seconds": 60,
           "covering_section": "Final",
-          "psychology_score": 28,
+          "psychology_score": 31,
           "drop_risk": "yüksek"
         },
         {
           "checkpoint_seconds": 180,
           "covering_section": "Final",
-          "psychology_score": 28,
+          "psychology_score": 31,
           "drop_risk": "yüksek"
         },
         {
           "checkpoint_seconds": "ending",
           "covering_section": "Final",
-          "psychology_score": 28,
-          "drop_risk": "yüksek"
+          "psychology_score": 31,
+          "drop_risk": "orta"
         }
       ],
       "weak_checkpoints": [
         "30s (İlk Kırılma)",
         "60s (Final)",
-        "180s (Final)",
-        "final (Final)"
+        "180s (Final)"
       ],
       "overall_pass": false,
-      "overall_score": 34
+      "overall_score": 36
     },
     "emotion": {
       "detected_curve": [
@@ -432,13 +435,13 @@
     }
   },
   "ceo_review": {
-    "reviewed_at": "2026-07-13T04:17:10.237772+00:00",
+    "reviewed_at": "2026-07-13T04:37:00.878686+00:00",
     "decision": "REJECT",
-    "ceo_score": 59,
+    "ceo_score": 61,
     "approval_threshold": 85,
     "component_scores": {
-      "curiosity": 67,
-      "retention": 34,
+      "curiosity": 72,
+      "retention": 36,
       "emotion": 33,
       "originality": 100,
       "fact": 100,
@@ -447,7 +450,7 @@
     "floor_violations": [],
     "reasons": [
       "Zayıf merak bölümleri: Büyük Cevap.",
-      "Riskli izlenme noktaları: 30s (İlk Kırılma), 60s (Final), 180s (Final), final (Final).",
+      "Riskli izlenme noktaları: 30s (İlk Kırılma), 60s (Final), 180s (Final).",
       "Duygu eğrisi hedefi tutmuyor (4 bölümde)."
     ],
     "verdict_text": "CEO olsam bu haliyle altı saat üretim süresi harcamazdım. Önce aşağıdaki sorunlar çözülmeli.",
@@ -456,10 +459,10 @@
   "rejected_history": [
     {
       "attempt": 1,
-      "ceo_score": 59,
+      "ceo_score": 61,
       "reasons": [
         "Zayıf merak bölümleri: Büyük Cevap.",
-        "Riskli izlenme noktaları: 30s (İlk Kırılma), 60s (Final), 180s (Final), final (Final).",
+        "Riskli izlenme noktaları: 30s (İlk Kırılma), 60s (Final), 180s (Final).",
         "Duygu eğrisi hedefi tutmuyor (4 bölümde).",
         "GROQ_API_KEY yok; kural tabanlı taslak yeniden denenerek iyileştirilemez."
       ]
