@@ -10,9 +10,9 @@
 
 | Kategori | Video sayısı | Ortalama günlük izlenme |
 |---|---:|---:|
-| gizem | 13 | 3.2 |
-| catismа | 1 | 6.2 |
-| soru | 1 | 8.7 |
+| gizem | 13 | 3.1 |
+| catismа | 1 | 5.9 |
+| soru | 1 | 8.3 |
 
 ## YouTube Analytics kullanılabilirliği
 

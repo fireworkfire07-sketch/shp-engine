@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T06:20:31.119710+00:00",
+  "generated_at": "2026-07-13T04:17:09.572655+00:00",
   "candidates_scanned": 40,
   "winner": {
     "niche": "Ağacının gizemi",
@@ -239,13 +239,31 @@
       "decision": "GİRME"
     },
     {
+      "niche": "bitki mitolojisi gizem",
+      "error": "HTTP Error 429: Too Many Requests",
+      "final_score": 0,
+      "decision": "GİRME"
+    },
+    {
       "niche": "bitkiler ve imparatorluklar",
       "error": "HTTP Error 429: Too Many Requests",
       "final_score": 0,
       "decision": "GİRME"
     },
     {
+      "niche": "bitkiler ve imparatorluklar gizem",
+      "error": "HTTP Error 429: Too Many Requests",
+      "final_score": 0,
+      "decision": "GİRME"
+    },
+    {
       "niche": "bitkilerin karanlık tarihi",
+      "error": "HTTP Error 429: Too Many Requests",
+      "final_score": 0,
+      "decision": "GİRME"
+    },
+    {
+      "niche": "bitkilerin karanlık tarihi gizem",
       "error": "HTTP Error 429: Too Many Requests",
       "final_score": 0,
       "decision": "GİRME"
@@ -288,24 +306,6 @@
     },
     {
       "niche": "ipek yolu bitkileri",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "unutulmuş bitkiler",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "zehirli bitkiler",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "zehirli bitkiler gizem",
       "error": "HTTP Error 429: Too Many Requests",
       "final_score": 0,
       "decision": "GİRME"

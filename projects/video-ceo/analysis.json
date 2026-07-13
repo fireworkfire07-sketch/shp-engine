@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T19:06:58.262392+00:00",
+  "generated_at": "2026-07-13T04:17:10.551289+00:00",
   "decision": "DUR",
   "video_ceo_score": 61,
   "approve_threshold": 80,
@@ -39,7 +39,8 @@
     "İlk 10 saniyede izleyiciye kalmak için somut bir sebep verilmiyor.",
     "30. saniyeye kadar konu netleşmiyor veya ilk merak açılmıyor.",
     "İzlenme süresi kritik noktalarında (3sn/10sn/30sn/1dk/3dk) düşüş riski yüksek.",
-    "GROQ_API_KEY yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu."
+    "GROQ_API_KEY yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu.",
+    "Uyarı: kanalda tarihsel olarak en güçlü performans gösteren tetikleyici kategori 'soru', bu başlıkta yok."
   ],
   "missing_inputs": []
 }

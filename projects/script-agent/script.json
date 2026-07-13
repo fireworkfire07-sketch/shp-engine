@@ -92,7 +92,12 @@
     },
     "thumbnail_direction": "Tek ana nesne, yüksek kontrast, en fazla 3-4 kelime ve tek güçlü gizem işareti kullan.",
     "hook_direction": "İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme.",
-    "channel_lessons": {}
+    "channel_lessons": {
+      "best_title_trigger_category": "soru",
+      "trigger_category_trend": {},
+      "script_agent_approval_rate": 0.0,
+      "note": "Yapı öğrenilir (tetikleyici kategori, uzunluk, soru biçimi); hiçbir başlık veya cümle birebir saklanmaz veya tekrar kullanılmaz."
+    }
   },
   "knowledge": {
     "facts": [
@@ -183,12 +188,12 @@
       {
         "name": "Derinleşen Gizem",
         "duration": "1:30-2:00",
-        "voiceover": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
+        "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
       },
       {
         "name": "Büyük Cevap",
         "duration": "2:00-2:30",
-        "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
+        "voiceover": "Kayıtlar bir şeyi gizliyordu. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
       },
       {
         "name": "Final",
@@ -212,14 +217,14 @@
     "doctor_log": [
       "Tekrar eden cümle çıkarıldı (Derinleşen Gizem): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'",
       "Tekrar eden cümle çıkarıldı (Büyük Cevap): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'",
-      "Kural tabanlı güçlendirme uygulandı (Derinleşen Gizem): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
-      "Kural tabanlı güçlendirme uygulandı (İlk Kırılma): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (Final): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
+      "Kural tabanlı güçlendirme uygulandı (İlk Kırılma): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
+      "Kural tabanlı güçlendirme uygulandı (Derinleşen Gizem): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kural tabanlı güçlendirme uygulandı (Büyük Cevap): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.",
       "Kanıtsız iddia temkinli hale getirildi (Köken).",
-      "Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem).",
-      "Zaten güçlendirilmiş, tekrar uygulanmadı (İlk Kırılma).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (Final).",
+      "Zaten güçlendirilmiş, tekrar uygulanmadı (İlk Kırılma).",
+      "Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem).",
       "Zaten güçlendirilmiş, tekrar uygulanmadı (Büyük Cevap)."
     ],
     "doctor_passes": 2
@@ -256,8 +261,8 @@
         },
         {
           "name": "Derinleşen Gizem",
-          "estimated_seconds": 7.1,
-          "cumulative_seconds": 45.5,
+          "estimated_seconds": 7.9,
+          "cumulative_seconds": 46.3,
           "curiosity_score": 70,
           "has_curiosity_gap": true,
           "seconds_since_last_gap": 0.0,
@@ -265,11 +270,11 @@
         },
         {
           "name": "Büyük Cevap",
-          "estimated_seconds": 10.0,
+          "estimated_seconds": 9.2,
           "cumulative_seconds": 55.5,
           "curiosity_score": 20,
           "has_curiosity_gap": false,
-          "seconds_since_last_gap": 10.0,
+          "seconds_since_last_gap": 9.2,
           "pass": false
         },
         {
@@ -427,7 +432,7 @@
     }
   },
   "ceo_review": {
-    "reviewed_at": "2026-07-12T19:06:58.178129+00:00",
+    "reviewed_at": "2026-07-13T04:17:10.237772+00:00",
     "decision": "REJECT",
     "ceo_score": 59,
     "approval_threshold": 85,

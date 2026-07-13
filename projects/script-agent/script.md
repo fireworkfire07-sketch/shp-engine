@@ -36,11 +36,11 @@ Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl De
 
 ### Derinleşen Gizem — 1:30-2:00
 
-Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.
+Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.
 
 ### Büyük Cevap — 2:00-2:30
 
-Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.
+Kayıtlar bir şeyi gizliyordu. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.
 
 ### Final — 2:30-3:00
 
@@ -70,12 +70,12 @@ doğanın, gizemli, dünyası, ağacının, saklı, mucizesi, diken, canli
 
 - Tekrar eden cümle çıkarıldı (Derinleşen Gizem): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'
 - Tekrar eden cümle çıkarıldı (Büyük Cevap): 'Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değişti...'
-- Kural tabanlı güçlendirme uygulandı (Derinleşen Gizem): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.
-- Kural tabanlı güçlendirme uygulandı (İlk Kırılma): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.
 - Kural tabanlı güçlendirme uygulandı (Final): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.
+- Kural tabanlı güçlendirme uygulandı (İlk Kırılma): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.
+- Kural tabanlı güçlendirme uygulandı (Derinleşen Gizem): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.
 - Kural tabanlı güçlendirme uygulandı (Büyük Cevap): Merak/izlenme süresi puanı düşük; daha güçlü bir bilgi boşluğu aç. Ayrıca bu bölümün duygusu hedeften sapıyor; hedef duyguya uygun kelimeler kullan.
 - Kanıtsız iddia temkinli hale getirildi (Köken).
-- Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem).
-- Zaten güçlendirilmiş, tekrar uygulanmadı (İlk Kırılma).
 - Zaten güçlendirilmiş, tekrar uygulanmadı (Final).
+- Zaten güçlendirilmiş, tekrar uygulanmadı (İlk Kırılma).
+- Zaten güçlendirilmiş, tekrar uygulanmadı (Derinleşen Gizem).
 - Zaten güçlendirilmiş, tekrar uygulanmadı (Büyük Cevap).

@@ -14,6 +14,7 @@
 - 30. saniyeye kadar konu netleşmiyor veya ilk merak açılmıyor.
 - İzlenme süresi kritik noktalarında (3sn/10sn/30sn/1dk/3dk) düşüş riski yüksek.
 - GROQ_API_KEY yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu.
+- Uyarı: kanalda tarihsel olarak en güçlü performans gösteren tetikleyici kategori 'soru', bu başlıkta yok.
 
 ## Boyut puanları
 

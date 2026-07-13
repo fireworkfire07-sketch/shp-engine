@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T06:20:31.255846+00:00",
+  "generated_at": "2026-07-13T04:17:09.734358+00:00",
   "role": "SHP analizleri birleştirir ve kanal kimliğine uygun tek CEO kararı verir; video üretmez.",
   "decision": "BEKLET",
   "publish": "HAYIR",
@@ -16,8 +16,8 @@
     "Kanal başlıklarıyla ortak kelimeler: agac, k, n, tarihi.",
     "Medyan günlük izlenme hızı: 0.",
     "Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.",
-    "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.1 günlük izlenme).",
-    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 11881.2."
+    "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (8.7 günlük izlenme).",
+    "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12022.0."
   ],
   "title_direction": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
   "hook_direction": "İlk 10 saniyede büyük soru, gizli çıkar veya tarihsel tehlike göster; cevabı hemen verme.",
@@ -42,8 +42,8 @@
     "signals": {
       "market_median_views_per_day": 0.0,
       "market_top_views_per_day": 0.0,
-      "own_best_views_per_day": 9.06,
-      "rival_best_views_per_day": 362724.0
+      "own_best_views_per_day": 8.66,
+      "rival_best_views_per_day": 286570.0
     }
   },
   "effort_verdict": "SADECE KÜÇÜK TESTE DEĞER",

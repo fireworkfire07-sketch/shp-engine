@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T19:06:58.972416+00:00",
+  "generated_at": "2026-07-13T04:17:10.792480+00:00",
   "mode": "LOCAL_TTS",
   "language": "tr",
   "local_tts_available": true,
@@ -11,7 +11,7 @@
       "text": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim.",
       "estimated_seconds": 11.7,
       "audio_file": "voiceover/scenes/scene_01.wav",
-      "actual_seconds": 17.12
+      "actual_seconds": 0.0
     },
     {
       "scene_number": 2,
@@ -19,7 +19,7 @@
       "text": "Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor.",
       "estimated_seconds": 17.1,
       "audio_file": "voiceover/scenes/scene_02.wav",
-      "actual_seconds": 24.19
+      "actual_seconds": 0.0
     },
     {
       "scene_number": 3,
@@ -27,23 +27,23 @@
       "text": "Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
       "estimated_seconds": 9.6,
       "audio_file": "voiceover/scenes/scene_03.wav",
-      "actual_seconds": 14.2
+      "actual_seconds": 0.0
     },
     {
       "scene_number": 4,
       "section": "Derinleşen Gizem",
-      "text": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
-      "estimated_seconds": 7.1,
+      "text": "Ama asıl gerçek çok daha karanlıktı. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+      "estimated_seconds": 7.9,
       "audio_file": "voiceover/scenes/scene_04.wav",
-      "actual_seconds": 8.84
+      "actual_seconds": 0.0
     },
     {
       "scene_number": 5,
       "section": "Büyük Cevap",
-      "text": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
-      "estimated_seconds": 10.0,
+      "text": "Kayıtlar bir şeyi gizliyordu. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
+      "estimated_seconds": 9.2,
       "audio_file": "voiceover/scenes/scene_05.wav",
-      "actual_seconds": 11.57
+      "actual_seconds": 0.0
     },
     {
       "scene_number": 6,
@@ -51,12 +51,12 @@
       "text": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
       "estimated_seconds": 8.8,
       "audio_file": "voiceover/scenes/scene_06.wav",
-      "actual_seconds": 12.08
+      "actual_seconds": 0.0
     }
   ],
-  "full_audio_file": "voiceover/voiceover.wav",
+  "full_audio_file": null,
   "total_estimated_seconds": 64.3,
-  "total_actual_seconds": 88.0,
+  "total_actual_seconds": 0.0,
   "limitations": [
     "OPTIONAL_PROVIDER modu yalnızca bir sağlayıcı anahtarı tanımlıysa denenir; bu depoda varsayılan olarak hiçbir ücretli sağlayıcı bağlı değildir.",
     "LOCAL_TTS espeak-ng ile üretilir; stüdyo kalitesinde değildir ama gerçek, dinlenebilir bir seslendirmedir.",
