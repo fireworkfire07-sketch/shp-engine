@@ -3,16 +3,16 @@
 **Analiz edilen video sayısı:** 20
 **En güçlü başlık tetikleyici kategorisi:** soru
 **Script Agent onay oranı:** 0.0
-**Son Video CEO kararı:** DUR (62/100)
+**Son Video CEO kararı:** DUR (72/100)
 **Son Video Engine durumu:** STOPPED_BY_VIDEO_CEO
 
 ## Başlık tetikleyici kategorisi performansı
 
 | Kategori | Video sayısı | Ortalama günlük izlenme |
 |---|---:|---:|
-| gizem | 13 | 3.1 |
-| catismа | 1 | 5.8 |
-| soru | 1 | 8.3 |
+| gizem | 14 | 2.9 |
+| catismа | 1 | 5.7 |
+| soru | 1 | 8.2 |
 
 ## YouTube Analytics kullanılabilirliği
 

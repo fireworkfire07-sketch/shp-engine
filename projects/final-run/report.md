@@ -2,18 +2,18 @@
 
 # QUALITY_REJECT
 
-**Seçilen niş:** Ağacının gizemi
-**Seçilen konu:** Ağacının karanlık tarihi
-**Video başlığı:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
-**Script durumu:** REJECT (CEO puanı: 61)
-**Video CEO kararı:** DUR (62/100)
+**Seçilen niş:** gizemli bitkiler
+**Seçilen konu:** gizemli bitkiler
+**Video başlığı:** Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi
+**Script durumu:** REJECT (CEO puanı: 62)
+**Video CEO kararı:** DUR (72/100)
 **Üretim durumu:** STOPPED_BY_VIDEO_CEO
 **Video/manifest yolu:** projects/video-engine/render_manifest.json
 **Yükleme durumu:** DRY_RUN_VALIDATION_FAILED
 
 ## Osman için tam sonraki adım
 
-> Üretim onaylanmadı, bir şey yapmana gerek yok. Gerekçe: İlk 3 saniye izleyiciyi yeterince tutmuyor; daha güçlü, doğrudan bir açılış gerekli. İlk 10 saniyede izleyiciye kalmak için somut bir sebep verilmiyor. 30. saniyeye kadar konu netleşmiyor veya ilk merak açılmıyor.
+> Üretim onaylanmadı, bir şey yapmana gerek yok. Gerekçe: 30. saniyeye kadar konu netleşmiyor veya ilk merak açılmıyor. İzlenme süresi kritik noktalarında (3sn/10sn/30sn/1dk/3dk) düşüş riski yüksek. GEMINI_API_KEY (ve OPENAI_API_KEY, GROQ_API_KEY) yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu.
 
 ## Gerekçe
 

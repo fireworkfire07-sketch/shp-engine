@@ -3,19 +3,19 @@
 **Mod:** LOCAL_TTS
 **Dil:** tr
 **Tam ses dosyası:** yok (ses üretilemedi)
-**Tahmini toplam süre:** 64.6 sn
+**Tahmini toplam süre:** 75.9 sn
 **Gerçek toplam süre:** 0.0
 
 ## Sahne başına ses
 
 | Sahne | Tahmini sn | Gerçek sn | Ses dosyası |
 |---:|---:|---:|---|
-| 1 | 11.7 | 0.0 | voiceover/scenes/scene_01.wav |
-| 2 | 17.1 | 0.0 | voiceover/scenes/scene_02.wav |
-| 3 | 10.4 | 0.0 | voiceover/scenes/scene_03.wav |
-| 4 | 7.5 | 0.0 | voiceover/scenes/scene_04.wav |
-| 5 | 10.0 | 0.0 | voiceover/scenes/scene_05.wav |
-| 6 | 7.9 | 0.0 | voiceover/scenes/scene_06.wav |
+| 1 | 14.6 | 0.0 | voiceover/scenes/scene_01.wav |
+| 2 | 18.8 | 0.0 | voiceover/scenes/scene_02.wav |
+| 3 | 10.0 | 0.0 | voiceover/scenes/scene_03.wav |
+| 4 | 10.8 | 0.0 | voiceover/scenes/scene_04.wav |
+| 5 | 12.9 | 0.0 | voiceover/scenes/scene_05.wav |
+| 6 | 8.8 | 0.0 | voiceover/scenes/scene_06.wav |
 
 ## Gerçek sınırlar
 

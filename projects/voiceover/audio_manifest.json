@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T05:13:03.542647+00:00",
+  "generated_at": "2026-07-13T17:08:20.659570+00:00",
   "mode": "LOCAL_TTS",
   "language": "tr",
   "local_tts_available": true,
@@ -8,54 +8,54 @@
     {
       "scene_number": 1,
       "section": "Açılış",
-      "text": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim.",
-      "estimated_seconds": 11.7,
+      "text": "İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim.",
+      "estimated_seconds": 14.6,
       "audio_file": "voiceover/scenes/scene_01.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 2,
       "section": "Köken",
-      "text": "Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor.",
-      "estimated_seconds": 17.1,
+      "text": "Kayıtlar bir şeyi gizliyordu. Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor.",
+      "estimated_seconds": 18.8,
       "audio_file": "voiceover/scenes/scene_02.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 3,
       "section": "İlk Kırılma",
-      "text": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
-      "estimated_seconds": 10.4,
+      "text": "Kayıtlar bir şeyi gizliyordu. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
+      "estimated_seconds": 10.0,
       "audio_file": "voiceover/scenes/scene_03.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 4,
       "section": "Derinleşen Gizem",
-      "text": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
-      "estimated_seconds": 7.5,
+      "text": "Kimsenin anlatmadığı kısım burada başlıyor. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+      "estimated_seconds": 10.8,
       "audio_file": "voiceover/scenes/scene_04.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 5,
       "section": "Büyük Cevap",
-      "text": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
-      "estimated_seconds": 10.0,
+      "text": "Kimsenin anlatmadığı kısım burada başlıyor. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
+      "estimated_seconds": 12.9,
       "audio_file": "voiceover/scenes/scene_05.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 6,
       "section": "Final",
-      "text": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
-      "estimated_seconds": 7.9,
+      "text": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+      "estimated_seconds": 8.8,
       "audio_file": "voiceover/scenes/scene_06.wav",
       "actual_seconds": 0.0
     }
   ],
   "full_audio_file": null,
-  "total_estimated_seconds": 64.6,
+  "total_estimated_seconds": 75.9,
   "total_actual_seconds": 0.0,
   "limitations": [
     "OPTIONAL_PROVIDER modu yalnızca bir sağlayıcı anahtarı tanımlıysa denenir; bu depoda varsayılan olarak hiçbir ücretli sağlayıcı bağlı değildir.",

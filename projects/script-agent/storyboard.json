@@ -4,7 +4,7 @@
     "section": "Açılış",
     "role": "hook",
     "duration": "0:00-0:30",
-    "narration": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim.",
+    "narration": "İlk 3 saniye: ‘Bir Baharat Dünya Tarihini Nasıl Değiştirdi? Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme. Cevabı birazdan göreceksiniz; ama önce bu sırrın başladığı yere dönelim.",
     "visual_idea": "Tek çarpıcı obje veya manzara, ekranı dolduran makro çekim.",
     "camera_idea": "Yavaş yakınlaşan (slow push-in) tek plan, kesme yok.",
     "scene_idea": "Karanlık zemin üzerinde ana obje ışıkla vurgulanır.",
@@ -14,14 +14,14 @@
     "emotional_purpose": "İzleyicide anlık merak ve şaşkınlık uyandırmak.",
     "curiosity_purpose": "Cevapsız büyük soruyu ortaya atmak, cevabı hemen vermemek.",
     "subtitle_start_seconds": 0.0,
-    "subtitle_end_seconds": 11.7
+    "subtitle_end_seconds": 14.6
   },
   {
     "scene_number": 2,
     "section": "Köken",
     "role": "origin",
     "duration": "0:30-1:00",
-    "narration": "Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor.",
+    "narration": "Kayıtlar bir şeyi gizliyordu. Referans video açıklamasından ipucu: Yediğin şeyin içinde ne var? Kaynaklara göre, 🍓 Bugün marketlerden alıp severek tükettiğimiz o iri ve sulu çileklerin, aslında 1700'lerde Fransa Kralı için çalışan bir askeri casusun Şili'den… Bu tek başına bile hikâyenin yönünü değiştiriyor.",
     "visual_idea": "Coğrafi köken haritası üzerinde animasyonlu işaretleme.",
     "camera_idea": "Yukarıdan aşağı harita hareketi (top-down pan).",
     "scene_idea": "Dönemin arşiv görselleri veya illüstrasyonlarla geçiş.",
@@ -30,15 +30,15 @@
     "sound_effect_direction": "Ortam sesleri (rüzgar, doğa, dönem atmosferi); belirgin efekt yok.",
     "emotional_purpose": "Konuya güven ve ilgi inşa etmek; zemin hazırlamak.",
     "curiosity_purpose": "Konunun büyüklüğünü göstererek 'daha fazlası var' hissi vermek.",
-    "subtitle_start_seconds": 11.7,
-    "subtitle_end_seconds": 28.8
+    "subtitle_start_seconds": 14.6,
+    "subtitle_end_seconds": 33.4
   },
   {
     "scene_number": 3,
     "section": "İlk Kırılma",
     "role": "conflict",
     "duration": "1:00-1:30",
-    "narration": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
+    "narration": "Kayıtlar bir şeyi gizliyordu. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
     "visual_idea": "Karşıt iki güç veya taraf arasında görsel gerilim kurulur.",
     "camera_idea": "Sert kesmeler, kısa planlar, ritmi hızlandırır.",
     "scene_idea": "Kararan ışık, dramatik gölgeler, silüet yeniden canlandırma.",
@@ -47,15 +47,15 @@
     "sound_effect_direction": "Sert vuruş/darbe efektleri, hızlı kesme sesleri.",
     "emotional_purpose": "Gerilim ve endişe yaratmak; riski hissettirmek.",
     "curiosity_purpose": "Riski büyüterek 'bu nasıl çözülecek?' sorusunu güçlendirmek.",
-    "subtitle_start_seconds": 28.8,
-    "subtitle_end_seconds": 39.2
+    "subtitle_start_seconds": 33.4,
+    "subtitle_end_seconds": 43.4
   },
   {
     "scene_number": 4,
     "section": "Derinleşen Gizem",
     "role": "mystery",
     "duration": "1:30-2:00",
-    "narration": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+    "narration": "Kimsenin anlatmadığı kısım burada başlıyor. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
     "visual_idea": "Eksik parça veya cevaplanmamış detay ekranda büyütülür.",
     "camera_idea": "Yavaş rack focus; net olmayan arka plandan nesneye odak.",
     "scene_idea": "Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti.",
@@ -64,15 +64,15 @@
     "sound_effect_direction": "Hafif gerilim efektleri (düşük drone, ince çınlama).",
     "emotional_purpose": "Belirsizlik ve merakı derinleştirmek.",
     "curiosity_purpose": "Eksik parçayı vurgulayarak izleyiciyi bir sonraki bölüme çekmek.",
-    "subtitle_start_seconds": 39.2,
-    "subtitle_end_seconds": 46.7
+    "subtitle_start_seconds": 43.4,
+    "subtitle_end_seconds": 54.2
   },
   {
     "scene_number": 5,
     "section": "Büyük Cevap",
     "role": "reveal",
     "duration": "2:00-2:30",
-    "narration": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
+    "narration": "Kimsenin anlatmadığı kısım burada başlıyor. Formatının Devamı: Daha Güçlü Bir Gizem Hikâyesi konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
     "visual_idea": "Ana cevabı temsil eden görsel net ve büyük şekilde ortaya çıkar.",
     "camera_idea": "Ani zoom-out veya ışık patlaması hissi veren geçiş.",
     "scene_idea": "Önceki karanlık/belirsiz sahneden aydınlık/net sahneye geçiş.",
@@ -81,15 +81,15 @@
     "sound_effect_direction": "Netlik anında parlama/whoosh efekti; ani sessizlik ardından vurgu.",
     "emotional_purpose": "Tatmin ve şaşkınlığı birleştirerek rahatlama hissi vermek.",
     "curiosity_purpose": "Ana soruyu cevaplarken yeni bir alt-soru bırakmak.",
-    "subtitle_start_seconds": 46.7,
-    "subtitle_end_seconds": 56.7
+    "subtitle_start_seconds": 54.2,
+    "subtitle_end_seconds": 67.1
   },
   {
     "scene_number": 6,
     "section": "Final",
     "role": "final",
     "duration": "2:30-3:00",
-    "narration": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+    "narration": "Ama asıl gerçek çok daha karanlıktı. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
     "visual_idea": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü.",
     "camera_idea": "Yavaş uzaklaşan (pull-out) geniş açı plan.",
     "scene_idea": "Gün ışığına dönüş; sıcak renk paleti.",
@@ -98,7 +98,7 @@
     "sound_effect_direction": "Yumuşak ortam sesi; müzik öne çıksın, efekt minimal.",
     "emotional_purpose": "Duygusal kapanış ve tatmin; izleyicide kalıcı izlenim bırakmak.",
     "curiosity_purpose": "Baştaki soruyu kapatırken serinin bir sonraki videosunun merakını açmak.",
-    "subtitle_start_seconds": 56.7,
-    "subtitle_end_seconds": 64.6
+    "subtitle_start_seconds": 67.1,
+    "subtitle_end_seconds": 75.9
   }
 ]

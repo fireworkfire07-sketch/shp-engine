@@ -1,5 +1,5 @@
 {
-  "analyzed_at": "2026-07-13T05:12:53.860316+00:00",
+  "analyzed_at": "2026-07-13T17:07:31.248449+00:00",
   "channel": {
     "id": "UCSpjPqE4bXy_R6Ghr6NtKcA",
     "title": "Bitkilerin Gizli tarihi",
@@ -12,9 +12,9 @@
   "health_score": 1,
   "health_reasons": [
     "Medyan günlük izlenme hızı: 1.4",
-    "En güçlü günlük izlenme hızı: 8.6",
+    "En güçlü günlük izlenme hızı: 8.4",
     "Medyan etkileşim oranı: %0.00",
-    "Son 10 videonun medyan günlük hızı: 3.0"
+    "Son 10 videonun medyan günlük hızı: 2.9"
   ],
   "videos_analyzed": 39,
   "strongest_video": {
@@ -24,7 +24,7 @@
     "views": 180,
     "likes": 0,
     "comments": 2,
-    "views_per_day": 8.64,
+    "views_per_day": 8.44,
     "engagement_rate": 1.11,
     "privacy_status": "public",
     "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
@@ -49,7 +49,7 @@
       "views": 180,
       "likes": 0,
       "comments": 2,
-      "views_per_day": 8.64,
+      "views_per_day": 8.44,
       "engagement_rate": 1.11,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=uNrlRl1Yfhw"
@@ -61,7 +61,7 @@
       "views": 199,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 8.34,
+      "views_per_day": 8.17,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=VDIlOTdlhTs"
@@ -73,7 +73,7 @@
       "views": 110,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 6.15,
+      "views_per_day": 5.99,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=n9JdEvsZQOA"
@@ -85,7 +85,7 @@
       "views": 115,
       "likes": 2,
       "comments": 0,
-      "views_per_day": 5.85,
+      "views_per_day": 5.71,
       "engagement_rate": 1.74,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=IqbygJdT2ew"
@@ -97,7 +97,7 @@
       "views": 113,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 5.76,
+      "views_per_day": 5.62,
       "engagement_rate": 0.88,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=u5p_5fPujJc"
@@ -109,7 +109,7 @@
       "views": 109,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 5.63,
+      "views_per_day": 5.48,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=YTxb6W7j4NQ"
@@ -121,7 +121,7 @@
       "views": 135,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 5.51,
+      "views_per_day": 5.4,
       "engagement_rate": 0.74,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=4lWauyFvX5A"
@@ -133,7 +133,7 @@
       "views": 99,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 5.0,
+      "views_per_day": 4.87,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=deJ_2besk08"
@@ -145,7 +145,7 @@
       "views": 108,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 4.59,
+      "views_per_day": 4.49,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=ERUFWLGdmTk"
@@ -157,7 +157,7 @@
       "views": 59,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 3.73,
+      "views_per_day": 3.61,
       "engagement_rate": 1.69,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=eVj6ZcYTsRs"
@@ -183,7 +183,7 @@
       "views": 9,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.41,
+      "views_per_day": 0.4,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=olh7FRUScO8"
@@ -195,7 +195,7 @@
       "views": 12,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.51,
+      "views_per_day": 0.5,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=v9Q9niU8fI0"
@@ -207,7 +207,7 @@
       "views": 14,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.59,
+      "views_per_day": 0.58,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=KsIjWlaeHGU"
@@ -219,7 +219,7 @@
       "views": 14,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.71,
+      "views_per_day": 0.69,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=2ep_oSWw8tE"
@@ -231,7 +231,7 @@
       "views": 12,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 0.76,
+      "views_per_day": 0.73,
       "engagement_rate": 8.33,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=_uRN4MVFDLE"
@@ -243,7 +243,7 @@
       "views": 16,
       "likes": 1,
       "comments": 0,
-      "views_per_day": 0.81,
+      "views_per_day": 0.79,
       "engagement_rate": 6.25,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=btgXmLlOAq8"
@@ -255,7 +255,7 @@
       "views": 18,
       "likes": 2,
       "comments": 2,
-      "views_per_day": 0.82,
+      "views_per_day": 0.8,
       "engagement_rate": 22.22,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=wKL3ENScQLI"
@@ -267,22 +267,22 @@
       "views": 18,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.86,
+      "views_per_day": 0.84,
       "engagement_rate": 0.0,
       "privacy_status": "public",
       "url": "https://www.youtube.com/watch?v=tRA1CXXKUek"
     },
     {
-      "id": "qoJsDm_z6lY",
-      "title": "Kadim Besin Amaranth: Geçmişten Gelen Süper Gıda Hikayesi",
-      "published_at": "2026-06-21T19:31:09Z",
-      "views": 19,
+      "id": "vcy8AfX7pfE",
+      "title": "Karanfilin Gizemli Dünyası: Doğanın Renkli Harikası",
+      "published_at": "2026-06-27T10:13:52Z",
+      "views": 14,
       "likes": 0,
       "comments": 0,
-      "views_per_day": 0.89,
+      "views_per_day": 0.86,
       "engagement_rate": 0.0,
       "privacy_status": "public",
-      "url": "https://www.youtube.com/watch?v=qoJsDm_z6lY"
+      "url": "https://www.youtube.com/watch?v=vcy8AfX7pfE"
     }
   ],
   "limitations": [
