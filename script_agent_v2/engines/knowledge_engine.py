@@ -55,7 +55,7 @@ def _fallback(context_dict: dict) -> dict:
         "locations": [],
         "research_mode": "rule_based_fallback",
         "research_note": (
-            f"OPENAI_API_KEY (ve GROQ_API_KEY) yok; '{topic}' için derin araştırma yapılamadı. "
+            f"GEMINI_API_KEY (ve OPENAI_API_KEY, GROQ_API_KEY) yok; '{topic}' için derin araştırma yapılamadı. "
             "Script Doctor bu konudaki tüm iddiaları 'düşük güven' olarak işaretleyecek."
         ),
     }

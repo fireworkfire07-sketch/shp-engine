@@ -1,6 +1,7 @@
 """Proves Script Agent V2 engines never invent facts or fake confidence
-when neither OPENAI_API_KEY nor GROQ_API_KEY is available — they must mark
-themselves as rule_based_fallback / low-confidence instead of guessing."""
+when none of GEMINI_API_KEY/OPENAI_API_KEY/GROQ_API_KEY is available — they
+must mark themselves as rule_based_fallback / low-confidence instead of
+guessing."""
 
 from __future__ import annotations
 
@@ -13,7 +14,9 @@ from script_agent_v2.llm import LLM
 
 class HonestFallbackTests(unittest.TestCase):
     def setUp(self):
-        self._env_patch = mock.patch.dict("os.environ", {"OPENAI_API_KEY": "", "GROQ_API_KEY": ""}, clear=False)
+        self._env_patch = mock.patch.dict(
+            "os.environ", {"GEMINI_API_KEY": "", "OPENAI_API_KEY": "", "GROQ_API_KEY": ""}, clear=False
+        )
         self._env_patch.start()
         self.addCleanup(self._env_patch.stop)
 

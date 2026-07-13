@@ -4,3 +4,4 @@
 
 Pillow>=10.0.0                  # video_engine.py LIGHTWEIGHT_MODE placeholder frame generation
 youtube-transcript-api>=0.6.2   # video_dna.py optional transcript/hook analysis
+google-genai>=2.0.0             # script_agent_v2/llm.py primary LLM provider (Gemini)

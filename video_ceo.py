@@ -386,7 +386,7 @@ def main() -> None:
         corrections = build_corrections(evaluation)
         if evaluation["source_mode"] == "rule_based_fallback":
             decision = "DUR"
-            rewrite_blocked_reason = "OPENAI_API_KEY (ve GROQ_API_KEY) yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu."
+            rewrite_blocked_reason = "GEMINI_API_KEY (ve OPENAI_API_KEY, GROQ_API_KEY) yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu."
             reasons = corrections + [rewrite_blocked_reason]
         else:
             rewritten_payload = run_rewrite_cycle(script_payload, corrections)
@@ -468,7 +468,7 @@ def _write(payload: dict, rewrite_happened: bool) -> None:
         "",
         "- Bu karar Script Agent V2'nin ürettiği gerçek metin ve gerçek YouTube/niş verisine dayanır; hiçbir puan uydurulmaz.",
         "- DÜZELT en fazla tek kontrollü yeniden yazım döngüsü tetikler; ikinci tur otomatik denenmez.",
-        "- OPENAI_API_KEY (ve GROQ_API_KEY) yoksa kural tabanlı taslak yeniden yazılarak iyileştirilemez; bu durumda DÜZELT yerine dürüstçe DUR verilir.",
+        "- GEMINI_API_KEY (ve OPENAI_API_KEY, GROQ_API_KEY) yoksa kural tabanlı taslak yeniden yazılarak iyileştirilemez; bu durumda DÜZELT yerine dürüstçe DUR verilir.",
     ]
     (OUTPUT_DIR / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
