@@ -3,7 +3,7 @@
 **Analiz edilen video sayısı:** 20
 **En güçlü başlık tetikleyici kategorisi:** soru
 **Script Agent onay oranı:** 0.0
-**Son Video CEO kararı:** DUR (62/100)
+**Son Video CEO kararı:** DUR (61/100)
 **Son Video Engine durumu:** STOPPED_BY_VIDEO_CEO
 
 ## Başlık tetikleyici kategorisi performansı

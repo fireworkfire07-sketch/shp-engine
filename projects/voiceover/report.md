@@ -13,9 +13,9 @@
 | 1 | 11.7 | 0.0 | voiceover/scenes/scene_01.wav |
 | 2 | 17.1 | 0.0 | voiceover/scenes/scene_02.wav |
 | 3 | 9.6 | 0.0 | voiceover/scenes/scene_03.wav |
-| 4 | 7.5 | 0.0 | voiceover/scenes/scene_04.wav |
+| 4 | 7.1 | 0.0 | voiceover/scenes/scene_04.wav |
 | 5 | 9.2 | 0.0 | voiceover/scenes/scene_05.wav |
-| 6 | 7.9 | 0.0 | voiceover/scenes/scene_06.wav |
+| 6 | 8.3 | 0.0 | voiceover/scenes/scene_06.wav |
 
 ## Gerçek sınırlar
 

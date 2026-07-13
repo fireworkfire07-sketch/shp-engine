@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T04:37:01.347534+00:00",
+  "generated_at": "2026-07-13T04:48:42.260855+00:00",
   "mode": "LOCAL_TTS",
   "language": "tr",
   "local_tts_available": true,
@@ -32,8 +32,8 @@
     {
       "scene_number": 4,
       "section": "Derinleşen Gizem",
-      "text": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
-      "estimated_seconds": 7.5,
+      "text": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+      "estimated_seconds": 7.1,
       "audio_file": "voiceover/scenes/scene_04.wav",
       "actual_seconds": 0.0
     },
@@ -48,8 +48,8 @@
     {
       "scene_number": 6,
       "section": "Final",
-      "text": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
-      "estimated_seconds": 7.9,
+      "text": "Kimsenin anlatmadığı kısım burada başlıyor. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+      "estimated_seconds": 8.3,
       "audio_file": "voiceover/scenes/scene_06.wav",
       "actual_seconds": 0.0
     }

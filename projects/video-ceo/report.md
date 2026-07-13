@@ -3,8 +3,8 @@
 # DUR
 
 **Başlık:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
-**Video CEO puanı:** 62/100 (ÇEK eşiği: 80, DÜZELT tabanı: 55)
-**Script Agent V2 durumu:** REJECT (61/100)
+**Video CEO puanı:** 61/100 (ÇEK eşiği: 80, DÜZELT tabanı: 55)
+**Script Agent V2 durumu:** REJECT (60/100)
 **Yeniden yazım döngüsü kullanıldı mı:** Hayır
 
 ## Gerekçe
@@ -28,8 +28,8 @@
 | hook_10s | 55 |
 | hook_30s | 20 |
 | story_structure | 66 |
-| curiosity | 72 |
-| retention | 36 |
+| curiosity | 68 |
+| retention | 38 |
 | emotion | 33 |
 | fact | 100 |
 | originality | 100 |

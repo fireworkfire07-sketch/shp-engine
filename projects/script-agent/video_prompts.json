@@ -29,7 +29,7 @@
     "video_prompt": "Eksik parça veya cevaplanmamış detay ekranda büyütülür. Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti. Kamera hareketi: Yavaş rack focus; net olmayan arka plandan nesneye odak. Geçiş: Yavaş karartma (fade) ile giriş; belirsizlik hissini koru.",
     "camera_movement": "Yavaş rack focus; net olmayan arka plandan nesneye odak.",
     "duration_label": "1:30-2:00",
-    "duration_seconds": 7.5
+    "duration_seconds": 7.1
   },
   {
     "scene_number": 5,
@@ -45,6 +45,6 @@
     "video_prompt": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü. Gün ışığına dönüş; sıcak renk paleti. Kamera hareketi: Yavaş uzaklaşan (pull-out) geniş açı plan. Geçiş: Yavaş çapraz geçiş; sıcak tonlara geçerken temposu düşür.",
     "camera_movement": "Yavaş uzaklaşan (pull-out) geniş açı plan.",
     "duration_label": "2:30-3:00",
-    "duration_seconds": 7.9
+    "duration_seconds": 8.3
   }
 ]
