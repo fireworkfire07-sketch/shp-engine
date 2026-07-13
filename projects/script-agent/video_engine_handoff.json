@@ -17,22 +17,22 @@
     {
       "name": "İlk Kırılma",
       "duration": "1:00-1:30",
-      "voiceover": "Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
+      "voiceover": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor."
     },
     {
       "name": "Derinleşen Gizem",
       "duration": "1:30-2:00",
-      "voiceover": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
+      "voiceover": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı."
     },
     {
       "name": "Büyük Cevap",
       "duration": "2:00-2:30",
-      "voiceover": "Kayıtlar bir şeyi gizliyordu. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
+      "voiceover": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor."
     },
     {
       "name": "Final",
       "duration": "2:30-3:00",
-      "voiceover": "Kimsenin anlatmadığı kısım burada başlıyor. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
+      "voiceover": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor."
     }
   ],
   "storyboard_file": "storyboard.json",
@@ -52,6 +52,6 @@
     "#sakli",
     "#mucizesi"
   ],
-  "ceo_score": 60,
+  "ceo_score": 61,
   "ceo_verdict": "CEO olsam bu haliyle altı saat üretim süresi harcamazdım. Önce aşağıdaki sorunlar çözülmeli."
 }

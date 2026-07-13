@@ -119,11 +119,42 @@
         "latest_video_ceo_score": 61,
         "latest_video_engine_status": "STOPPED_BY_VIDEO_CEO"
       }
+    },
+    {
+      "recorded_at": "2026-07-13T05:13:04.288251+00:00",
+      "title_patterns": {
+        "available": true,
+        "videos_analyzed": 20,
+        "overall_average_views_per_day": 3.3,
+        "by_category": {
+          "gizem": {
+            "video_count": 13,
+            "average_views_per_day": 3.1
+          },
+          "catismа": {
+            "video_count": 1,
+            "average_views_per_day": 5.8
+          },
+          "soru": {
+            "video_count": 1,
+            "average_views_per_day": 8.3
+          }
+        },
+        "best_performing_category": "soru"
+      },
+      "funnel": {
+        "script_agent_runs_recorded": 6,
+        "script_agent_approval_rate": 0.0,
+        "latest_video_ceo_decision": "DUR",
+        "latest_video_ceo_score": 62,
+        "latest_video_engine_status": "STOPPED_BY_VIDEO_CEO"
+      }
     }
   ],
   "trigger_category_performance": {
     "gizem": [
       3.2,
+      3.1,
       3.1,
       3.1,
       3.1
@@ -132,10 +163,12 @@
       6.2,
       5.9,
       5.9,
-      5.9
+      5.9,
+      5.8
     ],
     "soru": [
       8.7,
+      8.3,
       8.3,
       8.3,
       8.3
@@ -156,5 +189,5 @@
     "average_view_duration": "kullanılamıyor (YouTube Analytics OAuth bağlı değil)",
     "audience_retention": "kullanılamıyor (YouTube Analytics OAuth bağlı değil)"
   },
-  "updated_at": "2026-07-13T04:48:43.923366+00:00"
+  "updated_at": "2026-07-13T05:13:04.288262+00:00"
 }

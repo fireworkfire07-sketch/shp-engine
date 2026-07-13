@@ -18,8 +18,8 @@
 - Kanal başlıklarıyla ortak kelimeler: agac, k, n, tarihi.
 - Medyan günlük izlenme hızı: 0.
 - Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.
-- Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (8.7 günlük izlenme).
-- En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12012.7.
+- Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (8.6 günlük izlenme).
+- En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12005.5.
 
 ## Uygulama yönü
 

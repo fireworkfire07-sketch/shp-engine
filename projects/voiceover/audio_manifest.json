@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T04:48:42.260855+00:00",
+  "generated_at": "2026-07-13T05:13:03.542647+00:00",
   "mode": "LOCAL_TTS",
   "language": "tr",
   "local_tts_available": true,
@@ -24,38 +24,38 @@
     {
       "scene_number": 3,
       "section": "İlk Kırılma",
-      "text": "Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
-      "estimated_seconds": 9.6,
+      "text": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
+      "estimated_seconds": 10.4,
       "audio_file": "voiceover/scenes/scene_03.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 4,
       "section": "Derinleşen Gizem",
-      "text": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
-      "estimated_seconds": 7.1,
+      "text": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+      "estimated_seconds": 7.5,
       "audio_file": "voiceover/scenes/scene_04.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 5,
       "section": "Büyük Cevap",
-      "text": "Kayıtlar bir şeyi gizliyordu. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
-      "estimated_seconds": 9.2,
+      "text": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
+      "estimated_seconds": 10.0,
       "audio_file": "voiceover/scenes/scene_05.wav",
       "actual_seconds": 0.0
     },
     {
       "scene_number": 6,
       "section": "Final",
-      "text": "Kimsenin anlatmadığı kısım burada başlıyor. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
-      "estimated_seconds": 8.3,
+      "text": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+      "estimated_seconds": 7.9,
       "audio_file": "voiceover/scenes/scene_06.wav",
       "actual_seconds": 0.0
     }
   ],
   "full_audio_file": null,
-  "total_estimated_seconds": 63.0,
+  "total_estimated_seconds": 64.6,
   "total_actual_seconds": 0.0,
   "limitations": [
     "OPTIONAL_PROVIDER modu yalnızca bir sağlayıcı anahtarı tanımlıysa denenir; bu depoda varsayılan olarak hiçbir ücretli sağlayıcı bağlı değildir.",

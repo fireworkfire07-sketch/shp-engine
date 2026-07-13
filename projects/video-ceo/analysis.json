@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T04:48:42.117763+00:00",
+  "generated_at": "2026-07-13T05:13:03.292643+00:00",
   "decision": "DUR",
-  "video_ceo_score": 61,
+  "video_ceo_score": 62,
   "approve_threshold": 80,
   "revise_floor": 55,
   "component_scores": {
@@ -13,8 +13,8 @@
     "hook_10s": 55,
     "hook_30s": 20,
     "story_structure": 66,
-    "curiosity": 68,
-    "retention": 38,
+    "curiosity": 72,
+    "retention": 35,
     "emotion": 33,
     "fact": 100,
     "originality": 100,
@@ -31,7 +31,7 @@
     "30s": "yüksek"
   },
   "script_agent_status": "REJECT",
-  "script_agent_ceo_score": 60,
+  "script_agent_ceo_score": 61,
   "rewrite_cycle_used": false,
   "title": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
   "reasons": [
@@ -39,7 +39,7 @@
     "İlk 10 saniyede izleyiciye kalmak için somut bir sebep verilmiyor.",
     "30. saniyeye kadar konu netleşmiyor veya ilk merak açılmıyor.",
     "İzlenme süresi kritik noktalarında (3sn/10sn/30sn/1dk/3dk) düşüş riski yüksek.",
-    "GROQ_API_KEY yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu.",
+    "OPENAI_API_KEY (ve GROQ_API_KEY) yok; kural tabanlı taslak yeniden yazılarak iyileştirilemez, üretim durduruldu.",
     "Uyarı: kanalda tarihsel olarak en güçlü performans gösteren tetikleyici kategori 'soru', bu başlıkta yok."
   ],
   "missing_inputs": []

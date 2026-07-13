@@ -38,7 +38,7 @@
     "section": "İlk Kırılma",
     "role": "conflict",
     "duration": "1:00-1:30",
-    "narration": "Kayıtlar bir şeyi gizliyordu. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
+    "narration": "Ama asıl gerçek çok daha karanlıktı. Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi? konusunda izleri takip ettikçe resmi anlatının anlatmadığı bir katman daha ortaya çıkıyor.",
     "visual_idea": "Karşıt iki güç veya taraf arasında görsel gerilim kurulur.",
     "camera_idea": "Sert kesmeler, kısa planlar, ritmi hızlandırır.",
     "scene_idea": "Kararan ışık, dramatik gölgeler, silüet yeniden canlandırma.",
@@ -48,14 +48,14 @@
     "emotional_purpose": "Gerilim ve endişe yaratmak; riski hissettirmek.",
     "curiosity_purpose": "Riski büyüterek 'bu nasıl çözülecek?' sorusunu güçlendirmek.",
     "subtitle_start_seconds": 28.8,
-    "subtitle_end_seconds": 38.4
+    "subtitle_end_seconds": 39.2
   },
   {
     "scene_number": 4,
     "section": "Derinleşen Gizem",
     "role": "mystery",
     "duration": "1:30-2:00",
-    "narration": "Kayıtlar bir şeyi gizliyordu. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
+    "narration": "Kimsenin anlatmadığı kısım burada başlıyor. konusunda asıl soru neyin olduğu değil, neden bu kadar uzun süre gölgede kaldığı.",
     "visual_idea": "Eksik parça veya cevaplanmamış detay ekranda büyütülür.",
     "camera_idea": "Yavaş rack focus; net olmayan arka plandan nesneye odak.",
     "scene_idea": "Arşiv fotoğrafı üzerinde soru işareti grafiği veya vurgulama efekti.",
@@ -64,15 +64,15 @@
     "sound_effect_direction": "Hafif gerilim efektleri (düşük drone, ince çınlama).",
     "emotional_purpose": "Belirsizlik ve merakı derinleştirmek.",
     "curiosity_purpose": "Eksik parçayı vurgulayarak izleyiciyi bir sonraki bölüme çekmek.",
-    "subtitle_start_seconds": 38.4,
-    "subtitle_end_seconds": 45.5
+    "subtitle_start_seconds": 39.2,
+    "subtitle_end_seconds": 46.7
   },
   {
     "scene_number": 5,
     "section": "Büyük Cevap",
     "role": "reveal",
     "duration": "2:00-2:30",
-    "narration": "Kayıtlar bir şeyi gizliyordu. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
+    "narration": "Ama asıl gerçek çok daha karanlıktı. konusunda kayıtların bir kısmı hâlâ tartışmalı; bu da hikâyeyi tek bir cümleyle kapatmayı imkânsız kılıyor.",
     "visual_idea": "Ana cevabı temsil eden görsel net ve büyük şekilde ortaya çıkar.",
     "camera_idea": "Ani zoom-out veya ışık patlaması hissi veren geçiş.",
     "scene_idea": "Önceki karanlık/belirsiz sahneden aydınlık/net sahneye geçiş.",
@@ -81,15 +81,15 @@
     "sound_effect_direction": "Netlik anında parlama/whoosh efekti; ani sessizlik ardından vurgu.",
     "emotional_purpose": "Tatmin ve şaşkınlığı birleştirerek rahatlama hissi vermek.",
     "curiosity_purpose": "Ana soruyu cevaplarken yeni bir alt-soru bırakmak.",
-    "subtitle_start_seconds": 45.5,
-    "subtitle_end_seconds": 54.7
+    "subtitle_start_seconds": 46.7,
+    "subtitle_end_seconds": 56.7
   },
   {
     "scene_number": 6,
     "section": "Final",
     "role": "final",
     "duration": "2:30-3:00",
-    "narration": "Kimsenin anlatmadığı kısım burada başlıyor. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
+    "narration": "Kayıtlar bir şeyi gizliyordu. Bugün sıradan görünen bu hikâyenin geçmişte nasıl bir güç aracına dönüştüğünü bilmek, bakışımızı değiştiriyor.",
     "visual_idea": "Geniş, sakin bir kapanış planı; hikâyenin bugüne bağlandığı görüntü.",
     "camera_idea": "Yavaş uzaklaşan (pull-out) geniş açı plan.",
     "scene_idea": "Gün ışığına dönüş; sıcak renk paleti.",
@@ -98,7 +98,7 @@
     "sound_effect_direction": "Yumuşak ortam sesi; müzik öne çıksın, efekt minimal.",
     "emotional_purpose": "Duygusal kapanış ve tatmin; izleyicide kalıcı izlenim bırakmak.",
     "curiosity_purpose": "Baştaki soruyu kapatırken serinin bir sonraki videosunun merakını açmak.",
-    "subtitle_start_seconds": 54.7,
-    "subtitle_end_seconds": 63.0
+    "subtitle_start_seconds": 56.7,
+    "subtitle_end_seconds": 64.6
   }
 ]
