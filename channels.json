@@ -1,0 +1,27 @@
+{
+  "AITUBE2": {
+    "repo": "fireworkfire07-sketch/AITUBE2",
+    "event_type": "new_topic",
+    "keywords": [
+      "zenginlik", "zengin", "para", "servet", "yatirim", "borsa", "finans",
+      "bereket", "bolluk", "tasarruf", "gelir", "sermaye", "wealth", "money"
+    ]
+  },
+  "secret-history-plants": {
+    "repo": "fireworkfire07-sketch/secret-history-plants",
+    "event_type": "new_topic",
+    "keywords": [
+      "bitki", "bitkiler", "botanik", "doga", "dogal", "agac", "cicek",
+      "baharat", "sifali", "zehir", "mantar", "tohum", "yaprak", "kok",
+      "ipek", "tarim", "antik", "kadim"
+    ]
+  },
+  "Nobody-Tells-You": {
+    "repo": "fireworkfire07-sketch/Nobody-Tells-You",
+    "event_type": "new_topic",
+    "keywords": [
+      "psikoloji", "yasam", "hayat", "insan", "gercek", "gercekler", "sir",
+      "sirlar", "itiraf", "davranis", "zihin", "iliski", "mutluluk", "basari"
+    ]
+  }
+}
