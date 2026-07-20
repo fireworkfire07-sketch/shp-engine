@@ -23,7 +23,8 @@ def _font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
 
 
 def _draw_centered(draw: ImageDraw.ImageDraw, text: str, y: int, font, width: int = 900) -> int:
-    lines = textwrap.wrap(text, width=24 if font.size >= 70 else 34)
+    font_size = getattr(font, "size", 40)
+    lines = textwrap.wrap(text, width=24 if font_size >= 70 else 34)
     current_y = y
     for line in lines:
         box = draw.textbbox((0, 0), line, font=font)
