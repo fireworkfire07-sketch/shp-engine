@@ -1,54 +1,66 @@
-# shp-engine
+# SHP Engine
 
-SHP Engine is the clean core for Orhan's safe AI video automation system.
+SHP Engine, verilen bir konudan otomatik dikey video oluşturan temel sistemdir.
 
-This first version is intentionally conservative: it creates dry-run video job manifests and keeps YouTube privacy set to `private` by default.
+## Şu anda çalışan bölüm
 
-## What is included
+- Konuyu alır
+- 6 sahnelik Türkçe içerik oluşturur
+- Her sahne için 1080×1920 görsel üretir
+- Sahne görsellerini birleştirir
+- Gerçek `video.mp4` dosyası oluşturur
+- Aynı klasöre `manifest.json` kaydeder
+- YouTube gizlilik ayarını varsayılan olarak `private` tutar
 
-- Python project skeleton
-- Environment/secrets template
-- Health check command
-- Safe dry-run pipeline
-- Output manifest generation
-- YouTube privacy default: `private`
-
-## Local setup
+## Kurulum
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
+source .venv/bin/activate
 pip install -e .
-cp .env.example .env
 ```
 
-## Health check
+Windows:
+
+```bash
+.venv\Scripts\activate
+pip install -e .
+```
+
+## Sağlık kontrolü
 
 ```bash
 shp-engine health
 ```
 
-## Create a safe dry-run job
+## Video üret
 
 ```bash
-shp-engine run "mycelium"
+shp-engine run "Bitkilerin gizli iletişimi"
 ```
 
-The command writes:
+Çıktılar şu yapıda oluşur:
 
 ```text
-output/latest_job.json
+output/
+  20260720-120000-bitkilerin-gizli-iletisimi/
+    video.mp4
+    manifest.json
+    frames/
 ```
 
-## Next build steps
+## Şimdilik eksik olanlar
 
-1. Script generator agent
-2. Voiceover agent
-3. Scene prompt/image/video agent
-4. Render assembly layer
-5. YouTube uploader with `privacyStatus=private`
-6. Health supervisor that blocks unsafe publishing
+- Yapay zekâ ile uzun ve özgün senaryo üretimi
+- Türkçe seslendirme
+- Otomatik görsel/video klip bulma veya üretme
+- Altyazı
+- Müzik
+- YouTube yükleme
+- Zamanlanmış otomatik çalıştırma
 
-## Safety rule
+Bu eksikler sonraki katmanlarda eklenecek. Mevcut sürüm gerçek MP4 üretir fakat sessiz, yazı tabanlı ilk çalışan sürümdür.
 
-Real API keys must only live in local `.env`, Vercel secrets, or GitHub secrets. Never commit real secrets to the repo.
+## Güvenlik
+
+Gerçek API anahtarlarını repoya yazmayın. Anahtarları yalnızca `.env`, GitHub Secrets veya Vercel Environment Variables alanında saklayın.
