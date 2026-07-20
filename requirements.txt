@@ -2,3 +2,6 @@ python-dotenv==1.0.1
 pydantic==2.8.2
 pydantic-settings==2.4.0
 rich==13.7.1
+moviepy==1.0.3
+Pillow==9.5.0
+imageio-ffmpeg==0.5.1
