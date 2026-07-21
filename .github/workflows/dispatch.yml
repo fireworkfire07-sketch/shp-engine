@@ -10,6 +10,10 @@ on:
         required: true
         type: boolean
         default: false
+      min_score:
+        description: "Test icin niche_score esigini gecici düşür (varsayilan 75)"
+        required: false
+        default: "75"
 
 permissions:
   contents: write
@@ -31,6 +35,7 @@ jobs:
         env:
           CROSS_REPO_TOKEN: ${{ secrets.CROSS_REPO_TOKEN }}
           DISPATCH_DRY_RUN: ${{ inputs.dry_run }}
+          MIN_SCORE: ${{ inputs.min_score }}
         run: python dispatcher.py
 
       - name: Dispatch log'unu GitHub'a kaydet

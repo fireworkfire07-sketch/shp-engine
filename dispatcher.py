@@ -13,7 +13,7 @@ ROOT = Path("projects")
 CHANNELS_FILE = Path("channels.json")
 LOG_FILE = ROOT / "dispatch-log.json"
 GITHUB_API = "https://api.github.com"
-MIN_SCORE = 75
+MIN_SCORE = int(os.environ.get("MIN_SCORE", "75"))
 
 # Meta/aggregate project folders are not niche-topic reports and must never be dispatched.
 META_PROJECT_DIRS = {
