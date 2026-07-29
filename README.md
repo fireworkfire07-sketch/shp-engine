@@ -57,3 +57,16 @@ report.md       Okunabilir niş raporu
 - Markdown raporu üretir.
 
 Henüz otomatik video üretmez ve YouTube'a yükleme yapmaz. Önce izlenen formatı bulmak için tasarlanmıştır.
+
+## Kurulum
+
+GitHub Actions workflow'larının çalışması için repo **Settings → Secrets and variables → Actions** altında şu secret'lar tanımlı olmalı:
+
+| Secret | Kullanıldığı yer | Zorunlu mu |
+|---|---|---|
+| `YOUTUBE_API_KEY` | Niş araştırması, dispatch öncesi tazeleme, kanal/rakip analizi | Evet |
+| `CROSS_REPO_TOKEN` | `dispatcher.py` — `repository_dispatch` ile kanal repolarına konu gönderir (`repo` yetkili bir GitHub PAT) | Evet (`dispatch.yml` için) |
+| `GROQ_API_KEY` | `run-shp.yml` → Script Agent V2 (ücretsiz Groq modeli) | `run-shp.yml` çalıştıracaksan |
+| `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | `dispatch.yml` sonunda hata bildirimi | Opsiyonel — yoksa bildirim adımı sessizce atlanır |
+
+Bu repo doğrudan YouTube'a video yüklemez, bu yüzden OAuth consent onayı gerektirmez — o uyarı kanal repolarının (secret-history-plants, Nobody-Tells-You, AITUBE2) README'lerinde.
