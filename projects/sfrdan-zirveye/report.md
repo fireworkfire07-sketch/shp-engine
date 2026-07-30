@@ -3,35 +3,35 @@
 **Konu:** Sıfırdan Zirveye  
 **Donem:** Son 90 gun  
 **Analiz edilen video:** 25  
-**Nis puani:** **19/100**  
+**Nis puani:** **25/100**  
 **Karar:** **BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.**
 
 ## Temel gostergeler
 
-- Medyan goruntulenme: 2.9K
-- Medyan gunluk izlenme hizi: 108
-- En yuksek gunluk izlenme hizi: 20.9K
-- Kanal cesitliligi: 0.6
+- Medyan goruntulenme: 17.0K
+- Medyan gunluk izlenme hizi: 865
+- En yuksek gunluk izlenme hizi: 40.1K
+- Kanal cesitliligi: 0.72
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | YKS'de Sıfırdan Zirveye! YKS 2026'da Hedefini Yakalayan Meslek Liseli Kullanıcımız Anlatıyor! | Doping Hafıza | 400.0K | 20.9K | 0:31 | [Ac](https://www.youtube.com/watch?v=qNWgeEDHkuM) |
-| 2 | 99 gün kala zayıf öğrenci çağrıldı, tanrı gibi uyandı ve zirveye çıktı【Yoklama Saati】 | Sıfırdan Zirveye Mini Diziler | 21.5K | 2.1K | 140:41 | [Ac](https://www.youtube.com/watch?v=KDjwlDoPZ0c) |
-| 3 | Gözleri röntgen gibi çalışıyor, yalan söyleyenin sonu kötü oldu!【Kazanma Modu Açıldı】 | Sıfırdan Zirveye Mini Diziler | 11.8K | 1.9K | 140:18 | [Ac](https://www.youtube.com/watch?v=HUg46gCpNQE) |
-| 4 | Sistem açıldı, eziklik bitti: Okul güzeli diz çöktü ama onu affetmedim!【Herkesin İstediği Adam】 | Sıfırdan Zirveye Mini Diziler | 16.7K | 1.4K | 148:46 | [Ac](https://www.youtube.com/watch?v=IF0nJdPfEiw) |
-| 5 | 1982’de yeniden doğdu… ailesi onu yok etmeye çalıştı ama o zirveye çıktı!【Zekânın Gücü】 | Sıfırdan Zirveye Mini Diziler | 9.4K | 1.0K | 123:13 | [Ac](https://www.youtube.com/watch?v=ZllbDcTXK6Y) |
-| 6 | 13 Saniyede Tarih Yazdı: McGregor'ın Sıfırdan Zirveye Yolculuğu#ufc #mcgregor #mma #shorts #keşfet | ZİFİR | 2.7K | 863 | 0:57 | [Ac](https://www.youtube.com/watch?v=jhf3n1B01tQ) |
-| 7 | DST'NİN EN GÜÇLÜ KARAKTERİ Mİ? - Yeni WX-78 İle Sıfırdan Zirveye | Uğur Dağ | 19.8K | 283 | 79:14 | [Ac](https://www.youtube.com/watch?v=nC6jjR1f33I) |
-| 8 | SIFIRDAN ZİRVEYE - HİÇ PARA HARCAMADAN YENİ SERİ! - LAST DAY ON EARTH SURVİVAL - CANLI | BURAK ABİ | 6.3K | 247 | 137:41 | [Ac](https://www.youtube.com/watch?v=m1ktH8O32ZY) |
-| 9 | "Bu Araba Adamı ÜRKÜTÜYOR!" - Nissan 350z  Sıfırdan Zirveye Giden Başarı Hikayesi | Murat Bayat | 16.8K | 237 | 30:21 | [Ac](https://www.youtube.com/watch?v=qV0-MHW1T30) |
-| 10 | 60 DAKİKA'DA 500.000$ KAZANDIM! SIFIRDAN ZİRVEYE 6.SEZON #1 - Car Parking Multiplayer1 | BarookiTv | 10.1K | 136 | 20:12 | [Ac](https://www.youtube.com/watch?v=4GosSb4OvtI) |
-| 11 | DEĞERSİZ PETTEN EN DEĞERLİ PETE! 😱 SIFIRDAN ZİRVEYE PK XD TİCARETİ! - MAYA PK XD | MAYA PK XD | 7.1K | 128 | 17:59 | [Ac](https://www.youtube.com/watch?v=0aqH9gh1B-M) |
-| 12 | ÖRSLEN 🔥 - Sıfırdan Zirveye Giden Yol (Motivasyon Klip) | Hurrian AI | 9.1K | 111 | 2:30 | [Ac](https://www.youtube.com/watch?v=FKLwVrzovPM) |
-| 13 | Kartezyen Çarpımı: Sıfırdan Zirveye + [2020-2025]  AYT Çıkmış Sorular - ÖSYM Ne Sordu? | METİN HOCA MATEMATİK  | 2.9K | 108 | 16:19 | [Ac](https://www.youtube.com/watch?v=6QoG6diY71Q) |
-| 14 | SIFIRDAN ZİRVEYE 3.BÖLÜM - HİÇ PARA HARCAMADAN YENİ SERİ! - LAST DAY ON EARTH SURVİVAL - CANLI | BURAK ABİ | 2.4K | 105 | 98:34 | [Ac](https://www.youtube.com/watch?v=vAcvysTdvTI) |
-| 15 | SIFIRDAN ZİRVEYE 5.BÖLÜM - HİÇ PARA HARCAMADAN YENİ SERİ! - LAST DAY ON EARTH SURVİVAL - CANLI | BURAK ABİ | 1.7K | 86 | 93:13 | [Ac](https://www.youtube.com/watch?v=Rfri43HfKCE) |
+| 1 | Baldi ve Hello Neighbor FAKİRLİKTEN ZENGİNLİĞE! 💰🔥 #shorts | No1MesutBaba | 1.6M | 40.1K | 1:12 | [Ac](https://www.youtube.com/watch?v=gY4Vt0Awi5k) |
+| 2 | Sıradan koruma sandılar, karşılarında gerçek bir savaş efsanesi vardı 🔥【Gölgelerdeki Koruyucu】 | Sıfırdan Zirveye Mini Diziler | 163.5K | 11.9K | 136:05 | [Ac](https://www.youtube.com/watch?v=MzqW_OXnl7w) |
+| 3 | 3 liralık kola aldı, sistem ona milyonlarca servet verdi! 🥤💰【Harca Gitsin】 | Sıfırdan Zirveye Mini Diziler | 72.1K | 4.5K | 140:12 | [Ac](https://www.youtube.com/watch?v=7bLiidW0uoQ) |
+| 4 | Sıfırdan Zirveye: İnanılmaz 5 Futbol Hikayesi! ⚽🔥 #fyp #futbol #football #türkçe | FutbolDunyasiTR | 139.8K | 2.9K | 1:18 | [Ac](https://www.youtube.com/watch?v=jXlOOiqx0-M) |
+| 5 | Ailem Beni Para Makinesi Sandı, Ama Onlar Benim Servet Kaynağımdı!【Borç Servettir】 | Sıfırdan Zirveye Mini Diziler | 10.1K | 2.7K | 121:06 | [Ac](https://www.youtube.com/watch?v=8PcnuHK7Vs8) |
+| 6 | 1 TL VERDİ, MİLYONLAR KAZANDI! Para Sistemi Onu Zirveye Taşıdı | Sıfırdan Zirveye Mini Diziler | 17.6K | 2.6K | 108:37 | [Ac](https://www.youtube.com/watch?v=BstoWj4IYTI) |
+| 7 | Sıfırdan Zirveye! FC 26 Sportif Direktör Kariyer Modu | Hüseyin Anıl Biten 2 | 28.0K | 2.0K | 203:43 | [Ac](https://www.youtube.com/watch?v=KhEYPrX4iKo) |
+| 8 | En Genç Milyarder: Sam'in Sıfırdan Zirveye Uzanan İlham Veren Hikâyesi#shorts | Gerçekleri üflüyor | 20.0K | 1.7K | 2:58 | [Ac](https://www.youtube.com/watch?v=mebh5zpaPb0) |
+| 9 | 5 Zengin ablası gelince her şey değişti: Sadece 1 TL ile milyarder oldu!【Zengin Ablalar】 | Sıfırdan Zirveye Mini Diziler | 38.8K | 1.4K | 124:11 | [Ac](https://www.youtube.com/watch?v=eiNJIbH67dI) |
+| 10 | 99 gün kala zayıf öğrenci çağrıldı, tanrı gibi uyandı ve zirveye çıktı【Yoklama Saati】 | Sıfırdan Zirveye Mini Diziler | 30.8K | 1.1K | 140:41 | [Ac](https://www.youtube.com/watch?v=KDjwlDoPZ0c) |
+| 11 | 💪 Bir damat, dört eş, tek imparatorluk!【Damatın Oyunu】 | Sıfırdan Zirveye Mini Diziler | 12.3K | 1.0K | 135:41 | [Ac](https://www.youtube.com/watch?v=k2AtOjH9Boc) |
+| 12 | Sistem açıldı, eziklik bitti: Okul güzeli diz çöktü ama onu affetmedim!【Herkesin İstediği Adam】 | Sıfırdan Zirveye Mini Diziler | 31.0K | 1.0K | 148:46 | [Ac](https://www.youtube.com/watch?v=IF0nJdPfEiw) |
+| 13 | 【Tüm serisi】Sistemle sıfırdan zirveye, ama bir kadın onu durdurdu. Tek kelimeyle efsane! ⚡ | Dizi Kulübü | 7.6K | 865 | 117:03 | [Ac](https://www.youtube.com/watch?v=Nw7wghYAYn8) |
+| 14 | Lycan ile SIFIRDAN ZİRVEYE! - Metin2 TR Ruby Lucifer #1 | EL GRISO | 6.7K | 424 | 21:37 | [Ac](https://www.youtube.com/watch?v=_yMIVYHLpQI) |
+| 15 | "Sıfırdan Zirveye: Hakan Çelebi’nin Hayat Değiştiren Hikayesi"Tüm gerçekleriyle | Hakan Celebi | 6.1K | 388 | 20:22 | [Ac](https://www.youtube.com/watch?v=ayQRUC5sG60) |
 
 ## Sonraki aksiyon
 

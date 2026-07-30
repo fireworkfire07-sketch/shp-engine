@@ -1,15 +1,15 @@
 {
   "topic": "Bitkilerin Gizli Tarihi",
-  "created_at": "2026-07-11T17:14:51.798577+00:00",
+  "created_at": "2026-07-30T08:57:06.081038+00:00",
   "period_days": 90,
-  "videos_analyzed": 17,
-  "niche_score": 3,
+  "videos_analyzed": 12,
+  "niche_score": 5,
   "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
   "metrics": {
-    "median_views": 24,
+    "median_views": 29,
     "median_views_per_day": 1,
-    "top_views_per_day": 11,
-    "channel_diversity": 0.12
+    "top_views_per_day": 8,
+    "channel_diversity": 0.17
   },
   "videos": [
     {
@@ -18,7 +18,7 @@
       "channel": "Vigivimi",
       "published_at": "2026-06-03T09:00:03Z",
       "views": 430,
-      "views_per_day": 11,
+      "views_per_day": 8,
       "likes": 16,
       "comments": 0,
       "duration_seconds": 114,
@@ -29,8 +29,8 @@
       "title": "Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası",
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-23T13:46:04Z",
-      "views": 115,
-      "views_per_day": 6,
+      "views": 116,
+      "views_per_day": 3,
       "likes": 2,
       "comments": 0,
       "duration_seconds": 988,
@@ -42,35 +42,11 @@
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-19T16:01:10Z",
       "views": 108,
-      "views_per_day": 5,
+      "views_per_day": 3,
       "likes": 0,
       "comments": 0,
       "duration_seconds": 1145,
       "url": "https://www.youtube.com/watch?v=ERUFWLGdmTk"
-    },
-    {
-      "id": "eVj6ZcYTsRs",
-      "title": "Karabiberin Gizemli Dünyası: Baharatın İpeksi Yolculuğu",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-27T09:06:48Z",
-      "views": 59,
-      "views_per_day": 4,
-      "likes": 1,
-      "comments": 0,
-      "duration_seconds": 1003,
-      "url": "https://www.youtube.com/watch?v=eVj6ZcYTsRs"
-    },
-    {
-      "id": "Say5zU__UKg",
-      "title": "Doğanın Gizemli Zehiri: Güzelavrat Otu'nun Sırları",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-23T09:24:38Z",
-      "views": 56,
-      "views_per_day": 3,
-      "likes": 1,
-      "comments": 0,
-      "duration_seconds": 1032,
-      "url": "https://www.youtube.com/watch?v=Say5zU__UKg"
     },
     {
       "id": "ytbTCTCQERM",
@@ -78,7 +54,7 @@
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-19T11:58:40Z",
       "views": 54,
-      "views_per_day": 2,
+      "views_per_day": 1,
       "likes": 0,
       "comments": 0,
       "duration_seconds": 1166,
@@ -89,8 +65,8 @@
       "title": "Kenevir: Doğanın Gizemli Bitkisi ve İnsanlıkla Olan Kadim Bağı",
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-22T00:19:42Z",
-      "views": 44,
-      "views_per_day": 2,
+      "views": 46,
+      "views_per_day": 1,
       "likes": 0,
       "comments": 0,
       "duration_seconds": 1102,
@@ -102,7 +78,7 @@
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-27T11:24:10Z",
       "views": 34,
-      "views_per_day": 2,
+      "views_per_day": 1,
       "likes": 0,
       "comments": 0,
       "duration_seconds": 356,
@@ -121,6 +97,18 @@
       "url": "https://www.youtube.com/watch?v=XCH9whPNc10"
     },
     {
+      "id": "WI3OpHKtxpc",
+      "title": "Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu",
+      "channel": "Bitkilerin Gizli tarihi",
+      "published_at": "2026-06-19T12:48:08Z",
+      "views": 24,
+      "views_per_day": 1,
+      "likes": 0,
+      "comments": 0,
+      "duration_seconds": 1154,
+      "url": "https://www.youtube.com/watch?v=WI3OpHKtxpc"
+    },
+    {
       "id": "QgiQjAhbNzY",
       "title": "Vanilyanın Sıradışı Dünyası: Gizemli Baharattan Lezzet Yolculuğu",
       "channel": "Bitkilerin Gizli tarihi",
@@ -133,28 +121,16 @@
       "url": "https://www.youtube.com/watch?v=QgiQjAhbNzY"
     },
     {
-      "id": "WI3OpHKtxpc",
-      "title": "Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu",
+      "id": "Z8ryfggQ8nY",
+      "title": "Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü",
       "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-19T12:48:08Z",
-      "views": 23,
-      "views_per_day": 1,
-      "likes": 0,
-      "comments": 0,
-      "duration_seconds": 1154,
-      "url": "https://www.youtube.com/watch?v=WI3OpHKtxpc"
-    },
-    {
-      "id": "UIUY85A4SwI",
-      "title": "Anadolu'nun Gizemli Bitkisi: Zahter'in Sıra Dışı Dünyası",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-22T09:17:03Z",
+      "published_at": "2026-06-23T13:45:25Z",
       "views": 21,
       "views_per_day": 1,
       "likes": 1,
       "comments": 0,
-      "duration_seconds": 1126,
-      "url": "https://www.youtube.com/watch?v=UIUY85A4SwI"
+      "duration_seconds": 1234,
+      "url": "https://www.youtube.com/watch?v=Z8ryfggQ8nY"
     },
     {
       "id": "tRA1CXXKUek",
@@ -162,7 +138,7 @@
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-22T09:17:20Z",
       "views": 18,
-      "views_per_day": 1,
+      "views_per_day": 0,
       "likes": 0,
       "comments": 0,
       "duration_seconds": 1068,
@@ -174,47 +150,11 @@
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-21T06:26:58Z",
       "views": 18,
-      "views_per_day": 1,
+      "views_per_day": 0,
       "likes": 2,
       "comments": 2,
       "duration_seconds": 1055,
       "url": "https://www.youtube.com/watch?v=wKL3ENScQLI"
-    },
-    {
-      "id": "Z8ryfggQ8nY",
-      "title": "Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-23T13:45:25Z",
-      "views": 19,
-      "views_per_day": 1,
-      "likes": 1,
-      "comments": 0,
-      "duration_seconds": 1234,
-      "url": "https://www.youtube.com/watch?v=Z8ryfggQ8nY"
-    },
-    {
-      "id": "v9Q9niU8fI0",
-      "title": "Kekik: Toros Dağları'nın Gizli Hazinesi ve Şifa Kaynağı",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-19T12:24:07Z",
-      "views": 12,
-      "views_per_day": 1,
-      "likes": 0,
-      "comments": 0,
-      "duration_seconds": 1043,
-      "url": "https://www.youtube.com/watch?v=v9Q9niU8fI0"
-    },
-    {
-      "id": "Q-fgGZviiHE",
-      "title": "Gizemli Yaşam: Ginkgo Biloba'nın Eşsiz Dünyası",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-23T09:47:56Z",
-      "views": 1,
-      "views_per_day": 0,
-      "likes": 0,
-      "comments": 0,
-      "duration_seconds": 1035,
-      "url": "https://www.youtube.com/watch?v=Q-fgGZviiHE"
     }
   ]
 }
