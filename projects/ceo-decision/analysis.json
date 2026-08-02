@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-12T07:57:54.552685+00:00",
+  "generated_at": "2026-08-02T11:48:09.607418+00:00",
   "role": "SHP analizleri birleştirir ve kanal kimliğine uygun tek CEO kararı verir; video üretmez.",
   "decision": "BEKLET",
   "publish": "HAYIR",
-  "topic": "Ağacının karanlık tarihi",
+  "topic": "Bitkilerin Gizli Tarihi",
   "video_idea": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
   "confidence": 50,
-  "niche_score": 0,
-  "channel_fit_score": 100,
+  "niche_score": 5,
+  "channel_fit_score": 95,
   "channel_health_score": 1,
   "reasons": [
-    "Niş puanı: 0/100.",
-    "Kanal uyum puanı: 100/100.",
-    "Kanal temasıyla eşleşen kelimeler: agac, ağaç, tarih.",
-    "Kanal başlıklarıyla ortak kelimeler: agac, k, n, tarihi.",
-    "Medyan günlük izlenme hızı: 0.",
+    "Niş puanı: 5/100.",
+    "Kanal uyum puanı: 95/100.",
+    "Kanal temasıyla eşleşen kelimeler: bitki, bitkiler, gizli, tarih.",
+    "Kanal başlıklarıyla ortak kelimeler: bitkilerin, gizli, tarihi.",
+    "Medyan günlük izlenme hızı: 1.",
     "Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.",
     "Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.0 günlük izlenme).",
     "En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12371.5."
@@ -27,26 +27,5 @@
     "strongest_video": "Tüylerimiz Neden Diken Diken Oluyor?",
     "instruction": "Başlığı kopyalama; aynı izleyici ihtiyacına kanal temasına uygun özgün açı üret."
   },
-  "missing_inputs": [],
-  "effort_filter": {
-    "verdict": "SADECE KÜÇÜK TESTE DEĞER",
-    "value_score": 41,
-    "action": "TEST ET",
-    "reasons": [
-      "Kanal temasına güçlü biçimde uyuyor.",
-      "Pazar talebi emeği karşılayacak kadar güçlü görünmüyor.",
-      "Benzer videolarda medyan günlük hız düşük.",
-      "Kanalın mevcut güçlü videolarıyla performans bağı var.",
-      "Rakiplerde çalışan örnek bulundu: Tüylerimiz Neden Diken Diken Oluyor?."
-    ],
-    "signals": {
-      "market_median_views_per_day": 0.0,
-      "market_top_views_per_day": 0.0,
-      "own_best_views_per_day": 9.03,
-      "rival_best_views_per_day": 372295.0
-    }
-  },
-  "effort_verdict": "SADECE KÜÇÜK TESTE DEĞER",
-  "effort_value_score": 41,
-  "effort_action": "TEST ET"
+  "missing_inputs": []
 }
