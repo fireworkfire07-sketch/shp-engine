@@ -1,52 +1,52 @@
 [
   {
     "topic": "Yapay Zeka Haberleri",
-    "niche_score": 29,
+    "niche_score": 30,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 85229,
-      "median_views_per_day": 2139,
-      "top_views_per_day": 50024,
+      "median_views": 108665,
+      "median_views_per_day": 4735,
+      "top_views_per_day": 39878,
       "channel_diversity": 0.84
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
     "topic": "Psikoloji Hikayeleri",
-    "niche_score": 29,
+    "niche_score": 27,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 35491,
-      "median_views_per_day": 1723,
-      "top_views_per_day": 64802,
-      "channel_diversity": 0.76
+      "median_views": 33022,
+      "median_views_per_day": 1115,
+      "top_views_per_day": 50375,
+      "channel_diversity": 0.84
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
     "topic": "Sıfırdan Zirveye",
-    "niche_score": 23,
+    "niche_score": 24,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 19812,
-      "median_views_per_day": 1304,
-      "top_views_per_day": 41177,
-      "channel_diversity": 0.6
+      "median_views": 19401,
+      "median_views_per_day": 1234,
+      "top_views_per_day": 43909,
+      "channel_diversity": 0.64
     },
     "report": "projects/sfrdan-zirveye/report.md"
   },
   {
     "topic": "Gizemli Tarih",
-    "niche_score": 22,
+    "niche_score": 21,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 55540,
-      "median_views_per_day": 1605,
-      "top_views_per_day": 58125,
+      "median_views": 59347,
+      "median_views_per_day": 1587,
+      "top_views_per_day": 49809,
       "channel_diversity": 0.48
     },
     "report": "projects/gizemli-tarih/report.md"
