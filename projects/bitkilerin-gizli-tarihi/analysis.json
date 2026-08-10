@@ -1,14 +1,14 @@
 {
   "topic": "Bitkilerin Gizli Tarihi",
-  "created_at": "2026-08-06T08:31:55.645092+00:00",
+  "created_at": "2026-08-10T07:27:14.691569+00:00",
   "period_days": 90,
   "videos_analyzed": 12,
   "niche_score": 5,
   "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
   "metrics": {
-    "median_views": 29,
+    "median_views": 30,
     "median_views_per_day": 1,
-    "top_views_per_day": 7,
+    "top_views_per_day": 6,
     "channel_diversity": 0.17
   },
   "videos": [
@@ -18,7 +18,7 @@
       "channel": "Vigivimi",
       "published_at": "2026-06-03T09:00:03Z",
       "views": 430,
-      "views_per_day": 7,
+      "views_per_day": 6,
       "likes": 16,
       "comments": 0,
       "duration_seconds": 114,
@@ -30,7 +30,7 @@
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-23T13:46:04Z",
       "views": 117,
-      "views_per_day": 3,
+      "views_per_day": 2,
       "likes": 2,
       "comments": 0,
       "duration_seconds": 988,
@@ -77,7 +77,7 @@
       "title": "Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler",
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-27T11:24:10Z",
-      "views": 34,
+      "views": 35,
       "views_per_day": 1,
       "likes": 0,
       "comments": 0,
@@ -97,18 +97,6 @@
       "url": "https://www.youtube.com/watch?v=XCH9whPNc10"
     },
     {
-      "id": "WI3OpHKtxpc",
-      "title": "Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu",
-      "channel": "Bitkilerin Gizli tarihi",
-      "published_at": "2026-06-19T12:48:08Z",
-      "views": 24,
-      "views_per_day": 1,
-      "likes": 0,
-      "comments": 0,
-      "duration_seconds": 1154,
-      "url": "https://www.youtube.com/watch?v=WI3OpHKtxpc"
-    },
-    {
       "id": "QgiQjAhbNzY",
       "title": "Vanilyanın Sıradışı Dünyası: Gizemli Baharattan Lezzet Yolculuğu",
       "channel": "Bitkilerin Gizli tarihi",
@@ -121,12 +109,24 @@
       "url": "https://www.youtube.com/watch?v=QgiQjAhbNzY"
     },
     {
+      "id": "WI3OpHKtxpc",
+      "title": "Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu",
+      "channel": "Bitkilerin Gizli tarihi",
+      "published_at": "2026-06-19T12:48:08Z",
+      "views": 24,
+      "views_per_day": 0,
+      "likes": 0,
+      "comments": 0,
+      "duration_seconds": 1154,
+      "url": "https://www.youtube.com/watch?v=WI3OpHKtxpc"
+    },
+    {
       "id": "Z8ryfggQ8nY",
       "title": "Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü",
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-23T13:45:25Z",
       "views": 22,
-      "views_per_day": 1,
+      "views_per_day": 0,
       "likes": 1,
       "comments": 0,
       "duration_seconds": 1234,
