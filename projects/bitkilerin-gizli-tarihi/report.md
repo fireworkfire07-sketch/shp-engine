@@ -19,7 +19,7 @@
 |---|---|---|---:|---:|---:|---|
 | 1 | Bir Casusun Saraya Hediyesi: Çileğin Gizli Tarihi! 🍓📜 #Vigivimi #Tarih | Vigivimi | 430 | 6 | 1:54 | [Ac](https://www.youtube.com/watch?v=xYsstlFaOyU) |
 | 2 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | Bitkilerin Gizli tarihi | 117 | 2 | 16:28 | [Ac](https://www.youtube.com/watch?v=IqbygJdT2ew) |
-| 3 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | Bitkilerin Gizli tarihi | 108 | 2 | 19:05 | [Ac](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
+| 3 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | Bitkilerin Gizli tarihi | 109 | 2 | 19:05 | [Ac](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
 | 4 | Doğanın Mucizesi: Çemen Otunun Gizemli Dünyası | Bitkilerin Gizli tarihi | 54 | 1 | 19:26 | [Ac](https://www.youtube.com/watch?v=ytbTCTCQERM) |
 | 5 | Kenevir: Doğanın Gizemli Bitkisi ve İnsanlıkla Olan Kadim Bağı | Bitkilerin Gizli tarihi | 46 | 1 | 18:22 | [Ac](https://www.youtube.com/watch?v=XamXvGcQO4E) |
 | 6 | Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler | Bitkilerin Gizli tarihi | 35 | 1 | 5:56 | [Ac](https://www.youtube.com/watch?v=uD1pRORBwHQ) |
