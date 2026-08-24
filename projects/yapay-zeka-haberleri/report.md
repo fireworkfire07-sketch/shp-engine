@@ -3,35 +3,35 @@
 **Konu:** Yapay Zeka Haberleri  
 **Donem:** Son 90 gun  
 **Analiz edilen video:** 25  
-**Nis puani:** **29/100**  
+**Nis puani:** **42/100**  
 **Karar:** **BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.**
 
 ## Temel gostergeler
 
-- Medyan goruntulenme: 113.4K
-- Medyan gunluk izlenme hizi: 4.3K
-- En yuksek gunluk izlenme hizi: 27.4K
-- Kanal cesitliligi: 0.88
+- Medyan goruntulenme: 110.1K
+- Medyan gunluk izlenme hizi: 3.3K
+- En yuksek gunluk izlenme hizi: 171.2K
+- Kanal cesitliligi: 0.84
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | 😂 Muhammed Salah Trabzonspor'da! Ronaldo ve Messi ile Trabzon'da Karşılaştı! 🤣 #shorts | Dünyadan Futbol | 425.1K | 27.4K | 0:11 | [Ac](https://www.youtube.com/watch?v=Nit4A9jqsF0) |
-| 2 | Fatma Soydaş Tutuklandı! Mahkemedeki "Yapay Zeka" Savunması ve Adliyeden Kaçış Anı | gdh TV | 544.8K | 20.4K | 1:05 | [Ac](https://www.youtube.com/watch?v=2TjsGaja44g) |
-| 3 | Yapay Zekâ Deneyi Gerçek Sisteme Taştı | Bebar Bilim | 466.1K | 16.7K | 1:33 | [Ac](https://www.youtube.com/watch?v=Jsg-4e2kfAA) |
-| 4 | Göz altına alınan Fatma Soydaş'ın sevgilisi açıklama yaptı #magazin #ytshorts #haber | magazinium TR | 462.3K | 16.0K | 0:56 | [Ac](https://www.youtube.com/watch?v=tFrqOyh-9WQ) |
-| 5 | KORKUNÇ YAPAY ZEKA VERİTY EVİMİZE GELDİ ?! (bittik) | Bora Kontaş | 770.0K | 15.2K | 21:49 | [Ac](https://www.youtube.com/watch?v=B9300n7gLis) |
-| 6 | Dursun Özbek’ten Leao’ya Rest! Aziz Yıldırım Parayla İşi Bitirecek | Urem Yapay Zeka | 283.7K | 13.1K | 0:16 | [Ac](https://www.youtube.com/watch?v=ew_EUJPeZzY) |
-| 7 | ekmektuş osman tuş'un annesiyle #kesfetteyiz #osmantuş #yapayzeka #kesfetbeniöneçıkart #fyp | osman tuşun kedisi | 822.9K | 12.6K | 0:11 | [Ac](https://www.youtube.com/watch?v=J6KQCfYGbWg) |
-| 8 | Spor haberleri: Rafael Leao'dan transfer açıklaması ve kariyerine dair kritik kararlar | Shorts Haber | 96.2K | 11.3K | 0:06 | [Ac](https://www.youtube.com/watch?v=IZxA8q-U-T8) |
-| 9 | İran'dan Kan Donduran Suikast Tehdidi: Hedefte Melania ve Barron Trump Var #shorts | Habertürk TV | 222.1K | 10.2K | 1:46 | [Ac](https://www.youtube.com/watch?v=FJih316QltQ) |
-| 10 | TÜRKİYE'NİN YAPAY ZEKA PLANI | Sadece ENES | 247.7K | 5.4K | 8:22 | [Ac](https://www.youtube.com/watch?v=Hf-ZmONVwKs) |
-| 11 | Pazarcı amca mı yapay zeka mı? En iyi karpuzu kim seçer? | GZT | 121.8K | 5.3K | 1:22 | [Ac](https://www.youtube.com/watch?v=vGjV_a9F488) |
-| 12 | Selçuk Bayraktar'dan Tarihe Geçecek Açıklama! Türkiye Yapay Zeka Zirvesinde Konuştu! #bayraktar | Sorgu | 57.0K | 5.3K | 13:52 | [Ac](https://www.youtube.com/watch?v=zrzDSwREzjI) |
-| 13 | Yapay zekanın yönettiği dünya dört günde çöktü | BBC News Türkçe | 127.6K | 4.3K | 6:14 | [Ac](https://www.youtube.com/watch?v=wTSY-qf3AKo) |
-| 14 | İnsan aklının sınırları aşılıyor - Yapay Zeka Gündemi #1 | Mesut Çevik | 74.0K | 4.0K | 49:18 | [Ac](https://www.youtube.com/watch?v=pCFE3AdCjkM) |
-| 15 | Fatma Soydaş Tutuklama Talebiyle Mahkemeye Sevk Edildi | Haberlercom | 109.9K | 4.0K | 0:26 | [Ac](https://www.youtube.com/watch?v=SOQhO8OZXL0) |
+| 1 | Osimhen Çıldırdı! Transferler Nerede? | Urem Yapay Zeka | 1.2M | 171.2K | 0:16 | [Ac](https://www.youtube.com/watch?v=9Ojo_pERXOM) |
+| 2 | Fenerbahçe Lukaku’yu Alınca Dursun Özbek Bayram Etti! #fenerbahçe  #galatasaray  #lukaku | Urem Yapay Zeka | 596.8K | 50.1K | 0:17 | [Ac](https://www.youtube.com/watch?v=AZjyTK37rN4) |
+| 3 | Fatma Soydaş Tutuklandı! Mahkemedeki "Yapay Zeka" Savunması ve Adliyeden Kaçış Anı | gdh TV | 552.3K | 18.0K | 1:05 | [Ac](https://www.youtube.com/watch?v=2TjsGaja44g) |
+| 4 | Yapay Zekâ Deneyi Gerçek Sisteme Taştı | Bebar Bilim | 473.2K | 14.9K | 1:33 | [Ac](https://www.youtube.com/watch?v=Jsg-4e2kfAA) |
+| 5 | KORKUNÇ YAPAY ZEKA VERİTY EVİMİZE GELDİ ?! (bittik) | Bora Kontaş | 776.1K | 14.2K | 21:49 | [Ac](https://www.youtube.com/watch?v=B9300n7gLis) |
+| 6 | Göz altına alınan Fatma Soydaş'ın sevgilisi açıklama yaptı #magazin #ytshorts #haber | magazinium TR | 466.6K | 14.2K | 0:56 | [Ac](https://www.youtube.com/watch?v=tFrqOyh-9WQ) |
+| 7 | İran'dan Kan Donduran Suikast Tehdidi: Hedefte Melania ve Barron Trump Var #shorts | Habertürk TV | 224.1K | 8.7K | 1:46 | [Ac](https://www.youtube.com/watch?v=FJih316QltQ) |
+| 8 | TÜRKİYE'NİN YAPAY ZEKA PLANI | Sadece ENES | 248.4K | 5.0K | 8:22 | [Ac](https://www.youtube.com/watch?v=Hf-ZmONVwKs) |
+| 9 | Pazarcı amca mı yapay zeka mı? En iyi karpuzu kim seçer? | GZT | 122.1K | 4.5K | 1:22 | [Ac](https://www.youtube.com/watch?v=vGjV_a9F488) |
+| 10 | Yapay zekanın yönettiği dünya dört günde çöktü | BBC News Türkçe | 130.6K | 3.9K | 6:14 | [Ac](https://www.youtube.com/watch?v=wTSY-qf3AKo) |
+| 11 | Fatma Soydaş Tutuklama Talebiyle Mahkemeye Sevk Edildi | Haberlercom | 110.1K | 3.5K | 0:26 | [Ac](https://www.youtube.com/watch?v=SOQhO8OZXL0) |
+| 12 | İnsan aklının sınırları aşılıyor - Yapay Zeka Gündemi #1 | Mesut Çevik | 75.3K | 3.3K | 49:18 | [Ac](https://www.youtube.com/watch?v=pCFE3AdCjkM) |
+| 13 | Kalemine değil yapay zekaya güvendi - atv Ana Haber 26 Haziran 2026 | atv Haber | 192.5K | 3.3K | 1:59 | [Ac](https://www.youtube.com/watch?v=ttFuNAoYVaQ) |
+| 14 | Selçuk Bayraktar'dan Tarihe Geçecek Açıklama! Türkiye Yapay Zeka Zirvesinde Konuştu! #bayraktar | Sorgu | 113.4K | 3.2K | 20:05 | [Ac](https://www.youtube.com/watch?v=bD-0KtBiKC0) |
+| 15 | Sosyal Medya Fenomeni Fatma Soydaş Tutuklandı! Müstehcenlik Soruşturmasında Bomba Detaylar | SÖZCÜ Televizyonu | 94.5K | 3.0K | 1:23 | [Ac](https://www.youtube.com/watch?v=ukVAi4sCetU) |
 
 ## Sonraki aksiyon
 
