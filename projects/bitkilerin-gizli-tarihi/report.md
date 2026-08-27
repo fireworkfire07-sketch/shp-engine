@@ -26,7 +26,7 @@
 | 7 | Kutsal Lotus: Gizemli Bitkinin Sıradışı Dünyasına Yolculuk | Bitkilerin Gizli tarihi | 26 | 0 | 14:28 | [Ac](https://www.youtube.com/watch?v=XCH9whPNc10) |
 | 8 | Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu | Bitkilerin Gizli tarihi | 24 | 0 | 19:14 | [Ac](https://www.youtube.com/watch?v=WI3OpHKtxpc) |
 | 9 | Vanilyanın Sıradışı Dünyası: Gizemli Baharattan Lezzet Yolculuğu | Bitkilerin Gizli tarihi | 24 | 0 | 16:01 | [Ac](https://www.youtube.com/watch?v=QgiQjAhbNzY) |
-| 10 | Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü | Bitkilerin Gizli tarihi | 24 | 0 | 20:34 | [Ac](https://www.youtube.com/watch?v=Z8ryfggQ8nY) |
+| 10 | Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü | Bitkilerin Gizli tarihi | 25 | 0 | 20:34 | [Ac](https://www.youtube.com/watch?v=Z8ryfggQ8nY) |
 | 11 | Adamotu: Doğanın Gizemli Şifa Kaynağı ve Mitolojideki Yeri | Bitkilerin Gizli tarihi | 18 | 0 | 17:48 | [Ac](https://www.youtube.com/watch?v=tRA1CXXKUek) |
 | 12 | Defne Yaprağının Gizemli Dünyası: Tarih, Lezzet ve Sağlık Üzerine Bir Yolculuk | Bitkilerin Gizli tarihi | 18 | 0 | 17:35 | [Ac](https://www.youtube.com/watch?v=wKL3ENScQLI) |
 

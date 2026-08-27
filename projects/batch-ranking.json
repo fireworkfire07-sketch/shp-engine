@@ -1,53 +1,53 @@
 [
   {
     "topic": "Yapay Zeka Haberleri",
-    "niche_score": 42,
+    "niche_score": 38,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 110079,
-      "median_views_per_day": 3286,
-      "top_views_per_day": 171250,
-      "channel_diversity": 0.84
+      "median_views": 131334,
+      "median_views_per_day": 3652,
+      "top_views_per_day": 118476,
+      "channel_diversity": 0.88
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
     "topic": "Psikoloji Hikayeleri",
-    "niche_score": 32,
+    "niche_score": 31,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 48836,
-      "median_views_per_day": 2179,
-      "top_views_per_day": 92216,
-      "channel_diversity": 0.96
+      "median_views": 69064,
+      "median_views_per_day": 2132,
+      "top_views_per_day": 81918,
+      "channel_diversity": 0.88
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
     "topic": "Gizemli Tarih",
-    "niche_score": 19,
+    "niche_score": 21,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 92200,
-      "median_views_per_day": 2165,
-      "top_views_per_day": 39237,
-      "channel_diversity": 0.4
+      "median_views": 97726,
+      "median_views_per_day": 2289,
+      "top_views_per_day": 31896,
+      "channel_diversity": 0.48
     },
     "report": "projects/gizemli-tarih/report.md"
   },
   {
     "topic": "Sıfırdan Zirveye",
-    "niche_score": 17,
+    "niche_score": 18,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 19762,
-      "median_views_per_day": 809,
-      "top_views_per_day": 20050,
-      "channel_diversity": 0.48
+      "median_views": 32836,
+      "median_views_per_day": 820,
+      "top_views_per_day": 42825,
+      "channel_diversity": 0.44
     },
     "report": "projects/sfrdan-zirveye/report.md"
   },
