@@ -2,10 +2,10 @@
 
 | Sıra | Niş | Puan | Karar | Medyan günlük izlenme | Rapor |
 |---:|---|---:|---|---:|---|
-| 1 | Yapay Zeka Haberleri | 38 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 3652 | [Aç](projects/yapay-zeka-haberleri/report.md) |
-| 2 | Psikoloji Hikayeleri | 31 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 2132 | [Aç](projects/psikoloji-hikayeleri/report.md) |
-| 3 | Gizemli Tarih | 21 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 2289 | [Aç](projects/gizemli-tarih/report.md) |
-| 4 | Sıfırdan Zirveye | 18 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 820 | [Aç](projects/sfrdan-zirveye/report.md) |
+| 1 | Psikoloji Hikayeleri | 36 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 2787 | [Aç](projects/psikoloji-hikayeleri/report.md) |
+| 2 | Yapay Zeka Haberleri | 34 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 3577 | [Aç](projects/yapay-zeka-haberleri/report.md) |
+| 3 | Sıfırdan Zirveye | 20 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 888 | [Aç](projects/sfrdan-zirveye/report.md) |
+| 4 | Gizemli Tarih | 18 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 1913 | [Aç](projects/gizemli-tarih/report.md) |
 | 5 | Bitkilerin Gizli Tarihi | 5 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 0 | [Aç](projects/bitkilerin-gizli-tarihi/report.md) |
 
 ## Karar kuralı
