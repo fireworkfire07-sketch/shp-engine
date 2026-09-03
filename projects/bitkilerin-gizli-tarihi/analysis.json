@@ -1,29 +1,17 @@
 {
   "topic": "Bitkilerin Gizli Tarihi",
-  "created_at": "2026-08-31T12:40:28.149852+00:00",
+  "created_at": "2026-09-03T10:39:25.830387+00:00",
   "period_days": 90,
   "videos_analyzed": 12,
-  "niche_score": 5,
+  "niche_score": 2,
   "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
   "metrics": {
-    "median_views": 30,
+    "median_views": 26,
     "median_views_per_day": 0,
-    "top_views_per_day": 5,
-    "channel_diversity": 0.17
+    "top_views_per_day": 2,
+    "channel_diversity": 0.08
   },
   "videos": [
-    {
-      "id": "xYsstlFaOyU",
-      "title": "Bir Casusun Saraya Hediyesi: Çileğin Gizli Tarihi! 🍓📜 #Vigivimi #Tarih",
-      "channel": "Vigivimi",
-      "published_at": "2026-06-03T09:00:03Z",
-      "views": 431,
-      "views_per_day": 5,
-      "likes": 16,
-      "comments": 0,
-      "duration_seconds": 114,
-      "url": "https://www.youtube.com/watch?v=xYsstlFaOyU"
-    },
     {
       "id": "IqbygJdT2ew",
       "title": "Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası",
@@ -41,7 +29,7 @@
       "title": "Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi",
       "channel": "Bitkilerin Gizli tarihi",
       "published_at": "2026-06-19T16:01:10Z",
-      "views": 109,
+      "views": 110,
       "views_per_day": 1,
       "likes": 0,
       "comments": 0,
@@ -155,6 +143,18 @@
       "comments": 2,
       "duration_seconds": 1055,
       "url": "https://www.youtube.com/watch?v=wKL3ENScQLI"
+    },
+    {
+      "id": "Q-fgGZviiHE",
+      "title": "Gizemli Yaşam: Ginkgo Biloba'nın Eşsiz Dünyası",
+      "channel": "Bitkilerin Gizli tarihi",
+      "published_at": "2026-06-23T09:47:56Z",
+      "views": 2,
+      "views_per_day": 0,
+      "likes": 0,
+      "comments": 0,
+      "duration_seconds": 1035,
+      "url": "https://www.youtube.com/watch?v=Q-fgGZviiHE"
     }
   ]
 }
