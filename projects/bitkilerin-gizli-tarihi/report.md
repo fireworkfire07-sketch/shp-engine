@@ -18,10 +18,10 @@
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
 | 1 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | Bitkilerin Gizli tarihi | 117 | 2 | 16:28 | [Ac](https://www.youtube.com/watch?v=IqbygJdT2ew) |
-| 2 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | Bitkilerin Gizli tarihi | 110 | 1 | 19:05 | [Ac](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
+| 2 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | Bitkilerin Gizli tarihi | 113 | 1 | 19:05 | [Ac](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
 | 3 | Doğanın Mucizesi: Çemen Otunun Gizemli Dünyası | Bitkilerin Gizli tarihi | 54 | 1 | 19:26 | [Ac](https://www.youtube.com/watch?v=ytbTCTCQERM) |
 | 4 | Kenevir: Doğanın Gizemli Bitkisi ve İnsanlıkla Olan Kadim Bağı | Bitkilerin Gizli tarihi | 46 | 1 | 18:22 | [Ac](https://www.youtube.com/watch?v=XamXvGcQO4E) |
-| 5 | Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler | Bitkilerin Gizli tarihi | 35 | 1 | 5:56 | [Ac](https://www.youtube.com/watch?v=uD1pRORBwHQ) |
+| 5 | Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler | Bitkilerin Gizli tarihi | 36 | 0 | 5:56 | [Ac](https://www.youtube.com/watch?v=uD1pRORBwHQ) |
 | 6 | Kutsal Lotus: Gizemli Bitkinin Sıradışı Dünyasına Yolculuk | Bitkilerin Gizli tarihi | 26 | 0 | 14:28 | [Ac](https://www.youtube.com/watch?v=XCH9whPNc10) |
 | 7 | Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü | Bitkilerin Gizli tarihi | 26 | 0 | 20:34 | [Ac](https://www.youtube.com/watch?v=Z8ryfggQ8nY) |
 | 8 | Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu | Bitkilerin Gizli tarihi | 24 | 0 | 19:14 | [Ac](https://www.youtube.com/watch?v=WI3OpHKtxpc) |
