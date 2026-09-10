@@ -10,14 +10,14 @@
 
 - Medyan goruntulenme: 26
 - Medyan gunluk izlenme hizi: 0
-- En yuksek gunluk izlenme hizi: 2
+- En yuksek gunluk izlenme hizi: 1
 - Kanal cesitliligi: 0.08
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | Bitkilerin Gizli tarihi | 117 | 2 | 16:28 | [Ac](https://www.youtube.com/watch?v=IqbygJdT2ew) |
+| 1 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | Bitkilerin Gizli tarihi | 117 | 1 | 16:28 | [Ac](https://www.youtube.com/watch?v=IqbygJdT2ew) |
 | 2 | Mahlep: Doğanın Gizemli Baharatı ve Anadolu'nun Kadim Hikayesi | Bitkilerin Gizli tarihi | 113 | 1 | 19:05 | [Ac](https://www.youtube.com/watch?v=ERUFWLGdmTk) |
 | 3 | Doğanın Mucizesi: Çemen Otunun Gizemli Dünyası | Bitkilerin Gizli tarihi | 54 | 1 | 19:26 | [Ac](https://www.youtube.com/watch?v=ytbTCTCQERM) |
 | 4 | Kenevir: Doğanın Gizemli Bitkisi ve İnsanlıkla Olan Kadim Bağı | Bitkilerin Gizli tarihi | 46 | 1 | 18:22 | [Ac](https://www.youtube.com/watch?v=XamXvGcQO4E) |

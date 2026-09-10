@@ -1,40 +1,40 @@
 [
   {
     "topic": "Psikoloji Hikayeleri",
-    "niche_score": 40,
+    "niche_score": 39,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 43654,
-      "median_views_per_day": 4602,
-      "top_views_per_day": 153504,
-      "channel_diversity": 0.68
+      "median_views": 114368,
+      "median_views_per_day": 6189,
+      "top_views_per_day": 113817,
+      "channel_diversity": 0.72
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
     "topic": "Yapay Zeka Haberleri",
-    "niche_score": 33,
+    "niche_score": 32,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 152395,
-      "median_views_per_day": 4665,
-      "top_views_per_day": 61637,
+      "median_views": 153309,
+      "median_views_per_day": 4121,
+      "top_views_per_day": 54258,
       "channel_diversity": 0.8
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
     "topic": "Sıfırdan Zirveye",
-    "niche_score": 19,
+    "niche_score": 18,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 42776,
-      "median_views_per_day": 1041,
-      "top_views_per_day": 45013,
-      "channel_diversity": 0.44
+      "median_views": 43023,
+      "median_views_per_day": 1516,
+      "top_views_per_day": 43730,
+      "channel_diversity": 0.4
     },
     "report": "projects/sfrdan-zirveye/report.md"
   },
@@ -44,9 +44,9 @@
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 127403,
-      "median_views_per_day": 2286,
-      "top_views_per_day": 24842,
+      "median_views": 106002,
+      "median_views_per_day": 1969,
+      "top_views_per_day": 23691,
       "channel_diversity": 0.36
     },
     "report": "projects/gizemli-tarih/report.md"
@@ -59,7 +59,7 @@
     "metrics": {
       "median_views": 26,
       "median_views_per_day": 0,
-      "top_views_per_day": 2,
+      "top_views_per_day": 1,
       "channel_diversity": 0.08
     },
     "report": "projects/bitkilerin-gizli-tarihi/report.md"
