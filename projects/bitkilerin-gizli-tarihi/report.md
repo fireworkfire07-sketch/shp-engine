@@ -27,7 +27,7 @@
 | 8 | Kimyonun Gizemli Dünyası: Baharatın Köklere Yolculuğu | Bitkilerin Gizli tarihi | 24 | 0 | 19:14 | [Ac](https://www.youtube.com/watch?v=WI3OpHKtxpc) |
 | 9 | Vanilyanın Sıradışı Dünyası: Gizemli Baharattan Lezzet Yolculuğu | Bitkilerin Gizli tarihi | 24 | 0 | 16:01 | [Ac](https://www.youtube.com/watch?v=QgiQjAhbNzY) |
 | 10 | Adamotu: Doğanın Gizemli Şifa Kaynağı ve Mitolojideki Yeri | Bitkilerin Gizli tarihi | 18 | 0 | 17:48 | [Ac](https://www.youtube.com/watch?v=tRA1CXXKUek) |
-| 11 | Defne Yaprağının Gizemli Dünyası: Tarih, Lezzet ve Sağlık Üzerine Bir Yolculuk | Bitkilerin Gizli tarihi | 18 | 0 | 17:35 | [Ac](https://www.youtube.com/watch?v=wKL3ENScQLI) |
+| 11 | Defne Yaprağının Gizemli Dünyası: Tarih, Lezzet ve Sağlık Üzerine Bir Yolculuk | Bitkilerin Gizli tarihi | 18 | 0 | 17:36 | [Ac](https://www.youtube.com/watch?v=wKL3ENScQLI) |
 | 12 | Gizemli Yaşam: Ginkgo Biloba'nın Eşsiz Dünyası | Bitkilerin Gizli tarihi | 2 | 0 | 17:15 | [Ac](https://www.youtube.com/watch?v=Q-fgGZviiHE) |
 
 ## Sonraki aksiyon

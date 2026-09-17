@@ -1,27 +1,27 @@
 [
   {
     "topic": "Yapay Zeka Haberleri",
-    "niche_score": 36,
+    "niche_score": 43,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 175823,
-      "median_views_per_day": 7994,
-      "top_views_per_day": 57405,
+      "median_views": 244506,
+      "median_views_per_day": 8574,
+      "top_views_per_day": 100583,
       "channel_diversity": 0.84
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
     "topic": "Psikoloji Hikayeleri",
-    "niche_score": 33,
+    "niche_score": 31,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 105343,
-      "median_views_per_day": 4587,
-      "top_views_per_day": 82606,
-      "channel_diversity": 0.64
+      "median_views": 75918,
+      "median_views_per_day": 2981,
+      "top_views_per_day": 68796,
+      "channel_diversity": 0.8
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
@@ -31,9 +31,9 @@
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 47238,
-      "median_views_per_day": 1353,
-      "top_views_per_day": 41740,
+      "median_views": 47752,
+      "median_views_per_day": 1800,
+      "top_views_per_day": 40368,
       "channel_diversity": 0.48
     },
     "report": "projects/sfrdan-zirveye/report.md"
@@ -44,9 +44,9 @@
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 107017,
-      "median_views_per_day": 1716,
-      "top_views_per_day": 22326,
+      "median_views": 106295,
+      "median_views_per_day": 1586,
+      "top_views_per_day": 21219,
       "channel_diversity": 0.36
     },
     "report": "projects/gizemli-tarih/report.md"
