@@ -2,24 +2,22 @@
 
 **Konu:** Bitkilerin Gizli Tarihi  
 **Donem:** Son 90 gun  
-**Analiz edilen video:** 3  
-**Nis puani:** **10/100**  
+**Analiz edilen video:** 1  
+**Nis puani:** **20/100**  
 **Karar:** **BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.**
 
 ## Temel gostergeler
 
-- Medyan goruntulenme: 38
+- Medyan goruntulenme: 39
 - Medyan gunluk izlenme hizi: 0
-- En yuksek gunluk izlenme hizi: 1
-- Kanal cesitliligi: 0.33
+- En yuksek gunluk izlenme hizi: 0
+- Kanal cesitliligi: 1.0
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Çölün Ölümsüz Bitkisi: Welwitschia'nın Gizemli Dünyası | Bitkilerin Gizli tarihi | 117 | 1 | 16:28 | [Ac](https://www.youtube.com/watch?v=IqbygJdT2ew) |
-| 2 | Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler | Bitkilerin Gizli tarihi | 38 | 0 | 5:56 | [Ac](https://www.youtube.com/watch?v=uD1pRORBwHQ) |
-| 3 | Dünyanın En Gizemli Çiçeği: Rafflesia'nın Sırları ve Eşsiz Yaşam Döngüsü | Bitkilerin Gizli tarihi | 29 | 0 | 20:34 | [Ac](https://www.youtube.com/watch?v=Z8ryfggQ8nY) |
+| 1 | Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler | Bitkilerin Gizli tarihi | 39 | 0 | 5:56 | [Ac](https://www.youtube.com/watch?v=uD1pRORBwHQ) |
 
 ## Sonraki aksiyon
 
