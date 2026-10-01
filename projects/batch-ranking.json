@@ -1,14 +1,14 @@
 [
   {
     "topic": "Yapay Zeka Haberleri",
-    "niche_score": 36,
+    "niche_score": 35,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 225981,
-      "median_views_per_day": 8199,
-      "top_views_per_day": 39803,
-      "channel_diversity": 0.76
+      "median_views": 226115,
+      "median_views_per_day": 7926,
+      "top_views_per_day": 32728,
+      "channel_diversity": 0.72
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
@@ -18,35 +18,35 @@
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 106186,
-      "median_views_per_day": 2786,
-      "top_views_per_day": 42344,
-      "channel_diversity": 0.68
+      "median_views": 117988,
+      "median_views_per_day": 2448,
+      "top_views_per_day": 36762,
+      "channel_diversity": 0.72
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
     "topic": "Gizemli Tarih",
-    "niche_score": 17,
+    "niche_score": 20,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 39004,
-      "median_views_per_day": 1142,
-      "top_views_per_day": 17718,
-      "channel_diversity": 0.48
+      "median_views": 50826,
+      "median_views_per_day": 1135,
+      "top_views_per_day": 16913,
+      "channel_diversity": 0.56
     },
     "report": "projects/gizemli-tarih/report.md"
   },
   {
     "topic": "Sıfırdan Zirveye",
-    "niche_score": 15,
+    "niche_score": 14,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 49057,
-      "median_views_per_day": 1097,
-      "top_views_per_day": 12523,
+      "median_views": 50392,
+      "median_views_per_day": 1015,
+      "top_views_per_day": 10071,
       "channel_diversity": 0.4
     },
     "report": "projects/sfrdan-zirveye/report.md"
