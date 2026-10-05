@@ -1,53 +1,53 @@
 [
   {
     "topic": "Yapay Zeka Haberleri",
-    "niche_score": 35,
+    "niche_score": 44,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 226115,
-      "median_views_per_day": 7926,
-      "top_views_per_day": 32728,
+      "median_views": 239699,
+      "median_views_per_day": 10097,
+      "top_views_per_day": 97546,
       "channel_diversity": 0.72
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
     "topic": "Psikoloji Hikayeleri",
-    "niche_score": 28,
+    "niche_score": 32,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 117988,
-      "median_views_per_day": 2448,
-      "top_views_per_day": 36762,
+      "median_views": 117752,
+      "median_views_per_day": 2299,
+      "top_views_per_day": 80420,
       "channel_diversity": 0.72
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
     "topic": "Gizemli Tarih",
-    "niche_score": 20,
+    "niche_score": 21,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 50826,
-      "median_views_per_day": 1135,
-      "top_views_per_day": 16913,
-      "channel_diversity": 0.56
+      "median_views": 39026,
+      "median_views_per_day": 870,
+      "top_views_per_day": 19047,
+      "channel_diversity": 0.6
     },
     "report": "projects/gizemli-tarih/report.md"
   },
   {
     "topic": "Sıfırdan Zirveye",
-    "niche_score": 14,
+    "niche_score": 15,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 50392,
-      "median_views_per_day": 1015,
-      "top_views_per_day": 10071,
-      "channel_diversity": 0.4
+      "median_views": 34619,
+      "median_views_per_day": 1173,
+      "top_views_per_day": 7652,
+      "channel_diversity": 0.44
     },
     "report": "projects/sfrdan-zirveye/report.md"
   },
