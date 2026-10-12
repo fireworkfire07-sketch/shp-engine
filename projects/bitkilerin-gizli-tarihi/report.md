@@ -8,7 +8,7 @@
 
 ## Temel gostergeler
 
-- Medyan goruntulenme: 39
+- Medyan goruntulenme: 5
 - Medyan gunluk izlenme hizi: 0
 - En yuksek gunluk izlenme hizi: 0
 - Kanal cesitliligi: 1.0
@@ -17,7 +17,7 @@
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Muskat: Doğanın Gizli Hazinesi ve Tarihi Keşifler | Bitkilerin Gizli tarihi | 39 | 0 | 5:56 | [Ac](https://www.youtube.com/watch?v=uD1pRORBwHQ) |
+| 1 | Güzelavrat otu nedir? Atropa Belladonna bitkisinin gizemli tarihi | Şifalı Otlar | 5 | 0 | 1:37 | [Ac](https://www.youtube.com/watch?v=emGgrH3dYso) |
 
 ## Sonraki aksiyon
 
