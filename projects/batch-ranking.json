@@ -5,38 +5,38 @@
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 329853,
-      "median_views_per_day": 8000,
-      "top_views_per_day": 58315,
+      "median_views": 386347,
+      "median_views_per_day": 7875,
+      "top_views_per_day": 49836,
       "channel_diversity": 0.68
     },
     "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
-    "topic": "Gizemli Tarih",
-    "niche_score": 37,
+    "topic": "Psikoloji Hikayeleri",
+    "niche_score": 29,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 39098,
-      "median_views_per_day": 754,
-      "top_views_per_day": 180901,
+      "median_views": 104514,
+      "median_views_per_day": 2445,
+      "top_views_per_day": 47684,
+      "channel_diversity": 0.76
+    },
+    "report": "projects/psikoloji-hikayeleri/report.md"
+  },
+  {
+    "topic": "Gizemli Tarih",
+    "niche_score": 29,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 25,
+    "metrics": {
+      "median_views": 50837,
+      "median_views_per_day": 925,
+      "top_views_per_day": 99019,
       "channel_diversity": 0.6
     },
     "report": "projects/gizemli-tarih/report.md"
-  },
-  {
-    "topic": "Psikoloji Hikayeleri",
-    "niche_score": 30,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
-    "metrics": {
-      "median_views": 118005,
-      "median_views_per_day": 2599,
-      "top_views_per_day": 55201,
-      "channel_diversity": 0.8
-    },
-    "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
     "topic": "Bitkilerin Gizli Tarihi",
@@ -57,9 +57,9 @@
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 36118,
-      "median_views_per_day": 1029,
-      "top_views_per_day": 6505,
+      "median_views": 33541,
+      "median_views_per_day": 934,
+      "top_views_per_day": 7022,
       "channel_diversity": 0.44
     },
     "report": "projects/sfrdan-zirveye/report.md"
