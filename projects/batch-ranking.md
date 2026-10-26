@@ -2,11 +2,11 @@
 
 | Sıra | Niş | Puan | Karar | Medyan günlük izlenme | Rapor |
 |---:|---|---:|---|---:|---|
-| 1 | Psikoloji Hikayeleri | 36 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 2850 | [Aç](projects/psikoloji-hikayeleri/report.md) |
-| 2 | Yapay Zeka Haberleri | 32 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 5312 | [Aç](projects/yapay-zeka-haberleri/report.md) |
-| 3 | Gizemli Tarih | 24 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 826 | [Aç](projects/gizemli-tarih/report.md) |
-| 4 | Bitkilerin Gizli Tarihi | 19 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 255 | [Aç](projects/bitkilerin-gizli-tarihi/report.md) |
-| 5 | Sıfırdan Zirveye | 18 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 1290 | [Aç](projects/sfrdan-zirveye/report.md) |
+| 1 | Psikoloji Hikayeleri | 35 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 3090 | [Aç](projects/psikoloji-hikayeleri/report.md) |
+| 2 | Yapay Zeka Haberleri | 32 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 5653 | [Aç](projects/yapay-zeka-haberleri/report.md) |
+| 3 | Gizemli Tarih | 24 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 783 | [Aç](projects/gizemli-tarih/report.md) |
+| 4 | Sıfırdan Zirveye | 22 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 1240 | [Aç](projects/sfrdan-zirveye/report.md) |
+| 5 | Bitkilerin Gizli Tarihi | 19 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 138 | [Aç](projects/bitkilerin-gizli-tarihi/report.md) |
 
 ## Karar kuralı
 

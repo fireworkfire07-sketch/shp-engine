@@ -9,16 +9,16 @@
 ## Temel gostergeler
 
 - Medyan goruntulenme: 1.2K
-- Medyan gunluk izlenme hizi: 255
-- En yuksek gunluk izlenme hizi: 1.2K
+- Medyan gunluk izlenme hizi: 138
+- En yuksek gunluk izlenme hizi: 245
 - Kanal cesitliligi: 0.67
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Yediğimiz Gıdaların Gizli Tarihi: Doğada İlk Halleri Nasıldı? | Not Defteri TV | 1.2K | 1.2K | 1:05 | [Ac](https://www.youtube.com/watch?v=Cf0jGbLl00I) |
-| 2 | Mitoloji Nedir? Şifalı Bitkilerin Gizemli Tarihi #Shorts | Şifalı Otlar | 1.2K | 255 | 0:29 | [Ac](https://www.youtube.com/watch?v=PsvoE7xSDzw) |
+| 1 | Yediğimiz Gıdaların Gizli Tarihi: Doğada İlk Halleri Nasıldı? | Not Defteri TV | 1.2K | 245 | 1:05 | [Ac](https://www.youtube.com/watch?v=Cf0jGbLl00I) |
+| 2 | Mitoloji Nedir? Şifalı Bitkilerin Gizemli Tarihi #Shorts | Şifalı Otlar | 1.2K | 138 | 0:29 | [Ac](https://www.youtube.com/watch?v=PsvoE7xSDzw) |
 | 3 | Güzelavrat otu nedir? Atropa Belladonna bitkisinin gizemli tarihi | Şifalı Otlar | 5 | 0 | 1:37 | [Ac](https://www.youtube.com/watch?v=emGgrH3dYso) |
 
 ## Sonraki aksiyon
