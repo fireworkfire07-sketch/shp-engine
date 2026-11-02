@@ -9,15 +9,15 @@
 ## Temel gostergeler
 
 - Medyan goruntulenme: 1.3K
-- Medyan gunluk izlenme hizi: 103
-- En yuksek gunluk izlenme hizi: 103
+- Medyan gunluk izlenme hizi: 101
+- En yuksek gunluk izlenme hizi: 101
 - Kanal cesitliligi: 1.0
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Yediğimiz Gıdaların Gizli Tarihi: Doğada İlk Halleri Nasıldı? | Not Defteri TV | 1.3K | 103 | 1:05 | [Ac](https://www.youtube.com/watch?v=Cf0jGbLl00I) |
+| 1 | Yediğimiz Gıdaların Gizli Tarihi: Doğada İlk Halleri Nasıldı? | Not Defteri TV | 1.3K | 101 | 1:05 | [Ac](https://www.youtube.com/watch?v=Cf0jGbLl00I) |
 
 ## Sonraki aksiyon
 
