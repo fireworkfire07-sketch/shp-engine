@@ -1,0 +1,17 @@
+Metal — nefes şiiri (kısmi)
+
+Bu dosya, şu an elimizdeki TEK kaynak: shots.py'deki 3 ekran fragmanı.
+Şiirin tamamı ayrı bir yerde duruyorsa buraya eklenmeli — fragmanlar
+dışında hiçbir dize burada UYDURULMADI.
+
+[Plan 8 overlay]
+Ben nefes aldım —
+senin, ağacın, denizin, kedinin
+nefesi bana karıştı
+
+[Plan 9 overlay]
+Nefes nefese hamileyiz birbirimize,
+ayrıymış gibi yapıyoruz
+
+[Plan 12 overlay]
+Hayat akar nefeste.
