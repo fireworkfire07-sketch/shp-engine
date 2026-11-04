@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+work/
+out/
+assets/audio/*.mp3
+assets/fonts/*.ttf
+assets/fonts/*.otf
