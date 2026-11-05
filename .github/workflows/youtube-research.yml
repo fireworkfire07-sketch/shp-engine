@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   research:
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.RUNNER || 'ubuntu-latest' }}
 
     steps:
       - name: Kodu indir
