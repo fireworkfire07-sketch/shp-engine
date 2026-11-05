@@ -1,67 +1,58 @@
 [
   {
+    "topic": "Yapay Zeka Haberleri",
+    "niche_score": 41,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 25,
+    "metrics": {
+      "median_views": 265746,
+      "median_views_per_day": 6483,
+      "top_views_per_day": 103934,
+      "channel_diversity": 0.68
+    },
+    "report": "projects/yapay-zeka-haberleri/report.md"
+  },
+  {
     "topic": "Psikoloji Hikayeleri",
     "niche_score": 34,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 118042,
-      "median_views_per_day": 2480,
-      "top_views_per_day": 96096,
-      "channel_diversity": 0.8
+      "median_views": 95574,
+      "median_views_per_day": 2382,
+      "top_views_per_day": 95120,
+      "channel_diversity": 0.92
     },
     "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
-    "topic": "Yapay Zeka Haberleri",
-    "niche_score": 32,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
-    "metrics": {
-      "median_views": 265707,
-      "median_views_per_day": 6478,
-      "top_views_per_day": 26371,
-      "channel_diversity": 0.64
-    },
-    "report": "projects/yapay-zeka-haberleri/report.md"
-  },
-  {
     "topic": "Gizemli Tarih",
-    "niche_score": 25,
+    "niche_score": 26,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 44430,
-      "median_views_per_day": 715,
-      "top_views_per_day": 76197,
-      "channel_diversity": 0.56
+      "median_views": 22473,
+      "median_views_per_day": 537,
+      "top_views_per_day": 59447,
+      "channel_diversity": 0.68
     },
     "report": "projects/gizemli-tarih/report.md"
   },
   {
-    "topic": "Bitkilerin Gizli Tarihi",
-    "niche_score": 20,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 1,
-    "metrics": {
-      "median_views": 1253,
-      "median_views_per_day": 101,
-      "top_views_per_day": 101,
-      "channel_diversity": 1.0
-    },
-    "report": "projects/bitkilerin-gizli-tarihi/report.md"
-  },
-  {
     "topic": "Sıfırdan Zirveye",
-    "niche_score": 19,
+    "niche_score": 18,
     "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
     "videos_analyzed": 25,
     "metrics": {
-      "median_views": 50534,
-      "median_views_per_day": 1071,
-      "top_views_per_day": 28668,
+      "median_views": 50862,
+      "median_views_per_day": 1437,
+      "top_views_per_day": 24673,
       "channel_diversity": 0.48
     },
     "report": "projects/sfrdan-zirveye/report.md"
+  },
+  {
+    "topic": "Bitkilerin Gizli Tarihi",
+    "error": "commander exit code 1"
   }
 ]
