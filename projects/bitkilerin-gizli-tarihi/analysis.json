@@ -1,14 +1,14 @@
 {
   "topic": "Bitkilerin Gizli Tarihi",
-  "created_at": "2026-11-16T14:46:13.483073+00:00",
+  "created_at": "2026-11-19T15:13:58.095912+00:00",
   "period_days": 90,
   "videos_analyzed": 1,
   "niche_score": 20,
   "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
   "metrics": {
-    "median_views": 46,
-    "median_views_per_day": 46,
-    "top_views_per_day": 46,
+    "median_views": 120,
+    "median_views_per_day": 31,
+    "top_views_per_day": 31,
     "channel_diversity": 1.0
   },
   "videos": [
@@ -17,8 +17,8 @@
       "title": "Tabağındaki Salata Aslında Neyi Anlatıyor? Bitki Totemlerinin Gizli Tarihi",
       "channel": "SOSYOGONİ SOCİOGONY SOCİOGONİE СОЦИОГОНИЯ ",
       "published_at": "2026-11-15T18:38:37Z",
-      "views": 46,
-      "views_per_day": 46,
+      "views": 120,
+      "views_per_day": 31,
       "likes": 2,
       "comments": 0,
       "duration_seconds": 1515,
