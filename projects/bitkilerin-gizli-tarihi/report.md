@@ -8,16 +8,16 @@
 
 ## Temel gostergeler
 
-- Medyan goruntulenme: 120
-- Medyan gunluk izlenme hizi: 31
-- En yuksek gunluk izlenme hizi: 31
+- Medyan goruntulenme: 127
+- Medyan gunluk izlenme hizi: 16
+- En yuksek gunluk izlenme hizi: 16
 - Kanal cesitliligi: 1.0
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Tabağındaki Salata Aslında Neyi Anlatıyor? Bitki Totemlerinin Gizli Tarihi | SOSYOGONİ SOCİOGONY SOCİOGONİE СОЦИОГОНИЯ  | 120 | 31 | 25:15 | [Ac](https://www.youtube.com/watch?v=aHVgdoNDinI) |
+| 1 | Tabağındaki Salata Aslında Neyi Anlatıyor? Bitki Totemlerinin Gizli Tarihi | SOSYOGONİ SOCİOGONY SOCİOGONİE СОЦИОГОНИЯ  | 127 | 16 | 25:15 | [Ac](https://www.youtube.com/watch?v=aHVgdoNDinI) |
 
 ## Sonraki aksiyon
 
