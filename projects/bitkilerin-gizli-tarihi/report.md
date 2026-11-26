@@ -2,22 +2,24 @@
 
 **Konu:** Bitkilerin Gizli Tarihi  
 **Donem:** Son 90 gun  
-**Analiz edilen video:** 1  
-**Nis puani:** **20/100**  
+**Analiz edilen video:** 3  
+**Nis puani:** **19/100**  
 **Karar:** **BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.**
 
 ## Temel gostergeler
 
 - Medyan goruntulenme: 127
-- Medyan gunluk izlenme hizi: 16
-- En yuksek gunluk izlenme hizi: 16
-- Kanal cesitliligi: 1.0
+- Medyan gunluk izlenme hizi: 12
+- En yuksek gunluk izlenme hizi: 30
+- Kanal cesitliligi: 0.67
 
 ## Son 90 gunun en hizli videolari
 
 | # | Baslik | Kanal | Izlenme | Gunluk hiz | Sure | Video |
 |---|---|---|---:|---:|---:|---|
-| 1 | Tabağındaki Salata Aslında Neyi Anlatıyor? Bitki Totemlerinin Gizli Tarihi | SOSYOGONİ SOCİOGONY SOCİOGONİE СОЦИОГОНИЯ  | 127 | 16 | 25:15 | [Ac](https://www.youtube.com/watch?v=aHVgdoNDinI) |
+| 1 | Mitoloji Nedir? Şifalı Bitkilerin Gizemli Tarihi #Shorts | Juicio a las Plantas | 1.2K | 30 | 0:29 | [Ac](https://www.youtube.com/watch?v=PsvoE7xSDzw) |
+| 2 | Tabağındaki Salata Aslında Neyi Anlatıyor? Bitki Totemlerinin Gizli Tarihi | SOSYOGONİ SOCİOGONY SOCİOGONİE СОЦИОГОНИЯ  | 127 | 12 | 25:15 | [Ac](https://www.youtube.com/watch?v=aHVgdoNDinI) |
+| 3 | Güzelavrat otu nedir? Atropa Belladonna bitkisinin gizemli tarihi | Juicio a las Plantas | 6 | 0 | 1:37 | [Ac](https://www.youtube.com/watch?v=emGgrH3dYso) |
 
 ## Sonraki aksiyon
 

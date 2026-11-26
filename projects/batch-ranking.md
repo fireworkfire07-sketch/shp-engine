@@ -1,14 +1,13 @@
-# SHP PRO Niş Sıralaması
+# SHP Niş Karşılaştırma Raporu
 
-| # | Niş | Puan | Karar | Günlük medyan |
-|---:|---|---:|---|---:|
-| 1 | Ağacının gizemi | 0 | GİRME | 0 |
-| 2 | Ağacının karanlık tarihi | 0 | GİRME | 0 |
-| 3 | Ağacının tarihi | 0 | GİRME | 0 |
-| 4 | Doğanın gizemi | 0 | GİRME | 0 |
-| 5 | Doğanın karanlık tarihi | 0 | GİRME | 0 |
-| 6 | Doğanın tarihi | 0 | GİRME | 0 |
-| 7 | Dünyası gizemi | 0 | GİRME | 0 |
-| 8 | Dünyası karanlık tarihi | 0 | GİRME | 0 |
-| 9 | Dünyası tarihi | 0 | GİRME | 0 |
-| 10 | Mucizesi gizemi | 0 | GİRME | 0 |
+| Sıra | Niş | Puan | Karar | Medyan günlük izlenme | Rapor |
+|---:|---|---:|---|---:|---|
+| 1 | Psikoloji Hikayeleri | 49 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 10451 | [Aç](projects/psikoloji-hikayeleri/report.md) |
+| 2 | Yapay Zeka Haberleri | 36 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 7529 | [Aç](projects/yapay-zeka-haberleri/report.md) |
+| 3 | Sıfırdan Zirveye | 23 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 1312 | [Aç](projects/sfrdan-zirveye/report.md) |
+| 4 | Gizemli Tarih | 23 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 286 | [Aç](projects/gizemli-tarih/report.md) |
+| 5 | Bitkilerin Gizli Tarihi | 19 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 12 | [Aç](projects/bitkilerin-gizli-tarihi/report.md) |
+
+## Karar kuralı
+
+En yüksek puanlı iki niş için önce 5'er video test edilir. İzlenme doğrulanmadan tam otomasyona geçilmez.

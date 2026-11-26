@@ -1,132 +1,67 @@
 [
   {
-    "topic": "Ağacının gizemi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
+    "topic": "Psikoloji Hikayeleri",
+    "niche_score": 49,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 25,
     "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
+      "median_views": 243736,
+      "median_views_per_day": 10451,
+      "top_views_per_day": 144113,
+      "channel_diversity": 0.84
     },
-    "gap": "",
-    "first_10_video_ideas": []
+    "report": "projects/psikoloji-hikayeleri/report.md"
   },
   {
-    "topic": "Ağacının karanlık tarihi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
+    "topic": "Yapay Zeka Haberleri",
+    "niche_score": 36,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 25,
     "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
+      "median_views": 277253,
+      "median_views_per_day": 7529,
+      "top_views_per_day": 56924,
+      "channel_diversity": 0.64
     },
-    "gap": "",
-    "first_10_video_ideas": []
+    "report": "projects/yapay-zeka-haberleri/report.md"
   },
   {
-    "topic": "Ağacının tarihi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
+    "topic": "Sıfırdan Zirveye",
+    "niche_score": 23,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 25,
     "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
+      "median_views": 65075,
+      "median_views_per_day": 1312,
+      "top_views_per_day": 60167,
+      "channel_diversity": 0.52
     },
-    "gap": "",
-    "first_10_video_ideas": []
+    "report": "projects/sfrdan-zirveye/report.md"
   },
   {
-    "topic": "Doğanın gizemi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
+    "topic": "Gizemli Tarih",
+    "niche_score": 23,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 25,
     "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
+      "median_views": 7117,
+      "median_views_per_day": 286,
+      "top_views_per_day": 21130,
+      "channel_diversity": 0.88
     },
-    "gap": "",
-    "first_10_video_ideas": []
+    "report": "projects/gizemli-tarih/report.md"
   },
   {
-    "topic": "Doğanın karanlık tarihi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
+    "topic": "Bitkilerin Gizli Tarihi",
+    "niche_score": 19,
+    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
+    "videos_analyzed": 3,
     "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
+      "median_views": 127,
+      "median_views_per_day": 12,
+      "top_views_per_day": 30,
+      "channel_diversity": 0.67
     },
-    "gap": "",
-    "first_10_video_ideas": []
-  },
-  {
-    "topic": "Doğanın tarihi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
-    "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
-    },
-    "gap": "",
-    "first_10_video_ideas": []
-  },
-  {
-    "topic": "Dünyası gizemi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
-    "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
-    },
-    "gap": "",
-    "first_10_video_ideas": []
-  },
-  {
-    "topic": "Dünyası karanlık tarihi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
-    "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
-    },
-    "gap": "",
-    "first_10_video_ideas": []
-  },
-  {
-    "topic": "Dünyası tarihi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
-    "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
-    },
-    "gap": "",
-    "first_10_video_ideas": []
-  },
-  {
-    "topic": "Mucizesi gizemi",
-    "niche_score": 0,
-    "decision": "GİRME",
-    "videos_analyzed": 0,
-    "metrics": {
-      "median_views_per_day": 0,
-      "top_views_per_day": 0,
-      "channel_diversity": 0
-    },
-    "gap": "",
-    "first_10_video_ideas": []
+    "report": "projects/bitkilerin-gizli-tarihi/report.md"
   }
 ]
