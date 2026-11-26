@@ -6,10 +6,10 @@
     "gizemli",
     "dünyası",
     "ağacının",
+    "yapay",
     "saklı",
     "mucizesi",
-    "diken",
-    "canli"
+    "daha"
   ],
   "hashtags": [
     "#bitki",
@@ -20,15 +20,15 @@
     "#gizemli",
     "#dunyasi",
     "#agacinin",
-    "#sakli",
-    "#mucizesi"
+    "#yapay",
+    "#sakli"
   ],
   "category": "Education",
   "language": "tr",
   "visibility": "private",
   "publish_time_recommendation": "",
   "ceo_approved": false,
-  "ceo_score": 60,
+  "ceo_score": 61,
   "captions_file": "subtitle.srt",
   "voiceover_file": "voiceover.txt"
 }

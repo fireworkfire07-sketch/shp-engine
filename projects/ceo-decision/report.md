@@ -2,24 +2,26 @@
 
 ## BUGÜNÜN EMRİ
 
-# BEKLET
+# ÇEK
 
 **Video fikri:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?  
-**Ana tema:** Bitkilerin Gizli Tarihi  
-**Yayın kararı:** HAYIR  
-**Karar güveni:** 50/100  
-**Kanal uyumu:** 95/100
+**Ana tema:** Doğanın tarihi  
+**Yayın kararı:** EVET  
+**Karar güveni:** 72/100  
+**Kanal uyumu:** 80/100
 
 ## Neden
 
-- Niş puanı: 5/100.
-- Kanal uyum puanı: 95/100.
-- Kanal temasıyla eşleşen kelimeler: bitki, bitkiler, gizli, tarih.
-- Kanal başlıklarıyla ortak kelimeler: bitkilerin, gizli, tarihi.
-- Medyan günlük izlenme hızı: 1.
+- Niş puanı: 71/100.
+- Kanal uyum puanı: 80/100.
+- Kanal temasıyla eşleşen kelimeler: doğa, tarih.
+- Kanal başlıklarıyla ortak kelimeler: dogan, n, tarihi.
+- Medyan günlük izlenme hızı: 45.
+- Bu konuda patlama yapmış video örneği var.
+- Başarı birden fazla kanala yayılmış.
 - Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.
-- Kanalın en hızlı videosu: Bir Baharat Dünya Tarihini Nasıl Değiştirdi? (9.0 günlük izlenme).
-- En güçlü karşılaştırılan rakip: Evrim Ağacı; medyan günlük hız 12371.5.
+- Kanalın en hızlı videosu: Çin Bu Böceğin Sırrını 2000 Yıl Neden Dünyadan Sakladı? (1.2 günlük izlenme).
+- En güçlü karşılaştırılan rakip: Barış Özcan; medyan günlük hız 2704.2.
 
 ## Uygulama yönü
 
@@ -29,15 +31,15 @@
 
 ## Rakip referansı
 
-- **Kanal:** Evrim Ağacı
-- **En güçlü video:** Tüylerimiz Neden Diken Diken Oluyor?
+- **Kanal:** Barış Özcan
+- **En güçlü video:** Dizilerde Konuşmalar Neden Artık Duyulmuyor?
 - **Kural:** Başlığı kopyalama; aynı izleyici ihtiyacına kanal temasına uygun özgün açı üret.
 
 ## Sistem durumu
 
-- Kanal sağlık skoru: 1/100
-- Niş puanı: 5/100
-- Kanal uyum puanı: 95/100
+- Kanal sağlık skoru: 0/100
+- Niş puanı: 71/100
+- Kanal uyum puanı: 80/100
 - Eksik girdiler: Yok
 
 ## Gerçek sınırlar
@@ -45,3 +47,20 @@
 - Public YouTube API CTR, retention ve gelir vermez.
 - Veri eksikse karar BEKLET olur; SHP tahmin uydurmaz.
 - SHP karar verir; video üretmez veya yayınlamaz.
+
+
+## EMEK FİLTRESİ
+
+# SADECE KÜÇÜK TESTE DEĞER
+
+**Emek/Getiri puanı:** 55/100  
+**Net aksiyon:** TEST ET
+
+- Kanal temasına güçlü biçimde uyuyor.
+- Pazar verisi test için yeterli.
+- Benzer videolarda medyan günlük hız düşük.
+- Kanal içi başarı kanıtı henüz zayıf.
+- Rakiplerde çalışan örnek bulundu: Işık Hızını Neden Hala Ölçemedik?.
+
+**SHP emri:** Tam üretim yapma; düşük maliyetli tek test hazırla.
+

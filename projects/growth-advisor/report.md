@@ -2,7 +2,7 @@
 
 ## CEO kararı
 
-# SADECE KÜÇÜK TESTE DEĞER
+# EMEĞİNE DEĞER
 
 **Video:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
 
@@ -26,16 +26,16 @@
 
 ## Yayın zamanı
 
-- **Öneri:** 06:00 UTC, 09:00 UTC, 15:00 UTC
+- **Öneri:** 11:00 UTC, 12:00 UTC, 15:00 UTC
 - Başarılı örneklerin yayın saatlerinden türetildi.
 
 ## Anahtar kelimeler
 
-doğanın, gizemli, dünyası, ağacının, saklı, mucizesi, diken, canli, baharat, dünya, tarihini, değiştirdi
+doğanın, gizemli, dünyası, ağacının, yapay, saklı, mucizesi, daha, yıllık, zeka, meyve, kilo
 
 ## Hashtagler
 
-#bitki #mparatorlugun #kaderini #degistirdi #doganin #gizemli #dunyasi #agacinin #sakli #mucizesi
+#bitki #mparatorlugun #kaderini #degistirdi #doganin #gizemli #dunyasi #agacinin #yapay #sakli
 
 ## Gerçek sınırlar
 

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-12T07:57:54.630011+00:00",
-  "verdict": "SADECE KÜÇÜK TESTE DEĞER",
+  "generated_at": "2026-11-26T07:01:45.674152+00:00",
+  "verdict": "EMEĞİNE DEĞER",
   "video_idea": "Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?",
   "trending_keywords": [
     "doğanın",
     "gizemli",
     "dünyası",
     "ağacının",
+    "yapay",
     "saklı",
     "mucizesi",
-    "diken",
-    "canli",
-    "baharat",
-    "dünya",
-    "tarihini",
-    "değiştirdi"
+    "daha",
+    "yıllık",
+    "zeka",
+    "meyve",
+    "kilo"
   ],
   "first_3_seconds": "İlk 3 saniye: ‘Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?’ fikrinin en şaşırtıcı sonucunu göster ve cevabı verme.",
   "retention_plan": [
@@ -29,7 +29,7 @@
     "Son 20 saniyede izleyiciden yorumda seçim yapmasını iste.",
     "Genel ‘abone ol’ yerine videonun konusuna bağlı çağrı kullan."
   ],
-  "recommended_publish_time": "06:00 UTC, 09:00 UTC, 15:00 UTC",
+  "recommended_publish_time": "11:00 UTC, 12:00 UTC, 15:00 UTC",
   "timing_note": "Başarılı örneklerin yayın saatlerinden türetildi.",
   "hashtags": [
     "#bitki",
@@ -40,8 +40,8 @@
     "#gizemli",
     "#dunyasi",
     "#agacinin",
-    "#sakli",
-    "#mucizesi"
+    "#yapay",
+    "#sakli"
   ],
   "limits": [
     "Public YouTube API gerçek keşfet dağıtımını, retention ve CTR verisini göstermez.",

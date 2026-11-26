@@ -1,254 +1,2750 @@
 {
-  "generated_at": "2026-07-12T07:57:54.437809+00:00",
+  "generated_at": "2026-11-26T07:01:45.438449+00:00",
   "candidates_scanned": 40,
   "winner": {
-    "niche": "Ağacının gizemi",
-    "error": "HTTP Error 429: Too Many Requests",
-    "final_score": 0,
-    "decision": "GİRME"
+    "niche": "Doğanın tarihi",
+    "final_score": 71,
+    "decision": "GİR",
+    "metrics": {
+      "median_views_per_day": 45.63,
+      "recent_growth_ratio": 2.49,
+      "top_views_per_day": 83056.79,
+      "channel_diversity": 0.84,
+      "videos_analyzed": 38,
+      "breakout_videos": 4,
+      "evergreen_score": 60,
+      "competition_score": 16,
+      "automation_score": 80,
+      "effort_value_score": 71
+    },
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "top_videos": [
+      {
+        "id": "NWSeGEjeuFw",
+        "title": "Doğanın Kanunu 1. Bölüm",
+        "channel": "Doğanın Kanunu",
+        "views": 13953288,
+        "views_per_day": 83056.79,
+        "likes": 128640,
+        "comments": 6857,
+        "url": "https://www.youtube.com/watch?v=NWSeGEjeuFw"
+      },
+      {
+        "id": "7kPLaR8GOlQ",
+        "title": "Doğanın Kanunu 3. Bölüm",
+        "channel": "Doğanın Kanunu",
+        "views": 10856155,
+        "views_per_day": 70303.9,
+        "likes": 86418,
+        "comments": 3749,
+        "url": "https://www.youtube.com/watch?v=7kPLaR8GOlQ"
+      },
+      {
+        "id": "wFZya9bOdVY",
+        "title": "Doğanın Kanunu 2. Bölüm",
+        "channel": "Doğanın Kanunu",
+        "views": 9994938,
+        "views_per_day": 62090.66,
+        "likes": 88543,
+        "comments": 3495,
+        "url": "https://www.youtube.com/watch?v=wFZya9bOdVY"
+      },
+      {
+        "id": "ZL667MFXIG0",
+        "title": "Doğanın Kanunu 4. Bölüm 2. Fragman | Bundan Sonra Sen Ne Dersen O! Kaptanım 🛥️🤍",
+        "channel": "STAR TV",
+        "views": 375931,
+        "views_per_day": 2494.11,
+        "likes": 3901,
+        "comments": 191,
+        "url": "https://www.youtube.com/watch?v=ZL667MFXIG0"
+      },
+      {
+        "id": "e-HHC0KoIOE",
+        "title": "Doğanın Matematiği Asla Yanılmaz: Çin'in Serçe Katliamı #çin #china #chinese #doğa #ekoloji #tarih",
+        "channel": "Tarihin Sesi",
+        "views": 127576,
+        "views_per_day": 901.55,
+        "likes": 4780,
+        "comments": 195,
+        "url": "https://www.youtube.com/watch?v=e-HHC0KoIOE"
+      }
+    ],
+    "first_10_video_ideas": [
+      "Doğanın tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Doğanın tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Doğanın tarihi: Yüzyıllarca Saklanan Sır",
+      "Doğanın tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Doğanın tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Doğanın tarihi: Ölümcül Gerçekler",
+      "Doğanın tarihi: Antik Dünyadaki Kullanımı",
+      "Doğanın tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Doğanın tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Doğanın tarihi: En Büyük Yanlış Bilinenler"
+    ]
   },
   "top_10": [
     {
-      "niche": "Ağacının gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Ağacının karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Ağacının tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Doğanın gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Doğanın karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
       "niche": "Doğanın tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 71,
+      "decision": "GİR",
+      "metrics": {
+        "median_views_per_day": 45.63,
+        "recent_growth_ratio": 2.49,
+        "top_views_per_day": 83056.79,
+        "channel_diversity": 0.84,
+        "videos_analyzed": 38,
+        "breakout_videos": 4,
+        "evergreen_score": 60,
+        "competition_score": 16,
+        "automation_score": 80,
+        "effort_value_score": 71
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "NWSeGEjeuFw",
+          "title": "Doğanın Kanunu 1. Bölüm",
+          "channel": "Doğanın Kanunu",
+          "views": 13953288,
+          "views_per_day": 83056.79,
+          "likes": 128640,
+          "comments": 6857,
+          "url": "https://www.youtube.com/watch?v=NWSeGEjeuFw"
+        },
+        {
+          "id": "7kPLaR8GOlQ",
+          "title": "Doğanın Kanunu 3. Bölüm",
+          "channel": "Doğanın Kanunu",
+          "views": 10856155,
+          "views_per_day": 70303.9,
+          "likes": 86418,
+          "comments": 3749,
+          "url": "https://www.youtube.com/watch?v=7kPLaR8GOlQ"
+        },
+        {
+          "id": "wFZya9bOdVY",
+          "title": "Doğanın Kanunu 2. Bölüm",
+          "channel": "Doğanın Kanunu",
+          "views": 9994938,
+          "views_per_day": 62090.66,
+          "likes": 88543,
+          "comments": 3495,
+          "url": "https://www.youtube.com/watch?v=wFZya9bOdVY"
+        },
+        {
+          "id": "ZL667MFXIG0",
+          "title": "Doğanın Kanunu 4. Bölüm 2. Fragman | Bundan Sonra Sen Ne Dersen O! Kaptanım 🛥️🤍",
+          "channel": "STAR TV",
+          "views": 375931,
+          "views_per_day": 2494.11,
+          "likes": 3901,
+          "comments": 191,
+          "url": "https://www.youtube.com/watch?v=ZL667MFXIG0"
+        },
+        {
+          "id": "e-HHC0KoIOE",
+          "title": "Doğanın Matematiği Asla Yanılmaz: Çin'in Serçe Katliamı #çin #china #chinese #doğa #ekoloji #tarih",
+          "channel": "Tarihin Sesi",
+          "views": 127576,
+          "views_per_day": 901.55,
+          "likes": 4780,
+          "comments": 195,
+          "url": "https://www.youtube.com/watch?v=e-HHC0KoIOE"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Doğanın tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Doğanın tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Doğanın tarihi: Yüzyıllarca Saklanan Sır",
+        "Doğanın tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Doğanın tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Doğanın tarihi: Ölümcül Gerçekler",
+        "Doğanın tarihi: Antik Dünyadaki Kullanımı",
+        "Doğanın tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Doğanın tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Doğanın tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "Dünyası gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 70,
+      "decision": "GİR",
+      "metrics": {
+        "median_views_per_day": 1110.47,
+        "recent_growth_ratio": 0.44,
+        "top_views_per_day": 126012.55,
+        "channel_diversity": 0.94,
+        "videos_analyzed": 36,
+        "breakout_videos": 11,
+        "evergreen_score": 60,
+        "competition_score": 6,
+        "automation_score": 80,
+        "effort_value_score": 70
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "tU_had9pP8A",
+          "title": "2027 TÜRKİYE VE DÜNYA KEHANETLERİ - THE ECONOMİST KAPAK - BABA VANGA",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 944581,
+          "views_per_day": 126012.55,
+          "likes": 15676,
+          "comments": 1356,
+          "url": "https://www.youtube.com/watch?v=tU_had9pP8A"
+        },
+        {
+          "id": "oVkpMOZNedI",
+          "title": "Binlerce Yıllık Gizem: İstanbul'un Yeraltı Dünyası | Cengiz Küçükayvaz - Çağdaş Meddah",
+          "channel": "Rafine TV - Eğlence",
+          "views": 180289,
+          "views_per_day": 12291.77,
+          "likes": 2851,
+          "comments": 133,
+          "url": "https://www.youtube.com/watch?v=oVkpMOZNedI"
+        },
+        {
+          "id": "ypyqBcnkxT8",
+          "title": "ANTARKTİKA NEDEN BU KADAR KORUNUYOR? Yasak Kıtanın Büyük Gizemi",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 1138426,
+          "views_per_day": 11792.96,
+          "likes": 20450,
+          "comments": 1301,
+          "url": "https://www.youtube.com/watch?v=ypyqBcnkxT8"
+        },
+        {
+          "id": "Gd0-xcH_1dg",
+          "title": "VERİTY MODU KORKUNÇ GİZEMİ! 🤯 #minecraft #veritymod #verity",
+          "channel": "Bilgi Camiası",
+          "views": 1585641,
+          "views_per_day": 11363.61,
+          "likes": 45573,
+          "comments": 2042,
+          "url": "https://www.youtube.com/watch?v=Gd0-xcH_1dg"
+        },
+        {
+          "id": "DqFxJSdCg10",
+          "title": "50 Milyon Dolarlık Yasaklı Heykel: Graf Spee Kartalının Gizemi 🦅 | İkinci Dünya Savaşı Tarihi#tarih",
+          "channel": "Tarih Sayfası ",
+          "views": 543379,
+          "views_per_day": 10744.92,
+          "likes": 2255,
+          "comments": 40,
+          "url": "https://www.youtube.com/watch?v=DqFxJSdCg10"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Dünyası gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Dünyası gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Dünyası gizemi: Yüzyıllarca Saklanan Sır",
+        "Dünyası gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Dünyası gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Dünyası gizemi: Ölümcül Gerçekler",
+        "Dünyası gizemi: Antik Dünyadaki Kullanımı",
+        "Dünyası gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Dünyası gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Dünyası gizemi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "Dünyası karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Saklı gizemi",
+      "final_score": 69,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 1762.8,
+        "recent_growth_ratio": 0.29,
+        "top_views_per_day": 49282.4,
+        "channel_diversity": 0.82,
+        "videos_analyzed": 39,
+        "breakout_videos": 11,
+        "evergreen_score": 60,
+        "competition_score": 18,
+        "automation_score": 80,
+        "effort_value_score": 69
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "uaV_TbJj8do",
+          "title": "🧡 CENNET ELMASININ GİZEMİ BU SUDA MI SAKLI? GERİ SAYIM BAŞLADI! 😱🤔#cennetelması #trabzonhurması",
+          "channel": "Selin’in Tarifi",
+          "views": 909094,
+          "views_per_day": 49282.4,
+          "likes": 1388,
+          "comments": 29,
+          "url": "https://www.youtube.com/watch?v=uaV_TbJj8do"
+        },
+        {
+          "id": "FdqkbAMezJc",
+          "title": "Dünyanın En Gizemli 7 Kayıp Mezarı! Neden Hâlâ Bulunamadılar?",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 913526,
+          "views_per_day": 19638.6,
+          "likes": 11228,
+          "comments": 679,
+          "url": "https://www.youtube.com/watch?v=FdqkbAMezJc"
+        },
+        {
+          "id": "2zuQphNzwA4",
+          "title": "PS5'TEKİ SAKLI GİZEM!",
+          "channel": "Bedirianis",
+          "views": 336548,
+          "views_per_day": 13669.58,
+          "likes": 3814,
+          "comments": 240,
+          "url": "https://www.youtube.com/watch?v=2zuQphNzwA4"
+        },
+        {
+          "id": "ypyqBcnkxT8",
+          "title": "ANTARKTİKA NEDEN BU KADAR KORUNUYOR? Yasak Kıtanın Büyük Gizemi",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 1138426,
+          "views_per_day": 11792.95,
+          "likes": 20450,
+          "comments": 1301,
+          "url": "https://www.youtube.com/watch?v=ypyqBcnkxT8"
+        },
+        {
+          "id": "iiV1vtsn-Vo",
+          "title": "Google Haritalardaki Terk Edilmiş Yerlere Gittik! - Gizem Avcıları",
+          "channel": "Mete Kayagil",
+          "views": 2428593,
+          "views_per_day": 11682.91,
+          "likes": 56437,
+          "comments": 4577,
+          "url": "https://www.youtube.com/watch?v=iiV1vtsn-Vo"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Saklı gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Saklı gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Saklı gizemi: Yüzyıllarca Saklanan Sır",
+        "Saklı gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Saklı gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Saklı gizemi: Ölümcül Gerçekler",
+        "Saklı gizemi: Antik Dünyadaki Kullanımı",
+        "Saklı gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Saklı gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Saklı gizemi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Mucizesi tarihi",
+      "final_score": 67,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 141.25,
+        "recent_growth_ratio": 0.75,
+        "top_views_per_day": 20653.7,
+        "channel_diversity": 0.92,
+        "videos_analyzed": 39,
+        "breakout_videos": 6,
+        "evergreen_score": 60,
+        "competition_score": 8,
+        "automation_score": 80,
+        "effort_value_score": 67
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "mVmNlsDO8YA",
+          "title": "Roma mimarisinin mucizesi: Pantheon Tapınağı/ Göksel Göksoy & Fatih Altaylı - Teke Tek Bilim",
+          "channel": "Teke Tek Bilim",
+          "views": 1603260,
+          "views_per_day": 20653.7,
+          "likes": 21883,
+          "comments": 690,
+          "url": "https://www.youtube.com/watch?v=mVmNlsDO8YA"
+        },
+        {
+          "id": "0MVJ2x-pCiU",
+          "title": "Japonya Nasıl Başardı? Bir Sanayileşme Mucizesi: Meiji Restorasyonu /Emrah Safa Gürkan - Historik 73",
+          "channel": "OMNIBUS",
+          "views": 786133,
+          "views_per_day": 9710.24,
+          "likes": 10722,
+          "comments": 795,
+          "url": "https://www.youtube.com/watch?v=0MVJ2x-pCiU"
+        },
+        {
+          "id": "s_DzDt-CBUI",
+          "title": "Bataklığın Üzerindeki Mimar Sinan’ın Mucizesi: Büyükçekmece Köprüsü (ABONE OLABİLİRSİNİZ)",
+          "channel": "Kadim Tarih",
+          "views": 706325,
+          "views_per_day": 4022.22,
+          "likes": 16433,
+          "comments": 255,
+          "url": "https://www.youtube.com/watch?v=s_DzDt-CBUI"
+        },
+        {
+          "id": "CTOBcTNSc_4",
+          "title": "Bataklığın Üzerindeki Mimar Sinan’ın Mucizesi: Büyükçekmece Köprüsü #tarih",
+          "channel": "Kadim Tarih",
+          "views": 320237,
+          "views_per_day": 2586.45,
+          "likes": 5620,
+          "comments": 51,
+          "url": "https://www.youtube.com/watch?v=CTOBcTNSc_4"
+        },
+        {
+          "id": "T3RIQZZJhys",
+          "title": "Muhammed’in Mucizeleri: Tarihsel Bir İnceleme",
+          "channel": "Bi’ Kahvelik",
+          "views": 50181,
+          "views_per_day": 2423.14,
+          "likes": 276,
+          "comments": 222,
+          "url": "https://www.youtube.com/watch?v=T3RIQZZJhys"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Mucizesi tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Mucizesi tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Mucizesi tarihi: Yüzyıllarca Saklanan Sır",
+        "Mucizesi tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Mucizesi tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Mucizesi tarihi: Ölümcül Gerçekler",
+        "Mucizesi tarihi: Antik Dünyadaki Kullanımı",
+        "Mucizesi tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Mucizesi tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Mucizesi tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "Dünyası tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 64,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 1889.24,
+        "recent_growth_ratio": 0.21,
+        "top_views_per_day": 32524.23,
+        "channel_diversity": 0.59,
+        "videos_analyzed": 39,
+        "breakout_videos": 5,
+        "evergreen_score": 60,
+        "competition_score": 41,
+        "automation_score": 80,
+        "effort_value_score": 64
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "BsJe7i38bXQ",
+          "title": "❌ Son Kullanma Tarihi Geçen TÜM Makyaj Malzemelerini Çöpe Atmayın 💄",
+          "channel": "Kız Dünyası",
+          "views": 2761880,
+          "views_per_day": 32524.23,
+          "likes": 15521,
+          "comments": 226,
+          "url": "https://www.youtube.com/watch?v=BsJe7i38bXQ"
+        },
+        {
+          "id": "_y1SCzAPris",
+          "title": "OSMANLI 1. Dünya Savaşına Girmeseydi Ne Olurdu? #shorts #osmanlı #tarih",
+          "channel": "Ne Olurdu?",
+          "views": 889828,
+          "views_per_day": 15691.09,
+          "likes": 12102,
+          "comments": 577,
+          "url": "https://www.youtube.com/watch?v=_y1SCzAPris"
+        },
+        {
+          "id": "8MGOePPLv9s",
+          "title": "Ayasofya'nın Yer Altı Dünyası! CNN TÜRK Görüntüledi: 1500 Yıllık Tarih Gün Yüzüne Çıktı!",
+          "channel": "CNN TÜRK",
+          "views": 67956,
+          "views_per_day": 11903.59,
+          "likes": 163,
+          "comments": 14,
+          "url": "https://www.youtube.com/watch?v=8MGOePPLv9s"
+        },
+        {
+          "id": "a172Y-50IJ0",
+          "title": "Almanya Birinci Dünya Savaşı’nı Kazansaydı Harita Nasıl Olurdu? #shorts #tarih #osmanlı",
+          "channel": "Bilgin Küre",
+          "views": 199939,
+          "views_per_day": 7509.34,
+          "likes": 1750,
+          "comments": 60,
+          "url": "https://www.youtube.com/watch?v=a172Y-50IJ0"
+        },
+        {
+          "id": "5JXN_a3tGbE",
+          "title": "Bilinen Dünya Tarihi YALAN mı?",
+          "channel": "DIOFLIX",
+          "views": 140248,
+          "views_per_day": 7413.75,
+          "likes": 1789,
+          "comments": 77,
+          "url": "https://www.youtube.com/watch?v=5JXN_a3tGbE"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Dünyası tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Dünyası tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Dünyası tarihi: Yüzyıllarca Saklanan Sır",
+        "Dünyası tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Dünyası tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Dünyası tarihi: Ölümcül Gerçekler",
+        "Dünyası tarihi: Antik Dünyadaki Kullanımı",
+        "Dünyası tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Dünyası tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Dünyası tarihi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Saklı tarihi",
+      "final_score": 59,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 154.14,
+        "recent_growth_ratio": 0.74,
+        "top_views_per_day": 18363.45,
+        "channel_diversity": 0.83,
+        "videos_analyzed": 35,
+        "breakout_videos": 3,
+        "evergreen_score": 60,
+        "competition_score": 17,
+        "automation_score": 80,
+        "effort_value_score": 59
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "KP9FAbWIg_M",
+          "title": "Edirne’nin Saklı Tarihi: Yahudilerin Hatıraları, Sırları ve Gizemleri | İsmail Ernur Yılmaz",
+          "channel": "Politalk",
+          "views": 31386,
+          "views_per_day": 18363.45,
+          "likes": 1347,
+          "comments": 64,
+          "url": "https://www.youtube.com/watch?v=KP9FAbWIg_M"
+        },
+        {
+          "id": "2MDZP13q3TM",
+          "title": "İLK KEZ BAĞDAT'A GİTTİM. İSLAM TARİHİ'NİN SAKLI HAZİNELERİNİ KEŞFETTİM / Talha Uğurluel",
+          "channel": "Talha Uğurluel",
+          "views": 230163,
+          "views_per_day": 5898.34,
+          "likes": 4156,
+          "comments": 491,
+          "url": "https://www.youtube.com/watch?v=2MDZP13q3TM"
+        },
+        {
+          "id": "l9AnNQuvjic",
+          "title": "Bursa'nın saklı kalmış tarihi köyü 'Misi'",
+          "channel": "Cumhuriyet",
+          "views": 5056,
+          "views_per_day": 1004.53,
+          "likes": 6,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=l9AnNQuvjic"
+        },
+        {
+          "id": "M5NE1gp9iA0",
+          "title": "Tarihi Camileri ve Saklı Hikâyeleriyle Hanım Sultanlar Şehri: Üsküdar",
+          "channel": "Tunahan Örs",
+          "views": 41782,
+          "views_per_day": 794.26,
+          "likes": 783,
+          "comments": 80,
+          "url": "https://www.youtube.com/watch?v=M5NE1gp9iA0"
+        },
+        {
+          "id": "voMuZUlzOJw",
+          "title": "🎬 Konya’nın sokaklarında ve tarihî dokusunda saklı 3 film hikâyesi! #Konya #TürkSineması #Sinema",
+          "channel": "Mert Mutlu",
+          "views": 8442,
+          "views_per_day": 714.56,
+          "likes": 238,
+          "comments": 7,
+          "url": "https://www.youtube.com/watch?v=voMuZUlzOJw"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Saklı tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Saklı tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Saklı tarihi: Yüzyıllarca Saklanan Sır",
+        "Saklı tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Saklı tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Saklı tarihi: Ölümcül Gerçekler",
+        "Saklı tarihi: Antik Dünyadaki Kullanımı",
+        "Saklı tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Saklı tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Saklı tarihi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "zehirli bitkiler",
+      "final_score": 58,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 277.82,
+        "recent_growth_ratio": 0.39,
+        "top_views_per_day": 22800.73,
+        "channel_diversity": 0.67,
+        "videos_analyzed": 36,
+        "breakout_videos": 10,
+        "evergreen_score": 60,
+        "competition_score": 33,
+        "automation_score": 50,
+        "effort_value_score": 58
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "Nsm2aOEPbwY",
+          "title": "Evlerimizi güzelleştiren bazı salon bitkileri çocuklar ve patili dostlarımız için zehirli olabilir🌿🐾",
+          "channel": "BilgiçLab",
+          "views": 196065,
+          "views_per_day": 22800.73,
+          "likes": 190,
+          "comments": 7,
+          "url": "https://www.youtube.com/watch?v=Nsm2aOEPbwY"
+        },
+        {
+          "id": "ZaQX7BS9fBI",
+          "title": "Domuz Pıtrağı Otu Her Yerde Var Çok Zehirli Dul Avrat Otu İle Karıştırma",
+          "channel": "Doğadaki Şifa",
+          "views": 136120,
+          "views_per_day": 7784.33,
+          "likes": 569,
+          "comments": 23,
+          "url": "https://www.youtube.com/watch?v=ZaQX7BS9fBI"
+        },
+        {
+          "id": "MJmg1hdNGH4",
+          "title": "Beni dışlayan ailemden intikamımı, zehirli bitki ile aldım.",
+          "channel": "Reddit Zamanı",
+          "views": 578661,
+          "views_per_day": 6754.78,
+          "likes": 13381,
+          "comments": 406,
+          "url": "https://www.youtube.com/watch?v=MJmg1hdNGH4"
+        },
+        {
+          "id": "IQ1iWvXbXGc",
+          "title": "Çok Zehirli 3 Yabani Ot Üçüde Aynı Bölgede Yan Yana",
+          "channel": "Doğadaki Şifa",
+          "views": 212755,
+          "views_per_day": 5656.05,
+          "likes": 241,
+          "comments": 32,
+          "url": "https://www.youtube.com/watch?v=IQ1iWvXbXGc"
+        },
+        {
+          "id": "silFAf0u1JQ",
+          "title": "Zehirli mantarla zehirsiz mantarın arasındaki farkı gösteren adam",
+          "channel": "Viral Akışı",
+          "views": 208940,
+          "views_per_day": 5510.34,
+          "likes": 1594,
+          "comments": 61,
+          "url": "https://www.youtube.com/watch?v=silFAf0u1JQ"
+        }
+      ],
+      "first_10_video_ideas": [
+        "zehirli bitkiler: İnsanların Bilmediği 7 Gerçek",
+        "zehirli bitkiler: Bir İmparatorluğu Değiştiren Hikâye",
+        "zehirli bitkiler: Yüzyıllarca Saklanan Sır",
+        "zehirli bitkiler: Yasaklanmasının Gerçek Nedeni",
+        "zehirli bitkiler: Ticaret Yollarını Değiştiren Olay",
+        "zehirli bitkiler: Ölümcül Gerçekler",
+        "zehirli bitkiler: Antik Dünyadaki Kullanımı",
+        "zehirli bitkiler: Mitoloji ve Gerçek Arasındaki Bağ",
+        "zehirli bitkiler: Bugüne Kadar Nasıl Geldi?",
+        "zehirli bitkiler: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Dünyası karanlık tarihi",
+      "final_score": 55,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 30.78,
+        "recent_growth_ratio": 0.04,
+        "top_views_per_day": 22722.47,
+        "channel_diversity": 0.94,
+        "videos_analyzed": 33,
+        "breakout_videos": 7,
+        "evergreen_score": 60,
+        "competition_score": 6,
+        "automation_score": 80,
+        "effort_value_score": 55
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "g7dMFiVWkcI",
+          "title": "Emeviler: İslam Tarihinin En Karanlık Sayfası",
+          "channel": "Gerçeği Bul",
+          "views": 764535,
+          "views_per_day": 22722.47,
+          "likes": 29274,
+          "comments": 2255,
+          "url": "https://www.youtube.com/watch?v=g7dMFiVWkcI"
+        },
+        {
+          "id": "RQv622Zro4I",
+          "title": "Messi'li Dünya Kupasındaki Arjantin Milli Takımında Neden Siyahi Yok? Arjantin'in Karanlık Tarihi?",
+          "channel": "Halil İbrahim Göker",
+          "views": 1702673,
+          "views_per_day": 11827.38,
+          "likes": 47470,
+          "comments": 1216,
+          "url": "https://www.youtube.com/watch?v=RQv622Zro4I"
+        },
+        {
+          "id": "oCzgNWAZWh8",
+          "title": "Ortaçağ Nasıl İcat Edildi? : Rönesans’tan Aydınlanma’ya Bir Tarih Hikâyesi",
+          "channel": "Mustafa B. Bozkurt [Lex Historiae]",
+          "views": 155008,
+          "views_per_day": 2889.99,
+          "likes": 2173,
+          "comments": 92,
+          "url": "https://www.youtube.com/watch?v=oCzgNWAZWh8"
+        },
+        {
+          "id": "WKuWFypOeBo",
+          "title": "TRIADLAR: Çin Mafyasının Karanlık Tarihi | Sun Yee On, 14K ve Hong Kong Yeraltı Dünyası",
+          "channel": "Deniz Taylan Sağır",
+          "views": 91164,
+          "views_per_day": 2362.75,
+          "likes": 556,
+          "comments": 101,
+          "url": "https://www.youtube.com/watch?v=WKuWFypOeBo"
+        },
+        {
+          "id": "F6qhm08JfyI",
+          "title": "Nazgûl 4.000 Yıl Boyunca Neredeydi? Tolkien'in Gizlediği Karanlık Tarih",
+          "channel": "Hikaye Anatomisi",
+          "views": 85359,
+          "views_per_day": 2158.1,
+          "likes": 385,
+          "comments": 32,
+          "url": "https://www.youtube.com/watch?v=F6qhm08JfyI"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Dünyası karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Dünyası karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Dünyası karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Dünyası karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Dünyası karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Dünyası karanlık tarihi: Ölümcül Gerçekler",
+        "Dünyası karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Dünyası karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Dünyası karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Dünyası karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "Mucizesi gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 55,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 14.17,
+        "recent_growth_ratio": 1.76,
+        "top_views_per_day": 729.19,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 29,
+        "breakout_videos": 0,
+        "evergreen_score": 60,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 55
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "DI0VGsZJSJE",
+          "title": "Allah'ın Kuran'daki 19 Mucizesi",
+          "channel": "Yaşar Nuri Öztürk Arşivi",
+          "views": 206088,
+          "views_per_day": 729.19,
+          "likes": 4398,
+          "comments": 118,
+          "url": "https://www.youtube.com/watch?v=DI0VGsZJSJE"
+        },
+        {
+          "id": "6JZ34yBJe8g",
+          "title": "Prof. Dr. Yaşar Nuri Öztürk -  Kuran- ı Kerim'de 19 Mucizesi Var mı?",
+          "channel": "indirilen din tv",
+          "views": 51342,
+          "views_per_day": 173.49,
+          "likes": 1131,
+          "comments": 59,
+          "url": "https://www.youtube.com/watch?v=6JZ34yBJe8g"
+        },
+        {
+          "id": "jVrHhFoz610",
+          "title": "Kur’an’daki Deniz Mucizesi: Derinlerdeki Karanlıkların Sırrı! #gizemligerçekler #kuran #gizem #islam",
+          "channel": "TeoriGerçekÖtesi",
+          "views": 21692,
+          "views_per_day": 139.47,
+          "likes": 395,
+          "comments": 13,
+          "url": "https://www.youtube.com/watch?v=jVrHhFoz610"
+        },
+        {
+          "id": "Vpz81l0NmdU",
+          "title": "MESCİTTEN GELEN O GİZEMLİ SESİN SIRRI NEYDİ?  | PEYGAMBERİMİZİN MUCİZESİ #islam",
+          "channel": "Dua ile Amin ile",
+          "views": 611,
+          "views_per_day": 128.08,
+          "likes": 32,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=Vpz81l0NmdU"
+        },
+        {
+          "id": "u9Ynpt4DfWQ",
+          "title": "Amokachi'nin Gizemli Kayboluşu ve Derbi Mucizesi - Acun Ilıcalı",
+          "channel": "Gonikli Oyun",
+          "views": 21259,
+          "views_per_day": 86.95,
+          "likes": 280,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=u9Ynpt4DfWQ"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Mucizesi gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Mucizesi gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Mucizesi gizemi: Yüzyıllarca Saklanan Sır",
+        "Mucizesi gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Mucizesi gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Mucizesi gizemi: Ölümcül Gerçekler",
+        "Mucizesi gizemi: Antik Dünyadaki Kullanımı",
+        "Mucizesi gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Mucizesi gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Mucizesi gizemi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Saklı karanlık tarihi",
+      "final_score": 54,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 14.5,
+        "recent_growth_ratio": 1.82,
+        "top_views_per_day": 598.68,
+        "channel_diversity": 0.83,
+        "videos_analyzed": 36,
+        "breakout_videos": 0,
+        "evergreen_score": 60,
+        "competition_score": 17,
+        "automation_score": 80,
+        "effort_value_score": 54
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "8pJobLnt-jE",
+          "title": "1936 Yılındaki Gizli Emir: Alman Hapishanelerinin Karanlık Tarihi #history #ikincidünyasavaşı",
+          "channel": "Tarih Sayfası | Türkçe",
+          "views": 106200,
+          "views_per_day": 598.68,
+          "likes": 630,
+          "comments": 8,
+          "url": "https://www.youtube.com/watch?v=8pJobLnt-jE"
+        },
+        {
+          "id": "w10hPwoKacU",
+          "title": "Karanlık Evler: FETÖ’nün Gizli Tarihi 1. Bölüm",
+          "channel": "tabii resmi",
+          "views": 76294,
+          "views_per_day": 565.28,
+          "likes": 894,
+          "comments": 162,
+          "url": "https://www.youtube.com/watch?v=w10hPwoKacU"
+        },
+        {
+          "id": "jfK2cZzijws",
+          "title": "Sovyetlerin Dünyadan Gizlediği Karanlık Tarih | Belgesel (Derleme)",
+          "channel": "Faruk Yılmaz",
+          "views": 70199,
+          "views_per_day": 364.75,
+          "likes": 1693,
+          "comments": 97,
+          "url": "https://www.youtube.com/watch?v=jfK2cZzijws"
+        },
+        {
+          "id": "sJH0XTRIjrg",
+          "title": "Karanlık Evler: FETÖ’nün Gizli Tarihi 2. Bölüm",
+          "channel": "tabii resmi",
+          "views": 30390,
+          "views_per_day": 226.11,
+          "likes": 500,
+          "comments": 90,
+          "url": "https://www.youtube.com/watch?v=sJH0XTRIjrg"
+        },
+        {
+          "id": "-DutLD1bN8M",
+          "title": "Kanuni’nin Gizli Kalan Karanlık Yüzü: 2 Oğul, 6 Torun",
+          "channel": "Karma Galeri",
+          "views": 2348,
+          "views_per_day": 203.02,
+          "likes": 30,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=-DutLD1bN8M"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Saklı karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Saklı karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Saklı karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Saklı karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Saklı karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Saklı karanlık tarihi: Ölümcül Gerçekler",
+        "Saklı karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Saklı karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Saklı karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Saklı karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
     }
   ],
   "all_results": [
     {
-      "niche": "Ağacının gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Ağacının karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Ağacının tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Doğanın gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Doğanın karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
       "niche": "Doğanın tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 71,
+      "decision": "GİR",
+      "metrics": {
+        "median_views_per_day": 45.63,
+        "recent_growth_ratio": 2.49,
+        "top_views_per_day": 83056.79,
+        "channel_diversity": 0.84,
+        "videos_analyzed": 38,
+        "breakout_videos": 4,
+        "evergreen_score": 60,
+        "competition_score": 16,
+        "automation_score": 80,
+        "effort_value_score": 71
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "NWSeGEjeuFw",
+          "title": "Doğanın Kanunu 1. Bölüm",
+          "channel": "Doğanın Kanunu",
+          "views": 13953288,
+          "views_per_day": 83056.79,
+          "likes": 128640,
+          "comments": 6857,
+          "url": "https://www.youtube.com/watch?v=NWSeGEjeuFw"
+        },
+        {
+          "id": "7kPLaR8GOlQ",
+          "title": "Doğanın Kanunu 3. Bölüm",
+          "channel": "Doğanın Kanunu",
+          "views": 10856155,
+          "views_per_day": 70303.9,
+          "likes": 86418,
+          "comments": 3749,
+          "url": "https://www.youtube.com/watch?v=7kPLaR8GOlQ"
+        },
+        {
+          "id": "wFZya9bOdVY",
+          "title": "Doğanın Kanunu 2. Bölüm",
+          "channel": "Doğanın Kanunu",
+          "views": 9994938,
+          "views_per_day": 62090.66,
+          "likes": 88543,
+          "comments": 3495,
+          "url": "https://www.youtube.com/watch?v=wFZya9bOdVY"
+        },
+        {
+          "id": "ZL667MFXIG0",
+          "title": "Doğanın Kanunu 4. Bölüm 2. Fragman | Bundan Sonra Sen Ne Dersen O! Kaptanım 🛥️🤍",
+          "channel": "STAR TV",
+          "views": 375931,
+          "views_per_day": 2494.11,
+          "likes": 3901,
+          "comments": 191,
+          "url": "https://www.youtube.com/watch?v=ZL667MFXIG0"
+        },
+        {
+          "id": "e-HHC0KoIOE",
+          "title": "Doğanın Matematiği Asla Yanılmaz: Çin'in Serçe Katliamı #çin #china #chinese #doğa #ekoloji #tarih",
+          "channel": "Tarihin Sesi",
+          "views": 127576,
+          "views_per_day": 901.55,
+          "likes": 4780,
+          "comments": 195,
+          "url": "https://www.youtube.com/watch?v=e-HHC0KoIOE"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Doğanın tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Doğanın tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Doğanın tarihi: Yüzyıllarca Saklanan Sır",
+        "Doğanın tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Doğanın tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Doğanın tarihi: Ölümcül Gerçekler",
+        "Doğanın tarihi: Antik Dünyadaki Kullanımı",
+        "Doğanın tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Doğanın tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Doğanın tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "Dünyası gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Dünyası karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Dünyası tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Mucizesi gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Mucizesi karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "Mucizesi tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 70,
+      "decision": "GİR",
+      "metrics": {
+        "median_views_per_day": 1110.47,
+        "recent_growth_ratio": 0.44,
+        "top_views_per_day": 126012.55,
+        "channel_diversity": 0.94,
+        "videos_analyzed": 36,
+        "breakout_videos": 11,
+        "evergreen_score": 60,
+        "competition_score": 6,
+        "automation_score": 80,
+        "effort_value_score": 70
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "tU_had9pP8A",
+          "title": "2027 TÜRKİYE VE DÜNYA KEHANETLERİ - THE ECONOMİST KAPAK - BABA VANGA",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 944581,
+          "views_per_day": 126012.55,
+          "likes": 15676,
+          "comments": 1356,
+          "url": "https://www.youtube.com/watch?v=tU_had9pP8A"
+        },
+        {
+          "id": "oVkpMOZNedI",
+          "title": "Binlerce Yıllık Gizem: İstanbul'un Yeraltı Dünyası | Cengiz Küçükayvaz - Çağdaş Meddah",
+          "channel": "Rafine TV - Eğlence",
+          "views": 180289,
+          "views_per_day": 12291.77,
+          "likes": 2851,
+          "comments": 133,
+          "url": "https://www.youtube.com/watch?v=oVkpMOZNedI"
+        },
+        {
+          "id": "ypyqBcnkxT8",
+          "title": "ANTARKTİKA NEDEN BU KADAR KORUNUYOR? Yasak Kıtanın Büyük Gizemi",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 1138426,
+          "views_per_day": 11792.96,
+          "likes": 20450,
+          "comments": 1301,
+          "url": "https://www.youtube.com/watch?v=ypyqBcnkxT8"
+        },
+        {
+          "id": "Gd0-xcH_1dg",
+          "title": "VERİTY MODU KORKUNÇ GİZEMİ! 🤯 #minecraft #veritymod #verity",
+          "channel": "Bilgi Camiası",
+          "views": 1585641,
+          "views_per_day": 11363.61,
+          "likes": 45573,
+          "comments": 2042,
+          "url": "https://www.youtube.com/watch?v=Gd0-xcH_1dg"
+        },
+        {
+          "id": "DqFxJSdCg10",
+          "title": "50 Milyon Dolarlık Yasaklı Heykel: Graf Spee Kartalının Gizemi 🦅 | İkinci Dünya Savaşı Tarihi#tarih",
+          "channel": "Tarih Sayfası ",
+          "views": 543379,
+          "views_per_day": 10744.92,
+          "likes": 2255,
+          "comments": 40,
+          "url": "https://www.youtube.com/watch?v=DqFxJSdCg10"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Dünyası gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Dünyası gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Dünyası gizemi: Yüzyıllarca Saklanan Sır",
+        "Dünyası gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Dünyası gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Dünyası gizemi: Ölümcül Gerçekler",
+        "Dünyası gizemi: Antik Dünyadaki Kullanımı",
+        "Dünyası gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Dünyası gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Dünyası gizemi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "Saklı gizemi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 69,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 1762.8,
+        "recent_growth_ratio": 0.29,
+        "top_views_per_day": 49282.4,
+        "channel_diversity": 0.82,
+        "videos_analyzed": 39,
+        "breakout_videos": 11,
+        "evergreen_score": 60,
+        "competition_score": 18,
+        "automation_score": 80,
+        "effort_value_score": 69
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "uaV_TbJj8do",
+          "title": "🧡 CENNET ELMASININ GİZEMİ BU SUDA MI SAKLI? GERİ SAYIM BAŞLADI! 😱🤔#cennetelması #trabzonhurması",
+          "channel": "Selin’in Tarifi",
+          "views": 909094,
+          "views_per_day": 49282.4,
+          "likes": 1388,
+          "comments": 29,
+          "url": "https://www.youtube.com/watch?v=uaV_TbJj8do"
+        },
+        {
+          "id": "FdqkbAMezJc",
+          "title": "Dünyanın En Gizemli 7 Kayıp Mezarı! Neden Hâlâ Bulunamadılar?",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 913526,
+          "views_per_day": 19638.6,
+          "likes": 11228,
+          "comments": 679,
+          "url": "https://www.youtube.com/watch?v=FdqkbAMezJc"
+        },
+        {
+          "id": "2zuQphNzwA4",
+          "title": "PS5'TEKİ SAKLI GİZEM!",
+          "channel": "Bedirianis",
+          "views": 336548,
+          "views_per_day": 13669.58,
+          "likes": 3814,
+          "comments": 240,
+          "url": "https://www.youtube.com/watch?v=2zuQphNzwA4"
+        },
+        {
+          "id": "ypyqBcnkxT8",
+          "title": "ANTARKTİKA NEDEN BU KADAR KORUNUYOR? Yasak Kıtanın Büyük Gizemi",
+          "channel": "TUNCER - Gizem Avcısı",
+          "views": 1138426,
+          "views_per_day": 11792.95,
+          "likes": 20450,
+          "comments": 1301,
+          "url": "https://www.youtube.com/watch?v=ypyqBcnkxT8"
+        },
+        {
+          "id": "iiV1vtsn-Vo",
+          "title": "Google Haritalardaki Terk Edilmiş Yerlere Gittik! - Gizem Avcıları",
+          "channel": "Mete Kayagil",
+          "views": 2428593,
+          "views_per_day": 11682.91,
+          "likes": 56437,
+          "comments": 4577,
+          "url": "https://www.youtube.com/watch?v=iiV1vtsn-Vo"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Saklı gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Saklı gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Saklı gizemi: Yüzyıllarca Saklanan Sır",
+        "Saklı gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Saklı gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Saklı gizemi: Ölümcül Gerçekler",
+        "Saklı gizemi: Antik Dünyadaki Kullanımı",
+        "Saklı gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Saklı gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Saklı gizemi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "Saklı karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Mucizesi tarihi",
+      "final_score": 67,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 141.25,
+        "recent_growth_ratio": 0.75,
+        "top_views_per_day": 20653.7,
+        "channel_diversity": 0.92,
+        "videos_analyzed": 39,
+        "breakout_videos": 6,
+        "evergreen_score": 60,
+        "competition_score": 8,
+        "automation_score": 80,
+        "effort_value_score": 67
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "mVmNlsDO8YA",
+          "title": "Roma mimarisinin mucizesi: Pantheon Tapınağı/ Göksel Göksoy & Fatih Altaylı - Teke Tek Bilim",
+          "channel": "Teke Tek Bilim",
+          "views": 1603260,
+          "views_per_day": 20653.7,
+          "likes": 21883,
+          "comments": 690,
+          "url": "https://www.youtube.com/watch?v=mVmNlsDO8YA"
+        },
+        {
+          "id": "0MVJ2x-pCiU",
+          "title": "Japonya Nasıl Başardı? Bir Sanayileşme Mucizesi: Meiji Restorasyonu /Emrah Safa Gürkan - Historik 73",
+          "channel": "OMNIBUS",
+          "views": 786133,
+          "views_per_day": 9710.24,
+          "likes": 10722,
+          "comments": 795,
+          "url": "https://www.youtube.com/watch?v=0MVJ2x-pCiU"
+        },
+        {
+          "id": "s_DzDt-CBUI",
+          "title": "Bataklığın Üzerindeki Mimar Sinan’ın Mucizesi: Büyükçekmece Köprüsü (ABONE OLABİLİRSİNİZ)",
+          "channel": "Kadim Tarih",
+          "views": 706325,
+          "views_per_day": 4022.22,
+          "likes": 16433,
+          "comments": 255,
+          "url": "https://www.youtube.com/watch?v=s_DzDt-CBUI"
+        },
+        {
+          "id": "CTOBcTNSc_4",
+          "title": "Bataklığın Üzerindeki Mimar Sinan’ın Mucizesi: Büyükçekmece Köprüsü #tarih",
+          "channel": "Kadim Tarih",
+          "views": 320237,
+          "views_per_day": 2586.45,
+          "likes": 5620,
+          "comments": 51,
+          "url": "https://www.youtube.com/watch?v=CTOBcTNSc_4"
+        },
+        {
+          "id": "T3RIQZZJhys",
+          "title": "Muhammed’in Mucizeleri: Tarihsel Bir İnceleme",
+          "channel": "Bi’ Kahvelik",
+          "views": 50181,
+          "views_per_day": 2423.14,
+          "likes": 276,
+          "comments": 222,
+          "url": "https://www.youtube.com/watch?v=T3RIQZZJhys"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Mucizesi tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Mucizesi tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Mucizesi tarihi: Yüzyıllarca Saklanan Sır",
+        "Mucizesi tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Mucizesi tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Mucizesi tarihi: Ölümcül Gerçekler",
+        "Mucizesi tarihi: Antik Dünyadaki Kullanımı",
+        "Mucizesi tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Mucizesi tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Mucizesi tarihi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Dünyası tarihi",
+      "final_score": 64,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 1889.24,
+        "recent_growth_ratio": 0.21,
+        "top_views_per_day": 32524.23,
+        "channel_diversity": 0.59,
+        "videos_analyzed": 39,
+        "breakout_videos": 5,
+        "evergreen_score": 60,
+        "competition_score": 41,
+        "automation_score": 80,
+        "effort_value_score": 64
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "BsJe7i38bXQ",
+          "title": "❌ Son Kullanma Tarihi Geçen TÜM Makyaj Malzemelerini Çöpe Atmayın 💄",
+          "channel": "Kız Dünyası",
+          "views": 2761880,
+          "views_per_day": 32524.23,
+          "likes": 15521,
+          "comments": 226,
+          "url": "https://www.youtube.com/watch?v=BsJe7i38bXQ"
+        },
+        {
+          "id": "_y1SCzAPris",
+          "title": "OSMANLI 1. Dünya Savaşına Girmeseydi Ne Olurdu? #shorts #osmanlı #tarih",
+          "channel": "Ne Olurdu?",
+          "views": 889828,
+          "views_per_day": 15691.09,
+          "likes": 12102,
+          "comments": 577,
+          "url": "https://www.youtube.com/watch?v=_y1SCzAPris"
+        },
+        {
+          "id": "8MGOePPLv9s",
+          "title": "Ayasofya'nın Yer Altı Dünyası! CNN TÜRK Görüntüledi: 1500 Yıllık Tarih Gün Yüzüne Çıktı!",
+          "channel": "CNN TÜRK",
+          "views": 67956,
+          "views_per_day": 11903.59,
+          "likes": 163,
+          "comments": 14,
+          "url": "https://www.youtube.com/watch?v=8MGOePPLv9s"
+        },
+        {
+          "id": "a172Y-50IJ0",
+          "title": "Almanya Birinci Dünya Savaşı’nı Kazansaydı Harita Nasıl Olurdu? #shorts #tarih #osmanlı",
+          "channel": "Bilgin Küre",
+          "views": 199939,
+          "views_per_day": 7509.34,
+          "likes": 1750,
+          "comments": 60,
+          "url": "https://www.youtube.com/watch?v=a172Y-50IJ0"
+        },
+        {
+          "id": "5JXN_a3tGbE",
+          "title": "Bilinen Dünya Tarihi YALAN mı?",
+          "channel": "DIOFLIX",
+          "views": 140248,
+          "views_per_day": 7413.75,
+          "likes": 1789,
+          "comments": 77,
+          "url": "https://www.youtube.com/watch?v=5JXN_a3tGbE"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Dünyası tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Dünyası tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Dünyası tarihi: Yüzyıllarca Saklanan Sır",
+        "Dünyası tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Dünyası tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Dünyası tarihi: Ölümcül Gerçekler",
+        "Dünyası tarihi: Antik Dünyadaki Kullanımı",
+        "Dünyası tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Dünyası tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Dünyası tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "Saklı tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 59,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 154.14,
+        "recent_growth_ratio": 0.74,
+        "top_views_per_day": 18363.45,
+        "channel_diversity": 0.83,
+        "videos_analyzed": 35,
+        "breakout_videos": 3,
+        "evergreen_score": 60,
+        "competition_score": 17,
+        "automation_score": 80,
+        "effort_value_score": 59
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "KP9FAbWIg_M",
+          "title": "Edirne’nin Saklı Tarihi: Yahudilerin Hatıraları, Sırları ve Gizemleri | İsmail Ernur Yılmaz",
+          "channel": "Politalk",
+          "views": 31386,
+          "views_per_day": 18363.45,
+          "likes": 1347,
+          "comments": 64,
+          "url": "https://www.youtube.com/watch?v=KP9FAbWIg_M"
+        },
+        {
+          "id": "2MDZP13q3TM",
+          "title": "İLK KEZ BAĞDAT'A GİTTİM. İSLAM TARİHİ'NİN SAKLI HAZİNELERİNİ KEŞFETTİM / Talha Uğurluel",
+          "channel": "Talha Uğurluel",
+          "views": 230163,
+          "views_per_day": 5898.34,
+          "likes": 4156,
+          "comments": 491,
+          "url": "https://www.youtube.com/watch?v=2MDZP13q3TM"
+        },
+        {
+          "id": "l9AnNQuvjic",
+          "title": "Bursa'nın saklı kalmış tarihi köyü 'Misi'",
+          "channel": "Cumhuriyet",
+          "views": 5056,
+          "views_per_day": 1004.53,
+          "likes": 6,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=l9AnNQuvjic"
+        },
+        {
+          "id": "M5NE1gp9iA0",
+          "title": "Tarihi Camileri ve Saklı Hikâyeleriyle Hanım Sultanlar Şehri: Üsküdar",
+          "channel": "Tunahan Örs",
+          "views": 41782,
+          "views_per_day": 794.26,
+          "likes": 783,
+          "comments": 80,
+          "url": "https://www.youtube.com/watch?v=M5NE1gp9iA0"
+        },
+        {
+          "id": "voMuZUlzOJw",
+          "title": "🎬 Konya’nın sokaklarında ve tarihî dokusunda saklı 3 film hikâyesi! #Konya #TürkSineması #Sinema",
+          "channel": "Mert Mutlu",
+          "views": 8442,
+          "views_per_day": 714.56,
+          "likes": 238,
+          "comments": 7,
+          "url": "https://www.youtube.com/watch?v=voMuZUlzOJw"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Saklı tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Saklı tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Saklı tarihi: Yüzyıllarca Saklanan Sır",
+        "Saklı tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Saklı tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Saklı tarihi: Ölümcül Gerçekler",
+        "Saklı tarihi: Antik Dünyadaki Kullanımı",
+        "Saklı tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Saklı tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Saklı tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "antik dünyanın bitkileri",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "zehirli bitkiler",
+      "final_score": 58,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 277.82,
+        "recent_growth_ratio": 0.39,
+        "top_views_per_day": 22800.73,
+        "channel_diversity": 0.67,
+        "videos_analyzed": 36,
+        "breakout_videos": 10,
+        "evergreen_score": 60,
+        "competition_score": 33,
+        "automation_score": 50,
+        "effort_value_score": 58
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "Nsm2aOEPbwY",
+          "title": "Evlerimizi güzelleştiren bazı salon bitkileri çocuklar ve patili dostlarımız için zehirli olabilir🌿🐾",
+          "channel": "BilgiçLab",
+          "views": 196065,
+          "views_per_day": 22800.73,
+          "likes": 190,
+          "comments": 7,
+          "url": "https://www.youtube.com/watch?v=Nsm2aOEPbwY"
+        },
+        {
+          "id": "ZaQX7BS9fBI",
+          "title": "Domuz Pıtrağı Otu Her Yerde Var Çok Zehirli Dul Avrat Otu İle Karıştırma",
+          "channel": "Doğadaki Şifa",
+          "views": 136120,
+          "views_per_day": 7784.33,
+          "likes": 569,
+          "comments": 23,
+          "url": "https://www.youtube.com/watch?v=ZaQX7BS9fBI"
+        },
+        {
+          "id": "MJmg1hdNGH4",
+          "title": "Beni dışlayan ailemden intikamımı, zehirli bitki ile aldım.",
+          "channel": "Reddit Zamanı",
+          "views": 578661,
+          "views_per_day": 6754.78,
+          "likes": 13381,
+          "comments": 406,
+          "url": "https://www.youtube.com/watch?v=MJmg1hdNGH4"
+        },
+        {
+          "id": "IQ1iWvXbXGc",
+          "title": "Çok Zehirli 3 Yabani Ot Üçüde Aynı Bölgede Yan Yana",
+          "channel": "Doğadaki Şifa",
+          "views": 212755,
+          "views_per_day": 5656.05,
+          "likes": 241,
+          "comments": 32,
+          "url": "https://www.youtube.com/watch?v=IQ1iWvXbXGc"
+        },
+        {
+          "id": "silFAf0u1JQ",
+          "title": "Zehirli mantarla zehirsiz mantarın arasındaki farkı gösteren adam",
+          "channel": "Viral Akışı",
+          "views": 208940,
+          "views_per_day": 5510.34,
+          "likes": 1594,
+          "comments": 61,
+          "url": "https://www.youtube.com/watch?v=silFAf0u1JQ"
+        }
+      ],
+      "first_10_video_ideas": [
+        "zehirli bitkiler: İnsanların Bilmediği 7 Gerçek",
+        "zehirli bitkiler: Bir İmparatorluğu Değiştiren Hikâye",
+        "zehirli bitkiler: Yüzyıllarca Saklanan Sır",
+        "zehirli bitkiler: Yasaklanmasının Gerçek Nedeni",
+        "zehirli bitkiler: Ticaret Yollarını Değiştiren Olay",
+        "zehirli bitkiler: Ölümcül Gerçekler",
+        "zehirli bitkiler: Antik Dünyadaki Kullanımı",
+        "zehirli bitkiler: Mitoloji ve Gerçek Arasındaki Bağ",
+        "zehirli bitkiler: Bugüne Kadar Nasıl Geldi?",
+        "zehirli bitkiler: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "antik dünyanın bitkileri gizem",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Dünyası karanlık tarihi",
+      "final_score": 55,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 30.78,
+        "recent_growth_ratio": 0.04,
+        "top_views_per_day": 22722.47,
+        "channel_diversity": 0.94,
+        "videos_analyzed": 33,
+        "breakout_videos": 7,
+        "evergreen_score": 60,
+        "competition_score": 6,
+        "automation_score": 80,
+        "effort_value_score": 55
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "g7dMFiVWkcI",
+          "title": "Emeviler: İslam Tarihinin En Karanlık Sayfası",
+          "channel": "Gerçeği Bul",
+          "views": 764535,
+          "views_per_day": 22722.47,
+          "likes": 29274,
+          "comments": 2255,
+          "url": "https://www.youtube.com/watch?v=g7dMFiVWkcI"
+        },
+        {
+          "id": "RQv622Zro4I",
+          "title": "Messi'li Dünya Kupasındaki Arjantin Milli Takımında Neden Siyahi Yok? Arjantin'in Karanlık Tarihi?",
+          "channel": "Halil İbrahim Göker",
+          "views": 1702673,
+          "views_per_day": 11827.38,
+          "likes": 47470,
+          "comments": 1216,
+          "url": "https://www.youtube.com/watch?v=RQv622Zro4I"
+        },
+        {
+          "id": "oCzgNWAZWh8",
+          "title": "Ortaçağ Nasıl İcat Edildi? : Rönesans’tan Aydınlanma’ya Bir Tarih Hikâyesi",
+          "channel": "Mustafa B. Bozkurt [Lex Historiae]",
+          "views": 155008,
+          "views_per_day": 2889.99,
+          "likes": 2173,
+          "comments": 92,
+          "url": "https://www.youtube.com/watch?v=oCzgNWAZWh8"
+        },
+        {
+          "id": "WKuWFypOeBo",
+          "title": "TRIADLAR: Çin Mafyasının Karanlık Tarihi | Sun Yee On, 14K ve Hong Kong Yeraltı Dünyası",
+          "channel": "Deniz Taylan Sağır",
+          "views": 91164,
+          "views_per_day": 2362.75,
+          "likes": 556,
+          "comments": 101,
+          "url": "https://www.youtube.com/watch?v=WKuWFypOeBo"
+        },
+        {
+          "id": "F6qhm08JfyI",
+          "title": "Nazgûl 4.000 Yıl Boyunca Neredeydi? Tolkien'in Gizlediği Karanlık Tarih",
+          "channel": "Hikaye Anatomisi",
+          "views": 85359,
+          "views_per_day": 2158.1,
+          "likes": 385,
+          "comments": 32,
+          "url": "https://www.youtube.com/watch?v=F6qhm08JfyI"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Dünyası karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Dünyası karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Dünyası karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Dünyası karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Dünyası karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Dünyası karanlık tarihi: Ölümcül Gerçekler",
+        "Dünyası karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Dünyası karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Dünyası karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Dünyası karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "antik dünyanın bitkileri imparatorluk",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Mucizesi gizemi",
+      "final_score": 55,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 14.17,
+        "recent_growth_ratio": 1.76,
+        "top_views_per_day": 729.19,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 29,
+        "breakout_videos": 0,
+        "evergreen_score": 60,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 55
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "DI0VGsZJSJE",
+          "title": "Allah'ın Kuran'daki 19 Mucizesi",
+          "channel": "Yaşar Nuri Öztürk Arşivi",
+          "views": 206088,
+          "views_per_day": 729.19,
+          "likes": 4398,
+          "comments": 118,
+          "url": "https://www.youtube.com/watch?v=DI0VGsZJSJE"
+        },
+        {
+          "id": "6JZ34yBJe8g",
+          "title": "Prof. Dr. Yaşar Nuri Öztürk -  Kuran- ı Kerim'de 19 Mucizesi Var mı?",
+          "channel": "indirilen din tv",
+          "views": 51342,
+          "views_per_day": 173.49,
+          "likes": 1131,
+          "comments": 59,
+          "url": "https://www.youtube.com/watch?v=6JZ34yBJe8g"
+        },
+        {
+          "id": "jVrHhFoz610",
+          "title": "Kur’an’daki Deniz Mucizesi: Derinlerdeki Karanlıkların Sırrı! #gizemligerçekler #kuran #gizem #islam",
+          "channel": "TeoriGerçekÖtesi",
+          "views": 21692,
+          "views_per_day": 139.47,
+          "likes": 395,
+          "comments": 13,
+          "url": "https://www.youtube.com/watch?v=jVrHhFoz610"
+        },
+        {
+          "id": "Vpz81l0NmdU",
+          "title": "MESCİTTEN GELEN O GİZEMLİ SESİN SIRRI NEYDİ?  | PEYGAMBERİMİZİN MUCİZESİ #islam",
+          "channel": "Dua ile Amin ile",
+          "views": 611,
+          "views_per_day": 128.08,
+          "likes": 32,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=Vpz81l0NmdU"
+        },
+        {
+          "id": "u9Ynpt4DfWQ",
+          "title": "Amokachi'nin Gizemli Kayboluşu ve Derbi Mucizesi - Acun Ilıcalı",
+          "channel": "Gonikli Oyun",
+          "views": 21259,
+          "views_per_day": 86.95,
+          "likes": 280,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=u9Ynpt4DfWQ"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Mucizesi gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Mucizesi gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Mucizesi gizemi: Yüzyıllarca Saklanan Sır",
+        "Mucizesi gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Mucizesi gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Mucizesi gizemi: Ölümcül Gerçekler",
+        "Mucizesi gizemi: Antik Dünyadaki Kullanımı",
+        "Mucizesi gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Mucizesi gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Mucizesi gizemi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "antik dünyanın bitkileri savaş",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "antik dünyanın bitkileri tarih",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "antik dünyanın bitkileri yasak",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "baharatların tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "baharatların tarihi gizem",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "baharatların tarihi imparatorluk",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "baharatların tarihi savaş",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Saklı karanlık tarihi",
+      "final_score": 54,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 14.5,
+        "recent_growth_ratio": 1.82,
+        "top_views_per_day": 598.68,
+        "channel_diversity": 0.83,
+        "videos_analyzed": 36,
+        "breakout_videos": 0,
+        "evergreen_score": 60,
+        "competition_score": 17,
+        "automation_score": 80,
+        "effort_value_score": 54
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "8pJobLnt-jE",
+          "title": "1936 Yılındaki Gizli Emir: Alman Hapishanelerinin Karanlık Tarihi #history #ikincidünyasavaşı",
+          "channel": "Tarih Sayfası | Türkçe",
+          "views": 106200,
+          "views_per_day": 598.68,
+          "likes": 630,
+          "comments": 8,
+          "url": "https://www.youtube.com/watch?v=8pJobLnt-jE"
+        },
+        {
+          "id": "w10hPwoKacU",
+          "title": "Karanlık Evler: FETÖ’nün Gizli Tarihi 1. Bölüm",
+          "channel": "tabii resmi",
+          "views": 76294,
+          "views_per_day": 565.28,
+          "likes": 894,
+          "comments": 162,
+          "url": "https://www.youtube.com/watch?v=w10hPwoKacU"
+        },
+        {
+          "id": "jfK2cZzijws",
+          "title": "Sovyetlerin Dünyadan Gizlediği Karanlık Tarih | Belgesel (Derleme)",
+          "channel": "Faruk Yılmaz",
+          "views": 70199,
+          "views_per_day": 364.75,
+          "likes": 1693,
+          "comments": 97,
+          "url": "https://www.youtube.com/watch?v=jfK2cZzijws"
+        },
+        {
+          "id": "sJH0XTRIjrg",
+          "title": "Karanlık Evler: FETÖ’nün Gizli Tarihi 2. Bölüm",
+          "channel": "tabii resmi",
+          "views": 30390,
+          "views_per_day": 226.11,
+          "likes": 500,
+          "comments": 90,
+          "url": "https://www.youtube.com/watch?v=sJH0XTRIjrg"
+        },
+        {
+          "id": "-DutLD1bN8M",
+          "title": "Kanuni’nin Gizli Kalan Karanlık Yüzü: 2 Oğul, 6 Torun",
+          "channel": "Karma Galeri",
+          "views": 2348,
+          "views_per_day": 203.02,
+          "likes": 30,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=-DutLD1bN8M"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Saklı karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Saklı karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Saklı karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Saklı karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Saklı karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Saklı karanlık tarihi: Ölümcül Gerçekler",
+        "Saklı karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Saklı karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Saklı karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Saklı karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "baharatların tarihi tarih",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 54,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 8.03,
+        "recent_growth_ratio": 7.46,
+        "top_views_per_day": 429.2,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 9,
+        "breakout_videos": 0,
+        "evergreen_score": 36,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 54
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "pMropcH80YY",
+          "title": "Baharatlar ve Hindistan cevizi tarihi #shorts",
+          "channel": "ChefAlseku",
+          "views": 1136,
+          "views_per_day": 429.2,
+          "likes": 18,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=pMropcH80YY"
+        },
+        {
+          "id": "c4gfp7Eouho",
+          "title": "Baharatların Tarihi | Bir Tutam Lezzetin Karanlık Mirası",
+          "channel": "GEÇMİŞİN HİKAYESİ",
+          "views": 7361,
+          "views_per_day": 256.73,
+          "likes": 51,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=c4gfp7Eouho"
+        },
+        {
+          "id": "um4zc6jNiKE",
+          "title": "Baharat Yolu: Baharatlar Dünyaya Nasıl Ulaşıyordu? 🌶️ | Tarih",
+          "channel": "Tarih Projesi",
+          "views": 444,
+          "views_per_day": 34.43,
+          "likes": 13,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=um4zc6jNiKE"
+        },
+        {
+          "id": "8EB4jD90uSc",
+          "title": "Baharatların Tarihi Geçer mi? (Anneniz Bunu Bilmiyor!) 🌶️❌",
+          "channel": "FarFood",
+          "views": 5263,
+          "views_per_day": 15.23,
+          "likes": 0,
+          "comments": 2,
+          "url": "https://www.youtube.com/watch?v=8EB4jD90uSc"
+        },
+        {
+          "id": "9tvPKug0TsU",
+          "title": "Osmanlı'nın Unutulmuş Yemeği Zirbaç | Bal, Meyve ve Baharatların Hikâyesi",
+          "channel": "Brevia Culinae TR",
+          "views": 310,
+          "views_per_day": 8.03,
+          "likes": 1,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=9tvPKug0TsU"
+        }
+      ],
+      "first_10_video_ideas": [
+        "baharatların tarihi tarih: İnsanların Bilmediği 7 Gerçek",
+        "baharatların tarihi tarih: Bir İmparatorluğu Değiştiren Hikâye",
+        "baharatların tarihi tarih: Yüzyıllarca Saklanan Sır",
+        "baharatların tarihi tarih: Yasaklanmasının Gerçek Nedeni",
+        "baharatların tarihi tarih: Ticaret Yollarını Değiştiren Olay",
+        "baharatların tarihi tarih: Ölümcül Gerçekler",
+        "baharatların tarihi tarih: Antik Dünyadaki Kullanımı",
+        "baharatların tarihi tarih: Mitoloji ve Gerçek Arasındaki Bağ",
+        "baharatların tarihi tarih: Bugüne Kadar Nasıl Geldi?",
+        "baharatların tarihi tarih: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "baharatların tarihi yasak",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Ağacının karanlık tarihi",
+      "final_score": 52,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 8.77,
+        "recent_growth_ratio": 8.77,
+        "top_views_per_day": 456.72,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 3,
+        "breakout_videos": 0,
+        "evergreen_score": 12,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 52
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "yb92YTetzQo",
+          "title": "Valyria'nın çöküşünden Daenerys'e | Targaryen soy ağacının karanlık sırları",
+          "channel": "Ejderha Kupası",
+          "views": 66092,
+          "views_per_day": 456.72,
+          "likes": 994,
+          "comments": 139,
+          "url": "https://www.youtube.com/watch?v=yb92YTetzQo"
+        },
+        {
+          "id": "Gu31HeLPaeQ",
+          "title": "🌳👁️ İNCİR AĞACININ KARANLIK SIRRI! GECELERİ ALTINDA NEDEN UYUNMAZ? #gizem #eskiinanışlar #horror",
+          "channel": "serdar celik",
+          "views": 223,
+          "views_per_day": 8.77,
+          "likes": 4,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=Gu31HeLPaeQ"
+        },
+        {
+          "id": "e3QzPFNUTPc",
+          "title": "Bebek ağaçları: hikâyenin karanlık kökeni ve duru sonu #substack #shorts",
+          "channel": "ZEKERIYA S. SEN (tıkabasamüzik)",
+          "views": 307,
+          "views_per_day": 1.98,
+          "likes": 2,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=e3QzPFNUTPc"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Ağacının karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Ağacının karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Ağacının karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Ağacının karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Ağacının karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Ağacının karanlık tarihi: Ölümcül Gerçekler",
+        "Ağacının karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Ağacının karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Ağacının karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Ağacının karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "bitki mitolojisi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "Ağacının tarihi",
+      "final_score": 52,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 3.64,
+        "recent_growth_ratio": 1.98,
+        "top_views_per_day": 456.73,
+        "channel_diversity": 0.93,
+        "videos_analyzed": 14,
+        "breakout_videos": 0,
+        "evergreen_score": 52,
+        "competition_score": 7,
+        "automation_score": 80,
+        "effort_value_score": 52
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "yb92YTetzQo",
+          "title": "Valyria'nın çöküşünden Daenerys'e | Targaryen soy ağacının karanlık sırları",
+          "channel": "Ejderha Kupası",
+          "views": 66093,
+          "views_per_day": 456.73,
+          "likes": 994,
+          "comments": 139,
+          "url": "https://www.youtube.com/watch?v=yb92YTetzQo"
+        },
+        {
+          "id": "QMNsFWFBrT4",
+          "title": "Boston'ın Noel Ağacı Neden Kanada'dan Geliyor? (Halifax Patlaması)",
+          "channel": "Dipnot",
+          "views": 200,
+          "views_per_day": 129.77,
+          "likes": 1,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=QMNsFWFBrT4"
+        },
+        {
+          "id": "iskoezUT528",
+          "title": "Tarihi Çınar Agacının Altındaki Defineyi Çıkardım...!!!",
+          "channel": "Defineci kaptan",
+          "views": 5663,
+          "views_per_day": 124.0,
+          "likes": 156,
+          "comments": 21,
+          "url": "https://www.youtube.com/watch?v=iskoezUT528"
+        },
+        {
+          "id": "GAsE9fCqEug",
+          "title": "Kestanenin Tarihi: Ekmek Ağacının Hikâyesi",
+          "channel": "Tarihin Notu",
+          "views": 1212,
+          "views_per_day": 114.07,
+          "likes": 26,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=GAsE9fCqEug"
+        },
+        {
+          "id": "gW0StSgdY6k",
+          "title": "TARİHİ ÇINAR AĞACININ ÇEVRESİNİ KAÇ İNSAN TAMAMLIYOR🤗🤗🤗",
+          "channel": "Başoğlu Ramazan",
+          "views": 1706,
+          "views_per_day": 11.62,
+          "likes": 24,
+          "comments": 29,
+          "url": "https://www.youtube.com/watch?v=gW0StSgdY6k"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Ağacının tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Ağacının tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Ağacının tarihi: Yüzyıllarca Saklanan Sır",
+        "Ağacının tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Ağacının tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Ağacının tarihi: Ölümcül Gerçekler",
+        "Ağacının tarihi: Antik Dünyadaki Kullanımı",
+        "Ağacının tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Ağacının tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Ağacının tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
-      "niche": "bitkiler ve imparatorluklar",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "niche": "baharatların tarihi",
+      "final_score": 52,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 3.17,
+        "recent_growth_ratio": 2.37,
+        "top_views_per_day": 429.2,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 12,
+        "breakout_videos": 0,
+        "evergreen_score": 44,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 52
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "pMropcH80YY",
+          "title": "Baharatlar ve Hindistan cevizi tarihi #shorts",
+          "channel": "ChefAlseku",
+          "views": 1136,
+          "views_per_day": 429.2,
+          "likes": 18,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=pMropcH80YY"
+        },
+        {
+          "id": "MufwudaKuzU",
+          "title": "Bir baharat için neden savaşılır? Karabiber, Roma ve Osmanlı",
+          "channel": "Sofradaki Tarih",
+          "views": 2066,
+          "views_per_day": 313.09,
+          "likes": 43,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=MufwudaKuzU"
+        },
+        {
+          "id": "c4gfp7Eouho",
+          "title": "Baharatların Tarihi | Bir Tutam Lezzetin Karanlık Mirası",
+          "channel": "GEÇMİŞİN HİKAYESİ",
+          "views": 7361,
+          "views_per_day": 256.73,
+          "likes": 51,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=c4gfp7Eouho"
+        },
+        {
+          "id": "8EB4jD90uSc",
+          "title": "Baharatların Tarihi Geçer mi? (Anneniz Bunu Bilmiyor!) 🌶️❌",
+          "channel": "FarFood",
+          "views": 5263,
+          "views_per_day": 15.23,
+          "likes": 0,
+          "comments": 2,
+          "url": "https://www.youtube.com/watch?v=8EB4jD90uSc"
+        },
+        {
+          "id": "9tvPKug0TsU",
+          "title": "Osmanlı'nın Unutulmuş Yemeği Zirbaç | Bal, Meyve ve Baharatların Hikâyesi",
+          "channel": "Brevia Culinae TR",
+          "views": 310,
+          "views_per_day": 8.03,
+          "likes": 1,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=9tvPKug0TsU"
+        }
+      ],
+      "first_10_video_ideas": [
+        "baharatların tarihi: İnsanların Bilmediği 7 Gerçek",
+        "baharatların tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "baharatların tarihi: Yüzyıllarca Saklanan Sır",
+        "baharatların tarihi: Yasaklanmasının Gerçek Nedeni",
+        "baharatların tarihi: Ticaret Yollarını Değiştiren Olay",
+        "baharatların tarihi: Ölümcül Gerçekler",
+        "baharatların tarihi: Antik Dünyadaki Kullanımı",
+        "baharatların tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "baharatların tarihi: Bugüne Kadar Nasıl Geldi?",
+        "baharatların tarihi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "baharatların tarihi imparatorluk",
+      "final_score": 50,
+      "decision": "TEST ET",
+      "metrics": {
+        "median_views_per_day": 131.56,
+        "recent_growth_ratio": 1.0,
+        "top_views_per_day": 256.73,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 2,
+        "breakout_videos": 0,
+        "evergreen_score": 8,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 50
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "c4gfp7Eouho",
+          "title": "Baharatların Tarihi | Bir Tutam Lezzetin Karanlık Mirası",
+          "channel": "GEÇMİŞİN HİKAYESİ",
+          "views": 7361,
+          "views_per_day": 256.73,
+          "likes": 51,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=c4gfp7Eouho"
+        },
+        {
+          "id": "bGKvnh4XLXw",
+          "title": "Bir Baharat Uğruna Dünyayı Yaktılar: Karabiberin Kanlı Tarihi",
+          "channel": "Gastrokroni",
+          "views": 1177,
+          "views_per_day": 6.39,
+          "likes": 21,
+          "comments": 14,
+          "url": "https://www.youtube.com/watch?v=bGKvnh4XLXw"
+        }
+      ],
+      "first_10_video_ideas": [
+        "baharatların tarihi imparatorluk: İnsanların Bilmediği 7 Gerçek",
+        "baharatların tarihi imparatorluk: Bir İmparatorluğu Değiştiren Hikâye",
+        "baharatların tarihi imparatorluk: Yüzyıllarca Saklanan Sır",
+        "baharatların tarihi imparatorluk: Yasaklanmasının Gerçek Nedeni",
+        "baharatların tarihi imparatorluk: Ticaret Yollarını Değiştiren Olay",
+        "baharatların tarihi imparatorluk: Ölümcül Gerçekler",
+        "baharatların tarihi imparatorluk: Antik Dünyadaki Kullanımı",
+        "baharatların tarihi imparatorluk: Mitoloji ve Gerçek Arasındaki Bağ",
+        "baharatların tarihi imparatorluk: Bugüne Kadar Nasıl Geldi?",
+        "baharatların tarihi imparatorluk: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Doğanın gizemi",
+      "final_score": 47,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 27.14,
+        "recent_growth_ratio": 0.82,
+        "top_views_per_day": 828.95,
+        "channel_diversity": 0.94,
+        "videos_analyzed": 31,
+        "breakout_videos": 0,
+        "evergreen_score": 60,
+        "competition_score": 6,
+        "automation_score": 80,
+        "effort_value_score": 47
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "iXyFwfL1wtg",
+          "title": "Doğa İlginç Bilgiler - Ceviz Ağacının Kimsenin Bilmediği Gizemli Sırrı! / ağaçların gizemi",
+          "channel": "Dini Sözler",
+          "views": 58079,
+          "views_per_day": 828.95,
+          "likes": 183,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=iXyFwfL1wtg"
+        },
+        {
+          "id": "sC7Cs_qazkA",
+          "title": "🐉 Okyanusun En Gizemli Canlılarından Biri: Mavi Ejderha! 🌊 ",
+          "channel": "Doğanın gizemi",
+          "views": 1222,
+          "views_per_day": 328.9,
+          "likes": 4,
+          "comments": 1,
+          "url": "https://www.youtube.com/watch?v=sC7Cs_qazkA"
+        },
+        {
+          "id": "iLF0UUmsFIE",
+          "title": "Okyanusun En Garip Canlıları! 😳🌊",
+          "channel": "Doğanın gizemi",
+          "views": 1083,
+          "views_per_day": 277.8,
+          "likes": 5,
+          "comments": 1,
+          "url": "https://www.youtube.com/watch?v=iLF0UUmsFIE"
+        },
+        {
+          "id": "SfadthQtpA0",
+          "title": "Doğanın En Tuhaf Geometrik Gizemi! 🔲 | Hayvanlar Alemi #7 #Shorts",
+          "channel": "Bilgi Dozu",
+          "views": 1567,
+          "views_per_day": 156.82,
+          "likes": 13,
+          "comments": 3,
+          "url": "https://www.youtube.com/watch?v=SfadthQtpA0"
+        },
+        {
+          "id": "FebuHU_wywM",
+          "title": "​Siz doğanın bu inanılmaz renk oyununu ve 45 milyon yıllık bu gizemi daha önce duymuş muydunuz?",
+          "channel": "Sessizlik Mevsimi",
+          "views": 4074,
+          "views_per_day": 124.59,
+          "likes": 34,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=FebuHU_wywM"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Doğanın gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Doğanın gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Doğanın gizemi: Yüzyıllarca Saklanan Sır",
+        "Doğanın gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Doğanın gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Doğanın gizemi: Ölümcül Gerçekler",
+        "Doğanın gizemi: Antik Dünyadaki Kullanımı",
+        "Doğanın gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Doğanın gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Doğanın gizemi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Ağacının gizemi",
+      "final_score": 42,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 15.13,
+        "recent_growth_ratio": 0.69,
+        "top_views_per_day": 828.95,
+        "channel_diversity": 0.81,
+        "videos_analyzed": 31,
+        "breakout_videos": 0,
+        "evergreen_score": 60,
+        "competition_score": 19,
+        "automation_score": 80,
+        "effort_value_score": 42
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "iXyFwfL1wtg",
+          "title": "Doğa İlginç Bilgiler - Ceviz Ağacının Kimsenin Bilmediği Gizemli Sırrı! / ağaçların gizemi",
+          "channel": "Dini Sözler",
+          "views": 58079,
+          "views_per_day": 828.95,
+          "likes": 183,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=iXyFwfL1wtg"
+        },
+        {
+          "id": "qBCiYNaYml4",
+          "title": "BUHUR AĞACI  DOĞANIN GİZEMLİ ALTIN REÇİNESİ! PART 2",
+          "channel": "Digitalbilgin",
+          "views": 1122,
+          "views_per_day": 174.12,
+          "likes": 7,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=qBCiYNaYml4"
+        },
+        {
+          "id": "Zfzv10hLy9c",
+          "title": "Ağaçlar Nasıl Taşlaştı? Doğanın Büyüleyici Katılaşma Gizemi",
+          "channel": "Meraklı Beyin",
+          "views": 993,
+          "views_per_day": 63.47,
+          "likes": 23,
+          "comments": 2,
+          "url": "https://www.youtube.com/watch?v=Zfzv10hLy9c"
+        },
+        {
+          "id": "dYOPFu_bbZk",
+          "title": "Dünyanın En Gizemli Ağacı! 🌳",
+          "channel": "ARKEON",
+          "views": 1192,
+          "views_per_day": 46.7,
+          "likes": 7,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=dYOPFu_bbZk"
+        },
+        {
+          "id": "t8j38JeR-cE",
+          "title": "İşte Evrim Ağacının en gizemli sırrı! 🚨 (Evrim Ağacı)",
+          "channel": "Podcast Kafası",
+          "views": 1273,
+          "views_per_day": 41.66,
+          "likes": 11,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=t8j38JeR-cE"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Ağacının gizemi: İnsanların Bilmediği 7 Gerçek",
+        "Ağacının gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Ağacının gizemi: Yüzyıllarca Saklanan Sır",
+        "Ağacının gizemi: Yasaklanmasının Gerçek Nedeni",
+        "Ağacının gizemi: Ticaret Yollarını Değiştiren Olay",
+        "Ağacının gizemi: Ölümcül Gerçekler",
+        "Ağacının gizemi: Antik Dünyadaki Kullanımı",
+        "Ağacının gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Ağacının gizemi: Bugüne Kadar Nasıl Geldi?",
+        "Ağacının gizemi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Doğanın karanlık tarihi",
+      "final_score": 41,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 14.24,
+        "recent_growth_ratio": 0.79,
+        "top_views_per_day": 23.44,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 5,
+        "breakout_videos": 0,
+        "evergreen_score": 12,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 41
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "xmmeNqL0jqk",
+          "title": "#Erzincan#Munzur#Karanlik#Kanyon#tarih#turistik#müzik#shots#abone#olun#lütfen🌼",
+          "channel": "𝕰𝖋𝖑𝖎𝖓'𝖎𝖓 𝖅𝖆𝖒𝖆𝖓 𝕶𝖆𝖕ı𝖘ı",
+          "views": 766,
+          "views_per_day": 23.44,
+          "likes": 12,
+          "comments": 6,
+          "url": "https://www.youtube.com/watch?v=xmmeNqL0jqk"
+        },
+        {
+          "id": "7DYj8UYUxOE",
+          "title": "Doğanın Karanlık Yüzü",
+          "channel": "Kısa Tarih",
+          "views": 359,
+          "views_per_day": 19.98,
+          "likes": 9,
+          "comments": 1,
+          "url": "https://www.youtube.com/watch?v=7DYj8UYUxOE"
+        },
+        {
+          "id": "Q5moaaltS8g",
+          "title": "Kemaliye Karanlık Kanyon ve Tarihi Taş Yol Gezisi #travel #hiking #tourism #adventure #nature #drone",
+          "channel": "Trekking Time",
+          "views": 1466,
+          "views_per_day": 14.24,
+          "likes": 10,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=Q5moaaltS8g"
+        },
+        {
+          "id": "dFl2X6i5uQA",
+          "title": "T-REX'TEN BİLE DAHA ÖLÜMCÜL: Doğanın Yarattığı En Tehlikeli Canavar!",
+          "channel": "Kürşat Gündoğdu Belgesel",
+          "views": 123,
+          "views_per_day": 11.44,
+          "likes": 4,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=dFl2X6i5uQA"
+        },
+        {
+          "id": "Vy5MS_Ynktc",
+          "title": "Goethe felsefesi ve doğanın karanlık yüzü: Evren bir canavar mı?",
+          "channel": "Aporizmalar",
+          "views": 160,
+          "views_per_day": 1.46,
+          "likes": 3,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=Vy5MS_Ynktc"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Doğanın karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Doğanın karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Doğanın karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Doğanın karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Doğanın karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Doğanın karanlık tarihi: Ölümcül Gerçekler",
+        "Doğanın karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Doğanın karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Doğanın karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Doğanın karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "antik dünyanın bitkileri",
+      "final_score": 37,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 72.26,
+        "recent_growth_ratio": 0.0,
+        "top_views_per_day": 72.26,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 1,
+        "breakout_videos": 0,
+        "evergreen_score": 4,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 37
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "9YQYG38PDiY",
+          "title": "Antik Mısır’da Hangi Şifalı Bitkiler Kullanılıyordu? 🌿| Antik Mısırlıların İlaç Tarifleri!",
+          "channel": "Bu Normal Mi?",
+          "views": 2788,
+          "views_per_day": 72.26,
+          "likes": 71,
+          "comments": 1,
+          "url": "https://www.youtube.com/watch?v=9YQYG38PDiY"
+        }
+      ],
+      "first_10_video_ideas": [
+        "antik dünyanın bitkileri: İnsanların Bilmediği 7 Gerçek",
+        "antik dünyanın bitkileri: Bir İmparatorluğu Değiştiren Hikâye",
+        "antik dünyanın bitkileri: Yüzyıllarca Saklanan Sır",
+        "antik dünyanın bitkileri: Yasaklanmasının Gerçek Nedeni",
+        "antik dünyanın bitkileri: Ticaret Yollarını Değiştiren Olay",
+        "antik dünyanın bitkileri: Ölümcül Gerçekler",
+        "antik dünyanın bitkileri: Antik Dünyadaki Kullanımı",
+        "antik dünyanın bitkileri: Mitoloji ve Gerçek Arasındaki Bağ",
+        "antik dünyanın bitkileri: Bugüne Kadar Nasıl Geldi?",
+        "antik dünyanın bitkileri: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "Mucizesi karanlık tarihi",
+      "final_score": 34,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 24.29,
+        "recent_growth_ratio": 0.0,
+        "top_views_per_day": 24.29,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 1,
+        "breakout_videos": 0,
+        "evergreen_score": 0,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 34
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "v2kz8l-hoBM",
+          "title": "2700 Yıllık İmkansız Antik Mühendislik Mucizesi! 😱 #Shorts",
+          "channel": "Karanlık Dosya / Dark File",
+          "views": 1445,
+          "views_per_day": 24.29,
+          "likes": 14,
+          "comments": 1,
+          "url": "https://www.youtube.com/watch?v=v2kz8l-hoBM"
+        }
+      ],
+      "first_10_video_ideas": [
+        "Mucizesi karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "Mucizesi karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "Mucizesi karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "Mucizesi karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "Mucizesi karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "Mucizesi karanlık tarihi: Ölümcül Gerçekler",
+        "Mucizesi karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "Mucizesi karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "Mucizesi karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "Mucizesi karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
     },
     {
       "niche": "bitkilerin karanlık tarihi",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "final_score": 34,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 173.65,
+        "recent_growth_ratio": 1.0,
+        "top_views_per_day": 408.86,
+        "channel_diversity": 0.33,
+        "videos_analyzed": 3,
+        "breakout_videos": 0,
+        "evergreen_score": 12,
+        "competition_score": 67,
+        "automation_score": 80,
+        "effort_value_score": 34
+      },
+      "gap": "Rakip başarısı birkaç kanala sıkışmış; özgün seri fırsatı var.",
+      "top_videos": [
+        {
+          "id": "0aZgyrj3ELM",
+          "title": "Nikolai Vavilov'un Trajik Hikayesi | Bitkilerin Karanlık Tarihi",
+          "channel": "Ev Yeşili",
+          "views": 1823,
+          "views_per_day": 408.86,
+          "likes": 78,
+          "comments": 6,
+          "url": "https://www.youtube.com/watch?v=0aZgyrj3ELM"
+        },
+        {
+          "id": "TbxOPxk-8Yk",
+          "title": "Bal kabağı oyma geleneğinin kökeni | Cadılar Bayramı | Bitkilerin Karanlık Tarihi",
+          "channel": "Ev Yeşili",
+          "views": 4422,
+          "views_per_day": 173.65,
+          "likes": 182,
+          "comments": 4,
+          "url": "https://www.youtube.com/watch?v=TbxOPxk-8Yk"
+        },
+        {
+          "id": "eXj2GFt9vL0",
+          "title": "Adamotu bitkisinin karanlık tarihi",
+          "channel": "Ev Yeşili",
+          "views": 24847,
+          "views_per_day": 97.89,
+          "likes": 828,
+          "comments": 17,
+          "url": "https://www.youtube.com/watch?v=eXj2GFt9vL0"
+        }
+      ],
+      "first_10_video_ideas": [
+        "bitkilerin karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+        "bitkilerin karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+        "bitkilerin karanlık tarihi: Yüzyıllarca Saklanan Sır",
+        "bitkilerin karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+        "bitkilerin karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+        "bitkilerin karanlık tarihi: Ölümcül Gerçekler",
+        "bitkilerin karanlık tarihi: Antik Dünyadaki Kullanımı",
+        "bitkilerin karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "bitkilerin karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+        "bitkilerin karanlık tarihi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "baharatların tarihi savaş",
+      "final_score": 29,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 3.9,
+        "recent_growth_ratio": 0.0,
+        "top_views_per_day": 3.9,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 1,
+        "breakout_videos": 0,
+        "evergreen_score": 4,
+        "competition_score": 0,
+        "automation_score": 80,
+        "effort_value_score": 29
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "ohHNIqSb9Ro",
+          "title": "MUSKAT: UĞRUNA SAVAŞ ÇIKAN BAHARAT!",
+          "channel": "Hikayeler Küpü",
+          "views": 754,
+          "views_per_day": 3.9,
+          "likes": 3,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=ohHNIqSb9Ro"
+        }
+      ],
+      "first_10_video_ideas": [
+        "baharatların tarihi savaş: İnsanların Bilmediği 7 Gerçek",
+        "baharatların tarihi savaş: Bir İmparatorluğu Değiştiren Hikâye",
+        "baharatların tarihi savaş: Yüzyıllarca Saklanan Sır",
+        "baharatların tarihi savaş: Yasaklanmasının Gerçek Nedeni",
+        "baharatların tarihi savaş: Ticaret Yollarını Değiştiren Olay",
+        "baharatların tarihi savaş: Ölümcül Gerçekler",
+        "baharatların tarihi savaş: Antik Dünyadaki Kullanımı",
+        "baharatların tarihi savaş: Mitoloji ve Gerçek Arasındaki Bağ",
+        "baharatların tarihi savaş: Bugüne Kadar Nasıl Geldi?",
+        "baharatların tarihi savaş: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "gizemli bitkiler tarih",
+      "final_score": 27,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 3.9,
+        "recent_growth_ratio": 0.0,
+        "top_views_per_day": 37.62,
+        "channel_diversity": 0.8,
+        "videos_analyzed": 5,
+        "breakout_videos": 0,
+        "evergreen_score": 20,
+        "competition_score": 20,
+        "automation_score": 80,
+        "effort_value_score": 27
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "zMZ4cGY7mQY",
+          "title": "Bitkiler Hakkında Bilmediğiniz Şeyler: İletişim, İlaçlar ve Gizemli Bitkiler",
+          "channel": "Çift Sarmal",
+          "views": 3032,
+          "views_per_day": 37.62,
+          "likes": 32,
+          "comments": 10,
+          "url": "https://www.youtube.com/watch?v=zMZ4cGY7mQY"
+        },
+        {
+          "id": "PsvoE7xSDzw",
+          "title": "Mitoloji Nedir? Şifalı Bitkilerin Gizemli Tarihi #Shorts",
+          "channel": "Juicio a las Plantas",
+          "views": 1211,
+          "views_per_day": 30.62,
+          "likes": 10,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=PsvoE7xSDzw"
+        },
+        {
+          "id": "U18-_Ob7wzA",
+          "title": "Kediotu: Vikinglerden Osmanlı'ya Uzanan Gizemli Bitki #kediotu #valerian #valerianaofficinalis",
+          "channel": "Brevia Culinae TR",
+          "views": 527,
+          "views_per_day": 3.9,
+          "likes": 21,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=U18-_Ob7wzA"
+        },
+        {
+          "id": "AwFXpD8VWLw",
+          "title": "Kaybolan Şehir Matilda Ville: Tarihi Kanal ve Gizemli Bitkiler #shorts",
+          "channel": "BZA Max",
+          "views": 106,
+          "views_per_day": 0.93,
+          "likes": 0,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=AwFXpD8VWLw"
+        },
+        {
+          "id": "emGgrH3dYso",
+          "title": "Güzelavrat otu nedir? Atropa Belladonna bitkisinin gizemli tarihi",
+          "channel": "Juicio a las Plantas",
+          "views": 6,
+          "views_per_day": 0.1,
+          "likes": 0,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=emGgrH3dYso"
+        }
+      ],
+      "first_10_video_ideas": [
+        "gizemli bitkiler tarih: İnsanların Bilmediği 7 Gerçek",
+        "gizemli bitkiler tarih: Bir İmparatorluğu Değiştiren Hikâye",
+        "gizemli bitkiler tarih: Yüzyıllarca Saklanan Sır",
+        "gizemli bitkiler tarih: Yasaklanmasının Gerçek Nedeni",
+        "gizemli bitkiler tarih: Ticaret Yollarını Değiştiren Olay",
+        "gizemli bitkiler tarih: Ölümcül Gerçekler",
+        "gizemli bitkiler tarih: Antik Dünyadaki Kullanımı",
+        "gizemli bitkiler tarih: Mitoloji ve Gerçek Arasındaki Bağ",
+        "gizemli bitkiler tarih: Bugüne Kadar Nasıl Geldi?",
+        "gizemli bitkiler tarih: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "ipek yolu bitkileri",
+      "final_score": 26,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 4.0,
+        "recent_growth_ratio": 0.0,
+        "top_views_per_day": 4.0,
+        "channel_diversity": 1.0,
+        "videos_analyzed": 1,
+        "breakout_videos": 0,
+        "evergreen_score": 4,
+        "competition_score": 0,
+        "automation_score": 50,
+        "effort_value_score": 26
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "XUUy5aNdI64",
+          "title": "Bitkiler için Kurulan Ticaret Yolları #shorts #bilgi #bitki ##keşfet #youtubeshorts",
+          "channel": "Yeşil Hikaye (Green Story)",
+          "views": 1278,
+          "views_per_day": 4.0,
+          "likes": 23,
+          "comments": 3,
+          "url": "https://www.youtube.com/watch?v=XUUy5aNdI64"
+        }
+      ],
+      "first_10_video_ideas": [
+        "ipek yolu bitkileri: İnsanların Bilmediği 7 Gerçek",
+        "ipek yolu bitkileri: Bir İmparatorluğu Değiştiren Hikâye",
+        "ipek yolu bitkileri: Yüzyıllarca Saklanan Sır",
+        "ipek yolu bitkileri: Yasaklanmasının Gerçek Nedeni",
+        "ipek yolu bitkileri: Ticaret Yollarını Değiştiren Olay",
+        "ipek yolu bitkileri: Ölümcül Gerçekler",
+        "ipek yolu bitkileri: Antik Dünyadaki Kullanımı",
+        "ipek yolu bitkileri: Mitoloji ve Gerçek Arasındaki Bağ",
+        "ipek yolu bitkileri: Bugüne Kadar Nasıl Geldi?",
+        "ipek yolu bitkileri: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "bitki mitolojisi",
+      "final_score": 19,
+      "decision": "GİRME",
+      "metrics": {
+        "median_views_per_day": 1.38,
+        "recent_growth_ratio": 0.0,
+        "top_views_per_day": 40.14,
+        "channel_diversity": 0.67,
+        "videos_analyzed": 3,
+        "breakout_videos": 0,
+        "evergreen_score": 12,
+        "competition_score": 33,
+        "automation_score": 50,
+        "effort_value_score": 19
+      },
+      "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+      "top_videos": [
+        {
+          "id": "LO0sIGBZfl8",
+          "title": "Mitolojinin En Güçlü Bitkisi: Moly! 🌿⚡ #mitoloji  #odysseus  #botanik",
+          "channel": "Daima Yeşil",
+          "views": 4134,
+          "views_per_day": 40.14,
+          "likes": 18,
+          "comments": 2,
+          "url": "https://www.youtube.com/watch?v=LO0sIGBZfl8"
+        },
+        {
+          "id": "jSdDXpCmQfg",
+          "title": "Bitki Mitosları: Mitolojideki En Gizemli Bitkilerin Hikayesi",
+          "channel": "Kitap Yorumları Podcast",
+          "views": 118,
+          "views_per_day": 1.38,
+          "likes": 0,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=jSdDXpCmQfg"
+        },
+        {
+          "id": "0Rw0RVvpitA",
+          "title": "Bitki Mitosları: Mitolojideki En Gizemli Bitkilerin Hikayesi",
+          "channel": "Kitap Yorumları Podcast",
+          "views": 111,
+          "views_per_day": 1.3,
+          "likes": 0,
+          "comments": 0,
+          "url": "https://www.youtube.com/watch?v=0Rw0RVvpitA"
+        }
+      ],
+      "first_10_video_ideas": [
+        "bitki mitolojisi: İnsanların Bilmediği 7 Gerçek",
+        "bitki mitolojisi: Bir İmparatorluğu Değiştiren Hikâye",
+        "bitki mitolojisi: Yüzyıllarca Saklanan Sır",
+        "bitki mitolojisi: Yasaklanmasının Gerçek Nedeni",
+        "bitki mitolojisi: Ticaret Yollarını Değiştiren Olay",
+        "bitki mitolojisi: Ölümcül Gerçekler",
+        "bitki mitolojisi: Antik Dünyadaki Kullanımı",
+        "bitki mitolojisi: Mitoloji ve Gerçek Arasındaki Bağ",
+        "bitki mitolojisi: Bugüne Kadar Nasıl Geldi?",
+        "bitki mitolojisi: En Büyük Yanlış Bilinenler"
+      ]
+    },
+    {
+      "niche": "antik dünyanın bitkileri gizem",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "antik dünyanın bitkileri imparatorluk",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "antik dünyanın bitkileri savaş",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "antik dünyanın bitkileri tarih",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "antik dünyanın bitkileri yasak",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "baharatların tarihi gizem",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "baharatların tarihi yasak",
+      "error": "Veri bulunamadı",
+      "final_score": 0
+    },
+    {
+      "niche": "bitkiler ve imparatorluklar",
+      "error": "Veri bulunamadı",
+      "final_score": 0
     },
     {
       "niche": "gizemli bitkiler",
@@ -264,42 +2760,21 @@
     },
     {
       "niche": "gizemli bitkiler imparatorluk",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "error": "Veri bulunamadı",
+      "final_score": 0
     },
     {
       "niche": "gizemli bitkiler savaş",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "gizemli bitkiler tarih",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "error": "Veri bulunamadı",
+      "final_score": 0
     },
     {
       "niche": "gizemli bitkiler yasak",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "ipek yolu bitkileri",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
+      "error": "Veri bulunamadı",
+      "final_score": 0
     },
     {
       "niche": "unutulmuş bitkiler",
-      "error": "HTTP Error 429: Too Many Requests",
-      "final_score": 0,
-      "decision": "GİRME"
-    },
-    {
-      "niche": "zehirli bitkiler",
       "error": "HTTP Error 429: Too Many Requests",
       "final_score": 0,
       "decision": "GİRME"
@@ -311,7 +2786,7 @@
       "decision": "GİRME"
     }
   ],
-  "ceo_decision": "Önce küçük test yap; tam üretime geçme.",
+  "ceo_decision": "Enerjini yalnızca kazanan nişe harca.",
   "limits": [
     "YouTube Data API gerçek RPM/gelir vermez; gelir potansiyeli dolaylı puanlanır.",
     "CTR ve retention için YouTube Analytics OAuth gerekir."

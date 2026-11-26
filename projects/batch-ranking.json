@@ -1,67 +1,242 @@
 [
   {
-    "topic": "Psikoloji Hikayeleri",
-    "niche_score": 57,
-    "decision": "TEST ET: 5-10 video ile format doğrulaması yap.",
-    "videos_analyzed": 25,
+    "topic": "Doğanın tarihi",
+    "niche_score": 71,
+    "decision": "GİR",
+    "videos_analyzed": 38,
     "metrics": {
-      "median_views": 337431,
-      "median_views_per_day": 14915,
-      "top_views_per_day": 171030,
-      "channel_diversity": 0.76
+      "median_views_per_day": 45.63,
+      "top_views_per_day": 83056.79,
+      "channel_diversity": 0.84
     },
-    "report": "projects/psikoloji-hikayeleri/report.md"
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Doğanın tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Doğanın tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Doğanın tarihi: Yüzyıllarca Saklanan Sır",
+      "Doğanın tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Doğanın tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Doğanın tarihi: Ölümcül Gerçekler",
+      "Doğanın tarihi: Antik Dünyadaki Kullanımı",
+      "Doğanın tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Doğanın tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Doğanın tarihi: En Büyük Yanlış Bilinenler"
+    ]
   },
   {
-    "topic": "Yapay Zeka Haberleri",
-    "niche_score": 33,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
+    "topic": "Dünyası gizemi",
+    "niche_score": 70,
+    "decision": "GİR",
+    "videos_analyzed": 36,
     "metrics": {
-      "median_views": 294684,
-      "median_views_per_day": 5318,
-      "top_views_per_day": 61895,
-      "channel_diversity": 0.56
+      "median_views_per_day": 1110.47,
+      "top_views_per_day": 126012.55,
+      "channel_diversity": 0.94
     },
-    "report": "projects/yapay-zeka-haberleri/report.md"
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Dünyası gizemi: İnsanların Bilmediği 7 Gerçek",
+      "Dünyası gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Dünyası gizemi: Yüzyıllarca Saklanan Sır",
+      "Dünyası gizemi: Yasaklanmasının Gerçek Nedeni",
+      "Dünyası gizemi: Ticaret Yollarını Değiştiren Olay",
+      "Dünyası gizemi: Ölümcül Gerçekler",
+      "Dünyası gizemi: Antik Dünyadaki Kullanımı",
+      "Dünyası gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Dünyası gizemi: Bugüne Kadar Nasıl Geldi?",
+      "Dünyası gizemi: En Büyük Yanlış Bilinenler"
+    ]
   },
   {
-    "topic": "Sıfırdan Zirveye",
-    "niche_score": 23,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
+    "topic": "Saklı gizemi",
+    "niche_score": 69,
+    "decision": "TEST ET",
+    "videos_analyzed": 39,
     "metrics": {
-      "median_views": 66157,
-      "median_views_per_day": 1416,
-      "top_views_per_day": 64224,
-      "channel_diversity": 0.48
+      "median_views_per_day": 1762.8,
+      "top_views_per_day": 49282.4,
+      "channel_diversity": 0.82
     },
-    "report": "projects/sfrdan-zirveye/report.md"
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Saklı gizemi: İnsanların Bilmediği 7 Gerçek",
+      "Saklı gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Saklı gizemi: Yüzyıllarca Saklanan Sır",
+      "Saklı gizemi: Yasaklanmasının Gerçek Nedeni",
+      "Saklı gizemi: Ticaret Yollarını Değiştiren Olay",
+      "Saklı gizemi: Ölümcül Gerçekler",
+      "Saklı gizemi: Antik Dünyadaki Kullanımı",
+      "Saklı gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Saklı gizemi: Bugüne Kadar Nasıl Geldi?",
+      "Saklı gizemi: En Büyük Yanlış Bilinenler"
+    ]
   },
   {
-    "topic": "Gizemli Tarih",
-    "niche_score": 23,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 25,
+    "topic": "Mucizesi tarihi",
+    "niche_score": 67,
+    "decision": "TEST ET",
+    "videos_analyzed": 39,
     "metrics": {
-      "median_views": 12529,
-      "median_views_per_day": 546,
-      "top_views_per_day": 23192,
+      "median_views_per_day": 141.25,
+      "top_views_per_day": 20653.7,
       "channel_diversity": 0.92
     },
-    "report": "projects/gizemli-tarih/report.md"
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Mucizesi tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Mucizesi tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Mucizesi tarihi: Yüzyıllarca Saklanan Sır",
+      "Mucizesi tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Mucizesi tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Mucizesi tarihi: Ölümcül Gerçekler",
+      "Mucizesi tarihi: Antik Dünyadaki Kullanımı",
+      "Mucizesi tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Mucizesi tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Mucizesi tarihi: En Büyük Yanlış Bilinenler"
+    ]
   },
   {
-    "topic": "Bitkilerin Gizli Tarihi",
-    "niche_score": 20,
-    "decision": "BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış.",
-    "videos_analyzed": 1,
+    "topic": "Dünyası tarihi",
+    "niche_score": 64,
+    "decision": "TEST ET",
+    "videos_analyzed": 39,
     "metrics": {
-      "median_views": 127,
-      "median_views_per_day": 16,
-      "top_views_per_day": 16,
+      "median_views_per_day": 1889.24,
+      "top_views_per_day": 32524.23,
+      "channel_diversity": 0.59
+    },
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Dünyası tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Dünyası tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Dünyası tarihi: Yüzyıllarca Saklanan Sır",
+      "Dünyası tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Dünyası tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Dünyası tarihi: Ölümcül Gerçekler",
+      "Dünyası tarihi: Antik Dünyadaki Kullanımı",
+      "Dünyası tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Dünyası tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Dünyası tarihi: En Büyük Yanlış Bilinenler"
+    ]
+  },
+  {
+    "topic": "Saklı tarihi",
+    "niche_score": 59,
+    "decision": "TEST ET",
+    "videos_analyzed": 35,
+    "metrics": {
+      "median_views_per_day": 154.14,
+      "top_views_per_day": 18363.45,
+      "channel_diversity": 0.83
+    },
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Saklı tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Saklı tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Saklı tarihi: Yüzyıllarca Saklanan Sır",
+      "Saklı tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Saklı tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Saklı tarihi: Ölümcül Gerçekler",
+      "Saklı tarihi: Antik Dünyadaki Kullanımı",
+      "Saklı tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Saklı tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Saklı tarihi: En Büyük Yanlış Bilinenler"
+    ]
+  },
+  {
+    "topic": "zehirli bitkiler",
+    "niche_score": 58,
+    "decision": "TEST ET",
+    "videos_analyzed": 36,
+    "metrics": {
+      "median_views_per_day": 277.82,
+      "top_views_per_day": 22800.73,
+      "channel_diversity": 0.67
+    },
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "zehirli bitkiler: İnsanların Bilmediği 7 Gerçek",
+      "zehirli bitkiler: Bir İmparatorluğu Değiştiren Hikâye",
+      "zehirli bitkiler: Yüzyıllarca Saklanan Sır",
+      "zehirli bitkiler: Yasaklanmasının Gerçek Nedeni",
+      "zehirli bitkiler: Ticaret Yollarını Değiştiren Olay",
+      "zehirli bitkiler: Ölümcül Gerçekler",
+      "zehirli bitkiler: Antik Dünyadaki Kullanımı",
+      "zehirli bitkiler: Mitoloji ve Gerçek Arasındaki Bağ",
+      "zehirli bitkiler: Bugüne Kadar Nasıl Geldi?",
+      "zehirli bitkiler: En Büyük Yanlış Bilinenler"
+    ]
+  },
+  {
+    "topic": "Dünyası karanlık tarihi",
+    "niche_score": 55,
+    "decision": "TEST ET",
+    "videos_analyzed": 33,
+    "metrics": {
+      "median_views_per_day": 30.78,
+      "top_views_per_day": 22722.47,
+      "channel_diversity": 0.94
+    },
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Dünyası karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Dünyası karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Dünyası karanlık tarihi: Yüzyıllarca Saklanan Sır",
+      "Dünyası karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Dünyası karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Dünyası karanlık tarihi: Ölümcül Gerçekler",
+      "Dünyası karanlık tarihi: Antik Dünyadaki Kullanımı",
+      "Dünyası karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Dünyası karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Dünyası karanlık tarihi: En Büyük Yanlış Bilinenler"
+    ]
+  },
+  {
+    "topic": "Mucizesi gizemi",
+    "niche_score": 55,
+    "decision": "TEST ET",
+    "videos_analyzed": 29,
+    "metrics": {
+      "median_views_per_day": 14.17,
+      "top_views_per_day": 729.19,
       "channel_diversity": 1.0
     },
-    "report": "projects/bitkilerin-gizli-tarihi/report.md"
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Mucizesi gizemi: İnsanların Bilmediği 7 Gerçek",
+      "Mucizesi gizemi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Mucizesi gizemi: Yüzyıllarca Saklanan Sır",
+      "Mucizesi gizemi: Yasaklanmasının Gerçek Nedeni",
+      "Mucizesi gizemi: Ticaret Yollarını Değiştiren Olay",
+      "Mucizesi gizemi: Ölümcül Gerçekler",
+      "Mucizesi gizemi: Antik Dünyadaki Kullanımı",
+      "Mucizesi gizemi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Mucizesi gizemi: Bugüne Kadar Nasıl Geldi?",
+      "Mucizesi gizemi: En Büyük Yanlış Bilinenler"
+    ]
+  },
+  {
+    "topic": "Saklı karanlık tarihi",
+    "niche_score": 54,
+    "decision": "TEST ET",
+    "videos_analyzed": 36,
+    "metrics": {
+      "median_views_per_day": 14.5,
+      "top_views_per_day": 598.68,
+      "channel_diversity": 0.83
+    },
+    "gap": "Pazar geniş; farklı açı ve güçlü paketleme gerekli.",
+    "first_10_video_ideas": [
+      "Saklı karanlık tarihi: İnsanların Bilmediği 7 Gerçek",
+      "Saklı karanlık tarihi: Bir İmparatorluğu Değiştiren Hikâye",
+      "Saklı karanlık tarihi: Yüzyıllarca Saklanan Sır",
+      "Saklı karanlık tarihi: Yasaklanmasının Gerçek Nedeni",
+      "Saklı karanlık tarihi: Ticaret Yollarını Değiştiren Olay",
+      "Saklı karanlık tarihi: Ölümcül Gerçekler",
+      "Saklı karanlık tarihi: Antik Dünyadaki Kullanımı",
+      "Saklı karanlık tarihi: Mitoloji ve Gerçek Arasındaki Bağ",
+      "Saklı karanlık tarihi: Bugüne Kadar Nasıl Geldi?",
+      "Saklı karanlık tarihi: En Büyük Yanlış Bilinenler"
+    ]
   }
 ]

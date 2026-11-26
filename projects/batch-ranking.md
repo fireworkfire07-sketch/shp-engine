@@ -1,13 +1,14 @@
-# SHP Niş Karşılaştırma Raporu
+# SHP PRO Niş Sıralaması
 
-| Sıra | Niş | Puan | Karar | Medyan günlük izlenme | Rapor |
-|---:|---|---:|---|---:|---|
-| 1 | Psikoloji Hikayeleri | 57 | TEST ET: 5-10 video ile format doğrulaması yap. | 14915 | [Aç](projects/psikoloji-hikayeleri/report.md) |
-| 2 | Yapay Zeka Haberleri | 33 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 5318 | [Aç](projects/yapay-zeka-haberleri/report.md) |
-| 3 | Sıfırdan Zirveye | 23 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 1416 | [Aç](projects/sfrdan-zirveye/report.md) |
-| 4 | Gizemli Tarih | 23 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 546 | [Aç](projects/gizemli-tarih/report.md) |
-| 5 | Bitkilerin Gizli Tarihi | 20 | BEKLET: Talep zayıf veya başarı birkaç kanalda toplanmış. | 16 | [Aç](projects/bitkilerin-gizli-tarihi/report.md) |
-
-## Karar kuralı
-
-En yüksek puanlı iki niş için önce 5'er video test edilir. İzlenme doğrulanmadan tam otomasyona geçilmez.
+| # | Niş | Puan | Karar | Günlük medyan |
+|---:|---|---:|---|---:|
+| 1 | Doğanın tarihi | 71 | GİR | 45.63 |
+| 2 | Dünyası gizemi | 70 | GİR | 1110.47 |
+| 3 | Saklı gizemi | 69 | TEST ET | 1762.8 |
+| 4 | Mucizesi tarihi | 67 | TEST ET | 141.25 |
+| 5 | Dünyası tarihi | 64 | TEST ET | 1889.24 |
+| 6 | Saklı tarihi | 59 | TEST ET | 154.14 |
+| 7 | zehirli bitkiler | 58 | TEST ET | 277.82 |
+| 8 | Dünyası karanlık tarihi | 55 | TEST ET | 30.78 |
+| 9 | Mucizesi gizemi | 55 | TEST ET | 14.17 |
+| 10 | Saklı karanlık tarihi | 54 | TEST ET | 14.5 |
