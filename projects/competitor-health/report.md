@@ -14,7 +14,7 @@
 ## Barış Özcan
 
 ### Rakibin üstün olduğu alanlar
-- Rakibin medyan günlük izlenme hızı daha yüksek: 2704.18 vs 0.27.
+- Rakibin medyan günlük izlenme hızı daha yüksek: 2704.05 vs 0.27.
 - Rakibin medyan etkileşim oranı daha yüksek: %2.79 vs %0.00.
 - Rakip kanal sağlık skorunda önde: 91 vs 0.
 
@@ -26,7 +26,7 @@
 ## Evrim Ağacı
 
 ### Rakibin üstün olduğu alanlar
-- Rakibin medyan günlük izlenme hızı daha yüksek: 15165.4 vs 0.27.
+- Rakibin medyan günlük izlenme hızı daha yüksek: 15163.2 vs 0.27.
 - Rakibin medyan etkileşim oranı daha yüksek: %2.54 vs %0.00.
 - Rakip kanal sağlık skorunda önde: 90 vs 0.
 

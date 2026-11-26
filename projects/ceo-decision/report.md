@@ -2,26 +2,24 @@
 
 ## BUGÜNÜN EMRİ
 
-# ÇEK
+# BEKLET
 
 **Video fikri:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?  
-**Ana tema:** Doğanın tarihi  
-**Yayın kararı:** EVET  
-**Karar güveni:** 72/100  
-**Kanal uyumu:** 80/100
+**Ana tema:** Ağacının karanlık tarihi  
+**Yayın kararı:** HAYIR  
+**Karar güveni:** 50/100  
+**Kanal uyumu:** 100/100
 
 ## Neden
 
-- Niş puanı: 71/100.
-- Kanal uyum puanı: 80/100.
-- Kanal temasıyla eşleşen kelimeler: doğa, tarih.
-- Kanal başlıklarıyla ortak kelimeler: dogan, n, tarihi.
-- Medyan günlük izlenme hızı: 45.
-- Bu konuda patlama yapmış video örneği var.
-- Başarı birden fazla kanala yayılmış.
+- Niş puanı: 0/100.
+- Kanal uyum puanı: 100/100.
+- Kanal temasıyla eşleşen kelimeler: agac, ağaç, tarih.
+- Kanal başlıklarıyla ortak kelimeler: agac, k, n, tarihi.
+- Medyan günlük izlenme hızı: 0.
 - Kanal sağlık skoru düşük; aynı anda tek güçlü test videosuna odaklan.
 - Kanalın en hızlı videosu: Çin Bu Böceğin Sırrını 2000 Yıl Neden Dünyadan Sakladı? (1.2 günlük izlenme).
-- En güçlü karşılaştırılan rakip: Barış Özcan; medyan günlük hız 2704.2.
+- En güçlü karşılaştırılan rakip: Barış Özcan; medyan günlük hız 2704.1.
 
 ## Uygulama yönü
 
@@ -38,8 +36,8 @@
 ## Sistem durumu
 
 - Kanal sağlık skoru: 0/100
-- Niş puanı: 71/100
-- Kanal uyum puanı: 80/100
+- Niş puanı: 0/100
+- Kanal uyum puanı: 100/100
 - Eksik girdiler: Yok
 
 ## Gerçek sınırlar
@@ -51,16 +49,16 @@
 
 ## EMEK FİLTRESİ
 
-# SADECE KÜÇÜK TESTE DEĞER
+# EMEĞİNE DEĞMEZ
 
-**Emek/Getiri puanı:** 55/100  
-**Net aksiyon:** TEST ET
+**Emek/Getiri puanı:** 36/100  
+**Net aksiyon:** DUR
 
 - Kanal temasına güçlü biçimde uyuyor.
-- Pazar verisi test için yeterli.
+- Pazar talebi emeği karşılayacak kadar güçlü görünmüyor.
 - Benzer videolarda medyan günlük hız düşük.
 - Kanal içi başarı kanıtı henüz zayıf.
 - Rakiplerde çalışan örnek bulundu: Işık Hızını Neden Hala Ölçemedik?.
 
-**SHP emri:** Tam üretim yapma; düşük maliyetli tek test hazırla.
+**SHP emri:** Enerjini tam üretime harcama; önce daha güçlü aday seç.
 

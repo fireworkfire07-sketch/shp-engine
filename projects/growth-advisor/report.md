@@ -2,7 +2,7 @@
 
 ## CEO kararı
 
-# EMEĞİNE DEĞER
+# EMEĞİNE DEĞMEZ
 
 **Video:** Bu Bitki Bir İmparatorluğun Kaderini Nasıl Değiştirdi?
 
